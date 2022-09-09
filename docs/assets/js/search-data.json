@@ -2,205 +2,205 @@
     "doc": "About",
     "title": "About",
     "content": "about kyle . ",
-    "url": "http://localhost:4000/ucsd-cogs9/about/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/about/",
     "relUrl": "/about/"
   },"1": {
     "doc": "Assignment 1",
     "title": "Assignment 1",
     "content": "assignment 1 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/assignment-1",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/assignment-1",
     "relUrl": "/assignments/assignment-1"
   },"2": {
     "doc": "Assignment 2",
     "title": "Assignment 2",
     "content": "assignment 2 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/assignment-2",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/assignment-2",
     "relUrl": "/assignments/assignment-2"
   },"3": {
     "doc": "Assignment 3",
     "title": "Assignment 3",
     "content": "Assignment 3 . assignment 3 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/assignment-3",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/assignment-3",
     "relUrl": "/assignments/assignment-3"
   },"4": {
     "doc": "Assignment 4",
     "title": "Assignment 4",
     "content": "Assignment 4 . assignment 4 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/assignment-4",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/assignment-4",
     "relUrl": "/assignments/assignment-4"
   },"5": {
     "doc": "Assignments",
     "title": "Course Assignments",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/",
     "relUrl": "/assignments/"
   },"6": {
     "doc": "Assignments",
     "title": "Assignments",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/assignments/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/assignments/",
     "relUrl": "/assignments/"
   },"7": {
     "doc": "Contact Course Staff",
     "title": "How to Contact Course Staff",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/contact-us/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/contact-us/",
     "relUrl": "/contact-us/"
   },"8": {
     "doc": "Contact Course Staff",
     "title": "Contact Course Staff",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/contact-us/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/contact-us/",
     "relUrl": "/contact-us/"
   },"9": {
     "doc": "Exam",
     "title": "Exam",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/exam/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/exam/",
     "relUrl": "/exam/"
   },"10": {
     "doc": "Extra Credit",
     "title": "Extra Credit Info",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/extra-credit/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/extra-credit/",
     "relUrl": "/extra-credit/"
   },"11": {
     "doc": "Extra Credit",
     "title": "Extra Credit",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/extra-credit/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/extra-credit/",
     "relUrl": "/extra-credit/"
   },"12": {
     "doc": "Final Project",
     "title": "Final Group Project",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/final-group-project/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/final-group-project/",
     "relUrl": "/final-group-project/"
   },"13": {
     "doc": "Final Project",
     "title": "Final Project",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/final-group-project/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/final-group-project/",
     "relUrl": "/final-group-project/"
   },"14": {
     "doc": "Welcome",
     "title": "UCSD Cogs 9 - Intro to Data Science",
     "content": "Fall 2022 . Catalyst 0125 . Tu, Th 6:30PM - 7:50PM . Instructor: Kyle Shannon Teaching Assistants (TAs): Ashwin Mishra Instructional Assistants (IAs): . Course Logistics . Section Times . There will be no sections. Sections have been turned into extra office hours. Office Hours . Interactivity with course staff in our still semi-remote class is challenging. To offset this challenge office hours will be spread throughout the week and occur both in person and over Zoom. Office hour attendance is not required, but if you are unable to join or are having other issues, please reach out after class or through email. We are more than happy, to set up additional 1:1 or 1:group meetings. Finally, office hours are a great place to personally interact. We are interested in your goals, career endeavors, and what you want to gain from Cogs 9. Data Science is a rapidly changing field and there is always a lot to discuss. | Date &amp; Time (PDT) | Location | Instructional Staff | . | TBD | CSB 255 | Kyle | . | TBD | TBD | Ashwin | . | TBD | TBD | William | . | TBD | TBD | David | . | TBD | TBD | Jiesen | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/#ucsd-cogs-9---intro-to-data-science",
+    "url": "https://kshannon.github.io/ucsd-cogs9/#ucsd-cogs-9---intro-to-data-science",
     "relUrl": "/#ucsd-cogs-9---intro-to-data-science"
   },"15": {
     "doc": "Welcome",
     "title": "Welcome",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/",
     "relUrl": "/"
   },"16": {
     "doc": "Lecture Slides",
     "title": "Lecture Slides",
     "content": "Last Updated: Sept. 21st, 2022 . | Lecture 1: What is Data Science | Lecture 2: Ethics | Lecture 3: Data Science Questions | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/lecture-slides/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/lecture-slides/",
     "relUrl": "/lecture-slides/"
   },"17": {
     "doc": "Lecture Slides",
     "title": "Lecture 1: What is Data Science",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/lecture-slides/#lecture-1-what-is-data-science",
+    "url": "https://kshannon.github.io/ucsd-cogs9/lecture-slides/#lecture-1-what-is-data-science",
     "relUrl": "/lecture-slides/#lecture-1-what-is-data-science"
   },"18": {
     "doc": "Lecture Slides",
     "title": "Lecture 2: Ethics",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/lecture-slides/#lecture-2-ethics",
+    "url": "https://kshannon.github.io/ucsd-cogs9/lecture-slides/#lecture-2-ethics",
     "relUrl": "/lecture-slides/#lecture-2-ethics"
   },"19": {
     "doc": "Lecture Slides",
     "title": "Lecture 3: Data Science Questions",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/lecture-slides/#lecture-3-data-science-questions",
+    "url": "https://kshannon.github.io/ucsd-cogs9/lecture-slides/#lecture-3-data-science-questions",
     "relUrl": "/lecture-slides/#lecture-3-data-science-questions"
   },"20": {
     "doc": "Reading 1",
     "title": "Reading 1",
     "content": "reading 1 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/reading-1",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/reading-1",
     "relUrl": "/readings/reading-1"
   },"21": {
     "doc": "Reading 2",
     "title": "Reading 2",
     "content": "reading 2 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/reading-2",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/reading-2",
     "relUrl": "/readings/reading-2"
   },"22": {
     "doc": "Reading 3",
     "title": "Reading 3",
     "content": "Reading 3 . reading 3 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/reading-3",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/reading-3",
     "relUrl": "/readings/reading-3"
   },"23": {
     "doc": "Reading 4",
     "title": "Reading 4",
     "content": "Reading 4 . reading 4 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/reading-4",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/reading-4",
     "relUrl": "/readings/reading-4"
   },"24": {
     "doc": "Reading 5",
     "title": "Reading 5",
     "content": "Reading 5 . reading 5 stuff . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/reading-5",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/reading-5",
     "relUrl": "/readings/reading-5"
   },"25": {
     "doc": "Readings",
     "title": "Course Readings",
     "content": "list of them below… . ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/",
     "relUrl": "/readings/"
   },"26": {
     "doc": "Readings",
     "title": "Readings",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/readings/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/readings/",
     "relUrl": "/readings/"
   },"27": {
     "doc": "Syllabus",
     "title": "Course Syllabus",
     "content": "Last Updated: Sept. 8th, 2022 . | Course Materials | Course Objectives | Grading &amp; Attendance . | Grading | Grades | Regrade Policy | Lecture Attendance | Section Attendance | . | Course Assignments &amp; Topics . | Assignments | Final Project | Exam | Readings &amp; Quizzes | Planned Readings | . | Other Good Stuff . | Teamwork Expectations | Class/Web Conduct | Academic Integrity | Disability​ ​Access | Questions &amp; Feedback | . | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/",
     "relUrl": "/syllabus/"
   },"28": {
     "doc": "Syllabus",
     "title": "Course Materials",
     "content": ". | There is no textbook | All readings, lecture slides, assignments, and final are provided through this website | Reading quizzes and exam are taken through Gradescope | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/#course-materials",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/#course-materials",
     "relUrl": "/syllabus/#course-materials"
   },"29": {
     "doc": "Syllabus",
     "title": "Course Objectives",
     "content": ". | Comprehend core data science concepts and examine their applications | Discuss data privacy and ethical concerns with real-world examples | Identify data science questions and the appropriate analytic approach to answering those questions | Communicate data-related topics and projects | Demonstrate how to think critically about data, and how to approach problems with a “data-first” mindset | Describe potential pitfalls of data analyses, how to identify them, and how to avoid them | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/#course-objectives",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/#course-objectives",
     "relUrl": "/syllabus/#course-objectives"
   },"30": {
     "doc": "Syllabus",
     "title": "Grading &amp; Attendance",
     "content": "Grading . |   | % of Total Grade | 400 Total Points | . | 4 Assignments | 40 | 160 | . | 1 Exam | 20 | 80 | . | 5 Reading Quizzes (lowest quiz score dropped) | 20 | 80 | . | Final Project | 20 | 80 | . | Bonus | N/A | 10 bonus | . | Final exam date: No final exam, only a final group project. | Your letter grade will be determined using the standard grading scale. Grades are not rounded up, that’s why we included 10 bonus points. | . Grades . Grades are released on Gradescope often a week after the submission date, typically sooner. Ultimately it is your responsibility to check your final grade and get in touch if you believe there is a problem. Regrade Policy . The regrade policy is here to protect students from serious issues in grading, not to provide students with a platform to argue about, or plead for an extra point. A grader may incorrectly take off a 1-2 points, but they are as likely to give students 1-2 points. In our experience less than 5% of the time a regrade results in a change. When we regrade, we closely go through the entire assignment again and reevaluate it as a whole. This means your grade can either stay the same, go up, or go down. This is not to discourage students from requesting legitimate regrades, but to discourage students from arguing about 1-2 points (which is worth .0025% of your grade). These discussions require a serious investment of time. We want to spend that time on regrades where a serious issue has occurred, or with helping students learn the material outside of class. If you think a grading error has occurred please follow these steps: . | You have 72 hours to request a regrade | Initiate the regrade through Gradescope (if it is a group project, confer w/ your team first and submit one regrade after your team comes to a concensus) | Provide evidence for why your answer is correct and merits a regrade (i.e. a specific reference to something said in lecture, the readings, or office hours) | We will get back to you within 48 hours with our final decision. | . Lecture Attendance . Our goal is to make lecture and office hours worth your while to attend. However, lecture attendance is not required. All lectures will be recorded (UCSD podcast), or have been recorded previously. These will be made available to you. Section Attendance . Section attendance is not mandatory, however, groups will be created within sections. Readings as well as lecture material will be reviewed in section and it is to your benefit to go and ask questions. ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/#grading--attendance",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/#grading--attendance",
     "relUrl": "/syllabus/#grading--attendance"
   },"31": {
     "doc": "Syllabus",
     "title": "Course Assignments &amp; Topics",
     "content": "This class is a survey course intended to get you all excited about becoming data scientists! Data are everywhere and they’re being used in tried-and-true, new, and creative ways. This course will introduce you to the broad topics in data science, discuss what it means to be a data scientist, and get you on your way to thinking like a data scientist. To see what topics will be introduced in this course, see the side nav menu and click on topics. Assignments . Assignments will focus on applying the concepts covered in lecture and readings. All assignments will be performed in groups (see the section on teamwork expectations below). Groups consist of 3-6 students. Students will be randomly assigned into groups in Section during the first/second week of class. Because students may drop or join late, we may need to add or remove students from groups within the first few weeks. We appreciate your flexibility and will take these circumstances into account when grading the first assignment. | Four group assignments submitted through Gradescope | Use the Google Doc template link (found on on this website under assignments), make a copy of the template and work as a group on that copy. You do not have edit access on the version that is linked, only the ability to copy it. | One PDF submission per group | Your team may resubmit as many times as you like before the deadline | Late assignments have 10 points deducted within the first 24 hours, an additional 10 points during the following 24 hours. | No late assignments accepted after 48 hours | Incorporate feedback from course staff into your next assignment | . To reiterate, your team will make a copy of my Google document template and work on that copy together. Make sure to read all the instructions. Your team may resubmit an assignment as many times as you want up until the submission deadline. You will receive feedback along with a grade typically within a week (often sooner) after the assignment due date. Feedback from us should be incorporated into subsequent assignments, especially your final project. Final Project . The final project is a report on how you would handle a complicated data science project. It’s a culmination of what you learned from the first four assignments and a direct continuation of the first assignment. | One report submitted through Gradescope per group | Submit as a PDF from the Google Doc template link provided | Your team may resubmit as many times as you like before the deadline | No late submissions accepted | . Your final will include your data science question as well as all the nitty gritty, whys, and hows of the data science project you have chosen. You’ll write about your data science question, find some example data, summarize the data, explain how you would wrangle the data to answer your data science question, and describe the types of analysis you would carry out to answer your question of interest. You WILL NOT have to actually perform the analysis to answer the question, nor wrangle data, you only write about how you would perform the analysis and what you expect the outcomes will be. Exam . The exam will cover the lectures and reading assignments that have been completed. An exam review session will occur before the exam. | One multiple choice exam | Available for 72 hours on Gradescope | You have 2 continuous hours to finish once started | One attempt | Open notes, but you must work alone | Taken and submitted through Gradescope | . No late exams are permitted, except for extenuating circumstances. Please reach out to staff via email as early as possible if you know something will prevent you from taking the exam on time. Readings &amp; Quizzes . Quizzes cover the reading material assigned, e.g. Quiz 1 only covers material from reading 1 (R1). | Five multiple choice (10 questions) quizzes | Available for 48 hours | You have 1 hour to finish | One attempt | Open notes, but you must work alone. | Taken and submitted through Gradescope | . Your lowest quiz score will be dropped when calculating your final grade. Late reading quizzes will be accepted up to 48 hours, however they will receive a max of 10/20 points, i.e. ½ credit. Planned Readings . Readings will cover many of the broad topics found within Data Science, both from an academic and industry perspective. | R1: Donoho D, 50 Years of Data Science | R2: Loukides M, Mason, H &amp; Patil DJ, Ethics and Data Science | R2: Privacy &amp; Security Myths &amp; Fallacies of “PII”, Narayanan and Shmatikov | R3: Wickham H, Tidy Data (Sections 1 -3) | R3: Woo K &amp; Broman K, Data in Spreadsheets | R4: Wickham H, Cook Di, Hoffman H, &amp; Buja A, Graphical Inference for Infovis | R4: Peck, E, Ayuso S, &amp; El-Etr O, Data Is Personal: Attitudes and Perceptions of Data Visualization in Rural Pennsylvania | R5: Diakopoulos N, Accountability in Algorithmic Decision Making | R5: Angwin J, Larson J, Mattu S &amp; Kirchner L, Machine Bias | . ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/#course-assignments--topics",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/#course-assignments--topics",
     "relUrl": "/syllabus/#course-assignments--topics"
   },"32": {
     "doc": "Syllabus",
     "title": "Other Good Stuff",
     "content": "Teamwork Expectations . Your team will be working on assignments and the final together. We expect some students to contribute at varied levels throughout the course. However, we expect by the end for all students to be more or less equal contributors. No one person should be doing a project, they are meant to be collaborative and give you experience working with people you probably do not know. One successful approach is to first agree on a communication tool/protocol and a schedule. Next, discuss each person’s strengths and divide up responsibilities. Develop a schedule for completing tasks, who is responsible and a backup person in case an emergency situation occurs. Finally, check in regularly throughout the week to ensure progress is being made and leave sometime to check and proof read each other’s work. Especially because some students in your group may be remote. Dealing with non-cooperative team members – If an issue occurs first try to work the issue out within your group. Save all documentation, emails, and chats as a record incase you need to contact course staff. We will step in and try to communicate with the student(s) to reach a resolution. If no resolution can be made, or the problem resurfaces, we reserve the right to move the student to a new group, or grade that student separately from the group, or any other action to resolve the issue. There will be mid and final team evaluations. However, if there is an issue do not wait until evals, reach out early if necessary. Group work is never easy – Teamwork, while difficult (especially during remote learning), is one of the most important skills you should learn and practice during college. In order to succeed communication is critical. You need to be in contact with your group regularly. This will help you keep on top of deliverables and make adjustments if problems should arise. We are always here to help, make use of our experience working in real engineer/science projects. Class/Web Conduct . In all interactions in this class, you are expected to be respectful. This includes following the UC San Diego principles of community. This class will be a welcoming, inclusive, and harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), political beliefs/leanings, or technology choices. At all times, you should be considerate and respectful. Always refrain from demeaning, discriminatory, or harassing behavior and speech. Last of all, take care of each other. If you have a concern, please speak with Kyle, or your TAs. If you are uncomfortable doing so, that’s ok! The OPHD (Office for the Prevention of Sexual Harassment and Discrimination) and CARE (confidential advocacy and education office for sexual violence and gender-based violence) are wonderful resources on campus. Academic Integrity . Don’t cheat. You are encouraged to (and at times will have to) work together and help one another. However, you are personally responsible for the work you submit (quizzes/exams). For assignments, it is also your responsibility to ensure you understand everything your group has submitted and to make sure the correct file has been uploaded, that the upload is uncorrupted, and that it renders correctly. Projects may include ideas and code from other sources—but these other sources must be documented with clear attribution. Please review academic integrity policies here. We anticipate you all doing well in this course; however, if you are feeling lost or overwhelmed, that’s ok! Should that occur, we recommend: (i.) asking questions in/after class, (ii.) attending office hours and/or (iii.) reaching out to course staff via email. Cheating and plagiarism have been and will be strongly penalized. If, for whatever reason, this website, or Gradescope is down, or something else prohibits you from being able to turn in an assignment on time, immediately contact me by emailing your assignment to me (kshannon@ucsd.edu with subject line “Cogs9”), or else it will be graded as late. Disability​ ​Access . Students requesting accommodations due to a disability must provide a current Authorization for Accommodation (AFA) letter. These letters are issued by the Office for Students with Disabilities (OSD), which is located in University Center 202 behind Center Hall. To arrange accommodations please contact Kyle kshannon@ucsd.edu privately. Contacting the OSD can help you further: 858.534.4382 (phone) osd@ucsd.edu (email) http://disabilities.ucsd.edu . Questions &amp; Feedback . How to Get Your Question(s) Answered and/or Provide Feedback It’s great that we have many ways to communicate, but it can get tricky to figure out who to contact or where your question belongs or when to expect a response. These guidelines are to help you get your question answered as quickly as possible and to ensure that we’re able to get to everyone’s questions. That said, to ensure that we’re respecting their time, TAs and IAs have been instructed they’re only obligated to answer questions between normal working hours (M-F 9am-5pm). However, I know that’s not when you may be doing your work. So, please feel free to reach out whenever is best for you while knowing that, you may not get a response until the next day. As such, do your best not to wait until the last minute to ask a question. If there is an emergency and you need to contact staff immediately, email Kyle and put “EMERGENCY-COGS9” in the subject line. I will get back to you ASAP. If you have… . | questions about course content - these are awesome! We want everyone to see them and have their questions answered, please post questions, or ask during class/office hours. | questions about course logistics - first, check the syllabus. If the answer is not there, ask in Section, ask a classmate, or ask during class/office hours. | something super cool to share related to class - feel free to email Kyle kshannon@ucsd.edu) or come to office hours. Be sure to include COGS9 in the email subject line and your full name in your message. | something you want to talk about in-depth - meet in person/digitally during office hours or schedule a time to meet 1:1 by email. Be sure to include COGS9 in the email subject line. Or it may be missed. kshannon@ucsd.edu. | some feedback about the course you want to share anonymously - If you been offended by an example in class, really liked or really disliked a lesson, or wish there were something covered in class that wasn’t but would rather not share this publicly, etc., please fill out the anonymous Google Form* | . *This form can be taken down at any time if it’s not being used for its intended purpose; however, you all will be notified should that happen. ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/#other-good-stuff",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/#other-good-stuff",
     "relUrl": "/syllabus/#other-good-stuff"
   },"33": {
     "doc": "Syllabus",
     "title": "Syllabus",
     "content": " ",
-    "url": "http://localhost:4000/ucsd-cogs9/syllabus/",
+    "url": "https://kshannon.github.io/ucsd-cogs9/syllabus/",
     "relUrl": "/syllabus/"
   }
 }
