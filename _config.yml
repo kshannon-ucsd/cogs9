@@ -31,10 +31,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://kshannon.github.io
 baseurl: /ucsd-cogs9
 
-twitter_username:
-github_username:
-
-
 
 ###### Build settings
 # remote_theme:
@@ -61,3 +57,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Aux links for the upper right navigation
+aux_links:
+  "Anonymous Course Feedback":
+    - "https://forms.gle/ivEJdGSdjv4uHJEcA"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true

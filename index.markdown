@@ -1,25 +1,24 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
-nav_exclude: true
+title: Welcome
+layout: default
+nav_exclude: false
+nav_order: 1
 ---
 
 # UCSD Cogs 9 - Intro to Data Science
 
-### Course Information
-**Instructor**: Kyle Shannon (kshannon@ucsd.edu)  
-**Teaching Assistants (TAs)**: Akshay Nagarajan (anagaraj@ucsd.edu), Ashwin Mishra (asmishra@ucsd.edu)  
-**Instructional Assistants (IAs)**: Sizhe Fan (sfan@ucsd.edu)  
+Fall 2022
+{: .label .label-purple }
+Catalyst 0125
+{: .label .label-purple }
+Tu, Th 6:30PM - 7:50PM
+{: .label .label-purple }
 
-* Term: Summer Session 2, 2022
-* Day/Time: M,Tu,W,Th 3:30PM - 4:50PM PDT (15:30 - 16:50 PDT)
-* Location: Peterson Hall 104
-* Gradescope: Link & entry code on Canvas
-* Zoom Office Hour Info: Registration link & password on Canvas
-* Course Feedback (_anonymous_): [Google Form](https://forms.gle/ivEJdGSdjv4uHJEcA)
-<!-- {{< new-line >}} -->
+**Instructor**: Kyle Shannon  
+**Teaching Assistants (TAs)**: Ashwin Mishra  
+**Instructional Assistants (IAs)**:  
 
 ### Course Logistics
 

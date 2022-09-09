@@ -2247,3 +2247,6 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #44434d; }
   .main { max-width: none; margin-left: 0; } }
+body .details { font-size: 9px; }
+
+.label { margin: 0px; padding-left: 1.25em; padding-right: 1.25em; }
