@@ -22,16 +22,19 @@ Tu & Th 6:30PM - 7:50PM
 
 ## Welcome to Cogs 9!
 
-Welcome to Cogs 9 - Intro to Data Science 
-We are all very excited that you decided to join us on this whirlwind tour of data sci. All the information you need and due dates are located on Canvas (specifically the Home page), and in the syllabus and course calendar (both linked from the homepage). All announcements made in class will also be posted here in Canvas. Furthermore, if you need to learn remotely or miss class, the lecture (recorded from last summer) will be posted on Canvas the same day or earlier.
-Office hours will be a mix of zoom and in person, we will also have extra office hours and no discussion sections to facilitate people learning remotely. This is a group work based course and you will all be randomly assigned a group on the first day of class. Please contact each other as soon as possible and establish a routine. You should be able to see your group's email address on the group page within Canvas. If you have any issues please reach out to the course staff and we will help you. Some students have found this link
- (Links to an external site.)
- helpful in contacting your entire group through Canvas:
-We look forward to teaching and working with all of you and hope to meet you in office hours.
-Cheers,
-Cogs 9 Staff
+We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates (below) are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignment will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the work place.  
+{: .fs-3 }
+If you have any issues or have any questions, please first review the syllabus, as it has all the information pertaining to logistics and structure. If you still have any doubts please see the contact course staff link to determine how best to get ahold of us. I personally want to meet and interact with as many students as possible, but there are limited staff and many students. So we must us communication channels to facilitate to high student to course staff ratio.
+{: .fs-3 }
+We look forward to teaching and working with all of you and hope to meet you in office hours.  
+Cheers,  
+Cogs 9 Course Staff
+{: .fs-3 }
+
 
 ## Discussion Section Times
+
+<!-- TODO: need to add in saff assignments for sections (TA + IA) -->
 
 |     | Day |  Time          | Location     | Staff              |
 |:----|:----|:---------------|:-------------|:-------------------|
@@ -41,5 +44,24 @@ Cogs 9 Staff
 | A04 | Wed | 5:00p-5:50p    | WLH	2111    | TBD                |
 | A05 | Fri | 3:00p-3:50p    | CENTR	222   | TBD                |
 
-## Due Dates & Deliverables
 
+## Due Dates & Deliverables
+<!-- TODO: need to finish adding these due dates w/ links -->
+
+Every date's time is at 11:59pm (23:59). For example, if an assignment is due on May 4th, it is due May 4th at 11:59pm (23:59).
+
+| Due Date   | Item                    |           |
+|:-----------|:------------------------|:----------|
+|  | Group Assignment Post
+|  | Reading Quiz 1
+|  | Reading Quiz 2
+|  | Assignment 1
+|  | Reading Quiz 3
+|  | Assignment 2
+|  | Mid Way Team Evaluations
+|  | Reading Quiz 4
+|  | Assignment 3
+|  | Exam 1
+|  | Reading Quiz 5
+|  | Assignment 4
+|  | Final Project
