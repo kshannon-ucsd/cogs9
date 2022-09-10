@@ -3,7 +3,6 @@ Class Website for UCSD's Cogs 9 Introduction to Data Science
 
 
 ## Up and Running
-
 ### Dev Environment initial set up
 1. Install chruby and ruby-install with Homebrew (install ruby 3.1.2)
 2. cd to project dir and chruby for ruby-3.1.2 #this should be default from the `.ruby-version` file going forward.
@@ -15,9 +14,8 @@ Class Website for UCSD's Cogs 9 Introduction to Data Science
 8. Give it a test run! `bundle exec jekyll serve`
 
 ### Building for Local
-1. `bundle exec jekyll serve`
+1. `bundle exec jekyll build --config _config.yml,_config_dev.yml`
 2. navigate to http://localhost:4000/about/
-
 
 ### Building for Prod
 1. checkout `main` and merge any changes

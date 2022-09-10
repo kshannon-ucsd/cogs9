@@ -7,8 +7,10 @@ permalink: /syllabus/
 ---
 
 <h1>Course Syllabus</h1>
-Last Updated: Sept. 8th, 2022
-{: .label }
+Sept. 8th, 2022
+{: .label .label-purple .fs-1 }
+
+<br/>
 
 <details open markdown="block">
   <summary>
@@ -17,6 +19,7 @@ Last Updated: Sept. 8th, 2022
   {: .text-delta }
 - TOC
 {:toc}
+{: .fs-2 }
 </details>
 
 ## Course Materials
