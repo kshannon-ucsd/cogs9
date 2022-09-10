@@ -26,7 +26,6 @@ Sept. 8th, 2022
 - There is **no** textbook
 - All readings, lecture slides, assignments, and final are provided through **this website**
 - Reading quizzes and exam are taken through Gradescope
-{{< new-line >}}
 
 ## Course Objectives
 - Comprehend core data science concepts and examine their applications

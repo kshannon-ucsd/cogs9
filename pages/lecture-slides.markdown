@@ -22,7 +22,6 @@ Updated: Sept 21st, 2022
 {: .fs-2 }
 </details>
 
-The Why, What, How, Because?
 
 ## Lecture 1: What is Data Science
 ## Lecture 2: Ethics
