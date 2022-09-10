@@ -59,7 +59,7 @@ plugins:
 #   - vendor/ruby/
 
 
-# Aux links for the upper right navigation
+# Aux link for the upper right navigation
 aux_links:
   "Anonymous Course Feedback":
     - "https://forms.gle/ivEJdGSdjv4uHJEcA"
