@@ -7,8 +7,10 @@ permalink: /lecture-slides/
 ---
 
 <h1>Lecture Slides</h1>
-Last Updated: Sept. 21st, 2022
-{: .label }
+Updated: Sept 21st, 2022
+{: .label .label-purple .fs-1 }
+
+<br/>
 
 <details open markdown="block">
   <summary>
@@ -17,8 +19,27 @@ Last Updated: Sept. 21st, 2022
   {: .text-delta }
 - TOC
 {:toc}
+{: .fs-2 }
 </details>
+
+The Why, What, How, Because?
 
 ## Lecture 1: What is Data Science
 ## Lecture 2: Ethics
 ## Lecture 3: Data Science Questions
+## Lecture 4: Reproducibility & Bias
+## Lecture 5: Data
+## Lecture 6: Getting Data
+## Lecture 7: Data Wrangling
+## Lecture 8: Programming for Data Science
+## Lecture 9: Data Viz & Descriptive Analysis
+## Lecture 10: Exploratory Data Analysis
+## Lecture 11: Communicating Data Science
+## Lecture 12: Inferential Analysis
+## Lecture 13: Machine Learning I
+## Lecture 14: Machine Learning II
+## Lecture 15: Text & Geospatial Analysis
+## Lecture 16: Giving a Data Science Talk
+## Lecture 17: Algorithms & Computability
+## Lecture 18: Future of Data Sci & Jobs
+

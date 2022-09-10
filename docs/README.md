@@ -23,3 +23,8 @@ Class Website for UCSD's Cogs 9 Introduction to Data Science
 3. commit new site in `docs/` to `main` then `push` to github #github looks for new pushes to main for auto deploying
 4. Check status in github actions for build results.
 5. Navigate to https://kshannon.github.io/ucsd-cogs9/
+
+### /data/ directory
+This dir is excluded from the jekyll build chain (excluded in the config.yaml file).
+
+This folder includes data that changes from quarter to quarter, e.g. course calender. I don't want to recreate these data, so I dump them here to use for later. Eventually I would like to create variables to pull this data, but for now this is a fine solution.
