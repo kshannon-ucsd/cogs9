@@ -60,7 +60,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - data/ #user specific excludes here...
+  - .data/ #user specific excludes here...
 
 
 # Aux link for the upper right navigation

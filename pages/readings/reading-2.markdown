@@ -9,27 +9,15 @@ permalink: /readings/reading-2
 
 # Reading 2
 
-Reading 2 is about ethics, and specifically the ethical issues that arise when working with large amounts of data. In class we talk more about the topic and theory of ethics, with some practical examples. These readings go into much more detail about practical applications for ethics in data science, and how you may want to tackle such challenges, and why they exist.
+- Loukides M, Mason, H & Patil DJ, Data's Day of Reckoning <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r2a-ethics-data-reckoning.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+- Narayanan and Shmatikov, Privacy & Security Myths & Fallacies of “PII” <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r2b-ethics-privacy-security.pdff" target="_blank" rel="noopener">download &#x2197;</a>
 
-<!-- TODO: add links and s3 downloads for r1 -->
-
-## R2a: Ethics and Data Science -- [download](https://www.example.com)
-
-*Loukides M, Mason, H & Patil DJ, Ethics and Data Science*
-
-Patil's article deals more with the nuts and bolts of applying ethical decision making process into a data science workflow. This article will be of particular use to you on your assignment 1 and final project, because it introduces you to essentially a checklist.
-
-## R2b: Privacy & Security Myths -- [download](https://www.example.com)
-
-*Narayanan and Shmatikov, Privacy & Security Myths & Fallacies of “PII”*
-
- This paper is a great look into some of the highly specific data that some data scientists might work with in healthcare. Because healthcare data extremely protected and personal, it introduces students to the concepts of PII, PHI and HIPPA. Finally, the article goes over how brittle privacy is from a security standpoint and just how careful analysts need to be working with such highly protected data. Data leaked, even with PII/PHI removed, can still be statistically tied back to unique individuals. This shows the awesome power that statistics and data analysis can yield, given enough data.
+Reading 2 is about ethics, and specifically the ethical issues that arise when working with large amounts of data. In class we talk more about the topic and theory of ethics, with some practical examples. These readings go into much more detail about practical applications for ethics in data science, and how you may want to tackle such challenges, and why they exist. Patil's article has a lot of good practical tips to think about when writing your ethics section in Assignment 1 and the final. Narayanan's paper provides a close look into the issues surrounding personal data the dangerous inherit when working with and storing such data.
 
 ## Additional Resources
-
 ### Deon Checklist Tool
 
-Deon ([link](https://deon.drivendata.org/)) is a command line tool that allows you to easily add an ethics checklist to your data science projects. You can look at this checklist for an example during the ethics portion of assignment 1 and your final group project.
+Deon <a href="https://deon.drivendata.org/" target="_blank" rel="noopener">view &#x2197;</a> is a command line tool that allows you to easily add an ethics checklist to your data science projects. You can look at this checklist for an example during the ethics portion of assignment 1 and your final group project.
 
 ### HIPPA Data
 

@@ -16,9 +16,10 @@ Catalyst 0125
 Tu & Th 6:30PM - 7:50PM
 {: .label .label-purple .fs-1 }
 
-**Instructor**: Kyle Shannon  
-**Teaching Assistants (TAs)**: Ashwin Mishra, William McCarthy  
-**Instructional Assistants (IAs)**:Hao-ting (David) Tso, Jiesen Zhang  
+**Instructor**: Kyle Shannon - [[kshannon@ucsd.edu]](mailto:kshannon@ucsd.edu)  
+**Teaching Assistants (TAs)**: Ashwin Mishra - [[asmishra@ucsd.edu]](mailto:asmishra@ucsd.edu), William McCarthy - [[wpmccarthy@ucsd.edu]](mailto:wpmccarthy@ucsd.edu)  
+**Instructional Assistants (IAs)**: Hao-ting (David) Tso - [[htso@ucsd.edu]](mailto:htso@ucsd.edu), Jiesen Zhang - [[jiz147@ucsd.edu]](mailto:jiz147@ucsd.edu)  
+{: .fs-3 }
 
 ## Welcome to Cogs 9!
 
@@ -49,6 +50,7 @@ Cogs 9 Course Staff
 <!-- TODO: need to finish adding these due dates w/ links -->
 
 Every date's time is at 11:59pm (23:59). For example, if an assignment is due on May 4th, it is due May 4th at 11:59pm (23:59).
+{: .fs-3 }
 
 | Due Date   | Item                    |           |
 |:-----------|:------------------------|:----------|
