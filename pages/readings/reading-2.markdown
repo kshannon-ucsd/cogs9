@@ -10,7 +10,7 @@ permalink: /readings/reading-2
 # Reading 2
 
 - Loukides M, Mason, H & Patil DJ, Data's Day of Reckoning <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r2a-ethics-data-reckoning.pdf" target="_blank" rel="noopener">download &#x2197;</a>
-- Narayanan and Shmatikov, Privacy & Security Myths & Fallacies of “PII” <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r2b-ethics-privacy-security.pdff" target="_blank" rel="noopener">download &#x2197;</a>
+- Narayanan and Shmatikov, Privacy & Security Myths & Fallacies of “PII” <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r2b-ethics-privacy-security.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 
 Reading 2 is about ethics, and specifically the ethical issues that arise when working with large amounts of data. In class we talk more about the topic and theory of ethics, with some practical examples. These readings go into much more detail about practical applications for ethics in data science, and how you may want to tackle such challenges, and why they exist. Patil's article has a lot of good practical tips to think about when writing your ethics section in Assignment 1 and the final. Narayanan's paper provides a close look into the issues surrounding personal data the dangerous inherit when working with and storing such data.
 
