@@ -1,5 +1,6 @@
 .DS_Store
 misc
+dev-docs/
 
 _site
 .sass-cache

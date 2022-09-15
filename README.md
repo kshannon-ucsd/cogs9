@@ -14,8 +14,9 @@ Class Website for UCSD's Cogs 9 Introduction to Data Science
 8. Give it a test run! `bundle exec jekyll serve`
 
 ### Building for Local
-1. `bundle exec jekyll build --config _config.yml,_config_dev.yml`
-2. navigate to http://localhost:4000/about/
+All dev builds will be built into a `dev-docs/` dir. This dir is included in `.gitignore` and is only used for development builds. Any specific dev config should bd included in the `_config_dev.yml` file.
+1. `bundle exec jekyll serve --config _config.yml,_config_dev.yml --destination ~/dev/ucsd-cogs9/dev-docs` #builds and starts local server on localhost
+2. navigate to http://localhost:4000/ucsd-cogs9/
 
 ### Building for Prod
 1. checkout `main` and merge any changes
