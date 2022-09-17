@@ -17,7 +17,7 @@ I split my office hours into three 20 min blocks.
 | Date & Time (PDT)   | Location              | Instructional Staff |
 |:--------------------|:----------------------|:------------------- |
 | Thursday @ 3:30 pm  | CSB 255               | Kyle                |
-| TBD                 | TBD                   | Ashwin              |
+| Tuesday @ 12:00 pm  | [zoom](https://ucsd.zoom.us/j/7555042872?pwd=dStFTDBGNjc5K2VBaXBLWjcyT0l5UT09) pwd: B2sKTq                 | Ashwin              |
 | TBD                 | TBD                   | William             |
 | TBD                 | TBD                   | David               |
 | TBD                 | TBD                   | Jiesen              |
