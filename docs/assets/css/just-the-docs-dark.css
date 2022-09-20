@@ -2250,3 +2250,5 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 body .details { font-size: 9px; }
 
 .label { margin: 0px; padding-left: 1.25em; padding-right: 1.25em; }
+
+.info { background-color: #eff6ff; padding-right: 1.25rem; padding-left: 1.25rem; padding-top: 0.25rem; padding-bottom: 0.25rem; border-radius: 0.375rem; /* 6px */ border-width: 1px; border-style: solid; border-color: #3b82f6; color: #1e3a8a; }

@@ -7,6 +7,6 @@ nav_order: 3
 permalink: /assignments/assignment-3
 ---
 
-<h3>Assignment 3</h3>
+<h1>Assignment 3</h1>
 
-assignment 3 stuff
+Coming soon.

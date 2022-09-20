@@ -8,4 +8,4 @@ permalink: /final-group-project/
 
 <h1>Final Group Project</h1>
 
-list of them below...
+Coming soon.

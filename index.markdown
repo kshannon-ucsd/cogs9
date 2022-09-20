@@ -17,8 +17,9 @@ Tu & Th 6:30PM - 7:50PM
 {: .label .label-purple .fs-1 }
 
 **Instructor**: Kyle Shannon - [[kshannon@ucsd.edu]](mailto:kshannon@ucsd.edu)  
-**Teaching Assistants (TAs)**: Ashwin Mishra - [[asmishra@ucsd.edu]](mailto:asmishra@ucsd.edu), William McCarthy - [[wpmccarthy@ucsd.edu]](mailto:wpmccarthy@ucsd.edu)  
-**Instructional Assistants (IAs)**: Hao-ting (David) Tso - [[htso@ucsd.edu]](mailto:htso@ucsd.edu), Jiesen Zhang - [[jiz147@ucsd.edu]](mailto:jiz147@ucsd.edu)  
+**Teaching Assistants (TAs)**: Ashwin Mishra - [[asmishra@ucsd.edu]](mailto:asmishra@ucsd.edu), William McCarthy - [[wpmccarthy@ucsd.edu]](mailto:wpmccarthy@ucsd.edu), 
+Vineeth Chelur - [[vchelur@ucsd.edu]](mailto:vchelur@ucsd.edu)  
+**Instructional Assistants (IAs)**: Hao-ting (David) Tso - [[htso@ucsd.edu]](mailto:htso@ucsd.edu), Jiesen Zhang - [[jiz147@ucsd.edu]](mailto:jiz147@ucsd.edu), Lindsey Gu - [[yug027@ucsd.edu]](mailto:yug027@ucsd.edu), Mason Pak - [[mmpak@ucsd.edu]](mailto:mmpak@ucsd.edu), Shilpa Chowbey - [[schowbey@ucsd.edu]](mailto:schowbey@ucsd.edu)  
 {: .fs-3 }
 
 ## Welcome to Cogs 9!
@@ -32,6 +33,11 @@ Cheers,
 Cogs 9 Course Staff
 {: .fs-3 }
 
+**Class Discord chat server:** https://discord.gg/RPwfyHH8bG  
+**Class Gradescope link:** https://www.gradescope.com/courses/447181  
+**Gradescope entry code:** 3JDDGZ
+
+
 
 ## Discussion Section Times
 
@@ -39,11 +45,11 @@ Cogs 9 Course Staff
 
 |     | Day |  Time          | Location     | Staff              |
 |:----|:----|:---------------|:-------------|:-------------------|
-| A01 | Wed | 11:00a-11:50a  | CENTR	222   | TBD                |
-| A02 | Wed | 12:00p-12:50p  | PETER	103   | TBD                |
-| A03 | Wed | 4:00p-4:50p    | PETER	102   | TBD                |
-| A04 | Wed | 5:00p-5:50p    | WLH	2111    | TBD                |
-| A05 | Fri | 3:00p-3:50p    | CENTR	222   | TBD                |
+| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin             |
+| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin             |
+| A03 | Wed | 4:00p-4:50p    | PETER	102   | William            |
+| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William            |
+| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth            |
 
 
 ## Due Dates & Deliverables

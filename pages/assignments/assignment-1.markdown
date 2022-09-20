@@ -10,13 +10,16 @@ permalink: /assignments/assignment-1
 <h1>Assignment 1</h1>
 
 - Assignment 1 Google Doc <a href="https://docs.google.com/document/d/1w35JUgmvKnc1hzfg309eRrfCosUR2Gi-J4HWthtrx8U/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a>
+- Assignment 1 Group Sign Up Sheet <a href="https://docs.google.com/spreadsheets/d/1x4rF6nV0pvOydOWYxIonTI2oNWl7sxxu_alSozz8J5k/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a>
+
 
 <h2>Instructions</h2>
+Wait until section to sign up for a group. Your TA will randomly assign you into a group. Once you are in a group you will open this google sheet, and fill out your name and email. As groups will still be somewhat in flux during the first 2 weeks (late adds/drops) this sheet will help you keep track of your group's emails and member names.
+
 Click the link above to open the Google Doc for assignment 1. You can not edit this document, you must create a duplicate of it into your own Google Drive. Your group will work out of this document. When ready to submit, save the document as a PDF, and turn it in as one submission (per group) in Gradescope.
 
-
-{: .note }
-> Do not make multiple submissions per group member. You may resubmit the assignment as many times you like before the deadline.
+{: .info }
+NOTE: Do not make multiple submissions per group member. You may resubmit the assignment as many times you like before the deadline.
 
 
 <h2>Additional Resources</h2>

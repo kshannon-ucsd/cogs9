@@ -10,7 +10,7 @@ permalink: /syllabus/
 Sept. 8th, 2022
 {: .label .label-purple .fs-1 }
 
-<br/>
+
 
 <details open markdown="block">
   <summary>
