@@ -25,6 +25,6 @@ This eval will close on Sunday week 10, before finals week.
 
 <h2> CAPE reviews</h2>
 
-CAPE reivews are a great opportunity to share with instructional staff what you thought about the course. I am always striving to improve and tweak the class so I read all my CAPE reviews and take hem seriously. It gives you, the student body, a voice. I consider them important and thus if at least 70% of the class fills out CAPEs by the due date, I will award the whole class 5 points of extra credit.
+CAPE reviews are a great opportunity to share with instructional staff what you thought about the course. I am always striving to improve and tweak the class so I read all my CAPE reviews and take them seriously. It gives you, the student body, a voice. I consider them important and thus if at least 70% of the class fills out CAPEs by the due date, I will award the whole class 5 points of extra credit.
 
 Access CAPE reviews with this <a href="https://cape.ucsd.edu/" target="_blank" rel="noopener">link &#x2197;</a>

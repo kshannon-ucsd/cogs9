@@ -24,11 +24,11 @@ Vineeth Chelur - [[vchelur@ucsd.edu]](mailto:vchelur@ucsd.edu)
 
 ## Welcome to Cogs 9!
 
-We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignment will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the work place.  
+We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignments will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the workplace.  
 {: .fs-3 }
-If you have any issues or have any questions, please first review the syllabus, as it has all the information pertaining to logistics and structure. If you still have any doubts please see the contact course staff link to determine how best to get ahold of us. I personally want to meet and interact with as many students as possible, but there are limited staff and many students. So we must us communication channels to facilitate to high student to course staff ratio.
+If you have any issues or have any questions, please first review the syllabus, as it has all the information pertaining to logistics and structure. If you still have any doubts please see the contact course staff link to determine how best to get a hold of us. I personally want to meet and interact with as many students as possible, but there are limited staff and many students. So we must use communication channels to facilitate a high student to staff ratio.  
 {: .fs-3 }
-We look forward to teaching and working with all of you and hope to meet you in office hours.  
+We look forward to teaching and working with all of you and hope to meet you in office hours.
 Cheers,  
 Cogs 9 Course Staff
 {: .fs-3 }

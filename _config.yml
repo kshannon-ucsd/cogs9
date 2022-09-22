@@ -38,6 +38,8 @@ theme: just-the-docs
 plugins:
   - jekyll-feed
 
+search_enabled: true
+
 # exclude: ["./data", "../vendor/*"]
 
 

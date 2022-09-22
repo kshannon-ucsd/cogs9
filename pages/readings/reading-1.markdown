@@ -11,7 +11,7 @@ permalink: /readings/reading-1
 
 - Donoho D, 50 Years of Data Science <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/readings/r1-Donoho-2017-50-Years-of-Data-Science.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 
-Reading 1 is mainly concerned with defining data science, and thinking about how it fits into the spectrum of academic disciplines. Does data science actually exist? How does it fit in with statistics and computer science? If it is an actually academic field, how does one perform and study data science? 
+Reading 1 is mainly concerned with defining data science, and thinking about how it fits into the spectrum of academic disciplines. Does data science actually exist? How does it fit in with statistics and computer science? If it is an actual academic field, how does one perform and study data science? 
 
 {: .info }
 NOTE: This is the longest reading, so please take your time and start early!
