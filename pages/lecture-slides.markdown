@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lecture Slides
-nav_order: 2
+nav_order: 4
 has_toc: true
 permalink: /lecture-slides/
 ---
@@ -22,7 +22,10 @@ Updated: Sept 21st, 2022
 
 
 ## Lecture 1: What is Data Science
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/01_Intro_DS.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+This lecture introduces the field of data science and sets up the goals for this course. Specifically we go over many examples from a wide range of industries and applications, and go a bit in depth to a fun data science project. We will also quickly cover course logistics.
+
 ## Lecture 2: Ethics
 Coming soon.
 ## Lecture 3: Data Science Questions

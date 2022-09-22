@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Syllabus"
-nav_order: 1
+nav_order: 2
 has_toc: true
 permalink: /syllabus/
 ---
@@ -44,7 +44,7 @@ Sept. 8th, 2022
 | 1 Exam                                        |               20 |               80   |
 | 5 Reading Quizzes (lowest quiz score dropped) |               20 |               80   |
 | Final Project                                 |               20 |               80   |
-| Bonus                                         |              N/A |         10 bonus   |
+| Bonus                                         |              N/A |         12 bonus   |
 
 - **Final exam date**: No final exam, only a final group project.
 - Your letter grade will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we included 10 bonus points.

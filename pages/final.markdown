@@ -2,7 +2,7 @@
 layout: default
 title: Final Project
 has_children: false
-nav_order: 6
+nav_order: 7
 permalink: /final-group-project/
 ---
 

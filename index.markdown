@@ -24,7 +24,7 @@ Vineeth Chelur - [[vchelur@ucsd.edu]](mailto:vchelur@ucsd.edu)
 
 ## Welcome to Cogs 9!
 
-We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates (below) are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignment will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the work place.  
+We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignment will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the work place.  
 {: .fs-3 }
 If you have any issues or have any questions, please first review the syllabus, as it has all the information pertaining to logistics and structure. If you still have any doubts please see the contact course staff link to determine how best to get ahold of us. I personally want to meet and interact with as many students as possible, but there are limited staff and many students. So we must us communication channels to facilitate to high student to course staff ratio.
 {: .fs-3 }
@@ -41,39 +41,13 @@ Cogs 9 Course Staff
 
 ## Discussion Section Times
 
-<!-- TODO: need to add in saff assignments for sections (TA + IA) -->
-
 |     | Day |  Time          | Location     | Staff              |
 |:----|:----|:---------------|:-------------|:-------------------|
-| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin             |
-| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin             |
-| A03 | Wed | 4:00p-4:50p    | PETER	102   | William            |
-| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William            |
-| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth            |
-
-
-## Due Dates & Deliverables
-<!-- TODO: need to finish adding these due dates w/ links -->
-
-Every date's time is at 11:59pm (23:59). For example, if an assignment is due on May 4th, it is due May 4th at 11:59pm (23:59).
-{: .fs-3 }
-
-| Due Date   | Item                    |           |
-|:-----------|:------------------------|:----------|
-|  | Group Assignment Post
-|  | Reading Quiz 1
-|  | Reading Quiz 2
-|  | Assignment 1
-|  | Reading Quiz 3
-|  | Assignment 2
-|  | Mid Way Team Evaluations
-|  | Reading Quiz 4
-|  | Assignment 3
-|  | Exam 1
-|  | Reading Quiz 5
-|  | Assignment 4
-|  | Final Project
-
+| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin, Jiesen     |
+| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin, Lindsey    |
+| A03 | Wed | 4:00p-4:50p    | PETER	102   | William, Shilpa    |
+| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William, Mason     |
+| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth, David     |
 
 ## Course Calander
 
