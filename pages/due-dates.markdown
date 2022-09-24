@@ -13,8 +13,8 @@ Every date's time is at 11:59pm (23:59). For example, if an assignment is due on
 
 | Due Date   | Item                    |
 |:-----------|:------------------------|
-| Friday, October 7th         | Group Assignment Post E.C.
 | Thursday, October 6th       | Reading Quiz 1
+| Friday, October 7th         | Group Assignment Post E.C.
 | Thursday, October 13th      | Reading Quiz 2
 | Friday, October 14th        | Assignment 1
 | Thursday, October 20th      | Reading Quiz 3

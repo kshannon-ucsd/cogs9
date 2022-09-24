@@ -27,7 +27,10 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 This lecture introduces the field of data science and sets up the goals for this course. Specifically we go over many examples from a wide range of industries and applications, and go a bit in depth to a fun data science project. We will also quickly cover course logistics.
 
 ## Lecture 2: Ethics
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/02_Ethics.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+We begin our foray into data sci by first talking about ethics, exploring some examples of ethical issues in real world projects, and finally trying to understand how we can apply ethical behavior to our own projects. Ethics will be a guiding principle that we revisit time and time again in following lectures. It wil be tied into all processes of the data sci workflow, from questions, to data collection, analysis, and finally communication of results.
+
 ## Lecture 3: Data Science Questions
 Coming soon.
 ## Lecture 4: Reproducibility & Bias
