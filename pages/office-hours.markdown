@@ -32,8 +32,8 @@ NOTE: If you want to talk about assignment 1 or your final assignment, please si
 | Tuesday @ 12:00 pm     | Zoom                  | Ashwin              |
 | Thurs @ 2:00pm         | Zoom                  | William             |
 | Tuesday @ 2:00 pm      | Zoom                  | Vineeth             |
-| TBD                    | Zoom                  | David               |
-| TBD                    | Zoom                  | David               |
+| Monday @ 8 am          | Zoom                  | David               |
+| Monday @ 6 pm          | Zoom                  | David               |
 | Wednesday @5 :00 pm    | Zoom                  | Jiesen              |
 | Thursday @ 3:00 pm     | Zoom                  | Lindsey             |
 | Tuesday @ 3:00 pm      | Zoom                  | Mason               |

@@ -35,7 +35,10 @@ Cogs 9 Course Staff
 
 **Class Discord chat server:** https://discord.gg/RPwfyHH8bG  
 **Class Gradescope link:** https://www.gradescope.com/courses/447181  
-**Gradescope entry code:** 3JDDGZ
+**Gradescope entry code:** 3JDDGZ 
+
+{: .info }
+NOTE: When signing up for **gradescope** make sure you include your **Student ID** and **UCSD Email** when signing up. These are not optional.
 
 
 

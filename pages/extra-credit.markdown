@@ -11,7 +11,7 @@ permalink: /extra-credit/
 There are four extra credit opportunities in class. Assignment 1 (2 points), a mid-quarter team eval (3 points), a final quarter team online eval (2 points) and finally UCSD CAPE reviews (5 points).
 
 <h2>Assignment 1 group sign-up sheet</h2>
-During your discussion section, your TA will assign you to a group. If you correctly fill out the group sign-up sheet, and ensure all your group members have your name and email, then you will get 2 points. Easy.
+During your discussion section, your TA will assign you to a group. If you correctly (make sure you put your name in the right section's tab on google sheet) fill out the group sign-up sheet, and ensure all your group members have your name and email, then you will get 2 points. Easy.
 
 <h2>Mid quarter team eval</h2>
 Use this Google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYbYuYjYlyrCY50yjVe_ejOBMiIwq_3t0U4NTkVafsiFVwrA/viewform?usp=sf_link" target="_blank" rel="noopener">link &#x2197;</a>

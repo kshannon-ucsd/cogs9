@@ -32,7 +32,9 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 We begin our foray into data sci by first talking about ethics, exploring some examples of ethical issues in real world projects, and finally trying to understand how we can apply ethical behavior to our own projects. Ethics will be a guiding principle that we revisit time and time again in following lectures. It wil be tied into all processes of the data sci workflow, from questions, to data collection, analysis, and finally communication of results.
 
 ## Lecture 3: Data Science Questions
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/03_Data_Science_Questions.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Of critical importance in data science is asking the right questions. No matter how god your data is, nor how fancy your analysis, if your questions is wrong your results may be meaningless. You always need to understand your data science question in the broader context of your goals, time/funding constraints, datasets, and stakeholders. This lecture will introduce you to the art of asking good or sharp questions and provide you some examples to think about and learn from. Ultimately, the only way to get better at asking good questions is to do it often and learn from your mistakes. 
 ## Lecture 4: Reproducibility & Bias
 Coming soon.
 ## Lecture 5: Data
