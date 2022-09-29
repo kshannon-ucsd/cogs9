@@ -17,8 +17,7 @@ Tu & Th 6:30PM - 7:50PM
 {: .label .label-purple .fs-1 }
 
 **Instructor**: Kyle Shannon - [[kshannon@ucsd.edu]](mailto:kshannon@ucsd.edu)  
-**Teaching Assistants (TAs)**: Ashwin Mishra - [[asmishra@ucsd.edu]](mailto:asmishra@ucsd.edu), William McCarthy - [[wpmccarthy@ucsd.edu]](mailto:wpmccarthy@ucsd.edu), 
-Vineeth Chelur - [[vchelur@ucsd.edu]](mailto:vchelur@ucsd.edu)  
+**Teaching Assistants (TAs)**: Ashwin Mishra - [[asmishra@ucsd.edu]](mailto:asmishra@ucsd.edu), William McCarthy - [[wmccarthy@ucsd.edu]](mailto:wmccarthy@ucsd.edu), Vineeth Chelur - [[vchelur@ucsd.edu]](mailto:vchelur@ucsd.edu)  
 **Instructional Assistants (IAs)**: Hao-ting (David) Tso - [[htso@ucsd.edu]](mailto:htso@ucsd.edu), Jiesen Zhang - [[jiz147@ucsd.edu]](mailto:jiz147@ucsd.edu), Lindsey Gu - [[yug027@ucsd.edu]](mailto:yug027@ucsd.edu), Mason Pak - [[mmpak@ucsd.edu]](mailto:mmpak@ucsd.edu), Shilpa Chowbey - [[schowbey@ucsd.edu]](mailto:schowbey@ucsd.edu)  
 {: .fs-3 }
 
@@ -44,13 +43,13 @@ NOTE: When signing up for **gradescope** make sure you include your **Student ID
 
 ## Discussion Section Times
 
-|     | Day |  Time          | Location     | Staff              |
-|:----|:----|:---------------|:-------------|:-------------------|
-| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin, Jiesen     |
-| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin, Lindsey    |
-| A03 | Wed | 4:00p-4:50p    | PETER	102   | William, Shilpa    |
-| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William, Mason     |
-| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth, David     |
+|     | Day |  Time          | Location     | Staff              | Materials                                              |
+|:----|:----|:---------------|:-------------|:-------------------|:-------------------------------------------------------|
+| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin, Jiesen     |                                                        |
+| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin, Lindsey    | [view](https://github.com/wpmccarthy/cogs9FA22)        |
+| A03 | Wed | 4:00p-4:50p    | PETER	102   | William, Shilpa    | [view](https://github.com/wpmccarthy/cogs9FA22)        |
+| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William, Mason     |                                                        |
+| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth, David     |                                                        |
 
 ## Course Calander
 
