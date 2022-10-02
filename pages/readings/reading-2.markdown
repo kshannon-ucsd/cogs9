@@ -15,6 +15,13 @@ permalink: /readings/reading-2
 Reading 2 is about ethics, and specifically the ethical issues that arise when working with large amounts of data. In class we talk more about the topic and theory of ethics, with some practical examples. These readings go into much more detail about practical applications for ethics in data science, and how you may want to tackle such challenges, and why they exist. Patil's article has a lot of good practical tips to think about when writing your ethics section in Assignment 1 and the final. Narayanan's paper provides a close look into the issues surrounding personal data the dangerous inherit when working with and storing such data.
 
 ## Additional Resources
+
+### Security
+
+Here are two excellent sources for security related information, research and news. 
+- Bruce Schneier's <a href="https://www.schneier.com/" target="_blank" rel="noopener">site &#x2197;</a> He is a fellow/lecturer at Harvard and on the board of the EFF.
+- Brian Krebs' blog <a href="https://krebsonsecurity.com/" target="_blank" rel="noopener">KrebOnSecurity &#x2197;</a> is a resource for current news and investigatory material on security issues. He worked for the Washington Post as a reporter for over 15 years.
+
 ### Deon Checklist Tool
 
 Deon <a href="https://deon.drivendata.org/" target="_blank" rel="noopener">view &#x2197;</a> is a command line tool that allows you to easily add an ethics checklist to your data science projects. You can look at this checklist for an example during the ethics portion of assignment 1 and your final group project.

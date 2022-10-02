@@ -37,7 +37,7 @@ Cogs 9 Course Staff
 **Gradescope entry code:** 3JDDGZ 
 
 {: .info }
-NOTE: When signing up for **gradescope** make sure you include your **Student ID** and **UCSD Email** when signing up. These are not optional.
+NOTE: When signing up for this class in **gradescope** make sure you include your **Student ID** and **UCSD Email** when. You may need to update your profile to do this. Both of these are not optional.
 
 
 

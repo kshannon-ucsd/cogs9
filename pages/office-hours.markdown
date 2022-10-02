@@ -28,7 +28,6 @@ NOTE: If you want to talk about assignment 1 or your final assignment, please si
 | Date & Time (PDT)      | Location              | Instructional Staff |
 |:-----------------------|:----------------------|:------------------- |
 | Thursday @ 4:00 pm     | CSB 255 (in person)   | Kyle                |
-| Friday @ 9:30 - 10 am  | Zoom                  | Kyle                |
 | Tuesday @ 12:00 pm     | Zoom                  | Ashwin              |
 | Thurs @ 2:00pm         | Zoom                  | William             |
 | Tuesday @ 2:00 pm      | Zoom                  | Vineeth             |
