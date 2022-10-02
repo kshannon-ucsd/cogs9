@@ -22,22 +22,11 @@ permalink: /assignments/assignment-2
 
 <!-- TODO: replace the placeholders with the answers -->
 
-1. What should we do if someone in our team drops the course or does not respond to our messages?
+1. How to find the number of unique words a singer used for part I?
+> You can hover over the profile picture of the singer on the scatter plot, and the number would show up. And if you want to select a singer by their name, go to the top-left corner and find a dropdown list there. Select the name of the singer you are interested in.
 
-   > [placeholder]
+2. Does each of us need to collect at least 10 data points for part II?
+> No, only at least 10 data points for the whole group, but there must be more than two people collecting the data points.
 
-2. How to find the number of unique words a singer used for part I?
-
-   > You can hover over the profile picture of the singer on the scatter plot, and the number would show up. And if you want to select a singer by their name, go to the top-left corner and find a dropdown list there. Select the name of the singer you are interested in.
-
-3. Does each of us need to collect at least 10 data points for part II?
-
-   > No, only at least 10 data points for the whole group, but there must be more than two people collecting the data points.
-
-4. What kind of plots should we use for your data points?
-
-   > [placeholder]
-
-5. How detailed do we have to write in group participation?
-
-   > [placeholder]
+3. What kind of plots should we use for your data points?
+> [placeholder]
