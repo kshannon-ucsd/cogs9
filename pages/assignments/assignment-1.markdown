@@ -24,6 +24,7 @@ NOTE: Do not make multiple submissions per group member. You may resubmit the as
 
 <h2>Additional Resources</h2>
 
+- Tips and advice from a previous Cogs 9 student <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/assignments/assignment-1-advice.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 - Example 1, previous A+ Cogs 9 assignment 1 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/assignments/assignment-1-example-1.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 - Example 2, previous A+ Cogs 9 assignment 1 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/assignments/assignment-1-example-2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 

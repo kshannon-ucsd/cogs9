@@ -34,26 +34,42 @@ We begin our foray into data sci by first talking about ethics, exploring some e
 ## Lecture 3: Data Science Questions
 PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/03_Data_Science_Questions.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
 
-Of critical importance in data science is asking the right questions. No matter how god your data is, nor how fancy your analysis, if your questions is wrong your results may be meaningless. You always need to understand your data science question in the broader context of your goals, time/funding constraints, datasets, and stakeholders. This lecture will introduce you to the art of asking good or sharp questions and provide you some examples to think about and learn from. Ultimately, the only way to get better at asking good questions is to do it often and learn from your mistakes. 
+Of critical importance in data science is asking the right questions. No matter how god your data is, nor how fancy your analysis, if your questions is wrong your results may be meaningless. You always need to understand your data science question in the broader context of your goals, time/funding constraints, datasets, and stakeholders. This lecture will introduce you to the art of asking good or sharp questions and provide you some examples to think about and learn from. Ultimately, the only way to get better at asking good questions is to do it often and learn from your mistakes.  
 ## Lecture 4: Reproducibility & Bias
 PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/04_Reproducibility.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
 
 We spend some time now considering the types of biases that can be built into a data science project. And how they can impact the ability for a data science project to be reproducible and replicable. Reproducibility and replicability are hallmarks of scientific research, and they are of equal importance when considering if your data science project may actually have real world, measurable, outcomes.
 
 ## Lecture 5: Data
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/05_Data.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Finally, we are starting to get into the fray! A data science project is nothing without data, and before we can analyze data, we must learn what data is, where it comes from, how it is stored, and how we can work with data. You will learn different types of data, data formats, and go through some examples of projects using different types of data.  
 ## Lecture 6: Getting Data
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/06_Getting_Data.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Having learned about the basics of data, it would be nice to know where to find some data! In this lecture we do just that. Along with learning some of the more complex issues surrounding acquiring data, e.g. using an API, web scraping, and some of the legal/ethical issues around acessing and using data.  
 ## Lecture 7: Data Wrangling
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/07_Data_Wrangling.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Once we collect data, the next crucial step, before analysis and exploration can be performed, is to clean/wrangle the data. In the real world it is rarely the case that you are handed a nice clean data set. Often there are issues. Many issues. And you need to fix/resolve this issues. In the lecture we look at how data scientists work on this exceedingly time dependant and important problem.  
+
 ## Lecture 8: Programming for Data Science
 Coming soon.
 ## Lecture 9: Data Viz & Descriptive Analysis
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/09_Dataviz_Descriptive_Analysis.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Data visualization is a cornerstone of data science work. Being able to summarize and visualize large quantities of data quickly provide data scientists with actionable insight into their data. Descriptive analysis is always the first step when working with any new data. It is mandatory to begin formulating proper questions to explore. Descriptive analysis is mostly performed with basic plots and visuals.
+
 ## Lecture 10: Exploratory Data Analysis
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/10_EDA.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+EDA is where data scientists spend a major part of their time on any given project. There are many avenues of exploration that can be taken. Seasoned data scientists tend to get a feel for what questions are worth exploring, and which areas are probably not likely to be as fruitful. This gets easier the more you do EDA, and the more you become acquainted with your data/industry. There exists many EDA tools and techniques, and I think it is fair to say EDA is part science, and part art.
+
 ## Lecture 11: Communicating Data Science
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/11_Communicating_DataViz.pdf" target="_blank" rel="noopener">download &#x2197;</a>  
+
+Once you have some interesting result, analysis or model, you are going to want to communicate it with someone. This is where communication and story telling really enhances the plain visuals used during descriptive and exploratory work. In this lecture we learn strategies for story telling with data, and a pattern for building a story driven visual for consumption by non technical people. This is where the data scientist often shows how valuable they are. Why? Because most people will never look under the hood of your analysis, they will keep to the communication of results area.  
+
 ## Lecture 12: Inferential Analysis
 Coming soon.
 ## Lecture 13: Machine Learning I

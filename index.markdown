@@ -43,13 +43,13 @@ NOTE: When signing up for this class in **gradescope** make sure you include you
 
 ## Discussion Section Times
 
-|     | Day |  Time          | Location     | Staff              | Materials                                              |
-|:----|:----|:---------------|:-------------|:-------------------|:-------------------------------------------------------|
-| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin, Jiesen     |                                                        |
-| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin, Lindsey    | [view](https://github.com/wpmccarthy/cogs9FA22)        |
-| A03 | Wed | 4:00p-4:50p    | PETER	102   | William, Shilpa    | [view](https://github.com/wpmccarthy/cogs9FA22)        |
-| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William, Mason     |                                                        |
-| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth, David     |                                                        |
+|     | Day |  Time          | Location     | Staff              | Materials                                                       |
+|:----|:----|:---------------|:-------------|:-------------------|:----------------------------------------------------------------|
+| A01 | Wed | 11:00a-11:50a  | CENTR	222   | Ashwin, Jiesen     |                                                                 |
+| A02 | Wed | 12:00p-12:50p  | PETER	103   | Ashwin, Lindsey    | [view](https://github.com/wpmccarthy/cogs9FA22)                 |
+| A03 | Wed | 4:00p-4:50p    | PETER	102   | William, Shilpa    | [view](https://github.com/wpmccarthy/cogs9FA22)                 |
+| A04 | Wed | 5:00p-5:50p    | WLH	2111    | William, Mason     |                                                                 |
+| A05 | Fri | 3:00p-3:50p    | CENTR	222   | Vineeth, David     | [view](https://github.com/vchelur97/cogs9-discussion-a05)       |
 
 ## Course Calander
 
