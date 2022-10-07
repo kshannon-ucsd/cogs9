@@ -20,8 +20,6 @@ permalink: /assignments/assignment-2
 
 <h2>Frequently Asked Questions - FAQ</h2>
 
-<!-- TODO: replace the placeholders with the answers -->
-
 1. How to find the number of unique words a singer used for part I?
 > You can hover over the profile picture of the singer on the scatter plot, and the number would show up. And if you want to select a singer by their name, go to the top-left corner and find a dropdown list there. Select the name of the singer you are interested in.
 2. Does each of us need to collect at least 10 data points for part II?
