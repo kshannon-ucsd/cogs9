@@ -15,4 +15,4 @@ For example, we talk about reproducibility, and replicability. These are a major
 To help students, since this is an intro class and we cover a **wide** range of topics, I make available a study guide to help you wrangle in all those key high level topics. It is up to you to flesh it out more, and fill in the details.
 
 - Exam study guide part 1 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-1.pdf" target="_blank" rel="noopener">download &#x2197;</a>
-- Exam study guide part 1 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+- Exam study guide part 2 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
