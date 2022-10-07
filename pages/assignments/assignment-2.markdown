@@ -11,13 +11,6 @@ permalink: /assignments/assignment-2
 
 - Assignment 2 Google Doc <a href="https://docs.google.com/document/d/1bQKJ9ciRUTHMbIJCX3j0b0YK6LkNi2AcPpYLenyGj84/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a>
 
-<h2>Additional Resources</h2>
-
-<!-- TODO: find the link for the following examples -->
-
-- Example 1, previous A+ Cogs 9 assignment 2 <a href="" target="_blank" rel="noopener">download &#x2197;</a>
-- Example 2, previous A+ Cogs 9 assignment 2 <a href="" target="_blank" rel="noopener">download &#x2197;</a>
-
 <h2>Frequently Asked Questions - FAQ</h2>
 
 1. How to find the number of unique words a singer used for part I?
