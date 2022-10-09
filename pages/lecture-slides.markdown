@@ -54,11 +54,11 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 Once we collect data, the next crucial step, before analysis and exploration can be performed, is to clean/wrangle the data. In the real world it is rarely the case that you are handed a nice clean data set. Often there are issues. Many issues. And you need to fix/resolve this issues. In the lecture we look at how data scientists work on this exceedingly time dependant and important problem.
 
 ## Lecture 8: Programming for Data Science
-PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/08_Programming.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+Watch me first! Link to video <a href="https://youtu.be/DPd_Z8jgu04" target="_blank" rel="noopener">view &#x2197;</a>  
 
 ### Why and how to program?
 
-Link:
+Link to video <a href="https://youtu.be/KDQnlcNRZ_s" target="_blank" rel="noopener">view &#x2197;</a>  
 
 In this video, we talk about why is programming so important and how people can learn programming.
 
@@ -71,20 +71,20 @@ https://www.kaggle.com/
 
 ### Industry roles
 
-Link:
+Link to video <a href="https://youtu.be/yMOePXMsUuw" target="_blank" rel="noopener">view &#x2197;</a>  
 
 In this video, we talk about the different roles in industry pertaining to the field of data science/computer science.
 
 ### R vs. Python vs. SQL
 
-Link:
+Link to video <a href="https://youtu.be/ae6u1kdQUjM" target="_blank" rel="noopener">view &#x2197;</a>  
 
 In this video, we talk about the differences and similarities between popular languages like R, Python and SQL.
 
 
 ### Version Control
 
-Link:
+Link to video <a href="https://youtu.be/qM7vVYz5epc" target="_blank" rel="noopener">view &#x2197;</a>  
 
 In this video, we talk about versioning and collaboration tool called git and github.
 
@@ -97,7 +97,7 @@ https://www.tutorialspoint.com/git/index.htm
 
 ### Python Data Stack
 
-Link:
+Link to video <a href="https://youtu.be/4cZYsZFZvdc" target="_blank" rel="noopener">view &#x2197;</a>  
 
 In this video, we talk about the different libraries/packages that python provides for data science.
 
