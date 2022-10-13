@@ -63,7 +63,7 @@ NOTE: When signing up for this class in **gradescope** make sure you include you
 | 10/11/22 |Lecture 6: Getting Data                       |
 | 10/13/22 |Lecture 7: Data Wrangling                     |
 | 10/18/22 |Lecture 8: Programming for Data Science       |
-| 10/20/22 |Guest Lec. (prerecorded not in-class)         |
+| 10/20/22 |Guest Lecture <a href="https://youtu.be/_Gcq5E3WNHw" target="_blank" rel="noopener">view &#x2197;</a>         |
 | 10/25/22 |Lecture 9: Data Viz & Descriptive Analysis    |
 | 10/27/22 |Lecture 10: Exploratory Data Analysis         |
 | 11/01/22 |Lecture 11: Communicating Data Science        |
