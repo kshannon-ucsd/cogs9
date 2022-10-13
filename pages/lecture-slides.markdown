@@ -54,66 +54,48 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 Once we collect data, the next crucial step, before analysis and exploration can be performed, is to clean/wrangle the data. In the real world it is rarely the case that you are handed a nice clean data set. Often there are issues. Many issues. And you need to fix/resolve this issues. In the lecture we look at how data scientists work on this exceedingly time dependant and important problem.
 
 ## Lecture 8: Programming for Data Science
-Watch me first! Link to video <a href="https://youtu.be/DPd_Z8jgu04" target="_blank" rel="noopener">view &#x2197;</a>  
 
-### Why and how to program?
+#### Part 1: 👋 Intro to Lecture 8 <a href="https://youtu.be/DPd_Z8jgu04" target="_blank" rel="noopener">view &#x2197;</a>  
 
-Link to video <a href="https://youtu.be/KDQnlcNRZ_s" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 2: Why and how to program? <a href="https://youtu.be/KDQnlcNRZ_s" target="_blank" rel="noopener">view &#x2197;</a>  
 
-In this video, we talk about why is programming so important and how people can learn programming.
+> In this video, we talk about why is programming so important and how people can learn programming.
 
-#### Additional Resources
+- <a href="https://www.tutorialspoint.com/python/index.htm" target="_blank" rel="noopener">tutorialspoint &#x2197;</a>
+- <a href="https://www.geeksforgeeks.org/python-programming-language/" target="_blank" rel="noopener">geeksforgeeks &#x2197;</a>
+- <a href="https://leetcode.com/" target="_blank" rel="noopener">leetcode &#x2197;</a>
+- <a href="https://www.kaggle.com/" target="_blank" rel="noopener">kaggle &#x2197;</a>
 
-https://www.tutorialspoint.com/python/index.htm
-https://www.geeksforgeeks.org/python-programming-language/
-https://leetcode.com/
-https://www.kaggle.com/
+#### Part 3: Industry roles <a href="https://youtu.be/yMOePXMsUuw" target="_blank" rel="noopener">view &#x2197;</a>  
 
-### Industry roles
+> In this video, we talk about the different roles in industry pertaining to the field of data science/computer science.
 
-Link to video <a href="https://youtu.be/yMOePXMsUuw" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 4: R vs. Python vs. SQL <a href="https://youtu.be/ae6u1kdQUjM" target="_blank" rel="noopener">view &#x2197;</a>  
 
-In this video, we talk about the different roles in industry pertaining to the field of data science/computer science.
+> In this video, we talk about the differences and similarities between popular languages like R, Python and SQL.
 
-### R vs. Python vs. SQL
+#### Part 5: Version Control <a href="https://youtu.be/qM7vVYz5epc" target="_blank" rel="noopener">view &#x2197;</a>  
 
-Link to video <a href="https://youtu.be/ae6u1kdQUjM" target="_blank" rel="noopener">view &#x2197;</a>  
+> In this video, we talk about versioning and collaboration tool called git and github.
 
-In this video, we talk about the differences and similarities between popular languages like R, Python and SQL.
+- <a href="https://www.atlassian.com/git" target="_blank" rel="noopener">atlassian git tutorial &#x2197;</a>
+- <a href="https://www.tutorialspoint.com/git/index.htm" target="_blank" rel="noopener">tutorialspoint git tutorial &#x2197;</a>
 
+#### Part 6: Python Data Stack <a href="https://youtu.be/4cZYsZFZvdc" target="_blank" rel="noopener">view &#x2197;</a>  
 
-### Version Control
+> In this video, we talk about the different libraries/packages that python provides for data science.
 
-Link to video <a href="https://youtu.be/qM7vVYz5epc" target="_blank" rel="noopener">view &#x2197;</a>  
-
-In this video, we talk about versioning and collaboration tool called git and github.
-
-
-#### Additional Resources
-
-https://www.tutorialspoint.com/git/index.htm
-
-
-
-### Python Data Stack
-
-Link to video <a href="https://youtu.be/4cZYsZFZvdc" target="_blank" rel="noopener">view &#x2197;</a>  
-
-In this video, we talk about the different libraries/packages that python provides for data science.
-
-
-#### Additional Resources
-
-https://docs.anaconda.com/anacondaorg/user-guide/getting-started/#finding-downloading-and-installing-packages
-https://docs.conda.io/en/latest/miniconda.html
-https://numpy.org/doc/stable/user/absolute_beginners.html
-https://pandas.pydata.org/docs/user_guide/10min.html#min
-https://matplotlib.org/stable/tutorials/introductory/quick_start.html
-https://seaborn.pydata.org/tutorial/introduction.html
-https://docs.scipy.org/doc/scipy/tutorial/general.html
-https://scikit-learn.org/stable/user_guide.html
-https://www.statsmodels.org/stable/gettingstarted.html
-https://www.tensorflow.org/tutorials/quickstart/beginner
+- <a href="https://docs.anaconda.com/anacondaorg/user-guide/getting-started/#finding-downloading-and-installing-packages" target="_blank" rel="noopener">anaconda &#x2197;</a>
+- <a href="https://docs.conda.io/en/latest/miniconda.html" target="_blank" rel="noopener">miniconda env &#x2197;</a>
+- <a href="https://numpy.org/doc/stable/user/absolute_beginners.html" target="_blank" rel="noopener">numpy &#x2197;</a>
+- <a href="https://pandas.pydata.org/docs/user_guide/10min.html#min" target="_blank" rel="noopener">pandas &#x2197;</a>
+- <a href="https://matplotlib.org/stable/tutorials/introductory/quick_start.html" target="_blank" rel="noopener">matplotlib &#x2197;</a>
+- <a href="https://seaborn.pydata.org/tutorial/introduction.html" target="_blank" rel="noopener">seaborn &#x2197;</a>
+- <a href="https://docs.scipy.org/doc/scipy/tutorial/general.html" target="_blank" rel="noopener">scipy &#x2197;</a>
+- <a href="https://scikit-learn.org/stable/user_guide.html" target="_blank" rel="noopener">sklearn &#x2197;</a>
+- <a href="https://www.statsmodels.org/stable/gettingstarted.html" target="_blank" rel="noopener">statsmodels &#x2197;</a>
+- <a href="https://pytorch.org/get-started/locally/" target="_blank" rel="noopener">pytorch &#x2197;</a>
+- <a href="https://www.tensorflow.org/tutorials/quickstart/beginner" target="_blank" rel="noopener">tensorflow &#x2197;</a>
 
 ## Lecture 9: Data Viz & Descriptive Analysis
 PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/09_Dataviz_Descriptive_Analysis.pdf" target="_blank" rel="noopener">download &#x2197;</a>
