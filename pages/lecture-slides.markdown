@@ -57,7 +57,7 @@ Once we collect data, the next crucial step, before analysis and exploration can
 
 #### Part 1: 👋 Intro to Lecture 8 <a href="https://youtu.be/DPd_Z8jgu04" target="_blank" rel="noopener">view &#x2197;</a>  
 
-#### Part 2: Why and how to program? <a href="https://youtu.be/KDQnlcNRZ_s" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 2: Why and how to program? <a href="https://youtu.be/KDQnlcNRZ_s" target="_blank" rel="noopener">view &#x2197;</a> <a href="s3://ucsd.cogs9/lecture-slides/08_programming/lec8-Intro-why-how-to-program-pt2.pdf" target="_blank" rel="noopener">slides &#x2197;</a>  
 
 > In this video, we talk about why is programming so important and how people can learn programming.
 
@@ -66,22 +66,22 @@ Once we collect data, the next crucial step, before analysis and exploration can
 - <a href="https://leetcode.com/" target="_blank" rel="noopener">leetcode &#x2197;</a>
 - <a href="https://www.kaggle.com/" target="_blank" rel="noopener">kaggle &#x2197;</a>
 
-#### Part 3: Industry roles <a href="https://youtu.be/yMOePXMsUuw" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 3: Industry roles <a href="https://youtu.be/yMOePXMsUuw" target="_blank" rel="noopener">view &#x2197;</a> <a href="s3://ucsd.cogs9/lecture-slides/08_programming/lec8-cs-vs-ds-pt3.pdf" target="_blank" rel="noopener">slides &#x2197;</a>  
 
 > In this video, we talk about the different roles in industry pertaining to the field of data science/computer science.
 
-#### Part 4: R vs. Python vs. SQL <a href="https://youtu.be/ae6u1kdQUjM" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 4: R vs. Python vs. SQL <a href="https://youtu.be/ae6u1kdQUjM" target="_blank" rel="noopener">view &#x2197;</a> <a href="s3://ucsd.cogs9/lecture-slides/08_programming/lec8-pythion-vs-r-pt4.pdf" target="_blank" rel="noopener">slides &#x2197;</a>  
 
 > In this video, we talk about the differences and similarities between popular languages like R, Python and SQL.
 
-#### Part 5: Version Control <a href="https://youtu.be/qM7vVYz5epc" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 5: Version Control <a href="https://youtu.be/qM7vVYz5epc" target="_blank" rel="noopener">view &#x2197;</a> <a href="s3://ucsd.cogs9/lecture-slides/08_programming/lec8-git-project-mgmt-pt5.pdf" target="_blank" rel="noopener">slides &#x2197;</a>  
 
 > In this video, we talk about versioning and collaboration tool called git and github.
 
 - <a href="https://www.atlassian.com/git" target="_blank" rel="noopener">atlassian git tutorial &#x2197;</a>
 - <a href="https://www.tutorialspoint.com/git/index.htm" target="_blank" rel="noopener">tutorialspoint git tutorial &#x2197;</a>
 
-#### Part 6: Python Data Stack <a href="https://youtu.be/4cZYsZFZvdc" target="_blank" rel="noopener">view &#x2197;</a>  
+#### Part 6: Python Data Stack <a href="https://youtu.be/4cZYsZFZvdc" target="_blank" rel="noopener">view &#x2197;</a> <a href="s3://ucsd.cogs9/lecture-slides/08_programming/lec8-ds-tools-pt6.pdf" target="_blank" rel="noopener">slides &#x2197;</a>  
 
 > In this video, we talk about the different libraries/packages that python provides for data science.
 
