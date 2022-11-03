@@ -113,7 +113,11 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 Once you have some interesting result, analysis or model, you are going to want to communicate it with someone. This is where communication and story telling really enhances the plain visuals used during descriptive and exploratory work. In this lecture we learn strategies for story telling with data, and a pattern for building a story driven visual for consumption by non technical people. This is where the data scientist often shows how valuable they are. Why? Because most people will never look under the hood of your analysis, they will keep to the communication of results area.
 
 ## Lecture 12: Inferential Analysis
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/12_Inference.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+Inference is one of the cornerstone analytic tools Data Scientists have at their disposal. In one lecture we could never hope to cover the many fundamental principles and techniques used in statistical Inference. But! I do hope to get all of you thinking about what type of data science questions would involve an inferential analysis, and some of the fundamental goals when seeking to perform inference. We will also quickly cover p-values, t-tests, correlation, and linear regression as these topics can be difficult to grasp, and the more exposure students have, the better. Consider this lecture a pulling back of the curtain and getting a glimpse into what inference is all about with regards to data science!
+
+
 ## Lecture 13: Machine Learning I
 Coming soon.
 ## Lecture 14: Machine Learning II
