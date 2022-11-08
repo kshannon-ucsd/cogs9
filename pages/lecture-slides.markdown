@@ -119,9 +119,15 @@ Inference is one of the cornerstone analytic tools Data Scientists have at their
 
 
 ## Lecture 13: Machine Learning I
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/13_machine_learning.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+We begin our foray in machine learning (ML) by going over some fun interactive examples in class. This lecture is really about exposing all of you to the process of ML, some of the difficulties, and finally to show you some of the different facets and types of ML approaches that exist. This lecture can feel like drinking from a firehose at times because we cover a lot of ground, but we only ever stay at a superficial level.
+
 ## Lecture 14: Machine Learning II
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/14_machine_learning_II.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+We wrap up ML with an emphasis on on classical vs deep learning approaches. I show you examples of deep learning and provide some context for how its inner workings compare to that of the simplest ML models. We will also explore in a bit more depth how we could go about solving two DS problems with ML. In future lectures we will continue to talk about and look at other areas of ML, from a very high level, but this is our last shallow dive into the workings of ML.
+
 ## Lecture 15: Text & Geospatial Analysis
 Coming soon.
 ## Lecture 16: Giving a Data Science Talk
