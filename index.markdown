@@ -70,9 +70,9 @@ NOTE: When signing up for this class in **gradescope** make sure you include you
 | 11/03/22 |Lecture 12: Inferential Analysis              |
 | 11/08/22 |Lecture 13: Machine Learning I                |
 | 11/10/22 |Lecture 14: Machine Learning II               |
-| 11/15/22 |Lecture 15: Text & Geospatial Analysis        |
-| 11/17/22 |Lecture 16: Giving a Data Science Talk        |
-| 11/22/22 |Guest Lec. (prerecorded not in-class)         |
+| 11/15/22 |Guest Lecture 2 <a href="https://youtu.be/IBSyWraGaTM" target="_blank" rel="noopener">view &#x2197;</a>       |
+| 11/17/22 |Lecture 15: Text & Geospatial Analysis        |
+| 11/22/22 |Lecture 16: Giving a Data Science Talk        |
 | 11/24/22 |Thanksgiving Holiday - no class               |
 | 11/29/22 |Lecture 17: Algorithms & Computability        |
 | 12/01/22 |Lecture 18: Future of Data Sci & Jobs         |
