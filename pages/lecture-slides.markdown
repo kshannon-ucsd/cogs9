@@ -129,11 +129,21 @@ PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/
 We wrap up ML with an emphasis on on classical vs deep learning approaches. I show you examples of deep learning and provide some context for how its inner workings compare to that of the simplest ML models. We will also explore in a bit more depth how we could go about solving two DS problems with ML. In future lectures we will continue to talk about and look at other areas of ML, from a very high level, but this is our last shallow dive into the workings of ML.
 
 ## Lecture 15: Text & Geospatial Analysis
-Coming soon.
-## Lecture 16: Giving a Data Science Talk
-Coming soon.
-## Lecture 17: Algorithms & Computability
-Coming soon.
-## Lecture 18: Future of Data Sci & Jobs
-Coming soon.
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/15_text_geospatial_analysis.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 
+We will learn about two more types analysis in this course, geospatial and text! Geospatial analysis allows us to take into account the spatial relationships between observations and data. We will specifically focus on map projections, geospatial visualizations, and some of the inherent issues that need to be accounted for when analyzing data geospatially. Text based analysis will focus on how we represent words and human language in a computer that only understands 1s and 0s. Specifically, we will focus on the different types of text analysis, learn what word embeddings are, and try to get a feel for how large language models work, by investigating their inputs and outputs.
+
+## Lecture 16: Giving a Data Science Talk
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/16_CompVis_Deconstruct_DS.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+In this lecture I will present work I did several years ago with deep learning computer vision algorithms in the context of lung cancer diagnostics. Moreover, I will teach you how you may want to construct and give a general data science/STEM related talk. Communication of your work and results is extremely important in this world. This talk will show you some best practices when we go over decisions I made after I give my presentation.
+
+## Lecture 17: Algorithms & Computability
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+This lecture will aim to show you how algorithms are actually applied in the real world. Specifically I want to make sure everyone understands the general nature of algorithms and strategies for thinking about them in new and exciting ways, not just as ML or inferential models. Algorithms are all around us, and when we can think algorithmically, we can aim to tackle difficult problems in novel and exciting ways.
+
+## Lecture 18: Future of Data Sci & Jobs
+PDF slide <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+We conclude class with some ideas of what the data science industry looks like, what professionals do day-to-day, and where the profession is going. We will explore some of the issues our field needs to think about and keep in mind as we march forward with an explosion of data and computing power. Finally, I provide recommendations for what to learn (including books to get) and some words of wisdom I have learned from my career that I think will help all of you in your future careers.
