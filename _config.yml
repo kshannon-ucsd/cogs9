@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -29,7 +29,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: https://kshannon.github.io
 baseurl: /ucsd-cogs9
 
-
 ###### Build settings
 # remote_theme:
 theme: just-the-docs
@@ -39,7 +38,6 @@ plugins:
 search_enabled: true
 
 # exclude: ["./data", "../vendor/*"]
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,7 +59,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - .data/ #user specific excludes here...
-
 
 # Aux link for the upper right navigation
 aux_links:
