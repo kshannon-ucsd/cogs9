@@ -22,11 +22,11 @@
 destination: docs/
 
 title: UCSD Cogs 9
-email: kshannon@ucsd.edu
+email: vchelur@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is a course website for UCSD COGS 9: Introduction to Data Science
 # domain: ucsd-cogs9.github.io
-url: https://kshannon.github.io
+url: https://vchelur97.github.io
 baseurl: /ucsd-cogs9
 
 
@@ -65,7 +65,7 @@ exclude:
 
 # Aux link for the upper right navigation
 aux_links:
-  "Template Repository": "https://www.github.com/kshannon/ucsd-cogs9"
+  "Template Repository": "https://www.github.com/vchelur97/ucsd-cogs9"
   "Anonymous Course Feedback":
     - "https://forms.gle/ivEJdGSdjv4uHJEcA"
 
