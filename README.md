@@ -15,7 +15,7 @@ Class Website for UCSD's Cogs 9 Introduction to Data Science
 
 ### Building for Local
 All dev builds will be built into a `dev-docs/` dir. This dir is included in `.gitignore` and is only used for development builds. Any specific dev config should bd included in the `_config_dev.yml` file. Your absolute path to `dev-docs` will be different.
-1. `bundle exec jekyll serve --config _config.yml,_config_dev.yml --destination ~/dev/ucsd-cogs9/dev-docs` #builds and starts local server on localhost
+1. `bundle exec jekyll serve --config _config.yml,_config_dev.yml --destination ./dev-docs` #builds and starts local server on localhost
 2. navigate to http://localhost:4000/ucsd-cogs9/
 
 ### Building for Prod
