@@ -16,27 +16,11 @@ NOTE: Office hours start week 1, Not week 0.
 
 Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from Cogs 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
 
-I split my office hours into three 20 min blocks.
-
-- Block 1 & 2: reserved for students or groups to sign up
-- Block 3: Open for anyone on a first come basis.
-
-{: .info }
-NOTE: If you want to talk about assignment 1 or your final assignment, please sign up for one of the 20 minute time blocks. This helps us dedicate a set time to your group's specific questions.
-
 
 | Date & Time (PDT)      | Location              | Instructional Staff |
 |:-----------------------|:----------------------|:------------------- |
-| Thursday @ 4:00 pm     | CSB 255 (in person)   | Kyle                |
-| Tuesday @ 12:00 pm     | Zoom                  | Ashwin              |
-| Thurs @ 2:00pm         | Zoom                  | William             |
-| Tuesday @ 2:00 pm      | Zoom                  | Vineeth             |
-| Monday @ 8 am          | Zoom                  | David               |
-| Monday @ 6 pm          | Zoom                  | David               |
-| Wednesday @5 :00 pm    | Zoom                  | Jiesen              |
-| Thursday @ 3:00 pm     | Zoom                  | Lindsey             |
-| Tuesday @ 3:00 pm      | Zoom                  | Mason               |
-| Friday @ 10:00 am      | Zoom                  | Shilpa              |
+| Thursday @ 3:00 pm     | CSB 255 (in person)   | Kyle                |
+
 
 
 If you are unable to join or are having other issues, please reach out after class (I tend to do impromptu office hours after each class if I have time) or in section. Additionally, we are more than happy, to set up additional 1:1 or 1:group meetings when necessary.
