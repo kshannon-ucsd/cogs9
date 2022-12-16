@@ -2,9 +2,8 @@
 layout: default
 title: Example Datasets
 has_children: false
-parent: Assignments
 nav_order: 5
-permalink: /assignments/example-datasets
+permalink: example-datasets
 ---
 
 <h1>Finding Datasets</h1>
@@ -13,10 +12,10 @@ updated October 3, 2022
 {: .label .label-purple .fs-1 }
 
 
-For assignment 1 and the final group project, you will need to find a dataset to couple with and or inform your data science question. Here is a list that we have compiled over the years to help you get started. Please feel free to use any of these , or find another dataset online.  
+For the final group project, you will need to find a dataset for your data science question. Here is a list that we have compiled over the years to help you get started. Please feel free to use any of these, or find another dataset online.
 
-{: .info }
-NOTE: A few sites may require a free account to download/access the data.
+{: .note }
+A few sites may require a free account to download/access the data
 
 - <a href="https://www.kaggle.com/datasets/jpmiller/publicassistance" target="_blank" rel="noopener">US Public Food Assistance &#x2197;</a>  
 This dataset focuses on public assistance programs in the United States that provide food, namely SNAP and WIC

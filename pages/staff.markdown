@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Office Hours
+title: Staff
 has_children: false
 nav_order: 10
-permalink: /office-hours/
+permalink: /staff/
 ---
 
 {% assign variables = site.data[site.data_folder].variables %}
