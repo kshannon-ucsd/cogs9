@@ -68,3 +68,6 @@ aux_links:
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
+
+# Change this to choose where to pick data from
+data_folder: fa22
