@@ -38,10 +38,10 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    just-the-docs (0.3.3)
+    just-the-docs (0.4.0.rc3)
       jekyll (>= 3.8.5)
-      jekyll-seo-tag (~> 2.0)
-      rake (>= 12.3.1, < 13.1.0)
+      jekyll-seo-tag (>= 2.0)
+      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -77,11 +77,14 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.3)
   jekyll-feed (~> 0.12)
-  just-the-docs (~> 0.3.3)
+  just-the-docs (~> 0.4.0.rc3)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
   webrick (~> 1.7)
+
+RUBY VERSION
+   ruby 3.1.2p20
 
 BUNDLED WITH
    2.3.26
