@@ -10,16 +10,18 @@ nav_order: 1
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
-# UCSD Cogs 9 - Intro to Data Science
+{: .text-grey-dk-200 .lh-0 }
+# UCSD Cogs 9 Intro to Data Science
 
 {{ variables.quarter }}
-{: .label .label-purple .fs-1 }
+{: .md-badge-purple }
 
 {{ variables.building }}
-{: .label .label-purple .fs-1 }
+{: .md-badge-purple }
 
 {{ variables.timings }}
-{: .label .label-purple .fs-1 }
+{: .md-badge-purple }
+
 
 **Instructor** <br/> {{ variables.instructor.name }} - [[{{ variables.instructor.email }}]](mailto:{{ variables.instructor.email }}) 
 

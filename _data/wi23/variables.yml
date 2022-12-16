@@ -1,0 +1,74 @@
+# Welcome section
+quarter: Winter 2023
+building: "Location: TBD"
+timings: TU & TH 5:00PM - 6:20PM
+
+instructor:
+  name: Kyle Shannon
+  email: kshannon@ucsd.edu
+  office_hours:
+    - day: Thu
+      time: 3:00PM - 4:00PM
+      location: CSB 255
+
+teaching_assistants:
+  - name: Vineeth Chelur
+    email: vrchelur@ucsd.edu
+    office_hours:
+      - day: Tue
+        time: 5:00PM - 6:00PM
+        location: Zoom
+
+instructional_assistants:
+  - name: Jiesen Zhang
+    email: jiz147@ucsd.edu
+    office_hours:
+      - day: Wed
+        time: 5:00PM - 6:00PM
+        location: Zoom
+
+
+discord_link: https://discord.gg/RPwfyHH8bG
+gradescope_link: https://www.gradescope.com/courses/447181
+gradescope_entry_code: 3JDDGZ
+
+discussion_sections:
+  - section: A01
+    day: Wed
+    time: 11:00AM - 11:50AM
+    location: CENTR 222
+    ta: Ashwin
+    ia: Jiesen
+    materials: https://github.com/ashwin9999/cogs9-section-materials
+
+  - section: A02
+    day: Wed
+    time: 12:00PM - 12:50PM
+    location: PETR 103
+    ta: Ashwin
+    ia: Lindsey
+    materials: https://github.com/ashwin9999/cogs9-section-materials
+
+  - section: A03
+    day: Wed
+    time: 4:00PM - 4:50PM
+    location: PETR 102
+    ta: William
+    ia: Shilpa
+    materials: https://github.com/wpmccarthy/cogs9FA22
+
+  - section: A04
+    day: Wed
+    time: 5:00PM - 5:50PM
+    location: WLH 2111
+    ta: William
+    ia: Mason
+    materials: https://github.com/wpmccarthy/cogs9FA22
+
+  - section: A05
+    day: Fri
+    time: 3:00PM - 3:50PM
+    location: CENTR 222
+    ta: Vineeth
+    ia: David
+    materials: https://github.com/vchelur97/cogs9-discussion-a05

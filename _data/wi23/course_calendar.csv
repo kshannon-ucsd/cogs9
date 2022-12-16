@@ -1,0 +1,23 @@
+date,title,label,link
+2022-09-22,What is Data Science,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/01_Intro_DS.pdf
+2022-09-27,Ethics,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/02_Ethics.pdf
+2022-09-29,Data Science Questions,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/03_Data_Science_Questions.pdf
+2022-10-04,Reproducibility & Bias,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/04_Reproducibility.pdf
+2022-10-06,Data,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/05_Data.pdf
+2022-10-11,Getting Data,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/06_Getting_Data.pdf
+2022-10-13,Data Wrangling,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/07_Data_Wrangling.pdf
+2022-10-18,Programming for Data Science,LEC
+2022-10-20,Guest Lec. (prerecorded not in-class),GLC,https://youtu.be/_Gcq5E3WNHw
+2022-10-25,Data Viz & Descriptive Analysis,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/09_Dataviz_Descriptive_Analysis.pdf
+2022-10-27,Exploratory Data Analysis,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/10_EDA.pdf
+2022-11-01,Communicating Data Science,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/11_Communicating_DataViz.pdf
+2022-11-03,Inferential Analysis,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/12_Inference.pdf
+2022-11-08,Machine Learning I,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/13_machine_learning.pdf
+2022-11-10,Machine Learning II,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/14_machine_learning_II.pdf
+2022-11-15,Text & Geospatial Analysis,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/15_text_geospatial_analysis.pdf
+2022-11-17,Giving a Data Science Talk,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/16_CompVis_Deconstruct_DS.pdf
+2022-11-22,Guest Lec. (prerecorded not in-class),GLC,https://youtu.be/IBSyWraGaTM
+2022-11-24,Thanksgiving Holiday - no class,
+2022-11-29,Algorithms & Computability,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf
+2022-12-01,Future of Data Sci & Jobs,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf
+2022-12-06,No in-class final!,
