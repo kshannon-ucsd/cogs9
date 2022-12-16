@@ -29,24 +29,30 @@ nav_order: 1
 
 {: .fs-3 }
 
-## Welcome to Cogs 9!
+## Welcome
 
-We are all very excited that you decided to join us on this whirlwind tour of data science. All the information you need and due dates are located on this website. The syllabus, and links to the assignments/quizzes/exams are located on the left under the side nav panel. We will make every effort to record class lectures, as attendance is not mandatory, but highly encouraged. Discussion section attendance the first/second week is very important because group assignments will occur in section. This class has a large amount of group project work (by design) to reflect the group nature of data science projects in the workplace.  
-{: .fs-3 }
-If you have any issues or have any questions, please first review the syllabus, as it has all the information pertaining to logistics and structure. If you still have any doubts please see the contact course staff link to determine how best to get a hold of us. I personally want to meet and interact with as many students as possible, but there are limited staff and many students. So we must use communication channels to facilitate a high student to staff ratio.  
-{: .fs-3 }
+We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website.
 We look forward to teaching and working with all of you and hope to meet you in office hours.
 Cheers,  
 Cogs 9 Course Staff
 {: .fs-3 }
 
-**Class Discord chat server:** {{ variables.discord_link }}  
-**Class Gradescope link:** {{ variables.gradescope_link }}  
-**Gradescope entry code:** {{ variables.gradescope_entry_code }} 
+Should you have any questions or doubts:
+  1. First review this website and syllabus
+  2. Still having an issue? Use this form [link here (style as button)] to get help
+
+## Complete The Following
+
+1. Sign up for class Discord server here {{ variables.discord_link }}
+2. Sign up for class Gradescope
+   -  link-{{ variables.gradescope_link }}
+   -  **entry code:** {{ variables.gradescope_entry_code }}
+   -  You must include your **Student ID** and **UCSD Email**
+3. Start Reading 1 (add link here)
+4. Make sure you attend section week 2, as final project groups will be formed
 
 {: .info }
 NOTE: When signing up for this class in **gradescope** make sure you include your **Student ID** and **UCSD Email**. You may need to update your profile to do this. Both of these are not optional.
-
 
 
 ## Discussion Section Times

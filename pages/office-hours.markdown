@@ -20,14 +20,6 @@ NOTE: Office hours start week 1, Not week 0.
 
 Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from Cogs 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
 
-I split my office hours into three 20 min blocks.
-
-- Block 1 & 2: reserved for students or groups to sign up
-- Block 3: Open for anyone on a first come basis.
-
-{: .info }
-NOTE: If you want to talk about assignment 1 or your final assignment, please sign up for one of the 20 minute time blocks. This helps us dedicate a set time to your group's specific questions.
-
 <table style="table-layout: fixed; text-align: center; width: 100%;">
     <thead>
         <tr class="header">
