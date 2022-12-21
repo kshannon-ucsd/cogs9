@@ -159,7 +159,7 @@ You are encouraged to (and at times will have to) work together and help one ano
 We anticipate you all doing well in this course; however, if you are feeling lost or overwhelmed, that’s ok! Should that occur, we recommend: (i.) asking questions in/after class, (ii.) attending office hours and/or (iii.) reaching out to course staff via email.
 
 
-Cheating and plagiarism have been and will be strongly penalized. If, for whatever reason, this website, or Gradescope is down, or something else prohibits you from being able to turn in an assignment on time, immediately contact me by emailing your assignment to me ([kshannon@ucsd.edu](kshannon@ucsd.edu) with subject line “Cogs9”), or else it will be graded as late.
+Cheating and plagiarism have been and will be strongly penalized. If, for whatever reason, this website, or Gradescope is down, or something else prohibits you from being able to turn in an assignment on time, immediately contact me by emailing your assignment to me ([kshannon@ucsd.edu](kshannon@ucsd.edu) with subject line "COGS9"), or else it will be graded as late.
 
 ### Disability​ ​Access
 Students requesting accommodations due to a disability must provide a current Authorization for Accommodation (AFA) letter. These letters are issued by the Office for Students with Disabilities (OSD), which is located in University Center 202 behind Center Hall. To arrange accommodations please contact Kyle [kshannon@ucsd.edu](kshannon@ucsd.edu) privately.

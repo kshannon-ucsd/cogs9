@@ -21,7 +21,7 @@
 # where jekyll build command dumps the site
 destination: docs/
 
-title: UCSD Cogs 9
+title: UCSD COGS 9
 email: kshannon@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is a course website for UCSD COGS 9: Introduction to Data Science

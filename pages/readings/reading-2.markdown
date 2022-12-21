@@ -26,9 +26,9 @@ Here are two excellent sources for security related information, research and ne
 
 Deon <a href="https://deon.drivendata.org/" target="_blank" rel="noopener">view &#x2197;</a> is a command line tool that allows you to easily add an ethics checklist to your data science projects. You can look at this checklist for an example during the ethics portion of assignment 1 and your final group project.
 
-### HIPPA Data
+### HIPAA Data
 
-For anyone interested, Health Insurance Portability and Accountability Act (HIPPA) data covers the following 18 data identifiers:
+For anyone interested, Health Insurance Portability and Accountability Act (HIPAA) data covers the following 18 data identifiers:
 
 - Name
 - Address (all geographic subdivisions smaller than state, including street address, city county, and zip code)

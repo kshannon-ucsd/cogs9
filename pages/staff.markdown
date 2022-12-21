@@ -18,7 +18,7 @@ permalink: /staff/
 NOTE: Office hours start week 1, Not week 0.
 
 
-Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from Cogs 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
+Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from COGS 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
 
 <table style="table-layout: fixed; text-align: center; width: 100%;">
     <thead>

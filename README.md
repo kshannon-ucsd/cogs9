@@ -1,5 +1,5 @@
 # ucsd-cogs9
-Class Website for UCSD's Cogs 9 Introduction to Data Science
+Class Website for UCSD's COGS 9 Introduction to Data Science
 
 
 ## Up and Running

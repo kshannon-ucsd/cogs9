@@ -11,7 +11,7 @@ nav_order: 1
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
 {: .text-grey-dk-200 .lh-0 }
-# UCSD Cogs 9 Intro to Data Science
+# UCSD COGS 9 Intro to Data Science
 
 {{ variables.quarter }}
 {: .md-badge-purple }
@@ -36,7 +36,7 @@ nav_order: 1
 We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website.
 We look forward to teaching and working with all of you and hope to meet you in office hours.
 Cheers,  
-Cogs 9 Course Staff
+COGS 9 Course Staff
 {: .fs-3 }
 
 Should you have any questions or doubts:
