@@ -2,6 +2,9 @@
 quarter: Winter 2023
 building: "Location: TBD"
 timings: TU & TH 5:00PM - 6:20PM
+discord_link: https://discord.gg/RPwfyHH8bG
+gradescope_link: TBD
+gradescope_entry_code: TBD
 
 instructor:
   name: Kyle Shannon
@@ -10,6 +13,8 @@ instructor:
     - day: Thu
       time: 3:00PM - 4:00PM
       location: CSB 255
+      zoom_link:
+      zoom_pw:
 
 teaching_assistants:
   - name: Vineeth Chelur
@@ -18,57 +23,80 @@ teaching_assistants:
       - day: Tue
         time: 5:00PM - 6:00PM
         location: Zoom
+        zoom_link:
+        zoom_pw:
+  - name: Kunal Rustagi
+    email: kurustagi@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
 
 instructional_assistants:
   - name: Jiesen Zhang
     email: jiz147@ucsd.edu
     office_hours:
-      - day: Wed
-        time: 5:00PM - 6:00PM
-        location: Zoom
-
-
-discord_link: https://discord.gg/RPwfyHH8bG
-gradescope_link: https://www.gradescope.com/courses/447181
-gradescope_entry_code: 3JDDGZ
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
+  - name: Zhuji Zhang
+    email: zhz044@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
+  - name: Zhilin Kong
+    email: zhkong@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
+  - name: Boyong Liu
+    email: bol014@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
+  - name: Zhu, Boqi
+    email: b2zhu@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
 
 discussion_sections:
   - section: A01
-    day: Wed
-    time: 11:00AM - 11:50AM
-    location: CENTR 222
-    ta: Ashwin
-    ia: Jiesen
-    materials: https://github.com/ashwin9999/cogs9-section-materials
+    day: TBD
+    time: TBE
+    location: TBD
+    ta: TBD
+    ia: TBD
+    materials:
 
   - section: A02
-    day: Wed
-    time: 12:00PM - 12:50PM
-    location: PETR 103
-    ta: Ashwin
-    ia: Lindsey
-    materials: https://github.com/ashwin9999/cogs9-section-materials
+    day: TBD
+    time: TBD
+    location: TBD
+    ta: TBD
+    ia: TBD
+    materials:
 
   - section: A03
-    day: Wed
-    time: 4:00PM - 4:50PM
-    location: PETR 102
-    ta: William
-    ia: Shilpa
-    materials: https://github.com/wpmccarthy/cogs9FA22
-
-  - section: A04
-    day: Wed
-    time: 5:00PM - 5:50PM
-    location: WLH 2111
-    ta: William
-    ia: Mason
-    materials: https://github.com/wpmccarthy/cogs9FA22
-
-  - section: A05
-    day: Fri
-    time: 3:00PM - 3:50PM
-    location: CENTR 222
-    ta: Vineeth
-    ia: David
-    materials: https://github.com/vchelur97/cogs9-discussion-a05
+    day: TBD
+    time: TBD
+    location: TBD
+    ta: TBD
+    ia: TBD
+    materials:
