@@ -86,19 +86,45 @@ NOTE: When signing up for this class in **gradescope** make sure you include you
 
 ## Course Calander
 
-<table style="table-layout: fixed; text-align: center; width: 100%;">
+{% assign first_date = course_calendar[0].date | date: '%s' %}
+{% assign first_day = course_calendar[0].date | date: '%w' %}
+{% assign prev_week_no = 0 %}
+<table style="table-layout: fixed; text-align: left; width: 100%;">
+    <colspan>
+        <col style="width: 25%;">
+        <col style="width: 10%; border: none">
+        <col style="width: 65%; border: none">
+    </colspan>
     <thead>
         <tr class="header">
-            <th style="width: 25%;"> Date </th>
-            <th style="width: 75%;"> Lecture </th>
+            <th colspan="3" style="padding-left:8%; font-size-adjust:0.75"> Week 0 </th>
         </tr>
     </thead>
     <tbody>
-        {% for row in course_calendar %}
-        <tr>
-            <td> {{ row.date | date: "%a, %b %d" }} </td>
-            <td> {% if row.link %} <a href="{{ row.link }}"> {{ row.title }} </a> {% else %} {{ row.title }} {% endif %} </td>
+{% for row in course_calendar %}
+    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 %}
+    {% if week_no != prev_week_no %}
+    </tbody>
+</table>
+<table style="table-layout: fixed; text-align: left; width: 100%;">
+    <colspan>
+        <col style="width: 25%;">
+        <col style="width: 10%; border: none">
+        <col style="width: 65%; border: none">
+    </colspan>
+    <thead>
+        <tr class="header">
+            <th colspan="3" style="padding-left:8%; font-size-adjust:0.75"> Week {{ week_no }} </th>
         </tr>
-        {% endfor %}
+    </thead>
+    <tbody>
+    {% endif %}
+    {% assign prev_week_no = week_no %}
+        <tr>
+            <td style="text-align: center"> {{ row.date | date: "%a, %b %d" }} </td>
+            <td style="text-align: center"> {% if row.label == "LEC" %} <span class="label label-green"> {{ row.label }} </span> {% elsif row.label == "ASN" %} <span class="label label-red"> {{ row.label }} </span> {% elsif row.label == "SUR" %} <span class="label label-purple"> {{ row.label }} </span> {% else %} {% if row.label %} <span class="label label-blue"> {{ row.label }} </span> {% endif %} {% endif %} </td>
+            <td style="padding-left: 4%"> {% if row.link %} <a href="{{ row.link }}"> {{ row.title }} </a> {% else %} {{ row.title }} {% endif %} </td>
+        </tr>
+{% endfor %}
     </tbody>
 </table>
