@@ -1,7 +1,7 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title: Welcome
+title: Home
 layout: default
 nav_exclude: false
 nav_order: 1
@@ -10,8 +10,11 @@ nav_order: 1
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
-{: .text-grey-dk-200 .lh-0 }
-# UCSD COGS 9 Intro to Data Science
+{: .text-grey-dk-200 .lh-0 .pt-4 }
+# Introduction to Data Science
+
+{: .text-grey-dk-300 .fw-300 .lh-0 }
+## COGS 9 - UC San Diego 
 
 {{ variables.quarter }}
 {: .md-badge-purple }
@@ -23,39 +26,20 @@ nav_order: 1
 {: .md-badge-purple }
 
 
-**Instructor** <br/> {{ variables.instructor.name }} - [[{{ variables.instructor.email }}]](mailto:{{ variables.instructor.email }}) 
+**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }})
 
-**Teaching Assistants (TAs)** {% for ta in variables.teaching_assistants %} <br/> {{ ta.name }} - [[{{ ta.email }}]](mailto:{{ ta.email }}) {% endfor %} 
+**Teaching Assistants (TAs)**
+{% for ta in variables.teaching_assistants %} <br/> {{ ta.name }} - [{{ ta.email }}](mailto:{{ ta.email }}) {% endfor %}
 
-**Instructional Assistants (IAs)** {% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [[{{ ia.email }}]](mailto:{{ ia.email }}) {% endfor %} 
-
-{: .fs-3 }
+**Instructional Assistants (IAs)**
+{% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [{{ ia.email }}](mailto:{{ ia.email }}) {% endfor %}
+<!-- {: .fs-3 } -->
 
 ## Welcome
 
 We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website.
 We look forward to teaching and working with all of you and hope to meet you in office hours.
-Cheers,  
-COGS 9 Course Staff
 {: .fs-3 }
-
-Should you have any questions or doubts:
-  1. First review this website and syllabus
-  2. Still having an issue? Use this form [link here (style as button)] to get help
-
-## Complete The Following
-
-1. Sign up for class Discord server here {{ variables.discord_link }}
-2. Sign up for class Gradescope
-   -  link-{{ variables.gradescope_link }}
-   -  **entry code:** {{ variables.gradescope_entry_code }}
-   -  You must include your **Student ID** and **UCSD Email**
-3. Start Reading 1 (add link here)
-4. Make sure you attend section week 2, as final project groups will be formed
-
-{: .info }
-NOTE: When signing up for this class in **gradescope** make sure you include your **Student ID** and **UCSD Email**. You may need to update your profile to do this. Both of these are not optional.
-
 
 ## Discussion Section Times
 
@@ -122,9 +106,45 @@ NOTE: When signing up for this class in **gradescope** make sure you include you
     {% assign prev_week_no = week_no %}
         <tr>
             <td style="text-align: center"> {{ row.date | date: "%a, %b %d" }} </td>
-            <td style="text-align: center"> {% if row.label == "LEC" %} <span class="label label-green"> {{ row.label }} </span> {% elsif row.label == "ASN" %} <span class="label label-red"> {{ row.label }} </span> {% elsif row.label == "SUR" %} <span class="label label-purple"> {{ row.label }} </span> {% else %} {% if row.label %} <span class="label label-blue"> {{ row.label }} </span> {% endif %} {% endif %} </td>
+            <td style="text-align: center">
+              {% if row.label == "LECT" %} <span class="md-cal-badge md-cal-badge-blue"> {{ row.label }} </span>
+              {% elsif row.label == "GLCT" %} <span class="md-cal-badge md-cal-badge-purple"> {{ row.label }} </span>
+              {% elsif row.label == "CNCL" %} <span class="md-cal-badge md-cal-badge-red"> {{ row.label }} </span>
+              {% elsif row.label == "ASSG" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
+              {% elsif row.label == "EXAM" %} <span class="md-cal-badge md-cal-badge-gray"> {{ row.label }} </span>
+              {% elsif row.label == "QUIZ" %} <span class="md-cal-badge md-cal-badge-green"> {{ row.label }} </span>
+              {% elsif row.label == "EXTR" %} <span class="md-cal-badge md-cal-badge-yellow"> {{ row.label }} </span>
+              {% else %}
+                {% if row.label %} <span class="md-cal-badge md-cal-badge-black"> {{ row.label }} </span>
+                {% endif %}
+              {% endif %}
+            </td>
             <td style="padding-left: 4%"> {% if row.link %} <a href="{{ row.link }}"> {{ row.title }} </a> {% else %} {{ row.title }} {% endif %} </td>
         </tr>
 {% endfor %}
     </tbody>
 </table>
+
+
+
+
+
+
+
+<!-- extra credit
+
+<h2>Mid quarter team eval</h2>
+Use this Google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYbYuYjYlyrCY50yjVe_ejOBMiIwq_3t0U4NTkVafsiFVwrA/viewform?usp=sf_link" target="_blank" rel="noopener">link &#x2197;</a>
+
+This eval will close after the assignment 2 due date.
+
+<h2>Final quarter team eval</h2>
+Use this Google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSeP8N88eSRuFNeZqk8NpcX24No2c9aCmHIMW-PjIkD5zQH_yg/viewform?usp=sf_link" target="_blank" rel="noopener">link &#x2197;</a>
+
+This eval will close on Sunday week 10, before finals week.
+
+<h2> CAPE reviews</h2>
+
+CAPE reviews are a great opportunity to share with instructional staff what you thought about the course. I am always striving to improve and tweak the class so I read all my CAPE reviews and take them seriously. It gives you, the student body, a voice. I consider them important and thus if at least 70% of the class fills out CAPEs by the due date, I will award the whole class 5 points of extra credit.
+
+Access CAPE reviews with this <a href="https://cape.ucsd.edu/" target="_blank" rel="noopener">link &#x2197;</a> -->

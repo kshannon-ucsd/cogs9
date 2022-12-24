@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Staff
+title: Staff Information
 has_children: false
-nav_order: 10
-permalink: /staff/
+nav_order: 9
+permalink: /staff-info/
 ---
 
 {% assign variables = site.data[site.data_folder].variables %}
@@ -14,9 +14,8 @@ permalink: /staff/
 - Zoom Info (links and passwords) <a href="https://docs.google.com/document/d/1I5w536c7VGTX5EWxvLZfmvtUnMBWB--qPsa48C_ekUA/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
 - Office Hour signup sheet <a href="https://docs.google.com/spreadsheets/d/1jtsbQL55JvpUGZjcG13DoCZRYn6nAzpSX5dWE48yVAc/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
 
-{: .info }
-NOTE: Office hours start week 1, Not week 0.
 
+![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white)
 
 Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from COGS 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
 

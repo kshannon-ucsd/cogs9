@@ -2,14 +2,15 @@
 layout: default
 title: Example Datasets
 has_children: false
-nav_order: 5
-permalink: example-datasets
+parent: Final Project
+nav_order: 1
+permalink: /final-group-project/example-datasets
 ---
 
 <h1>Finding Datasets</h1>
 
 updated October 3, 2022
-{: .label .label-purple .fs-1 }
+{: .md-badge-purple }
 
 
 For the final group project, you will need to find a dataset for your data science question. Here is a list that we have compiled over the years to help you get started. Please feel free to use any of these, or find another dataset online.

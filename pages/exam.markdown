@@ -2,7 +2,7 @@
 layout: default
 title: Exam
 has_children: false
-nav_order: 8
+nav_order: 6
 permalink: /exam/
 ---
 

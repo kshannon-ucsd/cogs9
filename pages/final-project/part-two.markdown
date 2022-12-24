@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Final Project
+title: Final Project Part 2
 has_children: false
-nav_order: 7
-permalink: /final-group-project/
+parent: Final Project
+nav_order: 3
+permalink: /final-group-project/part-two
 ---
+
 
 <h1>Final Group Project</h1>
 
@@ -47,5 +49,5 @@ For these additional sections, read the instructions provided on your assignment
 
 <h2>Additional Resources</h2>
 
-- Example 1, previous A+ COGS 9 Final <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/final/FinalProject_Example_1.pdf" target="_blank" rel="noopener">download &#x2197;</a>
-- Example 2, previous A+ COGS 9 Final <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/final/FinalProject_Example_2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+- Example 1, previous A+ Cogs 9 Final <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/final/FinalProject_Example_1.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+- Example 2, previous A+ Cogs 9 Final <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/final/FinalProject_Example_2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
