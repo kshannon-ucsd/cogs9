@@ -79,6 +79,7 @@ color_scheme: nil
 callouts_level: quiet # or loud
 callouts:
   highlight:
+    title: Caution
     color: yellow
   important:
     title: Important
@@ -92,8 +93,6 @@ callouts:
   warning:
     title: Warning
     color: red
-
-
 
 # Back to top link
 back_to_top: true

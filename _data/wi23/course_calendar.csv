@@ -1,5 +1,5 @@
 date,title,label,link
-2022-09-22,What is Data Science,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/01_Intro_DS.pdf
+2022-09-22,What is Data Science,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/01_Intro_DS.pdf
 2022-09-27,Ethics,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/02_Ethics.pdf
 2022-09-29,Data Science Questions,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/03_Data_Science_Questions.pdf
 2022-10-04,Reproducibility & Bias,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/04_Reproducibility.pdf
@@ -18,6 +18,16 @@ date,title,label,link
 2022-11-17,Giving a Data Science Talk,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/16_CompVis_Deconstruct_DS.pdf
 2022-11-22,Guest Lec. (prerecorded not in-class),GLC,https://youtu.be/IBSyWraGaTM
 2022-11-24,Thanksgiving Holiday - no class,
-2022-11-29,Algorithms & Computability,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf
-2022-12-01,Future of Data Sci & Jobs,LEC,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf
-2022-12-06,No in-class final!,
+2022-11-29,Algorithms & Computability,QUIZ,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf
+2022-12-01,Future of Data Sci & Jobs,EXAM,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf
+2022-12-06,No in-class final!,FINL,
+2023-01-01,Assignment 1 due,ASSG,link_to assignment page
+2023-01-01,Assignment 2 due,ASSG,link_to assignment page
+2023-01-01,Assignment 3 due,ASSG,link_to assignment page
+2023-01-01,Quiz 1 due,QUIZ,link_to reaadings page
+2023-01-01,Quiz 2 due,QUIZ,link_to reaadings page
+2023-01-01,Quiz 3 due,QUIZ,link_to reaadings page
+2023-01-01,Quiz 4 due,QUIZ,link_to reaadings page
+2023-01-01,Quiz 5 due,QUIZ,link_to reaadings page
+2023-01-01,Exam due,EXAM,link_to exam page material
+2023-01-01,extra credit due,EXTR,link_to ec page

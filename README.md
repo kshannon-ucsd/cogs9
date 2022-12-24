@@ -29,3 +29,16 @@ All dev builds will be built into a `dev-docs/` dir. This dir is included in `.g
 This dir is excluded from the jekyll build chain (excluded in the config.yaml file).
 
 This folder includes data that changes from quarter to quarter, e.g. course calender. I don't want to recreate these data, so I dump them here to use for later. Eventually I would like to create variables to pull this data, but for now this is a fine solution.
+
+## Course Calendar
+The following tags can be applied within a row for each course activity, set within the `_data/term/course_calendar.csv` file.
+  - LECT --> lecture
+  - GLCT --> guest lecture
+  - CNCL --> no class, or canceled class
+  - ASSG --> assignment due date
+  - EXAM --> exam due date
+  - QUIZ --> quiz due date
+  - EXTR --> extra credit due date
+
+ Any other tag used will default to a black colored tag
+
