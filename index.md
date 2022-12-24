@@ -35,7 +35,7 @@ nav_order: 1
 {% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [{{ ia.email }}](mailto:{{ ia.email }}) {% endfor %}
 <!-- {: .fs-3 } -->
 
-## Welcome
+## Welcome <span title="https://jarv.is/" class="wave">👋</span> 
 
 We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website.
 We look forward to teaching and working with all of you and hope to meet you in office hours.
