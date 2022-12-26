@@ -8,11 +8,15 @@ permalink: /exam/
 
 <h1>Exam</h1>
 
-The exam is an opportunity for me to test how all of you are learning as individuals. Content wise, I typically make exam questions directly from the lectures. The best way to study for the exam is to carefully review your lecture notes, think about the main topics in the lectures, and then determine the details that support each of those topics.  
+The exam is an opportunity for me to test how all of you are learning the lecture material. The best way to study for the exam is to carefully review your lecture notes, think about the main topics in the lectures, and then determine the details that support each of those topics. For example, we talk about reproducibility, and replicability. These are both major topics from one of the lectures. It is very likely that a question on the exam will be about this topic.  
 
-For example, we talk about reproducibility, and replicability. These are a major topic from a lecture. It is very likely that a question on the exam will come from this topic. In lecture we went over several examples, and provided some definitions for this topic. Since the exam is open note/book, you want to organize your notes to highlight this major topic and provide callbacks to where in the lecture and slides we spoke about reproducibility and replicability.  
+{: .important }
+The exam is an open note exam, to be taken at the comfort of your own home. Once you begin the exam, you must finish it in one sitting.
 
 To help students, since this is an intro class and we cover a **wide** range of topics, I make available a study guide to help you wrangle in all those key high level topics. It is up to you to flesh it out more, and fill in the details.
 
 - Exam study guide part 1 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-1.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 - Exam study guide part 2 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
+
+{: .warning }
+There is **NO final exam in class** during finals week. This take home exam will be due around week 9 or 10. See the course calendar for the exact date.
