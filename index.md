@@ -14,7 +14,7 @@ nav_order: 1
 # Introduction to Data Science
 
 {: .text-grey-dk-300 .fw-300 .lh-0 }
-## COGS 9 - UC San Diego 
+## COGS 9 - UC San Diego - Prof. Kyle Shannon 
 
 {{ variables.quarter }}
 {: .md-badge-purple }
@@ -25,15 +25,6 @@ nav_order: 1
 {{ variables.timings }}
 {: .md-badge-purple }
 
-
-**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }})
-
-**Teaching Assistants (TAs)**
-{% for ta in variables.teaching_assistants %} <br/> {{ ta.name }} - [{{ ta.email }}](mailto:{{ ta.email }}) {% endfor %}
-
-**Instructional Assistants (IAs)**
-{% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [{{ ia.email }}](mailto:{{ ia.email }}) {% endfor %}
-<!-- {: .fs-3 } -->
 
 ## Welcome <span title="https://jarv.is/" class="wave">👋</span> 
 
@@ -46,7 +37,7 @@ We look forward to teaching and working with all of you and hope to meet you in 
 <table style="table-layout: fixed; text-align: center; width: 100%;">
     <thead>
         <tr class="header">
-            <th style="width: 10%;"> Section </th>
+            <th style="width: 10%;"></th>
             <th style="width: 10%;"> Day </th>
             <th style="width: 25%;"> Time </th>
             <th style="width: 15%;"> Location </th>
@@ -124,27 +115,3 @@ We look forward to teaching and working with all of you and hope to meet you in 
 {% endfor %}
     </tbody>
 </table>
-
-
-
-
-
-
-
-<!-- extra credit
-
-<h2>Mid quarter team eval</h2>
-Use this Google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYbYuYjYlyrCY50yjVe_ejOBMiIwq_3t0U4NTkVafsiFVwrA/viewform?usp=sf_link" target="_blank" rel="noopener">link &#x2197;</a>
-
-This eval will close after the assignment 2 due date.
-
-<h2>Final quarter team eval</h2>
-Use this Google form <a href="https://docs.google.com/forms/d/e/1FAIpQLSeP8N88eSRuFNeZqk8NpcX24No2c9aCmHIMW-PjIkD5zQH_yg/viewform?usp=sf_link" target="_blank" rel="noopener">link &#x2197;</a>
-
-This eval will close on Sunday week 10, before finals week.
-
-<h2> CAPE reviews</h2>
-
-CAPE reviews are a great opportunity to share with instructional staff what you thought about the course. I am always striving to improve and tweak the class so I read all my CAPE reviews and take them seriously. It gives you, the student body, a voice. I consider them important and thus if at least 70% of the class fills out CAPEs by the due date, I will award the whole class 5 points of extra credit.
-
-Access CAPE reviews with this <a href="https://cape.ucsd.edu/" target="_blank" rel="noopener">link &#x2197;</a> -->
