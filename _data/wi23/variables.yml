@@ -1,32 +1,40 @@
 # Welcome section
 quarter: Winter 2023
-building: "Location: TBD"
+building: "WHL 2001"
 timings: TU & TH 5:00PM - 6:20PM
 discord_link: https://discord.gg/RPwfyHH8bG
-gradescope_link: TBD
-gradescope_entry_code: TBD
+gradescope_link: https://www.gradescope.com/courses/476408
+gradescope_entry_code: RZ66VZ
 
 instructor:
   name: Kyle Shannon
   email: kshannon@ucsd.edu
   office_hours:
     - day: Thu
-      time: 3:00PM - 4:00PM
+      time: 330-430PM
       location: CSB 255
-      zoom_link:
+      zoom_link: https://ucsd.zoom.us/j/4288626123
       zoom_pw:
 
 teaching_assistants:
   - name: Vineeth Chelur
     email: vrchelur@ucsd.edu
     office_hours:
-      - day: Tue
-        time: 5:00PM - 6:00PM
+      - day: TBD
+        time: TBD
         location: Zoom
         zoom_link:
         zoom_pw:
   - name: Kunal Rustagi
     email: kurustagi@ucsd.edu
+    office_hours:
+      - day: TBD
+        time: TBD
+        location: TBD
+        zoom_link:
+        zoom_pw:
+  - name: Areeb Syed
+    email: aas050@ucsd.edu
     office_hours:
       - day: TBD
         time: TBD
@@ -78,25 +86,33 @@ instructional_assistants:
 
 discussion_sections:
   - section: A01
-    day: TBD
-    time: TBE
-    location: TBD
-    ta: TBD
-    ia: TBD
+    day: Mon
+    time: 3-350pm
+    location: PETER 103
+    ta: TA TBD
+    ia: IAs TBD
     materials:
 
   - section: A02
-    day: TBD
-    time: TBD
-    location: TBD
-    ta: TBD
-    ia: TBD
+    day: Mon
+    time: 4-450pm
+    location: PETER 103
+    ta: TA TBD
+    ia: IAs TBD
     materials:
 
   - section: A03
-    day: TBD
-    time: TBD
-    location: TBD
-    ta: TBD
-    ia: TBD
+    day: Wed
+    time: 5-550pm
+    location: PETER 103
+    ta: TA TBD
+    ia: IAs TBD
+    materials:
+
+  - section: A04
+    day: Wed
+    time: 6-650pm
+    location: PETER 103
+    ta: TA TBD
+    ia: IAs TBD
     materials:

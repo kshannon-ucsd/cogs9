@@ -29,7 +29,7 @@ nav_order: 1
 ## Welcome <span title="https://jarv.is/" class="wave">👋</span> 
 
 We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website.
-We look forward to teaching and working with all of you and hope to meet you in office hours.
+We look forward to teaching and working with all of you and hope to meet you in office hours. Check out the getting started section so you can hit the ground running when class starts!
 {: .fs-3 }
 
 ## Discussion Section Times
@@ -77,7 +77,7 @@ We look forward to teaching and working with all of you and hope to meet you in 
     </thead>
     <tbody>
 {% for row in course_calendar %}
-    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 %}
+    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 | plus: 1 %}
     {% if week_no != prev_week_no %}
     </tbody>
 </table>

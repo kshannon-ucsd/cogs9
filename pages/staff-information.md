@@ -9,7 +9,31 @@ permalink: /staff-info/
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
-# Office Hours
+
+
+
+
+
+<!-- {{ variables.instructor.office_hours }} -->
+{{ variables.instructor.office_hours[3] }}
+
+<!-- {{ variables.instructor.office_hours["zoom_link"] }} -->
+<!-- {{ variables.instructor.office_hours.zoom_link }} -->
+
+# Staff Information
+
+## Emails & Zoom inks
+
+**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }}) - <a href='{{ variables.instructor.office_hours.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a>
+
+**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }}) - [zoom &#x2197;]({{ variables.instructor.office_hours[3] }}) 
+
+**Teaching Assistants (TAs)**
+{% for ta in variables.teaching_assistants %} <br/> {{ ta.name }} - [{{ ta.email }}](mailto:{{ ta.email }}) {% endfor %}
+
+**Instructional Assistants (IAs)**
+{% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [{{ ia.email }}](mailto:{{ ia.email }}) {% endfor %}
+<!-- {: .fs-3 } -->
 
 - Zoom Info (links and passwords) <a href="https://docs.google.com/document/d/1I5w536c7VGTX5EWxvLZfmvtUnMBWB--qPsa48C_ekUA/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
 - Office Hour signup sheet <a href="https://docs.google.com/spreadsheets/d/1jtsbQL55JvpUGZjcG13DoCZRYn6nAzpSX5dWE48yVAc/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
@@ -23,8 +47,8 @@ Office hours are a great place to personally interact. Beyond projects and cours
     <thead>
         <tr class="header">
             <th style="width: 25%;"> Staff </th>
-            <th style="width: 15%;"> Day </th>
-            <th style="width: 35%;"> Time </th>
+            <th style="width: 25%;"> Email </th>
+            <th style="width: 15%;"> Date & Time </th>
             <th style="width: 25%;"> Location </th>
         </tr>
     </thead>
@@ -32,8 +56,8 @@ Office hours are a great place to personally interact. Beyond projects and cours
         {% for oh in variables.instructor.office_hours %}
         <tr>
             <td> {{ variables.instructor.name }} </td>
-            <td> {{ oh.day }} </td>
-            <td> {{ oh.time }} </td>
+            <td> {{ variables.instructor.email }} </td>
+            <td> {{ oh.day }} {{ oh.time }} </td>
             <td> {{ oh.location }} </td>
         </tr>
         {% endfor %}
@@ -41,8 +65,8 @@ Office hours are a great place to personally interact. Beyond projects and cours
             {% for oh in row.office_hours %}
             <tr>
                 <td> {{ row.name }} </td>
-                <td> {{ oh.day }} </td>
-                <td> {{ oh.time }} </td>
+                <td> {{ row.email }} </td>
+                <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
             </tr>
             {% endfor %}
@@ -51,8 +75,8 @@ Office hours are a great place to personally interact. Beyond projects and cours
             {% for oh in row.office_hours %}
             <tr>
                 <td> {{ row.name }} </td>
-                <td> {{ oh.day }} </td>
-                <td> {{ oh.time }} </td>
+                <td> {{ row.email }} </td>
+                <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
             </tr>
             {% endfor %}
