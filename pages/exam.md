@@ -19,4 +19,4 @@ To help students, since this is an intro class and we cover a **wide** range of 
 - Exam study guide part 2 <a href="https://s3.us-west-2.amazonaws.com/ucsd.cogs9/exam/cogs9-exam-study-guide-2.pdf" target="_blank" rel="noopener">download &#x2197;</a>
 
 {: .warning }
-There is **NO final exam in class** during finals week. This take home exam will be due around week 9 or 10. See the course calendar for the exact date.
+There is **NO final exam in class** during finals week. This take home exam will be due around week 10 or on finals week. See the course calendar for the exact date.
