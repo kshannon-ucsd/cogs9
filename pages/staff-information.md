@@ -9,24 +9,11 @@ permalink: /staff-info/
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
-
-
-
-
-
-<!-- {{ variables.instructor.office_hours }} -->
-{{ variables.instructor.office_hours[3] }}
-
-<!-- {{ variables.instructor.office_hours["zoom_link"] }} -->
-<!-- {{ variables.instructor.office_hours.zoom_link }} -->
-
 # Staff Information
 
-## Emails & Zoom inks
+## Contact Info
 
-**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }}) - <a href='{{ variables.instructor.office_hours.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a>
-
-**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }}) - [zoom &#x2197;]({{ variables.instructor.office_hours[3] }}) 
+**Instructor** <br/> {{ variables.instructor.name }} - [{{ variables.instructor.email }}](mailto:{{ variables.instructor.email }})
 
 **Teaching Assistants (TAs)**
 {% for ta in variables.teaching_assistants %} <br/> {{ ta.name }} - [{{ ta.email }}](mailto:{{ ta.email }}) {% endfor %}
@@ -35,11 +22,7 @@ permalink: /staff-info/
 {% for ia in variables.instructional_assistants %} <br/> {{ ia.name }} - [{{ ia.email }}](mailto:{{ ia.email }}) {% endfor %}
 <!-- {: .fs-3 } -->
 
-- Zoom Info (links and passwords) <a href="https://docs.google.com/document/d/1I5w536c7VGTX5EWxvLZfmvtUnMBWB--qPsa48C_ekUA/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
-- Office Hour signup sheet <a href="https://docs.google.com/spreadsheets/d/1jtsbQL55JvpUGZjcG13DoCZRYn6nAzpSX5dWE48yVAc/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a> 
-
-
-![Zoom](https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white)
+## Office Hours & Zoom Info
 
 Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from COGS 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
 
@@ -47,27 +30,27 @@ Office hours are a great place to personally interact. Beyond projects and cours
     <thead>
         <tr class="header">
             <th style="width: 25%;"> Staff </th>
-            <th style="width: 25%;"> Email </th>
-            <th style="width: 15%;"> Date & Time </th>
+            <th style="width: 25%;"> Date & Time </th>
             <th style="width: 25%;"> Location </th>
+            <th style="width: 25%;"> Zoom Link </th>
         </tr>
     </thead>
     <tbody>
         {% for oh in variables.instructor.office_hours %}
         <tr>
             <td> {{ variables.instructor.name }} </td>
-            <td> {{ variables.instructor.email }} </td>
             <td> {{ oh.day }} {{ oh.time }} </td>
             <td> {{ oh.location }} </td>
+            <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
         </tr>
         {% endfor %}
         {% for row in variables.teaching_assistants %}
             {% for oh in row.office_hours %}
             <tr>
                 <td> {{ row.name }} </td>
-                <td> {{ row.email }} </td>
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
+                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
             </tr>
             {% endfor %}
         {% endfor %}
@@ -75,13 +58,14 @@ Office hours are a great place to personally interact. Beyond projects and cours
             {% for oh in row.office_hours %}
             <tr>
                 <td> {{ row.name }} </td>
-                <td> {{ row.email }} </td>
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
+                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
             </tr>
             {% endfor %}
         {% endfor %}
     </tbody>
 </table>
 
+{: .note .fs-3 }
 If you are unable to join or are having other issues, please reach out after class (I tend to do impromptu office hours after each class if I have time) or in section. Additionally, we are more than happy, to set up additional 1:1 or 1:group meetings when necessary.

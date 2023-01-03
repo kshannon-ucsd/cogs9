@@ -8,13 +8,13 @@ permalink: /getting started
 
 # Getting Started
 
-Join the class Discord [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)]({{ variables.discord_link }})
-1. Register for class Gradescope
+1. Join the class Discord: Link TBD
+   - Use Discord to ask questions and get help from your fellow students, TAs, IAs, and myself
+   - In-class polls (instead of iclickers) are done through Discord, as well as for questions that we do not have time to answer in class.
+2. Register for class Gradescope
    -  link-{{ variables.gradescope_link }}
    -  **entry code:** {{ variables.gradescope_entry_code }}
-
-{: .note }
-When registering for **Gradescope** you must include your **Student ID/PID** and **UCSD Email**.
-
-1. Start Reading 1 (add link here)
-2. Make sure you attend section week 2, as final project groups will be formed
+   -  When registering for **Gradescope** you must include your **Student ID/PID** and **UCSD Email**.
+3. Start Reading 1, it is the longest by far
+4. Make sure you attend discussion section during week 2, we will be forming groups for the final project
+5. Come to one office hour or come up to the front after or before class to say hi and introduce yourself!

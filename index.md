@@ -32,6 +32,9 @@ We are all very excited that you decided to join us on this whirlwind tour of da
 We look forward to teaching and working with all of you and hope to meet you in office hours. Check out the getting started section so you can hit the ground running when class starts!
 {: .fs-3 }
 
+{: .note .fs-2 }
+Week one I try to take as many students from the **waitlist** as I can, please email [{{ variables.cogsadvising }}](mailto:{{ variables.cogsadvising }}) with further questions.
+
 ## Discussion Section Times
 
 <table style="table-layout: fixed; text-align: center; width: 100%;">

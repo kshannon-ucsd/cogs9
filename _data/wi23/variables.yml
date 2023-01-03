@@ -5,10 +5,12 @@ timings: TU & TH 5:00PM - 6:20PM
 discord_link: https://discord.gg/RPwfyHH8bG
 gradescope_link: https://www.gradescope.com/courses/476408
 gradescope_entry_code: RZ66VZ
+cogsadvising: cogsadvising@ucsd.edu
 
 instructor:
   name: Kyle Shannon
   email: kshannon@ucsd.edu
+  type: Instructor
   office_hours:
     - day: Thu
       time: 330-430PM
@@ -19,6 +21,7 @@ instructor:
 teaching_assistants:
   - name: Vineeth Chelur
     email: vrchelur@ucsd.edu
+    type: TA
     office_hours:
       - day: TBD
         time: TBD
@@ -27,6 +30,7 @@ teaching_assistants:
         zoom_pw:
   - name: Kunal Rustagi
     email: kurustagi@ucsd.edu
+    type: TA
     office_hours:
       - day: TBD
         time: TBD
@@ -35,6 +39,7 @@ teaching_assistants:
         zoom_pw:
   - name: Areeb Syed
     email: aas050@ucsd.edu
+    type: TA
     office_hours:
       - day: TBD
         time: TBD
@@ -45,6 +50,7 @@ teaching_assistants:
 instructional_assistants:
   - name: Jiesen Zhang
     email: jiz147@ucsd.edu
+    type: IA
     office_hours:
       - day: TBD
         time: TBD
@@ -53,6 +59,7 @@ instructional_assistants:
         zoom_pw:
   - name: Zhuji Zhang
     email: zhz044@ucsd.edu
+    type: IA
     office_hours:
       - day: TBD
         time: TBD
@@ -61,6 +68,7 @@ instructional_assistants:
         zoom_pw:
   - name: Zhilin Kong
     email: zhkong@ucsd.edu
+    type: IA
     office_hours:
       - day: TBD
         time: TBD
@@ -69,6 +77,7 @@ instructional_assistants:
         zoom_pw:
   - name: Boyong Liu
     email: bol014@ucsd.edu
+    type: IA
     office_hours:
       - day: TBD
         time: TBD
@@ -77,6 +86,7 @@ instructional_assistants:
         zoom_pw:
   - name: Zhu, Boqi
     email: b2zhu@ucsd.edu
+    type: IA
     office_hours:
       - day: TBD
         time: TBD
