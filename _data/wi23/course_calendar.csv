@@ -3,32 +3,33 @@ date,title,label,link
 2023-01-12,Ethics,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/02_Ethics.pdf
 2023-01-17,Data Science Questions,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/03_Data_Science_Questions.pdf
 2023-01-19,Reproducibility & Bias,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/04_Reproducibility.pdf
-2023-01-20,Quiz 1 due,QUIZ,link_to reaadings page
+2023-01-20,Quiz 1 due,QUIZ,https://www.gradescope.com/courses/476408
 2023-01-24,Data,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/05_Data.pdf
 2023-01-26,Getting Data,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/06_Getting_Data.pdf
-2023-01-27,Quiz 2 due,QUIZ,link_to reaadings page
+2023-01-27,Quiz 2 due,QUIZ,https://www.gradescope.com/courses/476408
 2023-01-31,Data Wrangling,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/07_Data_Wrangling.pdf
-2023-02-02,Programming for Data Science,LECT
+2023-02-02,Programming for Data Science,LECT,https://www.youtube.com/watch?v=DPd_Z8jgu04
 2023-02-07,Data Viz & Descriptive Analysis,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/09_Dataviz_Descriptive_Analysis.pdf
 2023-02-09,Exploratory Data Analysis,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/10_EDA.pdf
-2023-02-10,Quiz 3 due,QUIZ,link_to reaadings page
-2023-02-13,Assignment 1 due,ASSG,link_to assignment page
-2023-02-14,Guest Lec. (prerecorded not in-class),GLCT,https://youtu.be/_Gcq5E3WNHw
+2023-02-10,Quiz 3 due,QUIZ,https://www.gradescope.com/courses/476408
+2023-02-13,Assignment 1 due,ASSG,https://www.gradescope.com/courses/476408
+2023-02-14,Guest Lec. (prerecorded not in-class),GLCT,https://youtu.be/IBSyWraGaTM
 2023-02-16,Communicating Data Science,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/11_Communicating_DataViz.pdf
-2023-02-18,Final Part 1 due,FINL,
+2023-02-18,Final Part 1 due,FINL,https://www.gradescope.com/courses/476408
+2023-02-19,extra credit team eval due,EXTR,https://forms.gle/1HJ1GjYn1Pk5fQiKA
 2023-02-21,Inferential Analysis,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/12_Inference.pdf
 2023-02-23,Machine Learning I,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/13_machine_learning.pdf
-2023-02-27,Assignment 2 due,ASSG,link_to assignment page
+2023-02-27,Assignment 2 due,ASSG,https://www.gradescope.com/courses/476408
 2023-02-28,Machine Learning II,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/14_machine_learning_II.pdf
 2023-03-02,Text & Geospatial Analysis,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/15_text_geospatial_analysis.pdf
-2023-03-03,Quiz 4 due,QUIZ,link_to reaadings page
-2023-03-06,Assignment 3 due,ASSG,link_to assignment page
+2023-03-03,Quiz 4 due,QUIZ,https://www.gradescope.com/courses/476408
+2023-03-06,Assignment 3 due,ASSG,https://www.gradescope.com/courses/476408
 2023-03-07,In-class guest lecture - Brian Verkhovsky from AWS,GLCT,https://youtu.be/IBSyWraGaTM
 2023-03-09,Giving a Data Science Talk,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/16_CompVis_Deconstruct_DS.pdf
 2023-03-14,Algorithms & Computability,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf
 2023-03-16,Future of Data Sci & Jobs,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf
-2023-03-17,Quiz 5 due,QUIZ,link_to reaadings page
-2023-03-19,Final Part 2 due,FINL,
+2023-03-17,Quiz 5 due,QUIZ,https://www.gradescope.com/courses/476408
+2023-03-19,Final Part 2 due,FINL,https://www.gradescope.com/courses/476408
 2023-03-23,No in-class final!,FINL,
-2023-03-24,extra credit CAPEs due,EXTR,link_to ec page
-2023-03-25,Take home exam due,EXAM,link_to exam page material
+2023-03-24,extra credit CAPEs due,EXTR,https://cape.ucsd.edu/
+2023-03-25,Take home exam due,EXAM,https://www.gradescope.com/courses/476408
