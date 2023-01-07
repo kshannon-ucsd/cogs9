@@ -62,7 +62,7 @@ exclude:
 
 # Aux link for the upper right navigation
 aux_links:
-  "Template Repository": "https://www.github.com/kshannon/ucsd-cogs9"
+  # "Template Repository": "https://www.github.com/kshannon/ucsd-cogs9"
   "UCSD Podcast": "https://podcast.ucsd.edu/"
   "Gradescope": "https://www.gradescope.com/"
 
