@@ -52,28 +52,27 @@ permalink: /contact-us/
 <label for="subject"><h4>Subject</h4></label>
 <input style="width:100%;" type="text" id="subject" value="" required>
 <label for="body"><h4>Body</h4></label>
-<input style="width:100%; height:10em;" type="text" name="body" value="" required> <br/> <br/>
+<textarea name="body" rows="10" cols="81" value="" required></textarea> <br/> <br/>
 <input type="button" value="Submit" onclick="mail(this.parentNode)">
 </div>
 
 <script language="javascript">
 function mail(form) {
-    var emails = [];
-    var subject = "[COGS 9] ";
     var inputs = form.getElementsByTagName("input");
+    var emails = [];
+    var pid = inputs["pid"].value;
+    var subject = "[COGS9]" + "[" + pid + "]" + "[";
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].type == "checkbox" && inputs[i].checked) {
             emails.push(inputs[i].value);
         }
         if (inputs[i].type == "radio" && inputs[i].checked) {
-            subject += inputs[i].value;
+            subject += inputs[i].value + "] ";
         }
     }
-    subject += ": " + inputs["subject"].value;
-    var body = inputs["body"].value;
-    var pid = inputs["pid"].value;
-    var url = "mailto:" + emails.join(",") + "?subject=" + subject + "&body=" + body + "%0D%0A" + pid;
-    console.log(url);
+    subject += inputs["subject"].value;
+    var body = form.getElementsByTagName("textarea")[0].value;
+    var url = "mailto:" + emails.join(",") + "?subject=" + subject + "&body=" + body;
     window.location.href = url;
 }
 </script>

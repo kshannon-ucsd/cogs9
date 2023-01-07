@@ -32,13 +32,14 @@ This folder includes data that changes from quarter to quarter, e.g. course cale
 
 ## Course Calendar
 The following tags can be applied within a row for each course activity, set within the `_data/term/course_calendar.csv` file.
-  - LECT --> lecture
-  - GLCT --> guest lecture
-  - CNCL --> no class, or canceled class
-  - ASSG --> assignment due date
-  - EXAM --> exam due date
-  - QUIZ --> quiz due date
-  - EXTR --> extra credit due date
+  - LECT --> Lecture
+  - GLCT --> Guest Lecture
+  - CNCL --> Cancelled class
+  - ASSG --> Assignment
+  - EXAM --> Exam
+  - QUIZ --> Quiz
+  - EXTR --> Extra Credit
+  - PROJ --> Project
 
  Any other tag used will default to a black colored tag
 

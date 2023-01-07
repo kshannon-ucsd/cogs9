@@ -13,7 +13,7 @@ instructor:
   type: Instructor
   office_hours:
     - day: Thu
-      time: 330-430PM
+      time: 3:30PM - 4:30PM
       location: CSB 255
       zoom_link: https://ucsd.zoom.us/j/4288626123
       zoom_pw:
@@ -23,10 +23,10 @@ teaching_assistants:
     email: vrchelur@ucsd.edu
     type: TA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: Zoom
-        zoom_link:
+      - day: Mon
+        time: 5:00PM - 6:00PM
+        location: CSB 114
+        zoom_link: https://ucsd.zoom.us/j/3037643310
         zoom_pw:
   - name: Kunal Rustagi
     email: kurustagi@ucsd.edu

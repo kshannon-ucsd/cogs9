@@ -9,6 +9,11 @@ nav_order: 1
 
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
+<!-- Fall quarter starts in Week 0 while the other quarters start in Week 1 -->
+{% assign offset_week = 1 %}
+{% if site.data_folder[0] == "f" %}
+    {% assign offset_week = 0 %}
+{% endif %}
 
 {: .text-grey-dk-200 .lh-0 .pt-4 }
 # Introduction to Data Science
@@ -66,7 +71,7 @@ Week one I try to take as many students from the **waitlist** as I can, please e
 
 {% assign first_date = course_calendar[0].date | date: '%s' %}
 {% assign first_day = course_calendar[0].date | date: '%w' %}
-{% assign prev_week_no = 0 %}
+{% assign prev_week_no = offset_week %}
 <table style="table-layout: fixed; text-align: left; width: 100%;">
     <colspan>
         <col style="width: 25%;">
@@ -75,12 +80,12 @@ Week one I try to take as many students from the **waitlist** as I can, please e
     </colspan>
     <thead>
         <tr class="header">
-            <th colspan="3" style="padding-left:8%; font-size-adjust:0.75"> Week 0 </th>
+            <th colspan="3" style="padding-left:8%; font-size-adjust:0.75"> Week {{ offset_week }} </th>
         </tr>
     </thead>
     <tbody>
 {% for row in course_calendar %}
-    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 | plus: 1 %}
+    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 | plus: offset_week %}
     {% if week_no != prev_week_no %}
     </tbody>
 </table>

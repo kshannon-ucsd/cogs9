@@ -30,7 +30,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
     <thead>
         <tr class="header">
             <th style="width: 25%;"> Staff </th>
-            <th style="width: 25%;"> Date & Time </th>
+            <th style="width: 25%;"> Day & Time </th>
             <th style="width: 25%;"> Location </th>
             <th style="width: 25%;"> Zoom Link </th>
         </tr>
