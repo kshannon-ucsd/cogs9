@@ -17,5 +17,5 @@ permalink: /getting started
    -  Entry code: **{{ variables.gradescope_entry_code }}**
    -  When registering for **Gradescope** you must include your **Student ID/PID** and **UCSD Email**.
 3. Start Reading 1, it is a very long reading, the longest by far!
-4. Make sure you attend discussion section during week 2/3, we will be forming project groups
-5. Stop by one of the office hours or come up to the front of class before or after to say hi and introduce yourself! I'd love to meet and get to know you.
+4. Make sure you attend the discussion sections during week 2 or 3, we will be forming project groups
+5. Stop by one of the office hours or come up to the front of the class before or after to say hi and introduce yourself! I'd love to meet and get to know you.

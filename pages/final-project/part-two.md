@@ -18,7 +18,7 @@ You can access the Final Project template (link above). Make a copy of this docu
 {: .note }
 You are allowed to completely change your original project from part 1, if as a group you decide you want to go in another direction. You do not have to get approval to do so. 
 
-After editing the first five sections of your project, you will replace “ADD YOUR GROUP’S TEXT HERE AND DELETE INSTRUCTIONS ABOVE” with your group’s response for the remaining sections and delete the grey instructions for the following sections:
+After editing the first five sections of your project, you will replace "ADD YOUR GROUP’S TEXT HERE AND DELETE INSTRUCTIONS ABOVE" with your group’s response for the remaining sections and delete the grey instructions for the following sections:
 - Analysis Proposal
 - Discussion
 - Group Participation

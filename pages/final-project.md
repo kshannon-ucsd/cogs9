@@ -10,7 +10,7 @@ permalink: /final-group-project/
 
 For your Final Project, I want you to explore the various approaches to Data Science you will be learning this quarter. Specifically, you are required to outline how you would integrate a variety of Data Scientific methods and theories in a project addressing a novel question that can be answered using data. Imagine you knew all the ins-and-outs of Data Science, data mining, analysis, programming, and statistics, and write your final outlining your question, hypothesis, overall approach, analysis, and conclusion.
 
-Your question could be purely scientific (e.g., “How do different cultures perceive different colors?”), just interesting (e.g., “What are commonly misheard song lyrics?”), or statistical (e.g., “How big do crowds need to be for reliable estimates of different kinds of questions?”).
+Your question could be purely scientific (e.g., "How do different cultures perceive different colors?"), just interesting (e.g., "What are commonly misheard song lyrics?"), or statistical (e.g., "How big do crowds need to be for reliable estimates of different kinds of questions?").
 
 Your Final Project will have the following sections: Question, Hypothesis, Background Information, Data, Ethical Considerations, Analysis Proposal, Discussion, Group Participation
 

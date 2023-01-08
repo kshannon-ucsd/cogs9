@@ -68,4 +68,4 @@ Office hours are a great place to personally interact. Beyond projects and cours
 </table>
 
 {: .note .fs-3 }
-If you are unable to join or are having other issues, please reach out after class (I tend to do impromptu office hours after each class if I have time) or in section. Additionally, we are more than happy, to set up additional 1:1 or 1:group meetings when necessary.
+If you are unable to join or are having other issues, please reach out after class (I tend to do impromptu office hours after each class if I have time) or in the discussion sections. Additionally, we are more than happy, to set up additional 1:1 or 1:group meetings when necessary.
