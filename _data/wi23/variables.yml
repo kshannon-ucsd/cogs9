@@ -1,6 +1,6 @@
 # Welcome section
 quarter: Winter 2023
-building: "WHL 2001"
+building: "WLH 2001"
 timings: TU & TH 5:00PM - 6:20PM
 discord_link: https://discord.gg/h4ffNHtfuU #expires never (remove this at end of quarter)
 gradescope_link: https://www.gradescope.com/courses/476408
@@ -97,7 +97,7 @@ instructional_assistants:
 discussion_sections:
   - section: A01
     day: Mon
-    time: 3-350pm
+    time: 3-3:50pm
     location: PETER 103
     ta: TA TBD
     ia: IAs TBD
@@ -105,7 +105,7 @@ discussion_sections:
 
   - section: A02
     day: Mon
-    time: 4-450pm
+    time: 4-4:50pm
     location: PETER 103
     ta: TA TBD
     ia: IAs TBD
@@ -113,7 +113,7 @@ discussion_sections:
 
   - section: A03
     day: Wed
-    time: 5-550pm
+    time: 5-5:50pm
     location: PETER 103
     ta: TA TBD
     ia: IAs TBD
@@ -121,7 +121,7 @@ discussion_sections:
 
   - section: A04
     day: Wed
-    time: 6-650pm
+    time: 6-6:50pm
     location: PETER 103
     ta: TA TBD
     ia: IAs TBD

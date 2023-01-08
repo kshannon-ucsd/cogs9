@@ -10,6 +10,9 @@ permalink: /contact-us/
 
 # Contact Us
 
+{: .warning }
+Please **do not email staff about waitlist issues**. Please submit your queries to [{{ cogsadvising }}](mailto:{{ cogsadvising }})
+
 <div>
 <h3> Who do you want to email? </h3>
 {% assign email_no = 1 %}
@@ -21,17 +24,16 @@ permalink: /contact-us/
 </colspan>
 <thead>
 <tr class="header">
-<th> Instructor </th>
-<th> Teaching Assistants </th>
 <th> Instructional Assistants </th>
+<th> Teaching Assistants </th>
+<th> Instructor </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="vertical-align: top"> <input type="checkbox" id="email{{ email_no }}" name="email{{ email_no }}" value="{{ variables.instructor.email }}"> <label for="email{{ email_no }}"> {{ variables.instructor.name }} </label> </td>
-{% assign email_no = email_no | plus: 1 %}
-<td style="vertical-align: top"> {% for ta in variables.teaching_assistants %} <input type="checkbox" id="email{{ email_no }}" name="email{{ email_no }}" value="{{ ta.email }}"> <label for="email{{ email_no }}"> {{ ta.name }} </label> <br/> {% assign email_no = email_no | plus: 1 %}  {% endfor %}</td>
 <td style="vertical-align: top"> {% for ia in variables.instructional_assistants %} <input type="checkbox" id="email{{ email_no }}" name="email{{ email_no }}" value="{{ ia.email }}"> <label for="email{{ email_no }}"> {{ ia.name }} </label> <br/> {% assign email_no = email_no | plus: 1 %} {% endfor %} </td>
+<td style="vertical-align: top"> {% for ta in variables.teaching_assistants %} <input type="checkbox" id="email{{ email_no }}" name="email{{ email_no }}" value="{{ ta.email }}"> <label for="email{{ email_no }}"> {{ ta.name }} </label> <br/> {% assign email_no = email_no | plus: 1 %}  {% endfor %}</td>
+<td style="vertical-align: top"> <input type="checkbox" id="email{{ email_no }}" name="email{{ email_no }}" value="{{ variables.instructor.email }}"> <label for="email{{ email_no }}"> {{ variables.instructor.name }} </label> </td>
 </tr>
 </tbody>
 </table>
@@ -44,14 +46,19 @@ permalink: /contact-us/
 <label for="grading">Grading</label> <br/>
 <input type="radio" id="project" name="topic" value="Project">
 <label for="project">Project</label> <br/>
+<input type="radio" id="assgquiz" name="topic" value="Assg/Quiz">
+<label for="assgquiz">Assignment/Quiz</label> <br/>
 <input type="radio" id="other" name="topic" value="Other">
 <label for="other">Other</label> 
-<h3> Enter your PID, email subject and body </h3>
-<label for="pid"><h4>PID</h4></label>
+<h3> Enter your PID and name </h3>
+<label for="pid"><h4>PID *</h4></label>
 <input type="text" name="pid" value="" required>
-<label for="subject"><h4>Subject</h4></label>
+<label for="name"><h4>Name *</h4></label>
+<input type="text" name="name" value="" required>
+<h3> Enter email subject and body </h3>
+<label for="subject"><h4>Subject *</h4></label>
 <input style="width:100%;" type="text" id="subject" value="" required>
-<label for="body"><h4>Body</h4></label>
+<label for="body"><h4>Body *</h4></label>
 <textarea name="body" rows="10" cols="81" value="" required></textarea> <br/> <br/>
 <input type="button" value="Submit" onclick="mail(this.parentNode)">
 </div>
@@ -61,7 +68,8 @@ function mail(form) {
     var inputs = form.getElementsByTagName("input");
     var emails = [];
     var pid = inputs["pid"].value;
-    var subject = "[COGS9]" + "[" + pid + "]" + "[";
+    var name = inputs["name"].value;
+    var subject = "[COGS9]" + "[";
     for (var i = 0; i < inputs.length; i++) {
         if (inputs[i].type == "checkbox" && inputs[i].checked) {
             emails.push(inputs[i].value);
@@ -71,8 +79,8 @@ function mail(form) {
         }
     }
     subject += inputs["subject"].value;
-    var body = form.getElementsByTagName("textarea")[0].value;
+    var body = "PID: " + pid + "\nName: " + name + "\n\n" + form.getElementsByTagName("textarea")[0].value;
     var url = "mailto:" + emails.join(",") + "?subject=" + subject + "&body=" + body;
-    window.location.href = url;
+    window.location.href = encodeURI(url);
 }
 </script>
