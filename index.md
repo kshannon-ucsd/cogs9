@@ -61,7 +61,7 @@ Week one I try to take as many students from the **waitlist** as I can, please e
             <td> {{ ds.time }} </td>
             <td> {{ ds.location }} </td>
             <td> {{ ds.ta }}, {{ ds.ia }} </td>
-            <td> <a href="{{ ds.materials }}"> view </a> </td>
+            <td> <a href="{{ ds.materials }}"> View </a> </td>
         </tr>
         {% endfor %}
     </tbody>
@@ -85,7 +85,11 @@ Week one I try to take as many students from the **waitlist** as I can, please e
     </thead>
     <tbody>
 {% for row in course_calendar %}
-    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | divided_by: 7 | plus: offset_week %}
+    {% assign week_no = row.date | date: '%s' | minus: first_date | divided_by: 60 | divided_by: 60 | divided_by: 24 | plus: first_day | minus: 1 | divided_by: 7 | plus: offset_week %}
+    <!-- Week number is calculated as follows. Take the current row date as epoch and subtract the first date from course calendar.
+    Convert it to number of days (How many days ahead is the current row date from first date) and add the day number of the first day of the week.
+    Sunday is considered as 0, Monday as 1 and so on (strftime), but to start our week from Monday, we subtract 1 and then divide by 7 to get week no
+    Offset week is used since fall quarter starts in Week 0 while other quarters start in Week 1 -->
     {% if week_no != prev_week_no %}
     </tbody>
 </table>

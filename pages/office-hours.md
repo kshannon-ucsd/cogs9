@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Staff Information
+title: Office Hours
 has_children: false
 nav_order: 9
-permalink: /staff-info/
+permalink: /office-hours/
 ---
 
 {% assign variables = site.data[site.data_folder].variables %}
 {% assign course_calendar = site.data[site.data_folder].course_calendar %}
 
-# Staff Information
+# Office Hours
 
 ## Contact Info
 
@@ -24,7 +24,7 @@ permalink: /staff-info/
 
 ## Office Hours & Zoom Info
 
-Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from COGS 9. Data Science is a rapidly changing field and there is always a lot to discuss. 
+Office hours are a great place to personally interact. Beyond projects and course material, we are interested in your goals, career endeavors, and what you want to gain from COGS 9. Data Science is a rapidly changing field and there is always a lot to discuss. Some members are available on both Zoom and in-person, so feel free to meet with them peronally.
 
 <table style="table-layout: fixed; text-align: center; width: 100%;">
     <thead>
@@ -41,7 +41,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
             <td> {{ variables.instructor.name }} </td>
             <td> {{ oh.day }} {{ oh.time }} </td>
             <td> {{ oh.location }} </td>
-            <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
+            <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
         </tr>
         {% endfor %}
         {% for row in variables.teaching_assistants %}
@@ -50,7 +50,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
                 <td> {{ row.name }} </td>
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
-                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
+                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
             </tr>
             {% endfor %}
         {% endfor %}
@@ -60,7 +60,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
                 <td> {{ row.name }} </td>
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
-                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">zoom &#x2197;</a> </td>
+                <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
             </tr>
             {% endfor %}
         {% endfor %}

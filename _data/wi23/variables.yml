@@ -1,8 +1,8 @@
 # Welcome section
 quarter: Winter 2023
-building: "WLH 2001"
+building: WLH 2001
 timings: TU & TH 5:00PM - 6:20PM
-discord_link: https://discord.gg/h4ffNHtfuU #expires never (remove this at end of quarter)
+discord_link: https://discord.gg/h4ffNHtfuU # expires never (remove this at end of quarter)
 gradescope_link: https://www.gradescope.com/courses/476408
 gradescope_entry_code: RZ66VZ
 cogsadvising: cogsadvising@ucsd.edu
@@ -32,49 +32,49 @@ teaching_assistants:
     email: kurustagi@ucsd.edu
     type: TA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: TBD
-        zoom_link:
-        zoom_pw:
+      - day: Wed
+        time: 9:00AM - 10:00AM
+        location: Zoom
+        Zoom_link: https://ucsd.zoom.us/j/92034058774
+        zoom_pw: 
   - name: Areeb Syed
     email: aas050@ucsd.edu
     type: TA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: TBD
-        zoom_link:
-        zoom_pw:
+      - day: Mon
+        time: 10:00AM - 11:00AM
+        location: Zoom
+        Zoom_link: https://ucsd.zoom.us/my/areeb99?pwd=ZVlHZWRBVEdVTlZHTEpOUGxOTnVKZz09
+        zoom_pw: 350679
 
 instructional_assistants:
   - name: Jiesen Zhang
     email: jiz147@ucsd.edu
     type: IA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: TBD
-        zoom_link:
+      - day: Tue
+        time: 4:00PM - 5:00PM
+        location: CSB 114
+        zoom_link: https://ucsd.zoom.us/j/98390577506
         zoom_pw:
   - name: Zhuji Zhang
     email: zhz044@ucsd.edu
     type: IA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: TBD
-        zoom_link:
-        zoom_pw:
+      - day: Wed
+        time: 4:00PM - 6:00PM
+        location: Zoom
+        zoom_link: https://ucsd.zoom.us/j/4202369014?pwd=NkhFUG5CUWJPN2hiTE83cCtraGdWZz09
+        zoom_pw: a2WM2F
   - name: Zhilin Kong
     email: zhkong@ucsd.edu
     type: IA
     office_hours:
-      - day: TBD
-        time: TBD
-        location: TBD
-        zoom_link:
-        zoom_pw:
+      - day: Thu
+        time: 4:00PM - 5:00PM
+        location: Zoom
+        zoom_link: https://ucsd.zoom.us/j/5100121212?pwd=eVlXV1RHb1d0dHZ0U1d1YXlrc2d6UT09
+        zoom_pw: 95RJcS
   - name: Boyong Liu
     email: bol014@ucsd.edu
     type: IA
@@ -99,7 +99,7 @@ discussion_sections:
     day: Mon
     time: 3-3:50pm
     location: PETER 103
-    ta: TA TBD
+    ta: Kunal Rustagi
     ia: IAs TBD
     materials:
 
@@ -107,7 +107,7 @@ discussion_sections:
     day: Mon
     time: 4-4:50pm
     location: PETER 103
-    ta: TA TBD
+    ta: Areeb Syed
     ia: IAs TBD
     materials:
 
@@ -115,14 +115,14 @@ discussion_sections:
     day: Wed
     time: 5-5:50pm
     location: PETER 103
-    ta: TA TBD
+    ta: Vineeth Chelur
     ia: IAs TBD
-    materials:
+    materials: https://github.com/vchelur97/cogs9-discussion
 
   - section: A04
     day: Wed
     time: 6-6:50pm
     location: PETER 103
-    ta: TA TBD
+    ta: Vineeth Chelur
     ia: IAs TBD
-    materials:
+    materials: https://github.com/vchelur97/cogs9-discussion
