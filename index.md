@@ -45,9 +45,9 @@ Week one I try to take as many students from the **waitlist** as I can, please e
 <table style="table-layout: fixed; text-align: center; width: 100%;">
     <thead>
         <tr class="header">
-            <th style="width: 10%;"></th>
-            <th style="width: 10%;"> Day </th>
-            <th style="width: 25%;"> Time </th>
+            <th style="width: 15%;"></th>
+            <th style="width: 15%;"> Day </th>
+            <th style="width: 15%;"> Time </th>
             <th style="width: 15%;"> Location </th>
             <th style="width: 25%;"> Staff </th>
             <th style="width: 15%;"> Materials </th>
@@ -74,9 +74,9 @@ Week one I try to take as many students from the **waitlist** as I can, please e
 {% assign prev_week_no = offset_week %}
 <table style="table-layout: fixed; text-align: left; width: 100%;">
     <colspan>
-        <col style="width: 25%;">
-        <col style="width: 10%; border: none">
-        <col style="width: 65%; border: none">
+        <col style="width: 20%;">
+        <col style="width: 20%; border: none">
+        <col style="width: 60%; border: none">
     </colspan>
     <thead>
         <tr class="header">
@@ -95,9 +95,9 @@ Week one I try to take as many students from the **waitlist** as I can, please e
 </table>
 <table style="table-layout: fixed; text-align: left; width: 100%;">
     <colspan>
-        <col style="width: 25%;">
-        <col style="width: 10%; border: none">
-        <col style="width: 65%; border: none">
+        <col style="width: 20%;">
+        <col style="width: 20%; border: none">
+        <col style="width: 60%; border: none">
     </colspan>
     <thead>
         <tr class="header">

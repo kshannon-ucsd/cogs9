@@ -11,7 +11,7 @@ permalink: /contact-us/
 # Contact Us
 
 {: .warning }
-Please **do not email staff about waitlist issues**. Please submit your queries to [{{ cogsadvising }}](mailto:{{ cogsadvising }})
+Please **do not email staff about waitlist issues**. Please submit your queries to [{{ variables.cogsadvising }}](mailto:{{ variables.cogsadvising }})
 
 <div>
 <h3> Who do you want to email? </h3>
