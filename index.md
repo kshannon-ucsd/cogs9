@@ -60,7 +60,7 @@ Week one I try to take as many students from the **waitlist** as I can, please e
             <td> {{ ds.day }} </td>
             <td> {{ ds.time }} </td>
             <td> {{ ds.location }} </td>
-            <td> {{ ds.ta }}, {{ ds.ia }} </td>
+            <td> TA: {{ ds.ta }} <br/> IAs: {{ ds.ia }} </td>
             <td> <a href="{{ ds.materials }}"> View </a> </td>
         </tr>
         {% endfor %}
