@@ -14,7 +14,7 @@ instructor:
   office_hours:
     - day: Thu
       time: 3:30-4:30PM
-      location: CSB 255
+      location: CSB 255 / Zoom
       zoom_link: https://ucsd.zoom.us/j/4288626123
       zoom_pw:
 
@@ -25,7 +25,7 @@ teaching_assistants:
     office_hours:
       - day: Tue
         time: 9:00-10:00AM
-        location: CSB 114
+        location: CSB 114 / Zoom
         zoom_link: https://ucsd.zoom.us/j/3037643310
         zoom_pw:
   - name: Kunal Rustagi
@@ -54,7 +54,7 @@ instructional_assistants:
     office_hours:
       - day: Tue
         time: 4:00-5:00PM
-        location: CSB 114
+        location: CSB 114 / Zoom
         zoom_link: https://ucsd.zoom.us/j/98390577506
         zoom_pw:
   - name: Zhuji Zhang
@@ -62,19 +62,10 @@ instructional_assistants:
     type: IA
     office_hours:
       - day: Wed
-        time: 4:00-6:00PM
-        location: Zoom
+        time: 4:00-5:00PM
+        location: CSB 114 / Zoom
         zoom_link: https://ucsd.zoom.us/j/4202369014?pwd=NkhFUG5CUWJPN2hiTE83cCtraGdWZz09
         zoom_pw: a2WM2F
-  - name: Zhilin Kong
-    email: zhkong@ucsd.edu
-    type: IA
-    office_hours:
-      - day: Thu
-        time: 4:00-5:00PM
-        location: Zoom
-        zoom_link: https://ucsd.zoom.us/j/5100121212?pwd=eVlXV1RHb1d0dHZ0U1d1YXlrc2d6UT09
-        zoom_pw: 95RJcS
   - name: Boyong Liu
     email: bol014@ucsd.edu
     type: IA
@@ -84,6 +75,15 @@ instructional_assistants:
         location: Zoom
         zoom_link: https://ucsd.zoom.us/my/boyong
         zoom_pw:
+  - name: Zhilin Kong
+    email: zhkong@ucsd.edu
+    type: IA
+    office_hours:
+      - day: Thu
+        time: 4:00-5:00PM
+        location: Zoom
+        zoom_link: https://ucsd.zoom.us/j/5100121212?pwd=eVlXV1RHb1d0dHZ0U1d1YXlrc2d6UT09
+        zoom_pw: 95RJcS
   - name: Bobby Zhu
     email: b2zhu@ucsd.edu
     type: IA
