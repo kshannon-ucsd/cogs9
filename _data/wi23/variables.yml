@@ -15,8 +15,8 @@ instructor:
     - day: Thu
       time: 3:30-4:30PM
       location: CSB 255 / Zoom
-      zoom_link: https://ucsd.zoom.us/j/4288626123
-      zoom_pw:
+      zoom_link: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
+      zoom_pw: 725814
 
 teaching_assistants:
   - name: Vineeth Chelur
@@ -55,8 +55,8 @@ instructional_assistants:
       - day: Tue
         time: 4:00-5:00PM
         location: CSB 114 / Zoom
-        zoom_link: https://ucsd.zoom.us/j/98390577506
-        zoom_pw:
+        zoom_link: https://ucsd.zoom.us/j/95755676306?pwd=RjBQZUNDejVaT0ZzSno2VUNLc0ZFZz09
+        zoom_pw: 804882
   - name: Zhuji Zhang
     email: zhz044@ucsd.edu
     type: IA
