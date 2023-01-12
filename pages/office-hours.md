@@ -43,7 +43,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
             <td> {{ oh.day }} {{ oh.time }} </td>
             <td> {{ oh.location }} </td>
             <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
-            <td> {% if oh.zoom_pw %} ({{ oh.zoom_pw }}) {% endif %} </td>
+            <td> {% if oh.zoom_pw %} {{ oh.zoom_pw }} {% endif %} </td>
         </tr>
         {% endfor %}
         {% for row in variables.teaching_assistants %}
@@ -53,7 +53,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
                 <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
-                <td> {% if oh.zoom_pw %} ({{ oh.zoom_pw }}) {% endif %} </td>
+                <td> {% if oh.zoom_pw %} {{ oh.zoom_pw }} {% endif %} </td>
             </tr>
             {% endfor %}
         {% endfor %}
@@ -64,7 +64,7 @@ Office hours are a great place to personally interact. Beyond projects and cours
                 <td> {{ oh.day }} {{ oh.time }} </td>
                 <td> {{ oh.location }} </td>
                 <td> <a href='{{ oh.zoom_link }}' target="_blank" rel="noopener">Join &#x2197;</a> </td>
-                <td> {% if oh.zoom_pw %} ({{ oh.zoom_pw }}) {% endif %} </td>
+                <td> {% if oh.zoom_pw %} {{ oh.zoom_pw }} {% endif %} </td>
             </tr>
             {% endfor %}
         {% endfor %}
