@@ -35,7 +35,7 @@ teaching_assistants:
       - day: Wed
         time: 9:00-10:00AM
         location: Zoom
-        Zoom_link: https://ucsd.zoom.us/j/92034058774
+        zoom_link: https://ucsd.zoom.us/j/92034058774
         zoom_pw: 
   - name: Areeb Syed
     email: aas050@ucsd.edu
@@ -44,7 +44,7 @@ teaching_assistants:
       - day: Mon
         time: 10:00-11:00AM
         location: Zoom
-        Zoom_link: https://ucsd.zoom.us/my/areeb99?pwd=ZVlHZWRBVEdVTlZHTEpOUGxOTnVKZz09
+        zoom_link: https://ucsd.zoom.us/my/areeb99?pwd=ZVlHZWRBVEdVTlZHTEpOUGxOTnVKZz09
         zoom_pw: 350679
 
 instructional_assistants:
@@ -82,7 +82,7 @@ instructional_assistants:
       - day: Wed
         time: 2:00-3:00PM
         location: Zoom
-        zoom_link: https://ucsd.zoom.us/j/97198072128
+        zoom_link: https://ucsd.zoom.us/my/boyong
         zoom_pw:
   - name: Bobby Zhu
     email: b2zhu@ucsd.edu
