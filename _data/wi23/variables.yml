@@ -54,7 +54,7 @@ instructional_assistants:
     office_hours:
       - day: Tue
         time: 4:00-5:00PM
-        location: CSB 114 / Zoom
+        location: Zoom
         zoom_link: https://ucsd.zoom.us/j/95755676306?pwd=RjBQZUNDejVaT0ZzSno2VUNLc0ZFZz09
         zoom_pw: 804882
   - name: Zhuji Zhang
@@ -101,7 +101,7 @@ discussion_sections:
     location: PETER 103
     ta: Kunal
     ia: Jiesen, Bobby, Boyong
-    materials:
+    materials: https://github.com/kunalrustagi08/cogs-9-a01
 
   - section: A02
     day: Mon
@@ -109,7 +109,7 @@ discussion_sections:
     location: PETER 103
     ta: Areeb
     ia: Zhuji, Boyong
-    materials:
+    materials: https://github.com/aas050/cogs9_a02
 
   - section: A03
     day: Wed
