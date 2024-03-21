@@ -19,7 +19,7 @@ permalink: /getting started
    -  In-class polls (instead of iclickers) are done through Piazza, as well as for in-class discussions
 {% endif %}
 2. Register for the class Gradescope
-   -  Gradescope link: **{{ variables.gradescope_link }}**
+   -  Gradescope link: [**{{ variables.gradescope_link }}**]({{ variables.gradescope_link }})
    -  When registering for **Gradescope** you must include your **Student ID/PID** and **UCSD Email**.
 3. Start Reading 1, it is a very long reading, the longest by far!
 4. Make sure you attend the discussion sections during week 2 or 3, we will be forming project groups
