@@ -1,0 +1,149 @@
+# Welcome section
+quarter: Spring 2024
+building: SOLIS 107
+timings: TU & TH 5:00-6:20PM
+gradescope_link: https://www.gradescope.com/courses/755333
+# gradescope_entry_code: RZ66VZ
+cogsadvising: cogsadvising@ucsd.edu
+
+instructor:
+  name: Kyle Shannon
+  email: kshannon@ucsd.edu
+  type: Instructor
+  office_hours:
+    - day: Thu
+      time: 3:00-4:00PM
+      location: CSB 255
+
+teaching_assistants:
+  - name: Vineeth Chelur
+    email: vrchelur@ucsd.edu
+    type: TA
+    office_hours:
+      - day: Wed
+        time: 2:00-3:00PM
+        location: CSB 114 / Zoom
+        zoom_link: https://ucsd.zoom.us/j/3037643310
+  - name: Abdullah Ashfaq
+    email: aashfaq@ucsd.edu
+    type: TA
+    office_hours:
+      - day: 
+        time: 
+        location: 
+        zoom_link: 
+  - name: Kaushik Madhavan
+    email: kmadhavan@ucsd.edu
+    type: TA
+    office_hours:
+      - day: 
+        time: 
+        location: 
+        zoom_link: 
+  - name: Matthew Ian Feigelis
+    email: mfeigeli@ucsd.edu
+    type: TA
+    office_hours:
+      - day: 
+        time: 
+        location: 
+        zoom_link: 
+
+instructional_assistants:
+  - name: Jiesen Zhang
+    email: jiz147@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Kyra Kaiqi Pang Deng
+    email: kkdeng@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Seshu Mallina
+    email: smallina@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Harshita Saha
+    email: hsaha@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Wenhua Tang
+    email: w7tang@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Vicky Li
+    email: yil164@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+  - name: Jessica Zhang
+    email: liz035@ucsd.edu
+    type: IA
+    office_hours:
+      - day:
+        time:
+        location:
+        zoom_link:
+
+discussion_sections:
+  - section: A01
+    day: Wed
+    time: 12:00-12:50PM
+    location: CENTR 222
+    ta: 
+    ia: 
+    materials: 
+
+  - section: A02
+    day: Wed
+    time: 1:00-1:50PM
+    location: CENTR 222
+    ta: 
+    ia: 
+    materials: 
+
+  - section: A03
+    day: Wed
+    time: 2:00-2:50PM
+    location: CENTR 222
+    ta: 
+    ia: 
+    materials: 
+
+  - section: A04
+    day: Wed
+    time: 3:00-3:50PM
+    location: CENTR 222
+    ta: Vineeth
+    ia: Jiesen, Harshita
+    materials: https://github.com/vchelur97/cogs9-discussion
+
+  - section: A05
+    day: Wed
+    time: 4:00-4:50PM
+    location: CENTR 222
+    ta: Vineeth
+    ia: Jiesen, Harshita
+    materials: https://github.com/vchelur97/cogs9-discussion
