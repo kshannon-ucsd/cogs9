@@ -95,7 +95,7 @@ instructional_assistants:
     type: IA
     office_hours:
       - day: Wednesday
-        time:2:00 - 3:00 PM
+        time: 2:00 - 3:00 PM
         location: Zoom
         zoom_link: TBD
   - name: Jessica Zhang
