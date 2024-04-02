@@ -2,7 +2,7 @@
 layout: default
 title: Office Hours
 has_children: false
-nav_order: 8
+nav_order: 7
 permalink: /office-hours/
 ---
 
