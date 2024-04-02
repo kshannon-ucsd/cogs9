@@ -28,10 +28,10 @@ teaching_assistants:
     email: aashfaq@ucsd.edu
     type: TA
     office_hours:
-      - day: 
-        time: 
-        location: 
-        zoom_link: 
+      - day: Thursday
+        time: 1:00 - 2:00 PM
+        location: Zoom
+        zoom_link: TBD
   - name: Kaushik Madhavan
     email: kmadhavan@ucsd.edu
     type: TA
@@ -44,20 +44,20 @@ teaching_assistants:
     email: mfeigeli@ucsd.edu
     type: TA
     office_hours:
-      - day: 
-        time: 
-        location: 
-        zoom_link: 
+      - day: Wednesday
+        time: 12:30 - 1:30 PM
+        location: SSRB
+        zoom_link: 239
 
 instructional_assistants:
   - name: Jiesen Zhang
     email: jiz147@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Monday
+        time: 5:00 - 6:00 PM
+        location: Zoom
+        zoom_link: TBD
   - name: Kyra Kaiqi Pang Deng
     email: kkdeng@ucsd.edu
     type: IA
@@ -70,18 +70,18 @@ instructional_assistants:
     email: smallina@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Tuesday
+        time: 2:00 - 3:00 PM
+        location: Zoom
+        zoom_link: https://ucsd.zoom.us/j/3952613540?pwd=d1ZQRUVHU0R1T3c0TThKbkgzaVZHUT09
   - name: Harshita Saha
     email: hsaha@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Wednesday
+        time: 10:00 - 11:00 AM
+        location: zoom
+        zoom_link: TBD
   - name: Wenhua Tang
     email: w7tang@ucsd.edu
     type: IA
@@ -94,43 +94,43 @@ instructional_assistants:
     email: yil164@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Wednesday
+        time:2:00 - 3:00 PM
+        location: Zoom
+        zoom_link: TBD
   - name: Jessica Zhang
     email: liz035@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Tuesday
+        time: 2:00 - 3:00 PM
+        location: Zoom
+        zoom_link: TBD
 
 discussion_sections:
   - section: A01
     day: Wed
     time: 12:00-12:50PM
     location: CENTR 222
-    ta: 
-    ia: 
+    ta: Abdullah
+    ia: Kyra
     materials: 
 
   - section: A02
     day: Wed
     time: 1:00-1:50PM
     location: CENTR 222
-    ta: 
-    ia: 
+    ta: Kaushik
+    ia: Seshu, Vicky
     materials: 
 
   - section: A03
     day: Wed
     time: 2:00-2:50PM
     location: CENTR 222
-    ta: 
-    ia: 
-    materials: 
+    ta: Matthew
+    ia: Jessica, Wenhua
+    materials: https://github.com/MattFeig/cogs9_section
 
   - section: A04
     day: Wed
