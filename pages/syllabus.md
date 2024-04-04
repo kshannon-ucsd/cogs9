@@ -58,7 +58,7 @@ The regrade policy is here to protect students from serious issues in grading, n
 ### Lecture Attendance
 Our goal is to make lectures and office hours worth your while to attend, e.g. we do in-class exercises. However, lecture attendance is not required. All lectures will be recorded. These will be made available to you (UCSD podcast).
 
-### Section Attendance
+### Discussion Section Attendance
 Section attendance is not mandatory, however, groups will be created within sections (usually week 2). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
 
 ## Course Assignments & Topics
