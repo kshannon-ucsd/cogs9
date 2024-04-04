@@ -106,7 +106,7 @@ instructional_assistants:
       - day: Tuesday
         time: 2:00 - 3:00 PM
         location: Zoom
-        zoom_link: TBD
+        zoom_link: https://ucsd.zoom.us/j/94327518092
 
 discussion_sections:
   - section: A01
