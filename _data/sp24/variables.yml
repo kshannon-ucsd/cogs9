@@ -13,7 +13,7 @@ instructor:
   office_hours:
     - day: Thu
       time: 3:00-4:00PM
-      location: CSB 255
+      location: HDSI 226
 
 teaching_assistants:
   - name: Vineeth Chelur
@@ -39,7 +39,7 @@ teaching_assistants:
       - day: Friday
         time: 2:00 PM - 3:00 PM
         location: 
-        zoom_link: 
+        zoom_link: https://discordapp.com/channels/@me/1220199544290283581/1224663099349532743
   - name: Matthew Ian Feigelis
     email: mfeigeli@ucsd.edu
     type: TA
@@ -122,7 +122,7 @@ discussion_sections:
     location: CENTR 222
     ta: Kaushik
     ia: Seshu, Vicky
-    materials: 
+    materials: https://drive.google.com/drive/folders/1RQisSOcVV3k55HEX6QCCEhmhf5LAoZ5t?usp=drive_link
 
   - section: A03
     day: Wed
