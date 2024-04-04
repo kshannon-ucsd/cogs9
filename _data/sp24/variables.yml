@@ -47,7 +47,8 @@ teaching_assistants:
       - day: Wednesday
         time: 12:30 - 1:30 PM
         location: SSRB 239
-        zoom_link: 
+        zoom_link:
+
 
 instructional_assistants:
   - name: Jiesen Zhang
@@ -64,8 +65,8 @@ instructional_assistants:
     office_hours:
       - day: Monday
         time: 4:00 - 5:00 PM
-        location:
-        zoom_link:
+        location: Zoom
+        zoom_link: https://us05web.zoom.us/j/9594878767?pwd=WDFoTDlBOEx0WjI5dWt3TUp3U3dpQT09
   - name: Seshu Mallina
     email: smallina@ucsd.edu
     type: IA
