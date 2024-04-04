@@ -31,13 +31,13 @@ teaching_assistants:
       - day: Thursday
         time: 1:00 - 2:00 PM
         location: Zoom
-        zoom_link: 
+        zoom_link: https://ucsd.zoom.us/j/2495273514?pwd=dXc4ZVBVajFPTUlMTWtrZHM0Wm9FZz09
   - name: Kaushik Madhavan
     email: kmadhavan@ucsd.edu
     type: TA
     office_hours:
-      - day: 
-        time: 
+      - day: Friday
+        time: 2:00 PM - 3:00 PM
         location: 
         zoom_link: 
   - name: Matthew Ian Feigelis
@@ -62,8 +62,8 @@ instructional_assistants:
     email: kkdeng@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
+      - day: Monday
+        time: 4:00 - 5:00 PM
         location:
         zoom_link:
   - name: Seshu Mallina
@@ -86,10 +86,10 @@ instructional_assistants:
     email: w7tang@ucsd.edu
     type: IA
     office_hours:
-      - day:
-        time:
-        location:
-        zoom_link:
+      - day: Friday
+        time: 4:00 - 5:00 PM
+        location: zoom
+        zoom_link: https://ucsd.zoom.us/j/3085342717
   - name: Vicky Li
     email: yil164@ucsd.edu
     type: IA
@@ -97,7 +97,7 @@ instructional_assistants:
       - day: Wednesday
         time: 2:00 - 3:00 PM
         location: Zoom
-        zoom_link: 
+        zoom_link: https://ucsd.zoom.us/j/8866034138?pwd=S0tRbjdwcWVqQjBHTDBIQnJvTVI3UT09
   - name: Jessica Zhang
     email: liz035@ucsd.edu
     type: IA
@@ -114,7 +114,7 @@ discussion_sections:
     location: CENTR 222
     ta: Abdullah
     ia: Kyra
-    materials: 
+    materials: https://github.com/AbdullahAshfaq/cogs9_TA
 
   - section: A02
     day: Wed
