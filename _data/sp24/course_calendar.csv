@@ -18,7 +18,9 @@ date,title,label,link
 2024-05-03,Begin reading 4,READ,https://kshannon-ucsd.github.io/cogs9/readings/reading-4
 2024-05-06,Assignment 1 due,ASSG,
 2024-05-07,Communicating Data Science,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/11_Communicating_DataViz.pdf
+2024-05-07,Communicating DataSci Recording,VID,https://youtu.be/4tY8HEOsKcA
 2024-05-09,Inferential Analysis,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/12_Inference.pdf
+2024-05-09,Inferential Analysis Recording,VID,https://youtu.be/dw7KemQEo6E
 2024-05-13,Final Project Part 1 due,PROJ,
 2024-05-14,[Extra Credit] Team evaluation due,EXTR,https://forms.gle/1HJ1GjYn1Pk5fQiKA
 2024-05-14,Machine Learning I,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/13_machine_learning.pdf
@@ -30,7 +32,7 @@ date,title,label,link
 2024-05-23,Giving a Data Science Talk,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/16_CompVis_Deconstruct_DS.pdf
 2024-05-27,Assignment 3 due,ASSG,
 2024-05-28,Guest Lec 1. (prerecorded not in-class),GLCT,https://youtu.be/IBSyWraGaTM
-2024-05-30,Guest Lec 2. (prerecorded not in-class),GLCT,
+2024-05-30,Guest Lec 2. (prerecorded not in-class),GLCT,https://youtu.be/VNjGCOu6MiE
 2024-05-31,Reading Quiz 5 due,QUIZ,
 2024-06-04,Algorithms & Computability,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/17_Algorithms_Computability.pdf
 2024-06-06,Future of Data Sci & Jobs,LECT,https://s3.us-west-2.amazonaws.com/ucsd.cogs9/lecture-slides/18_Future_DS_Jobs.pdf
