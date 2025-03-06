@@ -1,0 +1,61 @@
+- week: 1
+  title: "Week 1 - Modeling, Loss Functions, & Simple Linear Regression<br>
+    <small>
+      📘 Read <a href='https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/readings/40a_chapter_1.pdf'>Chapter 1, Pages 1-12</a>.<br>
+      🍿 Watch <a href='https://drive.google.com/file/d/1SkSOj_axASndnQb9FwKU1XzB2QGKbq9O/view?usp=sharing'>Ahmed's Calc Review</a>.<br>
+    </small>"
+  days:
+    - date: "2025-01-07"
+      in_class: true
+      events:
+        - label: MISC
+          type: survey
+          title: <a href='https://edstem.org/us/join/2ymWyJ'>Sign Up for EdStem (class discussion board)</a>
+        - label: SUR
+          type: survey
+          title: <a href='https://forms.gle/PS2MCbN8UPUxHXkV7'> <b>Welcome Survey</b> </a>
+        - label: LEC 1
+          type: lecture
+          title: Introduction to Modeling (LIVE)
+          blank: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/lectures/+lecture_01.pdf
+          filled: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/lectures/lecture_01_annotated.pdf
+        - label: MISC
+          type: disc
+          title: Assign study groups
+        - label: HW
+          type: hw
+          title: <b>Homework 0 (not due!)</b>
+          problems: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/homework/homework_0.pdf
+          template: https://www.overleaf.com/read/kpqfqhkdxcnn#317117
+          solutions: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/homework/homework_0_solutions.pdf
+
+    - date: "2025-01-08"
+      in_class: true
+      events:
+        - label: DISC
+          type: disc
+          title: No Section
+
+    - date: "2025-01-09"
+      in_class: true
+      events:
+        - label: LEC 2
+          type: lecture
+          title: Empirical Risk Minimization
+          blank: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/lectures/lecture_02.pdf
+          filled: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/lectures/lecture_02_annotated.pdf
+          recording: https://youtu.be/IGu3hTTZYN4
+        - label: HOPS
+          type: hops
+          title: Hands-On Problem Solving 1
+          solutions: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/hops/hops_1_solutions.pdf
+          code: https://ucsd.s3.us-west-2.amazonaws.com/dsc40a/demos/hops_1_demo.ipynb
+          problems: todo
+
+        - label: HW
+          type: hw
+          title: <b>Homework 1 Released (due Jan 19, 11:59 pm)</b>
+          problems: https://drive.google.com/file/d/1SQt9YmYixAif46hVS9pqm4jRMQDECuR3/view?usp=sharing
+          template: https://www.overleaf.com/read/prxhqgwwmcqk#9a9539
+          submission: https://www.gradescope.com/courses/934714/assignments/5504784/submissions
+          solutions: https://drive.google.com/file/d/18wSg_HKPf9KeYA_wfTi2ElCdThW4nSlx/view?usp=sharing

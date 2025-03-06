@@ -1,0 +1,28 @@
+- name: Kyle Shannon (Data Soothsayer)
+  email: kshannon@ucsd.edu
+  role: Instructor
+  website: https://www.kmshannon.com/about/
+  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/kshannon_5.jpeg
+  description: Neuroscience → Data Science @ UCSD x2 (recursive pain)
+  hometown: San Diego, Cali
+  askabout: Coffee, Likely to be found on a tennis court 🎾
+  food: Regent's Pizza, Charminar, Sochi Sushi, Turmeric Thai, Callie
+
+- name: Vignesh (Viggy) Palaniapan - TA
+  email: vpalaniappan@ucsd.edu
+  role: TA
+  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/viggy.png
+  description: Aerospace Eng. (Imperial College London), Data Science (UCSD)
+  hometown: London, UK 
+  askabout: Many sports (Tennis, Badminton, Frisbee currently), Foreign lang. Netflix
+  food: Thai (Lanna Thai), Mexican (La Puerta), Ice Cream (SaltnStraw)
+
+- name: Ansh Bhatnagar
+  email: abhatnagar@ucsd.edu
+  role: IA
+  website: https://anshu-b.github.io/ansh/
+  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/ansh.png
+  description: 2nd year Data Science major; Math, CogSci, & Supply Chain MGT minors
+  hometown: Fremont, California
+  askabout: Basketball (Warriors) 🏀, Football (Seahawks) 🏈, & Plants 🪴 
+  food: Ramen Nagi, Taco Bell, 55 Thai, Madras Cafe

@@ -1,0 +1,33 @@
+# Welcome section
+quarter: Spring 2025
+building: TBD
+timings: TUE & THUR 6:30PM - 7:50PM
+edstem_link: https://edstem.org/us/join/TBD
+gradescope_link: https://www.gradescope.com/courses/tbd
+gradescope_entry_code: TBD
+
+office_hours:
+  - name: Kyle Shannon
+    day: TBD
+    time: TBD - TBD
+    location: HDSI
+    zoom_link: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
+    zoom_pw: 725814
+
+announcement:
+  color: green
+  text: We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website. We look forward to teaching and working with all of you and hope to meet you in office hours. Check out the **Getting Started** section so you can hit the ground running when class starts!
+
+discussion_sections:
+  - section: TBD
+    day: WED
+    time: TBD
+    location: TBD
+    ta: TBD
+    tutor: TBD
+ 
+final_exam:
+  - section: TBD
+    day: TBD
+    time: TBD
+    location: TBD
