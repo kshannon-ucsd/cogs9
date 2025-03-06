@@ -1,25 +1,38 @@
-body .details {
-  font-size: 9px;
-}
+// Just the Class dependencies
+@import 'variables';
+@import 'mixins';
+@import 'card';
 
-.label {
-  margin: 0px;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
-}
+// Just the Class styles
+@import 'announcement';
+@import 'week';
+@import 'staffer';
+@import 'demo';
 
-.info {
-  background-color: #eff6ff;
-  padding-right: 1.25rem;
-  padding-left: 1.25rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  border-radius: 0.375rem; /* 6px */
-  border-width: 1px;
-  border-style: solid;
-  border-color: #3b82f6;
-  color: #1e3a8a;
-}
+@import 'navigation';
+
+// body .details {
+//   font-size: 9px;
+// }
+
+// .label {
+//   margin: 0px;
+//   padding-left: 1.25em;
+//   padding-right: 1.25em;
+// }
+
+// .info {
+//   background-color: #eff6ff;
+//   padding-right: 1.25rem;
+//   padding-left: 1.25rem;
+//   padding-top: 0.25rem;
+//   padding-bottom: 0.25rem;
+//   border-radius: 0.375rem; /* 6px */
+//   border-width: 1px;
+//   border-style: solid;
+//   border-color: #3b82f6;
+//   color: #1e3a8a;
+// }
 
 .md-badge-purple {
   display: inline-flex;
@@ -88,8 +101,6 @@ body .details {
 .md-cal-badge-green {
   background-color: #007614;
 }
-
-
 
 /* ######## Hand Wave ######### ----   (╯°Д°)╯︵/  ---- ########################## */
 .wave {

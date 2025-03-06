@@ -1,0 +1,62 @@
+.staffer {
+  display: flex;
+  margin: $sp-4;
+
+  .staffer-image {
+    border-radius: 50%;
+    height: 100px;
+    margin-right: $sp-4;
+  }
+
+  p,
+  .staffer-name {
+    margin: $sp-1 !important;
+  }
+
+  .staffer-pronouns {
+    @extend .label, .text-grey-dk-100, .bg-grey-lt-200;
+    padding: 2px 4px;
+    // text-align: center;
+    border-radius: 4px;
+    // width: 45px;
+
+    user-select: none;
+  }
+
+  .staffer-meta {
+    @extend .text-grey-dk-000;
+  }
+}
+
+.badge-ta {
+  display: inline-block ;
+  background-color: #0e5cc1;
+  font-size: 12px;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 4px;
+  width: 45px;
+}
+
+.badge-tutor {
+  display: inline-block ;
+  background-color: #89CFF0;
+  font-size: 12px;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 4px;
+  width: 45px;
+}
+
+.badge-instructor {
+  display: inline-block ;
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  padding: 2px 4px;
+  text-align: center;
+  border-radius: 4px;
+  width: 45px;
+}
