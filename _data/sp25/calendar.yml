@@ -13,7 +13,7 @@
           slides: 
         - label: HW
           type: hw
-          title: <b>Homework 1 Released (due Apr 10, 11:59 pm)</b>
+          title: <b>Assignment 1 Released (due Apr 10, 11:59 pm)</b>
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 1 Released (due Apr 10, 11:59 pm)</b>
@@ -63,7 +63,7 @@
           slides: 
         - label: HW
           type: hw
-          title: <b>Homework 1 Due</b>
+          title: <b>Assignment 1 Due</b>
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 1 Due</b>
@@ -83,7 +83,7 @@
           slides: 
         - label: HW
           type: hw
-          title: <b>Homework 2 Released (due Apr 24, 11:59 pm)</b>
+          title: <b>Assignment 2 Released (due Apr 24, 11:59 pm)</b>
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 3 Released (due Apr 24, 11:59 pm)</b>
@@ -140,7 +140,7 @@
           slides: 
         - label: HW
           type: hw
-          title: <b>Homework 2 Due</b>
+          title: <b>Assignment 2 Due</b>
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 3 Due</b>
@@ -199,7 +199,7 @@
           slides: 
         - label: HW
           type: hw
-          title: <b>Homework 3 Released (due May 22, 11:59 pm)</b>
+          title: <b>Assignment 3 Released (due May 22, 11:59 pm)</b>
           
     - date: "2025-05-07"
       in_class: true
@@ -283,7 +283,7 @@
           title: <b>Reading Quiz 5 Due</b>
         - label: HW
           type: hw
-          title: <b>Homework 3 Due</b>
+          title: <b>Assignment 3 Due</b>
 
 - week: 9
   title: "Week 9 - Guest Lectures & Industry Insights<br>

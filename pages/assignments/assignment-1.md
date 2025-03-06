@@ -2,7 +2,7 @@
 layout: default
 title: Assignment 1
 has_children: false
-parent: Assignments
+parent: 📝 Assignments
 nav_order: 1
 permalink: /assignment/assignment-1
 ---
