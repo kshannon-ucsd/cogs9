@@ -1,18 +1,20 @@
 ---
 layout: default
-title: "Syllabus"
-nav_order: 3
-has_toc: true
-permalink: /syllabus/
+title: 📖 Syllabus
+nav_order: 2
+description: Course structure and policies.
 ---
 
-<h1>Syllabus</h1>
-<hr/>
+# 📖 Syllabus
+{:.no_toc}
 
+## Table of Contents
+{: .no_toc .text-delta }
 
-- TOC
+1. TOC
 {:toc}
-{: .fs-2 }
+
+---
 
 ## Course Materials
 - There is **no** textbook
