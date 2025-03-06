@@ -50,4 +50,3 @@ The following tags can be applied within a row for each course activity, set wit
   - PRAC --> practice problems
 
  Any other tag used will default to a black colored tag
-
