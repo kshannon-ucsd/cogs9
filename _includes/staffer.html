@@ -1,0 +1,34 @@
+<div class="staffer">
+  {% if staff.photo %}
+  <img class="staffer-image" src="{{ staff.photo | relative_url }}" alt="">
+  {% endif %}
+  <div>
+    <h3 class="staffer-name">
+      {% if staff.website %}
+      <a href="{{ staff.website }}">{{ staff.name }}</a>
+      {% else %}
+      {{ staff.name }}
+      {% endif %}
+      {% if staff.pronouns %}
+      <div class="staffer-pronouns"><b>{{ staff.pronouns }}</b></div>
+      {% endif %}
+    </h3>
+    <p>
+      {% if staff.email %}
+      <a href="mailto:{{ staff.email }}">{{ staff.email }}</a>
+      {% endif %}
+      {% if staff.type %}
+      • {{ staff.type }}
+      {% endif %}
+      {% if staff.lecture %}
+    <p><b>Lecture(s)</b>: {{ staff.lecture }}</p>
+    {% endif %}
+    </p>
+    {% unless include.nobio == 'true' %}
+    <p title="Description">🎓 {{ staff.description }}</p>
+    <p title="Hometown">🏠 {{ staff.hometown }}</p>
+    <p title="In office hours, ask me about...">🙋 {{ staff.askabout }}</p>
+    <p title="Favorite food in San Diego">🍕 {{ staff.food }}</p>
+    {% endunless %}
+  </div>
+</div>
