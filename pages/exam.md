@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Exam
+title: 🤔 Exam
 has_children: false
-nav_order: 6
+nav_order: 7
 permalink: /exam/
 ---
 

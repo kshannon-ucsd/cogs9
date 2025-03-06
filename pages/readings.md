@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Readings
+title: 📚 Readings
 has_children: true
 nav_order: 4
 permalink: /readings/

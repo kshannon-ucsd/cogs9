@@ -36,10 +36,10 @@ description: Course structure and policies.
 |                                               | % of Total Grade |   200 Total Points |
 |:----------------------------------------------|:-----------------|:-------------------|
 | 3 Assignments                                 |               30 |      60 (20 each)  |
-| 1 Comprehensive Exam                          |               20 |               40   |
 | 5 Reading Quizzes (lowest quiz score dropped) |               20 |      40 (10 each)  |
 | Final Project pt. 1                           |               10 |               20   |
 | Final Project pt. 2                           |               20 |               40   |
+| Final Project video                           |               20 |               40   |
 | Bonus                                         |              N/A |          5 bonus   |
 
 - **Final exam date**: No final exam, only a final group project.
@@ -61,57 +61,30 @@ The regrade policy is here to protect students from serious issues in grading, n
 Our goal is to make lectures and office hours worth your while to attend, e.g. we do in-class exercises. However, lecture attendance is not required. All lectures will be recorded. These will be made available to you (UCSD podcast).
 
 ### Section Attendance
-Section attendance is not mandatory, however, groups will be created within sections (usually week 2). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
+Section attendance is not mandatory, however, groups will be created within sections (usually week 3). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
 
 ## Course Assignments & Topics
 This class is a survey course intended to get you all excited about becoming data scientists! Data are everywhere and they’re being used in tried-and-true, new, and creative ways. This course will introduce you to the broad topics in data science, discuss what it means to be a data scientist, and get you on your way to thinking like a data scientist. To see what topics will be introduced in this course, see the side nav menu and click on topics.
 
 ### Assignments
-Assignments will focus on applying the concepts covered in lectures and readings. 
-
-- Three individual assignments submitted through Gradescope
-- Use the Google Doc template link (found on this website under assignments), **make a copy of the template**. You do not have edit access to the version that is linked, only the ability to copy it.
-- One PDF submission per student (ensure your name and PID are on the PDF)
-- You may resubmit as many times as you like before the deadline
-- Late assignments have 5 points deducted within the first 24 hours, and an additional 5 points during the following 24 hours.
-- No late assignments accepted after 48 hours
+Assignments will focus on applying the concepts covered in lectures and readings. See the assignments tab for individual instructions and the home page course calander for due dates.
 
 ### Final Project
-The final project is a two-part report on how you would handle a complicated data science project. It’s a culmination of what you learned from the assignments and lectures.
-
-- One report submitted through Gradescope per group
-- One PDF submission per group (ensure all your names and PIDs are on the PDF)
-- Your team may resubmit as many times as you like before the deadline
-- Final part 1:
-  - Late assignments have 5 points deducted within the first 24 hours, and an additional 5 points during the following 24 hours.
-  - No late assignments accepted after 48 hours
-- Final part 2:
-  - No late submissions accepted
+The final project is a two-part report and video on how you would handle a complicated data science project. It’s a culmination of what you learned from the assignments and lectures.
 
 Your final will include your data science question as well as all the nitty gritty, whys, and hows of the data science project you have chosen. You’ll write about your data science question, find some example data, summarize the data, explain how you would wrangle the data to answer your data science question, and describe the types of analysis you would carry out to answer your question of interest. You **WILL NOT** have to actually perform the analysis to answer the question, nor wrangle data, you only write about how you would perform the analysis and what you expect the outcomes will be.
 
----
-To reiterate, your team will make a copy of my Google document template and work on that copy together. Make sure to read all the instructions. Your team may resubmit as many times as you want up until the submission deadline. You will receive feedback along with a grade typically within a week for part 1. Feedback from us should be incorporated into part 2 of the final.
----
+See the final project tab for further instructions.
+
 
 ### Exam
-The exam is comprehensive and will cover the lectures (and possibly guest lectures). TAs/IAs will provide a live or recorded exam review session before the exam.
-
-- One multiple-choice exam
-- Available for 72 hours on Gradescope
-- You have 2 continuous hours to finish once started
-- One attempt
-- Open notes, but you must work alone
-- Taken and submitted through Gradescope
-
-No late exams are permitted, except for extenuating circumstances. Please reach out to staff as early as possible if you know something will prevent you from taking the exam on time. The later you wait... the less likely we are to accept your request.
+There is no comprehensive exam in COGS9, there is however a substantial group project due around week 10. 
 
 ### Readings & Quizzes
 Quizzes cover the reading material assigned, e.g. Quiz 1 only covers material from reading 1 (R1).
 
 - Five multiple choice (10 questions) quizzes
 - Available for 48 hours
-- You have 1 hour to finish
 - One attempt
 - Open notes, but you must work alone.
 - Taken and submitted through Gradescope

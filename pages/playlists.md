@@ -2,7 +2,7 @@
 layout: page
 title: 🎵 Playlists
 description: COGS 9 music, curated by your wonderful course staff!
-nav_order: 19
+nav_order: 8
 ---
 
 # 🎵 Playlists
