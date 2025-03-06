@@ -2,8 +2,8 @@
 layout: default
 title: Example Datasets
 has_children: false
-parent: Final Project
-nav_order: 1
+parent: 🗂️ Final Project
+nav_order: 2
 permalink: /final-group-project/example-datasets
 ---
 

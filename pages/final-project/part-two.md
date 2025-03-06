@@ -2,8 +2,8 @@
 layout: default
 title: Final Project Part 2
 has_children: false
-parent: Final Project
-nav_order: 3
+parent: 🗂️ Final Project
+nav_order: 4
 permalink: /final-group-project/part-two
 ---
 

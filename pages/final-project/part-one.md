@@ -2,8 +2,8 @@
 layout: default
 title: Final Project Part 1
 has_children: false
-parent: Final Project
-nav_order: 2
+parent: 🗂️ Final Project
+nav_order: 3
 permalink: /final-group-project/part-one
 ---
 
@@ -43,5 +43,3 @@ Do not make multiple submissions on Gradescope per group member. You submit the 
  3. How much background info do we need?
  > We can't all be domain experts, nor may you always be able to find one. Think about logical/critical thinking. Do your hypothesis and data science questions flow together? How do you justify your hypothesis and position, what limited background info have you read about? Talk a bit about these decisions in your project.
 
-
------------------------
