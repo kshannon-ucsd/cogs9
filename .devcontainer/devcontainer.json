@@ -1,0 +1,91 @@
+{
+    "name": "${localWorkspaceFolderBasename}",
+    "image": "ruby:3.1.2",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "configureZshAsDefaultShell": "true",
+            "username": "vscode",
+            "installOhMyZsh": "false",
+            "installOhMyZshConfig": "false"
+        },
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "18"
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "ppa": "true"
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": ". ${NVM_DIR}/nvm.sh && nvm install 18 && npm install -g yarn && gem install bundler jekyll",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "sissel.shopify-liquid"
+            ],
+            "settings": {
+                // Liquid Formatting
+                //
+                // Leave the "editor.formatOnSave" option set to false.
+                // You can enable it by pressing using the 💧 button in the status bar.
+                //
+                "[liquid]": {
+                    "editor.defaultFormatter": "sissel.shopify-liquid",
+                    "editor.formatOnSave": false
+                },
+                // Liquid Configuration
+                //
+                // If you are not using a .liquidrc file you can set the
+                // "liquid.config.method" setting to "workspace"
+                //
+                "liquid.config.baseDir": ".",
+                "liquid.config.method": "workspace",
+                // Liquid Completion Settings
+                //
+                // These settings will enable/disable completions from showing.
+                //
+                "liquid.completion.tags": true,
+                "liquid.completion.objects": true,
+                "liquid.completion.filters": true,
+                "liquid.completion.operators": true,
+                "liquid.completion.schema": true,
+                // Liquid Validations
+                //
+                // This setting will enable/disable validations in {% schema %} JSON
+                //
+                "liquid.validate.schema": true,
+                // Liquid Hover Descriptions
+                //
+                // These settings will enable/disable hover descriptions from showing
+                //
+                "liquid.hover.tags": true,
+                "liquid.hover.filters": true,
+                "liquid.hover.objects": true,
+                "liquid.hover.schema": true,
+                // Uncomment if you are not using a .liquidrc file
+                //
+                "liquid.engine": "shopify",
+                // Uncomment if you are not using a .liquidrc file
+                //
+                "liquid.files.shopify": {},
+                "liquid.files.11ty": {},
+                //  Uncomment if you are not using a .liquidrc file
+                //
+                "liquid.format.rules": {
+                    "ignore": [],
+                    "liquid": {},
+                    "html": {}
+                }
+            }
+        }
+    },
+    "workspaceFolder": "/home/vscode/${localWorkspaceFolderBasename}",
+    "workspaceMount": "source=${localWorkspaceFolder},target=${containerWorkspaceFolder},type=bind,consistency=cached",
+    "postStartCommand": "bundle",
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}/.ssh",
+            "target": "/home/vscode/.ssh",
+            "type": "bind"
+        }
+    ]
+}

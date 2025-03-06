@@ -24,10 +24,18 @@ destination: docs/
 title: COGS 9
 email: kshannon@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a course website for UCSD COGS 9: Introduction to Data Science
-# domain: ucsd-cogs9.github.io
-url: https://kshannon.github.io
-baseurl: /ucsd-cogs9
+  Cogs 9 Introduction to Data Science at UC San Diego
+title: COGS 9
+tagline: Introduction to Data Science
+
+# when hosted via kshannon-ucsd.github.io
+url: https://kshannon-ucsd.github.io
+baseurl: /cogs9
+
+# when hosted via dsc40a.com
+# url: https://dsc40a.com
+# baseurl: ""
+
 
 ###### Build settings
 # remote_theme:
@@ -36,6 +44,18 @@ plugins:
   - jekyll-feed
 
 search_enabled: true
+
+
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  # optional
+  input: GFM
+  syntax_highlighter: rouge
+
+
+
 
 # exclude: ["./data", "../vendor/*"]
 
@@ -62,15 +82,16 @@ exclude:
 
 # Aux link for the upper right navigation
 aux_links:
-  # "Template Repository": "https://www.github.com/kshannon/ucsd-cogs9"
-  "UCSD Podcast": "https://podcast.ucsd.edu/"
-  "Gradescope": "https://www.gradescope.com/"
+  # "Template Repository": "https://www.github.com/kshannon/ucsd-dsc40a"
+  "🙋 Ed": "https://edstem.org"
+  "💯 Gradescope": "https://www.gradescope.com"
+  "🎙️ Podcast": "https://podcast.ucsd.edu/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
 # Change this to choose where to pick data from
-data_folder: wi23
+data_folder: sp25
 
 # Config JTD UI elements here
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
@@ -97,3 +118,9 @@ callouts:
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+
+# collections:
+#   demos:
+#     output: true
+#     permalink: /demos/:path
