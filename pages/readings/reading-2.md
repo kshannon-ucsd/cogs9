@@ -2,7 +2,7 @@
 layout: default
 title: Reading 2
 has_children: false
-parent: Readings
+parent: 📚 Readings
 nav_order: 2
 permalink: /readings/reading-2
 ---
