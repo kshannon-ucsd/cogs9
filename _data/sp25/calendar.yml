@@ -23,7 +23,7 @@
       events:
         - label: DISC
           type: disc
-          title: Discussion Section
+          title: NO Discussion Section - CANCELED
           
     - date: "2025-04-03"
       in_class: true
@@ -157,7 +157,8 @@
         - label: LEC 9
           type: lecture
           title: EDA
-          slides: 
+          slides:
+          code: 
           code: 
         - label: QUIZ
           type: quiz
@@ -196,7 +197,8 @@
         - label: LEC 11
           type: lecture
           title: Inferential Analysis
-          slides: 
+          slides:
+          demo:  
         - label: HW
           type: hw
           title: <b>Assignment 3 Released (due May 22, 11:59 pm)</b>
@@ -243,7 +245,8 @@
         - label: LEC 14
           type: lecture
           title: Machine Learning (Demo code)
-          slides: 
+          slides:
+          demo: 
           code: 
         - label: PROJECT
           type: project
