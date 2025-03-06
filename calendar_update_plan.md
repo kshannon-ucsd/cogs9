@@ -1,3 +1,56 @@
+# Calendar Update Plan
+
+## Overview
+
+This document outlines the plan for updating the course calendar for Spring 2025. The changes include:
+
+1. Creating a new YAML file with the course schedule
+2. Updating the week.html template to match the new structure
+
+## 1. Calendar YAML File (`_data/sp25/calendar.yml`)
+
+The new YAML file will follow this structure for each week:
+
+```yaml
+- week: [week number]
+  title: "Week [week number] - [Descriptive title based on lecture topics]<br>
+    <small>
+      [Reading/Watching placeholder with emoji, alternating each week]
+    </small>"
+  days:
+    - date: "[Tuesday date]"
+      in_class: true
+      events:
+        - label: LEC [lecture number]
+          type: lecture
+          title: [Lecture title]
+          slides: # Placeholder for slides
+        - label: [HW/QUIZ/etc. if released]
+          type: [hw/quiz/etc.]
+          title: <b>[Assignment title] Released (due [date], 11:59 pm)</b>
+          
+    - date: "[Wednesday date]"
+      in_class: true
+      events:
+        - label: DISC
+          type: disc
+          title: Discussion Section
+          
+    - date: "[Thursday date]"
+      in_class: true
+      events:
+        - label: LEC [lecture number]
+          type: lecture
+          title: [Lecture title]
+          slides: # Placeholder for slides
+        - label: [HW/QUIZ/etc. if due]
+          type: [hw/quiz/etc.]
+          title: <b>[Assignment title] Due</b>
+```
+
+### Complete YAML Content
+
+```yaml
 - week: 1
   title: "Week 1 - Introduction to Data Science & Ethics<br>
     <small>
@@ -349,3 +402,75 @@
         - label: PROJECT
           type: project
           title: <b>Project Report Due (~10 pages)</b>
+```
+
+## 2. Week HTML Template (`_includes/week.html`)
+
+The week.html template needs to be updated to match the new structure. Here are the changes needed:
+
+### Current Structure (Lines 26-50):
+
+```html
+{% case event.type %}
+{% when "lecture" %}
+<small>
+  {% if event.blank %} <br><span style="margin-left: 10ch;"><a href="{{ event.blank }}">blank</a></span>{% endif %}
+  {% if event.filled %}<span style="margin-left: 0.5ch;"><a href="{{ event.filled }}">filled</a></span>{% endif %}
+  {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+  {% if event.animations %}<span style="margin-left: 0.5ch;"><a href="{{ event.animations }}">animations</a></span>{% endif %}
+  {% if event.recording %}<span style="margin-left: 0.5ch;"><a href="{{ event.recording }}">recording</a></span>{% endif %}
+  {% if event.faqs %}<span style="margin-left: 0.5ch;"><a href="{{ event.faqs }}">FAQs</a></span>{% endif %}
+</small>
+
+{% when "hw" or "hops" or "disc" or "lab" or "demo" or "exam" %}
+<small>
+  {% if event.guide %}<br><span style="margin-left: 10ch;"><a href="{{ event.guide }}">study guide</a></span>{% endif %}
+  {% if event.problems %}<br><span style="margin-left: 10ch;"><a href="{{ event.problems }}">problems</a></span>{% endif %}
+  {% if event.template %}<span style="margin-left: 0.5ch;"><a href="{{ event.template }}">template</a></span>{% endif %}
+  {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+  {% if event.code_solutions %}<span style="margin-left: 0.5ch;"><a href="{{ event.code_solutions }}">code solutions</a></span>{% endif %}
+  {% if event.data %}<span style="margin-left: 0.5ch;"><a href="{{ event.data }}">data</a></span>{% endif %}
+  {% if event.walkthrough %}<span style="margin-left: 0.5ch;"></span><a href="{{ event.walkthrough }}">walkthrough</a></span>{% endif %}
+  {% if event.solutions %}<span style="margin-left: 0.5ch;"><a href="{{ event.solutions }}">solutions</a></span>{% endif %}
+  {% if event.submission %}<span style="margin-left: 0.5ch;"><a href="{{ event.submission }}">submission</a></span>{% endif %}
+  {% if event.code_addt %}<span style="margin-left: 0.5ch;"><a href="{{ event.code_addt }}">additional code</a></span>{% endif %}
+</small>
+{% endcase %}
+```
+
+### Updated Structure:
+
+```html
+{% case event.type %}
+{% when "lecture" %}
+<small>
+  {% if event.slides %} <br><span style="margin-left: 10ch;"><a href="{{ event.slides }}">slides</a></span>{% endif %}
+  {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+  {% if event.demo %}<span style="margin-left: 0.5ch;"><a href="{{ event.demo }}">demo</a></span>{% endif %}
+  {% if event.animations %}<span style="margin-left: 0.5ch;"><a href="{{ event.animations }}">animations</a></span>{% endif %}
+  {% if event.faqs %}<span style="margin-left: 0.5ch;"><a href="{{ event.faqs }}">FAQs</a></span>{% endif %}
+</small>
+
+{% when "hw" or "quiz" or "disc" or "project" or "demo" or "exam" %}
+<small>
+  {% if event.submission %}<br><span style="margin-left: 10ch;"><a href="{{ event.submission }}">submission</a></span>{% endif %}
+  {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+  {% if event.data %}<span style="margin-left: 0.5ch;"><a href="{{ event.data }}">data</a></span>{% endif %}
+</small>
+{% endcase %}
+```
+
+## Implementation Steps
+
+1. Switch to Code mode to implement these changes
+2. Update the `_includes/week.html` file with the new structure
+3. Create or update the `_data/sp25/calendar.yml` file with the new content
+4. Test the changes locally
+
+## Next Steps
+
+After implementing these changes, we should:
+
+1. Review the calendar to ensure all dates and events are correct
+2. Add actual URLs for slides, code, and other resources as they become available
+3. Update any other files that might reference the calendar structure
