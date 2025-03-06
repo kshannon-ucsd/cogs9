@@ -4,7 +4,7 @@ title: Final Project Part 2 - Video
 has_children: false
 parent: 🗂️ Final Project
 nav_order: 5
-permalink: /final-group-project/part-two
+permalink: /final-group-project/part-two-video
 ---
 
 # Final Project Part 2 Video Submission
