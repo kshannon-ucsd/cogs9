@@ -10,10 +10,7 @@
         - label: LEC 1
           type: lecture
           title: What is DS
-          slides: 
-        - label: HW
-          type: hw
-          title: <b>Assignment 1 Released (due Apr 10, 11:59 pm)</b>
+          slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 1 Released (due Apr 10, 11:59 pm)</b>
@@ -45,7 +42,10 @@
         - label: LEC 3
           type: lecture
           title: DS Questions
-          slides: 
+          slides:
+        - label: HW
+          type: hw
+          title: <b>Assignment 1 Released (due Apr TBD, 11:59 pm)</b> 
           
     - date: "2025-04-09"
       in_class: true
