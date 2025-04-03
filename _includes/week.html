@@ -1,51 +1,59 @@
 <div class="week">
-      <h3 class="week-header" id="{{ week.title | slugify }}">{{ week.title }}</h3>
+  <h3 class="week-header" id="{{ week.title | slugify }}">{{ week.title }}</h3>
 
-      {% if week.days %}
-      <dl class="week-days">
-        {% for day in week.days %}
-        <dt class="week-day main">
-          {% if day.in_class %}🧑‍🏫{% else %}🏠{% endif %}&nbsp; {{ day.date | date: '%a %b %e' }}
-        </dt>
+  {% if week.days %}
+  <dl class="week-days">
+    {% for day in week.days %}
+    <dt class="week-day main">
+      {% if day.in_class %}🧑‍🏫{% else %}🏠{% endif %}&nbsp; {{ day.date | date: '%a %b %e' }}
+    </dt>
 
-        {% for event in day.events %}
-        <dd class="week-event{% if forloop.first %} main{% endif %}">
-          {% if event.markdown_content %}
-          {{ event.markdown_content | markdownify }}
-          {% else %}
-          <p>
-            <strong class="label label-{{ event.type }}">
-              {{ event.label }}
-            </strong>
-            {% if event.url %}
-            <a href="{{ event.url }}">{{ event.title }}</a>
-            {% else %}
-            {{ event.title }}
-            {% endif %}
+    {% for event in day.events %}
+    <dd class="week-event{% if forloop.first %} main{% endif %}">
+      {% if event.markdown_content %}
+      {{ event.markdown_content | markdownify }}
+      {% else %}
+      <p>
+        <strong class="label label-{{ event.type }}">
+          {{ event.label }}
+        </strong>
+        {% if event.url %}
+        <a href="{{ event.url }}">{{ event.title }}</a>
+        {% else %}
+        {{ event.title }}
+        {% endif %}
 
-            {% case event.type %}
-            {% when "lecture" %}
-            <small>
-              {% if event.slides %} <br><span style="margin-left: 10ch;"><a href="{{ event.slides }}">slides</a></span>{% endif %}
-              {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
-              {% if event.demo %}<span style="margin-left: 0.5ch;"><a href="{{ event.demo }}">demo</a></span>{% endif %}
-              {% if event.animations %}<span style="margin-left: 0.5ch;"><a href="{{ event.animations }}">animations</a></span>{% endif %}
-              {% if event.faqs %}<span style="margin-left: 0.5ch;"><a href="{{ event.faqs }}">FAQs</a></span>{% endif %}
-              {% if event.quiz %}<span style="margin-left: 0.5ch;"><a href="{{ event.quiz }}">quiz</a></span>{% endif %}
-            </small>
+        {% case event.type %}
+        {% when "lecture" %}
+        <small>
+          {% if event.blank %} <br><span style="margin-left: 10ch;"><a href="{{ event.blank }}">blank</a></span>{% endif %}
+          {% if event.filled %}<span style="margin-left: 0.5ch;"><a href="{{ event.filled }}">filled</a></span>{% endif %}
+          {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+          {% if event.animations %}<span style="margin-left: 0.5ch;"><a href="{{ event.animations }}">animations</a></span>{% endif %}
+          {% if event.recording %}<span style="margin-left: 0.5ch;"><a href="{{ event.recording }}">recording</a></span>{% endif %}
+          {% if event.faqs %}<span style="margin-left: 0.5ch;"><a href="{{ event.faqs }}">FAQs</a></span>{% endif %}
+        </small>
 
-            {% when "hw" or "quiz" or "disc" or "project" or "demo" or "exam" %}
-            <small>
-              {% if event.submission %}<br><span style="margin-left: 10ch;"><a href="{{ event.submission }}">submission</a></span>{% endif %}
-              {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
-              {% if event.data %}<span style="margin-left: 0.5ch;"><a href="{{ event.data }}">data</a></span>{% endif %}
-            </small>
-            {% endcase %}
-          </p>
-          {% endif %}
-        </dd>
-        {% endfor %}
-        {% endfor %}
-      </dl>
+        {% when "hw" or "hops" or "disc" or "lab" or "demo" or "exam" %}
+        <small>
+          {% if event.guide %}<br><span style="margin-left: 10ch;"><a href="{{ event.guide }}">study guide</a></span>{% endif %}
+          {% if event.problems %}<br><span style="margin-left: 10ch;"><a href="{{ event.problems }}">problems</a></span>{% endif %}
+          {% if event.template %}<span style="margin-left: 0.5ch;"><a href="{{ event.template }}">template</a></span>{% endif %}
+          {% if event.code %}<span style="margin-left: 0.5ch;"><a href="{{ event.code }}">code</a></span>{% endif %}
+          {% if event.code_solutions %}<span style="margin-left: 0.5ch;"><a href="{{ event.code_solutions }}">code solutions</a></span>{% endif %}
+          {% if event.data %}<span style="margin-left: 0.5ch;"><a href="{{ event.data }}">data</a></span>{% endif %}
+          {% if event.walkthrough %}<span style="margin-left: 0.5ch;"></span><a href="{{ event.walkthrough }}">walkthrough</a></span>{% endif %}
+          {% if event.solutions %}<span style="margin-left: 0.5ch;"><a href="{{ event.solutions }}">solutions</a></span>{% endif %}
+          {% if event.slides %}<span style="margin-left: 0.5ch;"><a href="{{ event.slides }}">slides</a></span>{% endif %}
+          {% if event.submission %}<span style="margin-left: 0.5ch;"><a href="{{ event.submission }}">submission</a></span>{% endif %}
+          {% if event.code_addt %}<span style="margin-left: 0.5ch;"><a href="{{ event.code_addt }}">additional code</a></span>{% endif %}
+        </small>
+        {% endcase %}
+      </p>
       {% endif %}
-    </div>
+    </dd>
+    {% endfor %}
+    {% endfor %}
+  </dl>
+  {% endif %}
+</div>
