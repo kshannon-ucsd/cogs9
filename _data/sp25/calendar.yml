@@ -29,6 +29,9 @@
           type: lecture
           title: Ethics
           slides: 
+        - label: MISC
+          type: survey
+          title: <a href='https://campuswire.com/c/G1459A14D'>Sign Up for Campuswire (discussion board) - Code 6507</a>
 
 - week: 2
   title: "Week 2 - Data Science Questions & Reproducibility<br>
