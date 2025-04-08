@@ -45,7 +45,7 @@
         - label: LEC 3
           type: lecture
           title: DS Questions
-          slides:
+          slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
           title: <b>Assignment 1 Released (due Apr TBD, 11:59 pm)</b> 
