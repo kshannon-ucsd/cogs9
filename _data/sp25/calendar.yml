@@ -25,7 +25,7 @@
     - date: "2025-04-03"
       in_class: true
       events:
-        - label: LEC 2
+        - label: LEC 
           type: lecture
           title: Ethics
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
@@ -65,9 +65,6 @@
           type: lecture
           title: Reproducibility & Bias
           slides: 
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 1 Due</b>
 
 - week: 3
   title: "Week 3 - Data Fundamentals & Collection<br>
@@ -95,9 +92,6 @@
         - label: DISC
           type: disc
           title: Discussion Section
-        - label: HW
-          type: hw
-          title: <b>Assignment 1 Due</b>
           
     - date: "2025-04-17"
       in_class: true
@@ -106,9 +100,6 @@
           type: lecture
           title: Data Collection
           slides: 
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 2 Due</b>
 
 - week: 4
   title: "Week 4 - Data Wrangling & Visualization<br>
@@ -142,12 +133,6 @@
           type: lecture
           title: Data Visualization
           slides: 
-        - label: HW
-          type: hw
-          title: <b>Assignment 2 Due</b>
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 3 Due</b>
 
 - week: 5
   title: "Week 5 - Exploratory Data Analysis & Communication<br>
@@ -182,9 +167,6 @@
           type: lecture
           title: Communicating
           slides: 
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 4 Due</b>
         - label: PROJECT
           type: project
           title: <b>Group Project Topics Due</b>
@@ -285,12 +267,6 @@
           type: lecture
           title: Data Science Talk
           slides: 
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 5 Due</b>
-        - label: HW
-          type: hw
-          title: <b>Assignment 3 Due</b>
 
 - week: 9
   title: "Week 9 - Guest Lectures & Industry Insights<br>
