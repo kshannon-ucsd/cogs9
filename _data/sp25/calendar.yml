@@ -25,7 +25,7 @@
     - date: "2025-04-03"
       in_class: true
       events:
-        - label: LEC 
+        - label: LEC 2
           type: lecture
           title: Ethics
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
