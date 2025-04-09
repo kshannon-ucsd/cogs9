@@ -9,7 +9,7 @@
       events:
         - label: LEC 1
           type: lecture
-          title: What is DS
+          title: What is Data Science?
           slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
         - label: QUIZ
           type: quiz
@@ -31,7 +31,7 @@
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
         - label: MISC
           type: survey
-          title: <a href='https://campuswire.com/c/G1459A14D'>Sign Up for Campuswire (discussion board) - Code 6507</a>
+          title: <a href='https://campuswire.com/c/G1459A14D'>Sign Up for Campuswire - Code 6507</a>
 
 - week: 2
   title: "Week 2 - Data Science Questions & Reproducibility<br>
@@ -44,11 +44,11 @@
       events:
         - label: LEC 3
           type: lecture
-          title: DS Questions
+          title: Data Science Questions
           slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 1 Released (due Apr TBD, 11:59 pm)</b> 
+          title: <b>Assignment 1 Released (due Apr 16, 11:59 pm)</b> 
           
     - date: "2025-04-09"
       in_class: true
@@ -56,6 +56,7 @@
         - label: DISC
           type: disc
           title: Discussion Section
+          slides: https://docs.google.com/presentation/d/1PDZNr_ck8A4qVHNz1SqeAI6z1JTW9VnP/edit?usp=sharing&ouid=109839652146296490953&rtpof=true&sd=true
           
     - date: "2025-04-10"
       in_class: true
@@ -64,9 +65,6 @@
           type: lecture
           title: Reproducibility & Bias
           slides: 
-        - label: HW
-          type: hw
-          title: <b>Assignment 1 Due</b>
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 1 Due</b>
@@ -97,6 +95,9 @@
         - label: DISC
           type: disc
           title: Discussion Section
+        - label: HW
+          type: hw
+          title: <b>Assignment 1 Due</b>
           
     - date: "2025-04-17"
       in_class: true
