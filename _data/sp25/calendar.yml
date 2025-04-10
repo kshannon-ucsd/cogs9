@@ -64,7 +64,7 @@
         - label: LEC 4
           type: lecture
           title: Reproducibility & Bias
-          slides: 
+          slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
 
 - week: 3
   title: "Week 3 - Data Fundamentals & Collection<br>
@@ -78,7 +78,7 @@
         - label: LEC 5
           type: lecture
           title: Data (Redo Databases Portion)
-          slides: 
+          slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
         - label: HW
           type: hw
           title: <b>Assignment 2 Released (due Apr 24, 11:59 pm)</b>
@@ -99,7 +99,7 @@
         - label: LEC 6
           type: lecture
           title: Data Collection
-          slides: 
+          slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
 
 - week: 4
   title: "Week 4 - Data Wrangling & Visualization<br>
@@ -113,7 +113,7 @@
         - label: LEC 7
           type: lecture
           title: Data Wrangling
-          slides: 
+          slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
           code: 
         - label: QUIZ
           type: quiz
@@ -132,7 +132,7 @@
         - label: LEC 8
           type: lecture
           title: Data Visualization
-          slides: 
+          slides:
 
 - week: 5
   title: "Week 5 - Exploratory Data Analysis & Communication<br>
@@ -146,7 +146,7 @@
         - label: LEC 9
           type: lecture
           title: EDA
-          slides:
+          slides: 
           code: 
           code: 
         - label: QUIZ
@@ -183,7 +183,7 @@
         - label: LEC 11
           type: lecture
           title: Inferential Analysis
-          slides:
+          slides: https://drive.google.com/file/d/1cSo9JxeEqCo8P6NOJNEUpHsFFCPCLUg1/view?usp=sharing
           demo:  
         - label: HW
           type: hw
