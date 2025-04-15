@@ -77,8 +77,11 @@
       events:
         - label: LEC 5
           type: lecture
-          title: Data (Redo Databases Portion)
+          title: Data
           slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1E9xMrXmvfKDQsY9y-YNjZykWUqXiaRjx?usp=sharing
+          data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
+
         - label: HW
           type: hw
           title: <b>Assignment 2 Released (due Apr 24, 11:59 pm)</b>
