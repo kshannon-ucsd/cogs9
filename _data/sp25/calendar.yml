@@ -135,7 +135,7 @@
         - label: LEC 8
           type: lecture
           title: Data Visualization
-          slides:
+          slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
 
 - week: 5
   title: "Week 5 - Exploratory Data Analysis & Communication<br>
