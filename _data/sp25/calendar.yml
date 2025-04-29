@@ -149,9 +149,7 @@
         - label: LEC 9
           type: lecture
           title: EDA
-          slides: 
-          code: 
-          code: 
+          slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 5 Released (due May 22, 11:59 pm)</b>
@@ -166,9 +164,13 @@
     - date: "2025-05-01"
       in_class: true
       events:
-        - label: LEC 10
+        - label: LEC 
           type: lecture
-          title: Communicating
+          title: CANCELED
+          slides: 
+        - label: OHs
+          type: lecture
+          title: OPEN Office Hours
           slides: 
         - label: PROJECT
           type: project
@@ -183,11 +185,9 @@
     - date: "2025-05-06"
       in_class: true
       events:
-        - label: LEC 11
+        - label: LEC 10
           type: lecture
-          title: Inferential Analysis
-          slides: https://drive.google.com/file/d/1cSo9JxeEqCo8P6NOJNEUpHsFFCPCLUg1/view?usp=sharing
-          demo:  
+          title: Communicating DS
         - label: HW
           type: hw
           title: <b>Assignment 3 Released (due May 22, 11:59 pm)</b>
@@ -202,10 +202,11 @@
     - date: "2025-05-08"
       in_class: true
       events:
-        - label: LEC 12
+        - label: LEC 11
           type: lecture
-          title: Data Literacy and Calling Bullshit
-          slides: 
+          title: Inferential Analysis
+          slides: https://drive.google.com/file/d/1cSo9JxeEqCo8P6NOJNEUpHsFFCPCLUg1/view?usp=sharing
+          demo:  
 
 - week: 7
   title: "Week 7 - Machine Learning Fundamentals & Applications<br>
@@ -216,10 +217,10 @@
     - date: "2025-05-13"
       in_class: true
       events:
-        - label: LEC 13
+        - label: LEC 12
           type: lecture
-          title: Machine Learning (Supervised vs. Unsupervised Learning Reinforcement & Deep Learning)
-          slides: 
+          title: Data Literacy and Calling Bullshit
+          slides:       
           
     - date: "2025-05-14"
       in_class: true
@@ -231,12 +232,10 @@
     - date: "2025-05-15"
       in_class: true
       events:
-        - label: LEC 14
+        - label: LEC 13
           type: lecture
-          title: Machine Learning (Demo code)
-          slides:
-          demo: 
-          code: 
+          title: Machine Learning (Supervised vs. Unsupervised Learning Reinforcement & Deep Learning)
+          slides:       
         - label: PROJECT
           type: project
           title: <b>Project P1 Due</b>
@@ -250,11 +249,12 @@
     - date: "2025-05-20"
       in_class: true
       events:
-        - label: LEC 15
+        - label: LEC 14
           type: lecture
-          title: Text/Geospatial Data
-          slides: 
+          title: Machine Learning (Demo code)
+          slides:
           demo: 
+          code:       
           
     - date: "2025-05-21"
       in_class: true
@@ -266,10 +266,11 @@
     - date: "2025-05-22"
       in_class: true
       events:
-        - label: LEC 16
+        - label: LEC 15
           type: lecture
-          title: Data Science Talk
+          title: Text/Geospatial Data
           slides: 
+          demo:       
 
 - week: 9
   title: "Week 9 - Guest Lectures & Industry Insights<br>
@@ -280,10 +281,10 @@
     - date: "2025-05-27"
       in_class: true
       events:
-        - label: LEC 17
+        - label: LEC 16
           type: lecture
-          title: Guest Lecture I
-          slides: 
+          title: Data Science Talk
+          slides:       
           
     - date: "2025-05-28"
       in_class: true
@@ -295,9 +296,9 @@
     - date: "2025-05-29"
       in_class: true
       events:
-        - label: LEC 18
+        - label: LEC
           type: lecture
-          title: Guest Lecture II (Ahmed & Jiesen)
+          title: Guest Lecture (Ahmed & Jiesen)
           slides: 
 
 - week: 10
@@ -309,7 +310,7 @@
     - date: "2025-06-03"
       in_class: true
       events:
-        - label: LEC 19
+        - label: LEC 17
           type: lecture
           title: LLMs chatgpt etc demos
           slides: 
@@ -328,7 +329,7 @@
     - date: "2025-06-05"
       in_class: true
       events:
-        - label: LEC 20
+        - label: LEC 18
           type: lecture
           title: Future of DS in 2025 beyond
           slides: 
