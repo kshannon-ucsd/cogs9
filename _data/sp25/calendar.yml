@@ -160,6 +160,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Project Teams
+          slides: https://docs.google.com/presentation/d/1lRQnnJt-ImR97ttP-qrmGTtmP06Vndxs/edit#slide=id.g351ddd9b9ea_0_336
           
     - date: "2025-05-01"
       in_class: true
@@ -175,6 +176,7 @@
         - label: PROJECT
           type: project
           title: <b>Group Project Topics Due</b>
+          submission: https://docs.google.com/forms/d/e/1FAIpQLSdf6lXHf6l9a2JqD8Ox1f5DmIUB8PrnA773sHKRB2dcvknmmg/viewform
 
 - week: 6
   title: "Week 6 - Inferential Analysis & Data Literacy<br>
