@@ -190,6 +190,7 @@
         - label: LEC 10
           type: lecture
           title: Communicating DS
+          slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: HW
           type: hw
           title: <b>Assignment 3 Released (due May 22, 11:59 pm)</b>
