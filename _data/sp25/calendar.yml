@@ -222,8 +222,8 @@
       events:
         - label: LEC 12
           type: lecture
-          title: Data Literacy and Calling Bullshit
-          slides:       
+          title: Machine Learning (Supervised vs. Unsupervised Learning Reinforcement & Deep Learning)
+          slides: https://drive.google.com/file/d/1hYqGawEtPUmcPB_tsIWsXdTSp7Ds8U3M/view?usp=sharing     
           
     - date: "2025-05-14"
       in_class: true
@@ -237,8 +237,8 @@
       events:
         - label: LEC 13
           type: lecture
-          title: Machine Learning (Supervised vs. Unsupervised Learning Reinforcement & Deep Learning)
-          slides:       
+          title: Machine Learning Part 2
+          slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing      
         - label: PROJECT
           type: project
           title: <b>Project P1 Due</b>
@@ -254,8 +254,8 @@
       events:
         - label: LEC 14
           type: lecture
-          title: Machine Learning (Demo code)
-          slides:
+          title: Data Literacy and Calling Bullshit 
+          slides: 
           demo: 
           code:       
           
