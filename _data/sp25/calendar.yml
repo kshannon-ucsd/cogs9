@@ -254,8 +254,8 @@
       events:
         - label: LEC 14
           type: lecture
-          title: Data Literacy and Calling Bullshit 
-          slides: 
+          title: Geospatial Data Analysis
+          slides: https://drive.google.com/file/d/12W1JLd5PsUFDcAhHKtnj2CTfFTtTUygb/view?usp=sharing
           demo: 
           code:       
           
@@ -271,7 +271,7 @@
       events:
         - label: LEC 15
           type: lecture
-          title: Text/Geospatial Data
+          title: Guest Lecture (Ahmed) 
           slides: 
           demo:       
 
@@ -286,7 +286,7 @@
       events:
         - label: LEC 16
           type: lecture
-          title: Data Science Talk
+          title: Data Science Talk Medical Data Sciecne
           slides:       
           
     - date: "2025-05-28"
@@ -301,7 +301,7 @@
       events:
         - label: LEC
           type: lecture
-          title: Guest Lecture (Ahmed & Jiesen)
+          title: Data Literacy and Calling Bullshit 
           slides: 
 
 - week: 10
