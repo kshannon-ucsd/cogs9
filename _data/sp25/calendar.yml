@@ -287,7 +287,7 @@
         - label: LEC 16
           type: lecture
           title: Data Science Talk Medical Data Sciecne
-          slides:       
+          slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing      
           
     - date: "2025-05-28"
       in_class: true
