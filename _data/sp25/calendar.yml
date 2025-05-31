@@ -318,9 +318,6 @@
           title: LLMs chatgpt etc demos
           slides: 
           demo: 
-        - label: PROJECT
-          type: project
-          title: <b>Project P2/Video Due (7 min video)</b>
           
     - date: "2025-06-04"
       in_class: true
@@ -339,3 +336,6 @@
         - label: PROJECT
           type: project
           title: <b>Project Report Due (~10 pages)</b>
+        - label: PROJECT
+          type: project
+          title: <b>Project P2/Video Due (7 min video)</b>
