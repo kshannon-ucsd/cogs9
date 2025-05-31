@@ -301,8 +301,8 @@
       events:
         - label: LEC
           type: lecture
-          title: Data Literacy and Calling Bullshit 
-          slides: 
+          title: Guest Lecture - ML
+          recording: https://youtu.be/IBSyWraGaTM 
 
 - week: 10
   title: "Week 10 - Modern AI Applications & Future of Data Science<br>
