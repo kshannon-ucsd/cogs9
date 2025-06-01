@@ -150,6 +150,7 @@
           type: lecture
           title: EDA
           slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 5 Released (due May 22, 11:59 pm)</b>
@@ -271,9 +272,9 @@
       events:
         - label: LEC 15
           type: lecture
-          title: Guest Lecture (Ahmed) 
-          slides: 
-          demo:       
+          title: Guest Lecture (Ahmed) -- Deep Learning
+          slides: https://drive.google.com/file/d/1GVam7gEpvNxQazhZNY8PzL6ZtUWO3t8r/view?usp=sharing
+          demo: https://drive.google.com/file/u/0/d/1ovYMK_OHxITvo5-r6-g9d3tG7sGQWRsg/edit   
 
 - week: 9
   title: "Week 9 - Guest Lectures & Industry Insights<br>
