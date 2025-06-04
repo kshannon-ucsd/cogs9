@@ -316,9 +316,9 @@
       events:
         - label: LEC 17
           type: lecture
-          title: LLMs chatgpt etc demos
-          slides: 
-          demo: 
+          title: Algorithms
+          slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
+          demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
           
     - date: "2025-06-04"
       in_class: true
