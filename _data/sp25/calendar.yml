@@ -332,8 +332,10 @@
       events:
         - label: LEC 18
           type: lecture
-          title: Future of DS in 2025 beyond
-          slides: 
+          title: Future of Data Science + LLMs Demo
+          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
+          demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
+
         - label: PROJECT
           type: project
           title: <b>Project Report Due (~10 pages)</b>
