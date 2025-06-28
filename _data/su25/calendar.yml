@@ -23,7 +23,7 @@
           title: NO Discussion Section - CANCELED
         - label: LEC 2
           type: lecture
-          title: <a href='https://www.youtube.com/watch?v=lbHpYoN4vQg'>Ethics</a>
+          title: <a href='https://youtu.be/lbHpYoN4vQg'>Ethics</a>
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
         - label: MISC
           type: survey
@@ -34,7 +34,7 @@
       events:
         - label: LEC 3
           type: lecture
-          title: Data Science Questions
+          title: <a href='https://youtu.be/L9q2IgSfJj0'>Questions</a>
           #slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
