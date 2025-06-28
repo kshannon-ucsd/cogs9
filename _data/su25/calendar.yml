@@ -25,9 +25,6 @@
           type: lecture
           title: <a href='https://youtu.be/lbHpYoN4vQg'>Ethics</a>
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
-        - label: MISC
-          type: survey
-          title: <a href='#'>Sign Up for Campuswire - Code (TBD)</a>
 
     - date: "2025-07-02"
       in_class: false
@@ -58,6 +55,9 @@
       - label: QUIZ
         type: quiz
         title: <b>Reading Quiz 2 Released (due Jul 11, 11:59 pm)</b>
+      - label: MISC
+        type: survey
+        title: <b>MANDATORY to have/get assigned a group</b>
 
 - week: 2
   title: "Week 2 - Data Fundamentals & Collection, Wrangling & Visualization<br>
