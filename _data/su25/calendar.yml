@@ -13,7 +13,7 @@
           #slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 1 Released (due Apr 10, 11:59 pm)</b>
+          title: <b>Reading Quiz 1 Released (due Jul 9, 11:59 pm)</b>
           
     - date: "2025-07-01"
       in_class: false
@@ -52,6 +52,13 @@
           title: Reproducibility & Bias
           #slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
 
+    - date: "2025-07-04"
+      in_class: false
+      events:
+      - label: QUIZ
+        type: quiz
+        title: <b>Reading Quiz 2 Released (due Jul 11, 11:59 pm)</b>
+
 - week: 2
   title: "Week 2 - Data Fundamentals & Collection, Wrangling & Visualization<br>
     <small>
@@ -70,9 +77,6 @@
       - label: HW
         type: hw
         title: <b>Assignment 2 Released (due Jul 12, 11:59 pm)</b>
-      - label: QUIZ
-        type: quiz
-        title: <b>Reading Quiz 2 Released (due Jul 12, 11:59 pm)</b>
         
   - date: "2025-07-08"
     in_class: false
@@ -93,9 +97,6 @@
         title: Data Wrangling
         #slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
         code: 
-      - label: QUIZ
-        type: quiz
-        title: <b>Reading Quiz 3 Released (due Jul 14, 11:59 pm)</b>
         
   - date: "2025-07-10"
     in_class: false
@@ -107,6 +108,13 @@
         type: lecture
         title: Data Visualization
         #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
+  
+  - date: "2025-07-11"
+    in_class: false
+    events:
+      - label: QUIZ
+        type: quiz
+        title: <b>Reading Quiz 3 Released (due Jul 18, 11:59 pm)</b>
 
 - week: 3
   title: "Week 3 - EDA & Communication, Inferential Analysis & Data Literacy<br>
@@ -122,10 +130,7 @@
           title: EDA
           #slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
           #demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
-        - label: QUIZ
-          type: quiz
-          title: <b>Reading Quiz 4 Released (due Jul 18, 11:59 pm)</b>
-          
+  
     - date: "2025-07-15"
       in_class: false
       events:
@@ -165,7 +170,14 @@
           title: Inferential Analysis
           #slides: https://drive.google.com/file/d/1cSo9JxeEqCo8P6NOJNEUpHsFFCPCLUg1/view?usp=sharing
           #demo:  
-
+    
+    - date: "2025-07-18"
+      in_class: false
+      events:
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 4 Released (due Jul 25, 11:59 pm)</b>
+          
 - week: 4
   title: "Week 4 - ML Fundamentals & Applications, Specialized Data Types & Industry Advice<br>
     <small>
@@ -214,7 +226,14 @@
           type: lecture
           title: Guest Lecture (TBD)-- Deep Learning
           #slides: https://drive.google.com/file/d/1GVam7gEpvNxQazhZNY8PzL6ZtUWO3t8r/view?usp=sharing
-          #demo: https://drive.google.com/file/u/0/d/1ovYMK_OHxITvo5-r6-g9d3tG7sGQWRsg/edit   
+          #demo: https://drive.google.com/file/u/0/d/1ovYMK_OHxITvo5-r6-g9d3tG7sGQWRsg/edit
+
+    - date: "2025-07-25"
+      in_class: false
+      events:
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 4 Released (due Aug 1, 11:59 pm)</b>  
 
 - week: 5
   title: "Week 5 - Guest Lectures, Industry Insights, Modern AI Applications & Future of DS<br>
