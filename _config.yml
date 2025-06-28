@@ -83,8 +83,8 @@ exclude:
 # Aux link for the upper right navigation
 aux_links:
   # "Template Repository": "https://www.github.com/kshannon/ucsd-dsc40a"
-  "🙋 Campuswire": #"https://campuswire.com/p/G1459A14D"
-  "💯 Gradescope": #"https://www.gradescope.com"
+  "🙋 Piazza": "https://piazza.com/"
+  "💯 Gradescope": "https://www.gradescope.com/"
   "🎙️ Podcast": "https://podcast.ucsd.edu/"
 
 # Makes Aux links open in a new tab. Default is false
