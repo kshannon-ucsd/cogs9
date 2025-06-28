@@ -8,86 +8,96 @@
   askabout: Coffee, Likely to be found on a tennis court 🎾
   food: Regent's Pizza, Charminar, Sochi Sushi, Turmeric Thai, Callie
 
-- name: Vignesh (Viggy) Palaniapan - TA
-  email: vpalaniappan@ucsd.edu
+- name: Chaolin Lin
+  email: chlin@ucsd.edu
   role: TA
-  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/viggy.png
-  description: Aerospace Eng. (Imperial College London), Data Science (UCSD)
-  hometown: London, UK 
-  askabout: Many sports (Tennis, Badminton, Frisbee currently), Foreign lang. Netflix
-  food: Thai (Lanna Thai), Mexican (La Puerta), Ice Cream (SaltnStraw)
+  website: https://www.chaolanlin.com/
+  photo: https://static.wixstatic.com/media/0822a8_a0555016dece4c669e293211e82fa438~mv2.jpg/v1/fill/w_366,h_366,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/WechatIMG419_edited.jpg
+  description: Cognitive Science (UCSD)
+  hometown: ask me about it!🤷‍♀️
+  askabout: ask me about it!🤷‍♀️
+  food: ask me about it!🤷‍♀️
 
-- name: Akshay Nagarajan - TA
-  email: anagaraj@ucsd.edu
-  role: TA
-  photo: 
-  description: MS. Robotics, 5th year Cognitive Science grad at UC San Diego.
-  hometown: Mumbai, India
-  askabout: Snake handling, Ocean fishing, Jazz and Blues, and Asian cuisines! Also CogSci's softball team, The Earth Pigs!
-  food: Kebabs (Mal Al Sham), $16 Indian buffet (Masala house), Gelato (An's Dry Cleaning)
+# - name: Vignesh (Viggy) Palaniapan - TA
+#   email: vpalaniappan@ucsd.edu
+#   role: TA
+#   photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/viggy.png
+#   description: Aerospace Eng. (Imperial College London), Data Science (UCSD)
+#   hometown: London, UK 
+#   askabout: Many sports (Tennis, Badminton, Frisbee currently), Foreign lang. Netflix
+#   food: Thai (Lanna Thai), Mexican (La Puerta), Ice Cream (SaltnStraw)
 
-- name: Ansh Bhatnagar
-  email: abhatnagar@ucsd.edu
-  role: IA
-  website: https://anshu-b.github.io/ansh/
-  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/ansh.png
-  description: 2nd year Data Science major; Math, CogSci, & Supply Chain MGT minors
-  hometown: Fremont, California
-  askabout: Basketball (Warriors) 🏀, Football (Seahawks) 🏈, & Plants 🪴 
-  food: Ramen Nagi, Taco Bell, 55 Thai, Madras Cafe
+# - name: Akshay Nagarajan - TA
+#   email: anagaraj@ucsd.edu
+#   role: TA
+#   photo: 
+#   description: MS. Robotics, 5th year Cognitive Science grad at UC San Diego.
+#   hometown: Mumbai, India
+#   askabout: Snake handling, Ocean fishing, Jazz and Blues, and Asian cuisines! Also CogSci's softball team, The Earth Pigs!
+#   food: Kebabs (Mal Al Sham), $16 Indian buffet (Masala house), Gelato (An's Dry Cleaning)
 
-- name: Adrian Kong
-  email: ahkong@ucsd.edu
-  role: IA
-  Photo:
-  description: 2nd year Data Science and Cognitive Science-ML double major; Philosophy minor
-  hometown: Temple City, CA
-  askabout: Lakers 🏀, Dodgers ⚾, Tottenham ⚽, F1 🔶🏎, Severance 📺
-  food: L&L Hawaiian Barbecue, Somi Somi, Dave's Hot Chicken
+# - name: Ansh Bhatnagar
+#   email: abhatnagar@ucsd.edu
+#   role: IA
+#   website: https://anshu-b.github.io/ansh/
+#   photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/ansh.png
+#   description: 2nd year Data Science major; Math, CogSci, & Supply Chain MGT minors
+#   hometown: Fremont, California
+#   askabout: Basketball (Warriors) 🏀, Football (Seahawks) 🏈, & Plants 🪴 
+#   food: Ramen Nagi, Taco Bell, 55 Thai, Madras Cafe
 
-- name: Yissel Torres
-  email: yitorres@ucsd.edu
-  role: IA
-  photo:
-  description: 3rd yr Cognitive Science Major; Design Minor
-  hometown: Los Angeles, CA
-  askabout: Dodgers⚾, Journaling📔, Gashapon🧸, & Music🎶 
-  food: Jollibee🍗, In-N-Out🍔, Mexican, & Vietnamese 
+# - name: Adrian Kong
+#   email: ahkong@ucsd.edu
+#   role: IA
+#   Photo:
+#   description: 2nd year Data Science and Cognitive Science-ML double major; Philosophy minor
+#   hometown: Temple City, CA
+#   askabout: Lakers 🏀, Dodgers ⚾, Tottenham ⚽, F1 🔶🏎, Severance 📺
+#   food: L&L Hawaiian Barbecue, Somi Somi, Dave's Hot Chicken
+
+# - name: Yissel Torres
+#   email: yitorres@ucsd.edu
+#   role: IA
+#   photo:
+#   description: 3rd yr Cognitive Science Major; Design Minor
+#   hometown: Los Angeles, CA
+#   askabout: Dodgers⚾, Journaling📔, Gashapon🧸, & Music🎶 
+#   food: Jollibee🍗, In-N-Out🍔, Mexican, & Vietnamese 
   
-- name: Ashley Padilla
-  email: a4padilla@ucsd.edu
-  role: IA
-  Photo:
-  description: Cognitive Science ML Major; Data Science Minor
-  hometown: Aurora, CO
-  askabout: Music (Any genre!😼), Studio Ghibli Films & Running!
-  food: Kbbq, Marugame Udon, Barrio Donas
+# - name: Ashley Padilla
+#   email: a4padilla@ucsd.edu
+#   role: IA
+#   Photo:
+#   description: Cognitive Science ML Major; Data Science Minor
+#   hometown: Aurora, CO
+#   askabout: Music (Any genre!😼), Studio Ghibli Films & Running!
+#   food: Kbbq, Marugame Udon, Barrio Donas
 
-- name: Hannah Song  
-  email: hsong@ucsd.edu
-  role: IA
-  website: 
-  photo: 
-  description: 4th year Cognitive Science-ML major
-  hometown: Bend, Oregon
-  askabout: Twice 🎵, Cookie Run 🍪, Video essays about horror and culture 📺
-  food: Grandmas, jjajangmyun, fish, soup
+# - name: Hannah Song  
+#   email: hsong@ucsd.edu
+#   role: IA
+#   website: 
+#   photo: 
+#   description: 4th year Cognitive Science-ML major
+#   hometown: Bend, Oregon
+#   askabout: Twice 🎵, Cookie Run 🍪, Video essays about horror and culture 📺
+#   food: Grandmas, jjajangmyun, fish, soup
 
-- name: Jeronimo Adames-Baena
-  email: jadamesbaena@ucsd.edu
-  role: IA
-  website: https://jeronimo-adames.github.io/portfolio/
-  photo: 
-  description: 2nd year Data Science major; Math, Cognitive Science, & Supply Chain minors
-  hometown: Santa Clarita, California
-  askabout: Basketball (Lakers (better than the Warriors)), Reading, Games (LoL)
-  food: Ramen Nagi, Tacos el Gordo, 55 Thai
+# - name: Jeronimo Adames-Baena
+#   email: jadamesbaena@ucsd.edu
+#   role: IA
+#   website: https://jeronimo-adames.github.io/portfolio/
+#   photo: 
+#   description: 2nd year Data Science major; Math, Cognitive Science, & Supply Chain minors
+#   hometown: Santa Clarita, California
+#   askabout: Basketball (Lakers (better than the Warriors)), Reading, Games (LoL)
+#   food: Ramen Nagi, Tacos el Gordo, 55 Thai
 
-- name: Kyra Greenfield
-  email: kjgreenfield@ucsd.edu
-  role: IA
-  photo: 
-  description: 3rd year Cognitive Science - ML major
-  hometown: San Diego, CA
-  askabout: beach, books, movies, coffee shop explorer
-  food: taco shop, ramen, Chick-fil-a
+# - name: Kyra Greenfield
+#   email: kjgreenfield@ucsd.edu
+#   role: IA
+#   photo: 
+#   description: 3rd year Cognitive Science - ML major
+#   hometown: San Diego, CA
+#   askabout: beach, books, movies, coffee shop explorer
+#   food: taco shop, ramen, Chick-fil-a
