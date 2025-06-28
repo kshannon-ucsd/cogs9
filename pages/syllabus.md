@@ -62,6 +62,9 @@ Our goal is to make lectures and office hours worth your while to attend, e.g. w
 ### Section Attendance
 Section attendance is not mandatory, however, groups will be created within sections (usually week 3). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
 
+### Late Policy
+All **quizzes** and **projects** must be turned in on time. Assignments may be turned in late, but only for 1/2 (i.e. 50%) credit.
+
 ## Course Assignments & Topics
 This class is a survey course intended to get you all excited about becoming data scientists! Data are everywhere and they’re being used in tried-and-true, new, and creative ways. This course will introduce you to the broad topics in data science, discuss what it means to be a data scientist, and get you on your way to thinking like a data scientist. To see what topics will be introduced in this course, see the side nav menu and click on topics.
 
