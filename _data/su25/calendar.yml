@@ -70,10 +70,10 @@
     events:
       - label: LEC 5
         type: lecture
-        title: Data
-        #slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
-        #demo: https://colab.research.google.com/drive/1E9xMrXmvfKDQsY9y-YNjZykWUqXiaRjx?usp=sharing
-        #data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
+        title: <a href='https://youtu.be/Bdrdes9PIec'>Data</a>
+        slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
+        demo: https://colab.research.google.com/drive/1E9xMrXmvfKDQsY9y-YNjZykWUqXiaRjx?usp=sharing
+        data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
       - label: HW
         type: hw
         title: <b>Assignment 2 Released (due Jul 12, 11:59 pm)</b>
@@ -86,16 +86,16 @@
         title: Discussion Section - Discussion 2
       - label: LEC 6
         type: lecture
-        title: Data Collection
-        #slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
+        title: <a href='https://youtu.be/OERnXwxcFjc'>Data Collection</a>
+        slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
 
   - date: "2025-07-09"
     in_class: false
     events:
       - label: LEC 7
         type: lecture
-        title: Data Wrangling
-        #slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
+        title: <a href='https://youtu.be/X59mXBp2C8c'>Data Wrangling</a>
+        slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
         code: 
         
   - date: "2025-07-10"
@@ -104,9 +104,9 @@
       - label: DISC
         type: disc
         title: Discussion Section - Form Project Groups (3-4 people/team)
-      - label: LEC 8
+      - label: LEC
         type: lecture
-        title: Data Visualization
+        title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture</a>
         #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
   
   - date: "2025-07-11"
@@ -125,11 +125,11 @@
     - date: "2025-07-14"
       in_class: false
       events:
-        - label: LEC 9
+        - label: LEC 8
           type: lecture
-          title: EDA
-          #slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
-          #demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
+          title: <a href='https://youtu.be/VlUZC2KzBog'>Data Visualization</a>
+          slides: https://drive.google.com/file/d/18B28p9S9T5G_D-WdWbBCLY2ekxC9tbkz/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
   
     - date: "2025-07-15"
       in_class: false
@@ -137,23 +137,23 @@
         - label: DISC
           type: disc
           title: Discussion Section - Project Teams
-          #slides: https://docs.google.com/presentation/d/1lRQnnJt-ImR97ttP-qrmGTtmP06Vndxs/edit#slide=id.g351ddd9b9ea_0_336
-        - label: LEC 10
+          slides: https://docs.google.com/presentation/d/1lRQnnJt-ImR97ttP-qrmGTtmP06Vndxs/edit#slide=id.g351ddd9b9ea_0_336
+        - label: LEC 9
           type: lecture
-          title: CANCELED - Open OH Instead
-          #slides: 
+          title: <a href='https://youtu.be/6v1LKp4nlV0'>EDA</a>
+          slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
         - label: PROJECT
           type: project
           title: <b>Group Project Topics Due</b>
-          #submission: https://docs.google.com/forms/d/e/1FAIpQLSdf6lXHf6l9a2JqD8Ox1f5DmIUB8PrnA773sHKRB2dcvknmmg/viewform
+          submission: https://docs.google.com/forms/d/e/1FAIpQLSdf6lXHf6l9a2JqD8Ox1f5DmIUB8PrnA773sHKRB2dcvknmmg/viewform
 
     - date: "2025-07-16"
       in_class: false
       events:
-        - label: LEC 11
+        - label: LEC 10
           type: lecture
-          title: Communicating DS
-          #slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
+          title: <a href='https://youtu.be/mncL8HRv_kk'>Communicating Data Science</a>
+          slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: HW
           type: hw
           title: <b>Assignment 3 Released (due Jul 19, 11:59 pm)</b>
@@ -165,11 +165,11 @@
           type: disc
           title: Discussion Section - Discussion 5
 
-        - label: LEC 12
+        - label: LEC 11
           type: lecture
-          title: Inferential Analysis
-          #slides: https://drive.google.com/file/d/1cSo9JxeEqCo8P6NOJNEUpHsFFCPCLUg1/view?usp=sharing
-          #demo:  
+          title: <a href='https://youtu.be/y4uPJTaPmNc'>Inferential Analysis</a>
+          slides: https://drive.google.com/file/d/1-4JrHgoHnctlixbLYhrunn0QNl_74Kjk/view?usp=sharing
+          #demo:
     
     - date: "2025-07-18"
       in_class: false
@@ -187,9 +187,9 @@
     - date: "2025-07-21"
       in_class: false
       events:
-        - label: LEC 13
+        - label: LEC 12
           type: lecture
-          title: Machine Learning (Supervised vs. Unsupervised Learning Reinforcement ; Deep Learning)
+          title: <a href='https://youtu.be/j7qRLB71XuU'>ML (part 1)</a>
           slides: https://drive.google.com/file/d/1hYqGawEtPUmcPB_tsIWsXdTSp7Ds8U3M/view?usp=sharing     
           
     - date: "2025-07-22"
@@ -198,10 +198,10 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 6
-        - label: LEC 14
+        - label: LEC 13
           type: lecture
-          title: Machine Learning Part 2
-          #slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing      
+          title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
+          slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing      
         - label: PROJECT
           type: project
           title: <b>Project P1 Due</b>
@@ -211,8 +211,8 @@
       events:
         - label: LEC 15
           type: lecture
-          title: Geospatial Data Analysis
-          #slides: https://drive.google.com/file/d/12W1JLd5PsUFDcAhHKtnj2CTfFTtTUygb/view?usp=sharing
+          title: <a href='https://youtu.be/SHQ_-FeZDgM'>Geospatial Data Analysis</a>
+          slides: https://drive.google.com/file/d/12W1JLd5PsUFDcAhHKtnj2CTfFTtTUygb/view?usp=sharing
           #demo: 
           #code:       
           
@@ -222,11 +222,9 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 7
-        - label: LEC 16
+        - label: LEC
           type: lecture
-          title: Guest Lecture (TBD)-- Deep Learning
-          #slides: https://drive.google.com/file/d/1GVam7gEpvNxQazhZNY8PzL6ZtUWO3t8r/view?usp=sharing
-          #demo: https://drive.google.com/file/u/0/d/1ovYMK_OHxITvo5-r6-g9d3tG7sGQWRsg/edit
+          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
 
     - date: "2025-07-25"
       in_class: false
@@ -244,10 +242,9 @@
     - date: "2025-07-28"
       in_class: false
       events:
-        - label: LEC 17
+        - label: LEC
           type: lecture
-          title: Data Science Talk - Medical Data Science
-          #slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing      
+          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
           
     - date: "2025-07-29"
       in_class: false
@@ -256,18 +253,18 @@
           type: disc
           title: Discussion Section - Discussion 8
 
-        - label: LEC 18
+        - label: LEC 16
           type: lecture
-          title: Guest Lecture - ML
-          #recording: https://youtu.be/IBSyWraGaTM 
+          title: <a href='https://youtu.be/wpAhZHvwcxo'>Computer Vision</a>
+          slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing
 
     - date: "2025-07-30"
       in_class: false
       events:
-        - label: LEC 19
+        - label: LEC 17
           type: lecture
-          title: Algorithms
-          #slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
+          title: <a href='https://youtu.be/oBqOj7_lJnw'>Algorithms</a>
+          slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
           #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
           
     - date: "2025-07-31"
@@ -277,10 +274,10 @@
           type: disc
           title: Discussion Section - Discussion 9
 
-        - label: LEC 20
+        - label: LEC 18
           type: lecture
-          title: Future of Data Science + LLMs Demo
-          #slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
+          title: <a href='https://youtu.be/JLAxQ6CqwFk'>Data Science Jobs</a>
+          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
           #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
 
     - date: "2025-08-01"
