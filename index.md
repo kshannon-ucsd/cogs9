@@ -29,6 +29,10 @@ nav_order: 1
 
 {% include staffer.html staff=staff nobio='true' %}
 
+{: .important }
+Please note that due to technical issues with podcast, the recordings from SP'25 were deleted and I only have recordings from last year. The slides may be slightly altered in places, but most of the changes are in appearances and memes 😁. The content is still moreover the same.
+
+This is why the pdf slides and videos slides might be slightly different, but do not fret! There are no exams (check out the exam section for more), so the content being the same is largely conducive for your projects!
 
 <!-- **{{ course_vars.announcement.text }}** -->
 
