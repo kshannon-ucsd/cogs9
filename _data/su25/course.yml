@@ -1,0 +1,35 @@
+# Welcome section
+quarter: Summer Session 1 (2025)
+building: Remote Class
+timings: Lectures Pre-Recorded
+edstem_link: #
+# campuswire_link: https://piazza.com/
+piazza_link: https://piazza.com/
+gradescope_link: https://www.gradescope.com/
+gradescope_entry_code: #TBD
+
+office_hours:
+  - name: Kyle Shannon
+    day: Thursday
+    time: 2:00pm - 3:00pm
+    location: HDSI 226
+    zoom_link: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
+    zoom_pw: 725814
+
+announcement:
+  color: green
+  text: We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website. We look forward to teaching and working with all of you and hope to meet you in office hours. Check out the **Getting Started** section so you can hit the ground running when class starts!
+
+discussion_sections:
+  - section: A01
+    day: TUE/THU
+    time: 2:30-3:20
+    location: RCLAS
+    ta: TBD
+    tutor: TBD
+ 
+final_exam:
+  - section: TBD
+    day: TBD
+    time: TBD
+    location: TBD
