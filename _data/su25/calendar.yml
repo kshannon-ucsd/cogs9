@@ -35,7 +35,7 @@
         - label: LEC 3
           type: lecture
           title: <a href='https://youtu.be/L9q2IgSfJj0'>Questions</a>
-          #slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
+          slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
           title: <b>Assignment 1 Released (due Jul 6, 11:59 pm)</b>
@@ -46,11 +46,11 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 1
-          #slides: https://docs.google.com/presentation/d/1PDZNr_ck8A4qVHNz1SqeAI6z1JTW9VnP/edit?usp=sharing&ouid=109839652146296490953&rtpof=true&sd=true
+          slides: https://docs.google.com/presentation/d/1PDZNr_ck8A4qVHNz1SqeAI6z1JTW9VnP/edit?usp=sharing&ouid=109839652146296490953&rtpof=true&sd=true
         - label: LEC 4
           type: lecture
-          title: Reproducibility & Bias
-          #slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
+          title: <a href='https://youtu.be/HQenNGT8O5E'>Reproducibility</a>
+          slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
 
     - date: "2025-07-04"
       in_class: false
