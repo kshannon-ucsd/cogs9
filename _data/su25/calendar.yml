@@ -9,8 +9,8 @@
       events:
         - label: LEC 1
           type: lecture
-          title: What is Data Science?
-          #slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
+          title: What is Data Science? (Live Lecture)
+          slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
         - label: QUIZ
           type: quiz
           title: <b>Reading Quiz 1 Released (due Jul 9, 11:59 pm)</b>
@@ -23,8 +23,8 @@
           title: NO Discussion Section - CANCELED
         - label: LEC 2
           type: lecture
-          title: Data Ethics
-          #slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
+          title: <a href='https://www.youtube.com/watch?v=lbHpYoN4vQg'>Ethics</a>
+          slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
         - label: MISC
           type: survey
           title: <a href='#'>Sign Up for Campuswire - Code (TBD)</a>
