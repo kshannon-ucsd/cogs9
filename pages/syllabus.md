@@ -40,10 +40,9 @@ description: Course structure and policies.
 | Final Project pt. 1                           |               10 |               20   |
 | Final Project pt. 2                           |               20 |               40   |
 | Final Project video                           |               20 |               40   |
-| Bonus                                         |              N/A |          5 bonus   |
 
 - **Final exam date**: No final exam, only a final group project.
-- Your letter grade will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are not rounded up, that’s why we have included 5 bonus points.
+- Your letter grade will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are **not** rounded up.
 
 ### Grades
 Grades are released on Gradescope often a week after the submission date, typically sooner. Ultimately it is your responsibility to check your final grade and get in touch if you believe there is a problem.
