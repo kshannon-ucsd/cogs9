@@ -164,12 +164,14 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 5
-
         - label: LEC 11
           type: lecture
           title: <a href='https://youtu.be/y4uPJTaPmNc'>Inferential Analysis</a>
           slides: https://drive.google.com/file/d/1-4JrHgoHnctlixbLYhrunn0QNl_74Kjk/view?usp=sharing
           #demo:
+        - label: PROJECT
+          type: project
+          title: <b>Project P1 Due</b>
     
     - date: "2025-07-18"
       in_class: false
@@ -202,9 +204,6 @@
           type: lecture
           title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
           slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing      
-        - label: PROJECT
-          type: project
-          title: <b>Project P1 Due</b>
 
     - date: "2025-07-23"
       in_class: false
@@ -266,26 +265,22 @@
           title: <a href='https://youtu.be/oBqOj7_lJnw'>Algorithms</a>
           slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
           #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
-          
-    - date: "2025-07-31"
-      in_class: false
-      events:
-        - label: DISC
-          type: disc
-          title: Discussion Section - Discussion 9
-
-        - label: LEC 18
-          type: lecture
-          title: <a href='https://youtu.be/JLAxQ6CqwFk'>Data Science Jobs</a>
-          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
-          #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
-
-    - date: "2025-08-01"
-      in_class: false
-      events:
         - label: PROJECT
           type: project
           title: <b>Project Report Due (~10 pages)</b>
         - label: PROJECT
           type: project
           title: <b>Project P2/Video Due (7 min video)</b>
+          
+    - date: "2025-07-31"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: NO Discussion Section - CANCELED
+
+        - label: LEC 18
+          type: lecture
+          title: <a href='https://youtu.be/JLAxQ6CqwFk'>Data Science Jobs</a>
+          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
+          #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
