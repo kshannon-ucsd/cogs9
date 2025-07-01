@@ -108,7 +108,7 @@
     events:
       - label: DISC
         type: disc
-        title: Discussion Section - Form Project Groups (3-4 people/team) (2:30-3:20 PM)
+        title: Discussion Section - Team Project check ins begin (check in every week after) (2:30-3:20 PM)
         zoom: https://ucsd.zoom.us/j/99757657865
       - label: LEC
         type: lecture
