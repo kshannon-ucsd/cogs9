@@ -31,13 +31,12 @@ nav_order: 1
 
 {: .important }
 Please note that due to technical issues with podcast, the recordings from SP'25 were deleted and I only have recordings from last year. The slides may be slightly altered in places, but most of the changes are in appearances and memes 😁. The content is still moreover the same.
-
 This is why the pdf slides and videos slides might be slightly different, but do not fret! There are no exams (check out the exam section for more), so the content being the same is largely conducive for your projects!
 
 
 {: .important }
-- Kyle's OH: Tuesday 11:00am - 12:00pm, Friday 3:45pm - 4:30pm
-- Chaolan's OHs: Monday 2:00pm - 3:00pm,  Wednesday 2:00pm - 3:00pm
+  - Kyle's OH (pacific timezone): Tuesday 11:00am - 12:00pm, Friday 3:45pm - 4:30pm [zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09)
+  - Chaolan's OHs  (pacific timezone): Monday 2:00pm - 3:00pm,  Wednesday 2:00pm - 3:00pm [zoom link](https://ucsd.zoom.us/j/99757657865)
 
 <!-- **{{ course_vars.announcement.text }}** -->
 
