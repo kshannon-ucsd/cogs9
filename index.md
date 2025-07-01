@@ -37,7 +37,7 @@ This is why the pdf slides and videos slides might be slightly different, but do
 
 {: .important }
 - Kyle's OH: Tuesday 11:00am - 12:00pm, Friday 3:45pm - 4:30pm
-- Chaolan OHs: TBD
+- Chaolan's OHs: Monday 2:00pm - 3:00pm,  Wednesday 2:00pm - 3:00pm
 
 <!-- **{{ course_vars.announcement.text }}** -->
 
