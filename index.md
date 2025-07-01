@@ -34,6 +34,11 @@ Please note that due to technical issues with podcast, the recordings from SP'25
 
 This is why the pdf slides and videos slides might be slightly different, but do not fret! There are no exams (check out the exam section for more), so the content being the same is largely conducive for your projects!
 
+
+{: .important }
+- Kyle's OH: Tuesday 11:00am - 12:00pm, Friday 3:45pm - 4:30pm
+- Chaolan OHs: TBD
+
 <!-- **{{ course_vars.announcement.text }}** -->
 
 {% for week in calendar %}
