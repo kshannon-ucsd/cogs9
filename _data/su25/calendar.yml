@@ -152,7 +152,7 @@
         - label: PROJECT
           type: project
           title: <b>Group Project Topics Due</b>
-          submission: https://docs.google.com/forms/d/e/1FAIpQLSdf6lXHf6l9a2JqD8Ox1f5DmIUB8PrnA773sHKRB2dcvknmmg/viewform
+          submission: https://forms.gle/aqhegLBdLQLwPoim7
 
     - date: "2025-07-16"
       in_class: false
