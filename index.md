@@ -35,8 +35,9 @@ This is why the pdf slides and videos slides might be slightly different, but do
 
 
 {: .important }
-  - Kyle's OH (pacific timezone): Tuesday 11:00am - 12:00pm, Friday 3:45pm - 4:30pm [zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09)
-  - Chaolan's OHs  (pacific timezone): Monday 2:00pm - 3:00pm,  Wednesday 2:00pm - 3:00pm [zoom link](https://ucsd.zoom.us/j/99757657865)
+  - Kyle's OH (PDT): Thursday 5:00pm - 6:00pm [zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09)
+  - Quirine OH (PDT): Tursday 8:00am - 9:00am [zoom link](https://ucsd.zoom.us/j/95336512099)
+  - TA Discussion Session: Tuesday & Thursday 2:30 pm - 3:30pm (PDT) [zoom link](TA sessions TuTh 2.30-3.30pm: https://ucsd.zoom.us/j/96222015762)
 
 <!-- **{{ course_vars.announcement.text }}** -->
 
