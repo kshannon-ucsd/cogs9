@@ -23,7 +23,7 @@
         - label: DISC
           type: disc
           title: Discussion Section 0 - Team Selection - IMPORTANT (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC 2
           type: lecture
           title: <a href='https://youtu.be/oI7IDd4g_ww'>Ethics</a>
@@ -46,7 +46,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 1 (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
           slides: https://docs.google.com/presentation/d/1PDZNr_ck8A4qVHNz1SqeAI6z1JTW9VnP/edit?usp=sharing&ouid=109839652146296490953&rtpof=true&sd=true
         - label: LEC 4
           type: lecture
@@ -88,7 +88,7 @@
       - label: DISC
         type: disc
         title: Discussion Section - Discussion 2 (2:30-3:20 PM)
-        zoom: https://ucsd.zoom.us/j/99757657865
+        zoom: https://ucsd.zoom.us/j/96222015762
       - label: LEC 6
         type: lecture
         title: <a href='https://youtu.be/OERnXwxcFjc'>Data Collection</a>
@@ -109,7 +109,7 @@
       - label: DISC
         type: disc
         title: Discussion Section - Team Project check ins begin (check in every week after) (2:30-3:20 PM)
-        zoom: https://ucsd.zoom.us/j/99757657865
+        zoom: https://ucsd.zoom.us/j/96222015762
       - label: LEC
         type: lecture
         title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture</a>
@@ -143,7 +143,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Project Teams (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
           slides: https://docs.google.com/presentation/d/1lRQnnJt-ImR97ttP-qrmGTtmP06Vndxs/edit#slide=id.g351ddd9b9ea_0_336
         - label: LEC 9
           type: lecture
@@ -171,7 +171,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 5 (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC 11
           type: lecture
           title: <a href='https://youtu.be/y4uPJTaPmNc'>Inferential Analysis</a>
@@ -208,7 +208,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 6 (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC 13
           type: lecture
           title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
@@ -230,7 +230,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 7 (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC
           type: lecture
           title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
@@ -261,7 +261,7 @@
         - label: DISC
           type: disc
           title: Discussion Section - Discussion 8 (2:30-3:20 PM)
-          zoom: https://ucsd.zoom.us/j/99757657865
+          zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC 16
           type: lecture
           title: <a href='https://youtu.be/wpAhZHvwcxo'>Computer Vision</a>
