@@ -1,0 +1,66 @@
+files:
+  canvas: "canvas.xlsx"
+  gradescope: "gradescope.xlsx"
+  output: "master.xlsx"
+
+column_mappings:
+  "PID": "SID"
+  "NAME": "Name"
+  "EMAIL": "Email"
+  "R1": "Reading Quiz 1"
+  "R2": "Reading Quiz 2"
+  "R3": "Reading Quiz 3"
+  "R4": "Reading Quiz 4"
+  "R5": "Reading Quiz 5"
+  "A1": "Assignment 1"
+  "A2": "Assignment 2"
+  "A3": "Assignment 3"
+  "F1": "Final Group Project: Part 1"
+  "F2": "Final Group Project: Part 2"
+
+excluded_columns:
+  - "PID"
+  - "SID"
+  - "Name"
+  - "Email"
+  - "Sections"
+
+# threshold hours for late submissions
+lateness:
+  "Reading Quiz 1": 48
+  "Reading Quiz 2": 48
+  "Reading Quiz 3": 48
+  "Reading Quiz 4": 48
+  "Reading Quiz 5": 48
+  "Assignment 1": 24
+  "Assignment 2": 24
+  "Assignment 3": 24
+  "Final Group Project: Part 1": 0
+  "Final Group Project: Part 2": 0
+
+# small penalty, large penalty
+penalties:
+  "Reading Quiz 1": [0.5, 1.0]
+  "Reading Quiz 2": [0.5, 1.0]
+  "Reading Quiz 3": [0.5, 1.0]
+  "Reading Quiz 4": [0.5, 1.0]
+  "Reading Quiz 5": [0.5, 1.0]
+  "Assignment 1": [0.25, 0.5]
+  "Assignment 2": [0.25, 0.5]
+  "Assignment 3": [0.25, 0.5]
+  "Final Group Project: Part 1": [0, 0]
+  "Final Group Project: Part 2": [0, 0]
+
+grade_cutoffs:
+  "A+": 97
+  "A": 93
+  "A-": 90
+  "B+": 87
+  "B": 83
+  "B-": 80
+  "C+": 77
+  "C": 73
+  "C-": 70
+  "D+": 67
+  "D": 63
+  "D-": 60
