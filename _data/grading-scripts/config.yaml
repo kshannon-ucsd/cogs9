@@ -1,7 +1,7 @@
 files:
-  canvas: "canvas.xlsx"
-  gradescope: "gradescope.xlsx"
-  output: "master.xlsx"
+  canvas: "canvas.csv"
+  gradescope: "gradescope.csv"
+  output: "master.csv"
 
 column_mappings:
   "PID": "SID"

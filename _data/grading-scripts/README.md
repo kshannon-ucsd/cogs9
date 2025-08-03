@@ -216,12 +216,13 @@ This will:
 This processor uses a 200-point grading system:
 
 - **Reading Quizzes**: 20% (40 points)
-  - 5 quizzes, lowest score dropped
-  - Each quiz worth 10 points
+  - 5 quizzes, lowest score dropped automatically
+  - Each quiz worth 10 points (4 best quizzes count)
 
 - **Assignments**: 30% (60 points)
   - 3 assignments
   - Each assignment worth 20 points
+  - **Important**: Assignment 2 and 3 are automatically scaled from 40 points to 20 points if they are worth 40 points in Gradescope
 
 - **Final Project Part 1**: 10% (20 points)
 
@@ -243,6 +244,12 @@ This processor uses a 200-point grading system:
 3. **Calculation Errors**:
    - Check that your config file accurately reflects your grading structure
    - Verify lateness penalties are correctly defined
+   - Note that Assignment 2 and 3 are automatically scaled if they're worth 40 points
+
+4. **Assignment Scaling**:
+   - The script automatically detects if Assignment 2 and 3 are worth 40 points in Gradescope
+   - When detected, they are automatically scaled down to 20 points (10% of total grade each)
+   - No manual adjustment needed in the configuration file
 
 ### Getting Help
 
@@ -255,7 +262,7 @@ For additional help or to report issues, please contact the course administrator
 Must include:
 - Student identification (SID or similar)
 - Assignment scores
-- Assignment max points
+- Assignment max points (script handles scaling A2/A3 from 40 to 20 points)
 - Lateness information (in H:M:S format)
 - First Name and Last Name columns (or a combined Name column)
 
@@ -279,6 +286,8 @@ The processor follows this workflow:
    - Apply lateness deductions
    - Calculate adjusted points
    - Compute category scores (readings, assignments, projects)
+   - Drop the lowest reading quiz score automatically
+   - Scale Assignment 2 and 3 from 40 to 20 points if needed
    - Calculate total points and percentages
    - Assign draft letter grades
 4. Generate the egrades file:

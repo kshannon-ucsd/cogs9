@@ -193,6 +193,7 @@ def create_master(config, gradescope_df):
     if len(reading_cols) > 0:
         if len(reading_cols) > 1:
             # Drop lowest reading quiz
+            print(f"Dropping lowest score from {len(reading_cols)} reading quizzes")
             master["READINGS_RAW"] = (
                 master[reading_cols].sum(axis=1) -
                 master[reading_cols].min(axis=1)
@@ -209,7 +210,25 @@ def create_master(config, gradescope_df):
     
     # Assignments (scale to 60 points total)
     if len(assignment_cols) > 0:
-        master["ASSIGNMENTS_RAW"] = master[assignment_cols].sum(axis=1)
+        # Create a copy of the assignments dataframe for scaling
+        assignments_df = master[assignment_cols].copy()
+        
+        # Scale Assignment 2 and 3 if they're out of 40 points
+        if 'A2- Adj' in assignments_df.columns:
+            # Check if A2 is out of 40 points in gradescope
+            a2_max_col = "Assignment 2 - Max Points"
+            if a2_max_col in gradescope_df.columns and gradescope_df[a2_max_col].iloc[0] == 40:
+                print("Scaling Assignment 2 from 40 points to 20 points")
+                assignments_df['A2- Adj'] = assignments_df['A2- Adj'] / 2
+                
+        if 'A3- Adj' in assignments_df.columns:
+            # Check if A3 is out of 40 points in gradescope
+            a3_max_col = "Assignment 3 - Max Points"
+            if a3_max_col in gradescope_df.columns and gradescope_df[a3_max_col].iloc[0] == 40:
+                print("Scaling Assignment 3 from 40 points to 20 points")
+                assignments_df['A3- Adj'] = assignments_df['A3- Adj'] / 2
+        
+        master["ASSIGNMENTS_RAW"] = assignments_df.sum(axis=1)
         # Each assignment is worth 20 points (60 points total for 3 assignments)
         master["ASSIGNMENTS"] = master["ASSIGNMENTS_RAW"]
     else:
