@@ -37,7 +37,7 @@ This is why the pdf slides and videos slides might be slightly different, but do
 {: .important }
   - Kyle's OH (PDT): Thursday 5:00pm - 6:00pm [zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09)
   - Quirine OH (PDT): Tursday 8:00am - 9:00am [zoom link](https://ucsd.zoom.us/j/95336512099)
-  - TA Discussion Session: Tuesday & Thursday 2:30 pm - 3:30pm (PDT) [zoom link](TA sessions TuTh 2.30-3.30pm: https://ucsd.zoom.us/j/96222015762)
+  - TA Discussion Session: Tuesday & Thursday 2:30 pm - 3:30pm (PDT) [zoom link](https://ucsd.zoom.us/j/96222015762)
 
 <!-- **{{ course_vars.announcement.text }}** -->
 
