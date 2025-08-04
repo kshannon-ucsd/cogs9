@@ -38,9 +38,9 @@
           slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 1 Released (due Jul 6, 11:59 pm)</b>
+          title: <b>Assignment 1 Released (due Aug 10, 11:59 pm)</b>
 
-    - date: "2025-08-04"
+    - date: "2025-08-07"
       in_class: false
       events:
         - label: DISC
@@ -80,7 +80,7 @@
         data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
       - label: HW
         type: hw
-        title: <b>Assignment 2 Released (due Jul 12, 11:59 pm)</b>
+        title: <b>Assignment 2 Released (due Aug 15, 11:59 pm)</b>
         
   - date: "2025-08-12"
     in_class: false
@@ -163,7 +163,7 @@
           slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 3 Released (due Aug 19, 11:59 pm)</b>
+          title: <b>Assignment 3 Released (due Aug 31, 11:59 pm)</b>
           
     - date: "2025-08-21"
       in_class: false
