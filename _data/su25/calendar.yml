@@ -15,7 +15,7 @@
           zoom: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 1 Released (due Jul 9, 11:59 pm)</b>
+          title: <b>Reading Quiz 1 Released (due Aug 13, 11:59 pm)</b>
           
     - date: "2025-08-05"
       in_class: false
@@ -38,7 +38,7 @@
           slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 1 Released (due Aug 10, 11:59 pm)</b>
+          title: <b>Assignment 1 Released (due Aug 15, 11:59 pm)</b>
 
     - date: "2025-08-07"
       in_class: false
@@ -53,12 +53,12 @@
           title: <a href='https://youtu.be/HQenNGT8O5E'>Reproducibility</a>
           slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
 
-    - date: "2025-08-04"
+    - date: "2025-08-08"
       in_class: false
       events:
       - label: QUIZ
         type: quiz
-        title: <b>Reading Quiz 2 Released (due Aug 11, 11:59 pm)</b>
+        title: <b>Reading Quiz 2 Released (due Aug 15, 11:59 pm)</b>
       - label: MISC
         type: survey
         title: <b>MANDATORY to have/get assigned a group</b>
@@ -80,7 +80,7 @@
         data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
       - label: HW
         type: hw
-        title: <b>Assignment 2 Released (due Aug 15, 11:59 pm)</b>
+        title: <b>Assignment 2 Released (due Aug 20, 11:59 pm)</b>
         
   - date: "2025-08-12"
     in_class: false
@@ -151,7 +151,7 @@
           slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
         - label: PROJECT
           type: project
-          title: <b>Group Project Topics Due</b>
+          title: <b>Group Project Topics Due during discussion section (1 paragraph pdf emailed to TA)</b>
           submission: https://forms.gle/aqhegLBdLQLwPoim7
 
     - date: "2025-08-20"
@@ -163,7 +163,7 @@
           slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 3 Released (due Aug 31, 11:59 pm)</b>
+          title: <b>Assignment 3 Released (due Aug 29, 11:59 pm)</b>
           
     - date: "2025-08-21"
       in_class: false
@@ -277,10 +277,10 @@
           #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
         - label: PROJECT
           type: project
-          title: <b>Project Report Due (~10 pages)</b>
+          title: <b>Project Report Due (~10-15 pages pdf gradescope)</b>
         - label: PROJECT
           type: project
-          title: <b>Project P2/Video Due (7 min video)</b>
+          title: <b>Project P2/Video Due (7-10 min video include link in PDF on 1st page)</b>
           
     - date: "2025-09-04"
       in_class: false
