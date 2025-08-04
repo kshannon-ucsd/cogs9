@@ -112,7 +112,7 @@
         zoom: https://ucsd.zoom.us/j/96222015762
       - label: LEC
         type: lecture
-        title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture</a>
+        title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture - Python Coding & EDA</a>
         #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
   
   - date: "2025-08-15"
@@ -233,7 +233,7 @@
           zoom: https://ucsd.zoom.us/j/96222015762
         - label: LEC
           type: lecture
-          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
+          title: <a href='https://www.youtube.com/watch?v=0odXC4cY3nM'>Guest Lecture 1</a>
 
     - date: "2025-08-29"
       in_class: false
@@ -253,7 +253,7 @@
       events:
         - label: LEC
           type: lecture
-          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
+          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture 2</a>
           
     - date: "2025-09-02"
       in_class: false
