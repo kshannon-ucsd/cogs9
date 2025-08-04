@@ -4,7 +4,7 @@
       - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-1'>R1</a>.<br>
     </small>"
   days:
-    - date: "2025-06-30"
+    - date: "2025-08-04"
       in_class: false
       events:
         - label: LEC 1
@@ -17,7 +17,7 @@
           type: quiz
           title: <b>Reading Quiz 1 Released (due Jul 9, 11:59 pm)</b>
           
-    - date: "2025-07-01"
+    - date: "2025-08-05"
       in_class: false
       events:
         - label: DISC
@@ -29,7 +29,7 @@
           title: <a href='https://youtu.be/oI7IDd4g_ww'>Ethics</a>
           slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
 
-    - date: "2025-07-02"
+    - date: "2025-08-06"
       in_class: false
       events:
         - label: LEC 3
@@ -40,7 +40,7 @@
           type: hw
           title: <b>Assignment 1 Released (due Jul 6, 11:59 pm)</b>
 
-    - date: "2025-07-03"
+    - date: "2025-08-04"
       in_class: false
       events:
         - label: DISC
@@ -53,12 +53,12 @@
           title: <a href='https://youtu.be/HQenNGT8O5E'>Reproducibility</a>
           slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
 
-    - date: "2025-07-04"
+    - date: "2025-08-04"
       in_class: false
       events:
       - label: QUIZ
         type: quiz
-        title: <b>Reading Quiz 2 Released (due Jul 11, 11:59 pm)</b>
+        title: <b>Reading Quiz 2 Released (due Aug 11, 11:59 pm)</b>
       - label: MISC
         type: survey
         title: <b>MANDATORY to have/get assigned a group</b>
@@ -69,7 +69,7 @@
       - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-2'>R2</a>.<br>
     </small>"
   days:
-  - date: "2025-07-07"
+  - date: "2025-08-11"
     in_class: false
     events:
       - label: LEC 5
@@ -82,7 +82,7 @@
         type: hw
         title: <b>Assignment 2 Released (due Jul 12, 11:59 pm)</b>
         
-  - date: "2025-07-08"
+  - date: "2025-08-12"
     in_class: false
     events:
       - label: DISC
@@ -94,7 +94,7 @@
         title: <a href='https://youtu.be/OERnXwxcFjc'>Data Collection</a>
         slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
 
-  - date: "2025-07-09"
+  - date: "2025-08-13"
     in_class: false
     events:
       - label: LEC 7
@@ -103,7 +103,7 @@
         slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
         code: 
         
-  - date: "2025-07-10"
+  - date: "2025-08-14"
     in_class: false
     events:
       - label: DISC
@@ -115,12 +115,12 @@
         title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture</a>
         #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
   
-  - date: "2025-07-11"
+  - date: "2025-08-15"
     in_class: false
     events:
       - label: QUIZ
         type: quiz
-        title: <b>Reading Quiz 3 Released (due Jul 18, 11:59 pm)</b>
+        title: <b>Reading Quiz 3 Released (due Aug 22, 11:59 pm)</b>
 
 - week: 3
   title: "Week 3 - EDA & Communication, Inferential Analysis & Data Literacy<br>
@@ -128,7 +128,7 @@
       - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-3'>R3</a>.<br>
     </small>"
   days:
-    - date: "2025-07-14"
+    - date: "2025-08-18"
       in_class: false
       events:
         - label: LEC 8
@@ -137,7 +137,7 @@
           slides: https://drive.google.com/file/d/18B28p9S9T5G_D-WdWbBCLY2ekxC9tbkz/view?usp=sharing
           demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
   
-    - date: "2025-07-15"
+    - date: "2025-08-19"
       in_class: false
       events:
         - label: DISC
@@ -154,7 +154,7 @@
           title: <b>Group Project Topics Due</b>
           submission: https://forms.gle/aqhegLBdLQLwPoim7
 
-    - date: "2025-07-16"
+    - date: "2025-08-20"
       in_class: false
       events:
         - label: LEC 10
@@ -163,9 +163,9 @@
           slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: HW
           type: hw
-          title: <b>Assignment 3 Released (due Jul 19, 11:59 pm)</b>
+          title: <b>Assignment 3 Released (due Aug 19, 11:59 pm)</b>
           
-    - date: "2025-07-17"
+    - date: "2025-08-21"
       in_class: false
       events:
         - label: DISC
@@ -181,12 +181,12 @@
           type: project
           title: <b>Project P1 Due</b>
     
-    - date: "2025-07-18"
+    - date: "2025-08-22"
       in_class: false
       events:
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 4 Released (due Jul 25, 11:59 pm)</b>
+          title: <b>Reading Quiz 4 Released (due Aug 29, 11:59 pm)</b>
           
 - week: 4
   title: "Week 4 - ML Fundamentals & Applications, Specialized Data Types & Industry Advice<br>
@@ -194,7 +194,7 @@
       - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-4'>R4</a>.<br>
     </small>"
   days:
-    - date: "2025-07-21"
+    - date: "2025-08-25"
       in_class: false
       events:
         - label: LEC 12
@@ -202,7 +202,7 @@
           title: <a href='https://youtu.be/j7qRLB71XuU'>ML (part 1)</a>
           slides: https://drive.google.com/file/d/1hYqGawEtPUmcPB_tsIWsXdTSp7Ds8U3M/view?usp=sharing     
           
-    - date: "2025-07-22"
+    - date: "2025-08-26"
       in_class: false
       events:
         - label: DISC
@@ -214,7 +214,7 @@
           title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
           slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing      
 
-    - date: "2025-07-23"
+    - date: "2025-08-27"
       in_class: false
       events:
         - label: LEC 15
@@ -224,7 +224,7 @@
           #demo: 
           #code:       
           
-    - date: "2025-07-24"
+    - date: "2025-08-28"
       in_class: false
       events:
         - label: DISC
@@ -235,12 +235,12 @@
           type: lecture
           title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
 
-    - date: "2025-07-25"
+    - date: "2025-08-29"
       in_class: false
       events:
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 4 Released (due Aug 1, 11:59 pm)</b>  
+          title: <b>Reading Quiz 4 Released (due Sept 5, 11:59 pm)</b>  
 
 - week: 5
   title: "Week 5 - Guest Lectures, Industry Insights, Modern AI Applications & Future of DS<br>
@@ -248,14 +248,14 @@
       - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-5'>R5</a>.<br>
     </small>"
   days:
-    - date: "2025-07-28"
+    - date: "2025-09-01"
       in_class: false
       events:
         - label: LEC
           type: lecture
           title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture</a>
           
-    - date: "2025-07-29"
+    - date: "2025-09-02"
       in_class: false
       events:
         - label: DISC
@@ -267,7 +267,7 @@
           title: <a href='https://youtu.be/wpAhZHvwcxo'>Computer Vision</a>
           slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing
 
-    - date: "2025-07-30"
+    - date: "2025-09-03"
       in_class: false
       events:
         - label: LEC 17
@@ -282,7 +282,7 @@
           type: project
           title: <b>Project P2/Video Due (7 min video)</b>
           
-    - date: "2025-07-31"
+    - date: "2025-09-04"
       in_class: false
       events:
         - label: DISC
