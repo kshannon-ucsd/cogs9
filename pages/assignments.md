@@ -8,4 +8,7 @@ permalink: /assignments/
 
 <h1>Assignments</h1>
 
-Assignments 1, 2, and 3 are to be completed individually. These assignments are made the enhance the concepts learned in the lectures. Please remember that brevity and clarity in writing are more important than length. No single assignment question should require more than a paragraph.
+Assignments 1, 2, and 3 are completed individually and are designed to reinforce concepts from lecture. They focus on (1) data visualization, (2) p-hacking / p-values, and (3) machine learning. When writing your responses, prioritize clarity and brevity over length. Most questions should be answerable in one well-written paragraph.
+
+{: .warning }
+⚠️ **AI Policy Reminder:** I encourage the use of AI to brainstorm ideas or clarify concepts introduced in lecture. However, copying AI-generated output verbatim and submitting it as your own work is strictly prohibited. Not only is this usually easy to spot, but it also undermines your opportunity to learn. If we notice any obvious instances, you will receive a 0 on the assignment.

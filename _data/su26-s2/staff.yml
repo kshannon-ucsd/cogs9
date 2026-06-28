@@ -1,0 +1,20 @@
+- name: Kyle Shannon (Data Soothsayer)
+  email: kshannon@ucsd.edu
+  role: Instructor
+  website: https://www.kmshannon.com/about/
+  photo: https://ucsd.s3.us-west-2.amazonaws.com/staff/photos/kshannon_5.jpeg
+  description: Neuroscience to Data Science @ UCSD x2 (recursive pain)
+  hometown: San Diego, Cali
+  askabout: Coffee, Likely to be found on a tennis court 🎾
+  food: Regent's Pizza, Charminar, Sochi Sushi, Turmeric Thai, Callie
+
+# TA: Ian to fill in his own details (email, photo, bio).
+- name: Ian Zane
+  email:
+  role: TA
+  website:
+  photo:
+  description:
+  hometown:
+  askabout:
+  food:

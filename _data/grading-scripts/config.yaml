@@ -32,22 +32,22 @@ lateness:
   "Reading Quiz 3": 48
   "Reading Quiz 4": 48
   "Reading Quiz 5": 48
-  "Assignment 1": 24
-  "Assignment 2": 24
-  "Assignment 3": 24
+  "Assignment 1": 12
+  "Assignment 2": 12
+  "Assignment 3": 12
   "Final Group Project: Part 1": 0
   "Final Group Project: Part 2": 0
 
 # small penalty, large penalty
 penalties:
-  "Reading Quiz 1": [0.5, 1.0]
-  "Reading Quiz 2": [0.5, 1.0]
-  "Reading Quiz 3": [0.5, 1.0]
-  "Reading Quiz 4": [0.5, 1.0]
-  "Reading Quiz 5": [0.5, 1.0]
-  "Assignment 1": [0.25, 0.5]
-  "Assignment 2": [0.25, 0.5]
-  "Assignment 3": [0.25, 0.5]
+  "Reading Quiz 1": [1.0, 1.0]
+  "Reading Quiz 2": [1.0, 1.0]
+  "Reading Quiz 3": [1.0, 1.0]
+  "Reading Quiz 4": [1.0, 1.0]
+  "Reading Quiz 5": [1.0, 1.0]
+  "Assignment 1": [0, 1.0]
+  "Assignment 2": [0, 1.0]
+  "Assignment 3": [0, 1.0]
   "Final Group Project: Part 1": [0, 0]
   "Final Group Project: Part 2": [0, 0]
 

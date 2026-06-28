@@ -24,7 +24,7 @@ destination: docs/
 title: COGS 9
 email: kshannon@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Cogs 9 at UC San Diego
+  Understanding data and how it shapes the world around us
 title: COGS 9
 tagline: Introduction to Data Science
 
@@ -83,15 +83,15 @@ exclude:
 # Aux link for the upper right navigation
 aux_links:
   # "Template Repository": "https://www.github.com/kshannon/ucsd-dsc40a"
-  "🙋 Piazza": "https://piazza.com/"
-  "💯 Gradescope": "https://www.gradescope.com/"
+  "🙋 Piazza": "https://piazza.com/ucsd/summer2026/cogs9_s126_a00/home"
+  "💯 Gradescope": "https://www.gradescope.com/courses/1332191"
   "🎙️ Podcast": "https://podcast.ucsd.edu/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
 # Change this to choose where to pick data from
-data_folder: su25
+data_folder: su26-s1
 
 # Config JTD UI elements here
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define

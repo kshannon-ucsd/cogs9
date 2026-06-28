@@ -1,23 +1,36 @@
 ---
 layout: default
-title: Group Work Primer
+title: Project Studio
 has_children: false
 parent: 🗂️ Final Project
 nav_order: 1
 permalink: /final-group-project/group-work-primer
 ---
 
-# Primer on Group Work
+# Project Studio
 
-Group projects are difficult because getting a group of people on the same page and working collaboratively on a single goal involves good communication. Please follow the advice below for how to effectively work on a group project. This is mostly the same practical advice I give new hires and junior data scientists in the industry when working on a team-based report. It is a process that has yielded good results in the real world.
+Project Studio is live working time for your group project. The three weekly session times and Zoom links are on the [home page]({{ '/' | relative_url }}); drop into whichever fits your schedule. Staff are there to help.
 
-1. There needs to be a team leader. This person should be expected to contribute less work but will have the all-important task of directing the flow of the project, gathering requirements, and checking on the status of work. This person should be the organizer of the document and also ensure there is one single voice in the report.
-2. Select a single messaging/communication channel. There needs to be a technology that everyone agrees on and will check to ensure timely communication. It could be Email, WhatsApp, Discord, LINE, etc. It does not matter, but there needs to be something. I prefer Discord for college projects.
-3. Each person needs to be assigned a task, and every person should have a backup, in case they drop the class, become ill, or need help to understand and finish a task, e.g. write the ethics portion.
-4. First draft of deliverables should be added to the document at least 3-4 days before the due date to allow for proofreading, and revisions, and to be pulled into the main text body and unified.
-5. Every person should be assigned a different section to proofread.
-6. Communicate early and often. If you have an issue, become ill, or need help. Do not wait until the final day to reach out to your team. The later you wait the more work there will be and it will feel rushed and the pressure will mount. It is perfectly fine to have trouble/issues. But try not to make issues for your team by having a lack of communication.
-7. Before you begin to work on a part by yourself, have an initial meeting where you discuss the requirements, think through some ideas, and ensure everyone is on the same page and in agreement. A lot of times people say they understand something, or "know what you are talking about" ask them to repeat it to the group in their own words. It is not about being right or wrong, but about ensuring there are no gaps in understanding. As they will become larger as time goes on if they are not resolved early and often.
-8. Finally, make sure you meet and do not wait for everyone to be free to meet. In all of your meetings, there should be someone taking notes and meeting minutes. Email these out or add them to a google drive folder for everyone to review. This is especially helpful if someone can't make a meeting. Do not keep pushing a meeting or choose not to meet because 1-2 people can't make it. 
+## Forming your group
 
-Hope this helps!
+Groups are **3-4 students**, grouped by time zone (most of you are in the **USA, India, or China**) so your team shares working hours.
+
+1. **Sign up** on the [group sign-up sheet](https://docs.google.com/spreadsheets/d/1mPOM9M8D4A-gajRI4acaubvKKn60JWY4xTXnq0A1J14/edit?usp=sharing): add your name, email, and time zone, and join a group in a similar time zone.
+2. **By Saturday of Week 1 (11:59 pm)** your group must be finalized. Then email your TA as a group, with **every member replying** to confirm you all agree.
+3. Joining late? Sign up as soon as you can and email your TA; we will place you in a group with room.
+
+## Weekly plan
+
+| Week | Focus |
+|:--|:--|
+| 1 | Brainstorm your data science question and form your group |
+| 2 | Narrow your question, find example data, and submit your Proposal (Friday) |
+| 3 | Draft Report Part 1 (due this week) |
+| 4 | Draft Report Part 2 and revise Part 1 |
+| 5 | Finalize the report and record your video |
+
+## Working as a team
+
+We expect all students to be roughly equal contributors. No one person should carry the project; it is meant to be collaborative and to give you practice working with people you do not know. A good approach: agree on a communication tool and a schedule, discuss each person's strengths, divide up responsibilities (with a backup person for each), and check in regularly so you can adjust if problems come up. Leave time to proofread each other's work.
+
+**A non-cooperative teammate?** Try to work it out within the group first, and keep a record (emails, chats). If you cannot resolve it, contact the course staff; we will step in, and if needed we reserve the right to move someone to a new group or grade them separately.

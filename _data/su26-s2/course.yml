@@ -1,0 +1,36 @@
+# Welcome section
+quarter: "Summer Session 1 & 2 (2026)"
+building: Remote Class
+timings: Lectures Pre-Recorded
+edstem_link: #
+# campuswire_link: https://piazza.com/
+piazza_link: https://piazza.com/ # TBD: Session 2 Piazza link
+gradescope_link: https://www.gradescope.com/ # TBD: Session 2 Gradescope course
+gradescope_entry_code: # students auto-enrolled, no entry code needed
+
+office_hours:
+  - name: Kyle Shannon
+    day: Thursday # TBD: confirm summer OH day/time
+    time: 2:00pm - 3:00pm
+    location: Zoom (remote)
+    zoom_link: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
+    zoom_pw: 725814
+
+announcement:
+  color: green
+  text: We are all very excited that you decided to join us on this whirlwind tour of data science. All relevant info, e.g. due dates, assignment links, etc. are found on this website. We look forward to teaching and working with all of you and hope to meet you in office hours. Check out the **Getting Started** section so you can hit the ground running when class starts!
+
+# Discussion = live Project Studio (group work and staff questions) on Zoom.
+discussion_sections:
+  - section: A01 # registrar DI code 262077
+    day: TUE/THU
+    time: 2:30-3:30
+    location: Zoom (Project Studio)
+    ta: Ian Zane
+
+# No final exam in COGS 9. A final group project is due in lieu of an exam.
+final_exam:
+  - section: N/A
+    day: No final exam, final group project instead
+    time: N/A
+    location: N/A

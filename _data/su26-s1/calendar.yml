@@ -1,0 +1,318 @@
+# COGS 9 Summer Session 1 (2026). Mon Jun 29 to Sat Aug 1.
+# Transposed from su25: same lecture topics, recordings, and slides are reused.
+# All assignments and reading quizzes are released Week 1 Day 1; students work at their own pace by each due date.
+# NOTE: Fri Jul 3 = Independence Day (observed); online items only, no live sessions.
+- week: 1
+  title: "Week 1 - Introduction to Data Science and Data Ethics, Data Questions and Reproducibility<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-1'>R1</a>.<br>
+    </small>"
+  days:
+    - date: "2026-06-29"
+      in_class: false
+      events:
+        - label: LEC 1
+          type: lecture
+          title: What is Data Science?
+          recording: https://youtu.be/1DkTHRX4YNE?feature=shared
+          slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
+        - label: HW
+          type: hw
+          title: <b>All 3 assignments released. Work at your own pace.</b>
+        - label: QUIZ
+          type: quiz
+          title: <b>All 5 reading quizzes released. Work at your own pace.</b>
+
+    - date: "2026-06-30"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 2
+          type: lecture
+          title: <a href='https://youtu.be/oI7IDd4g_ww'>Ethics</a>
+          slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
+
+    - date: "2026-07-01"
+      in_class: false
+      events:
+        - label: LEC 3
+          type: lecture
+          title: <a href='https://youtu.be/L9q2IgSfJj0'>Questions</a>
+          slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
+
+    - date: "2026-07-02"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 4
+          type: lecture
+          title: <a href='https://youtu.be/HQenNGT8O5E'>Reproducibility</a>
+          slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
+
+    - date: "2026-07-03"
+      in_class: false
+      events:
+        - label: "OFF"
+          type: "off"
+          title: 🇺🇸 Independence Day (holiday)
+
+    - date: "2026-07-04"
+      in_class: false
+      events:
+        - label: PROJECT
+          type: project
+          title: <span class='cal-due'>Groups must be finalized DUE @ 11:59pm</span> <a class='cal-submit' href='https://docs.google.com/spreadsheets/d/1mPOM9M8D4A-gajRI4acaubvKKn60JWY4xTXnq0A1J14/edit?usp=sharing'>sign up here</a>
+
+    - date: "2026-07-05"
+      in_class: false
+      events:
+        - label: QUIZ
+          type: quiz
+          title: <span class='cal-due'>Reading Quiz 1 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+- week: 2
+  title: "Week 2 - Data Fundamentals and Collection, Wrangling and Visualization<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-2'>R2: Ethics Readings</a>.<br>
+    </small>"
+  days:
+    - date: "2026-07-06"
+      in_class: false
+      events:
+        - label: LEC 5
+          type: lecture
+          title: <a href='https://youtu.be/Bdrdes9PIec'>Data</a>
+          slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1E9xMrXmvfKDQsY9y-YNjZykWUqXiaRjx?usp=sharing
+          data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
+
+    - date: "2026-07-07"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 6
+          type: lecture
+          title: <a href='https://youtu.be/OERnXwxcFjc'>Data Collection</a>
+          slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
+
+    - date: "2026-07-08"
+      in_class: false
+      events:
+        - label: LEC 7
+          type: lecture
+          title: <a href='https://youtu.be/X59mXBp2C8c'>Data Wrangling</a>
+          slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
+          code:
+        - label: QUIZ
+          type: quiz
+          title: <span class='cal-due'>Reading Quiz 2 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+    - date: "2026-07-09"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC
+          type: lecture
+          title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture - Python Coding and EDA</a>
+          #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
+
+    - date: "2026-07-10"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <span class='cal-due'>A1 Data Visualization DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+        - label: PROJECT
+          type: project
+          title: <span class='cal-due'>Project Proposal DUE @ 11:59pm</span> <a class='cal-submit' href='https://forms.gle/eDpE4M1nsEc1xve18'>submit here</a>
+
+- week: 3
+  title: "Week 3 - EDA and Communication, Inferential Analysis and Data Literacy<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-3'>R3</a>.<br>
+    </small>"
+  days:
+    - date: "2026-07-13"
+      in_class: false
+      events:
+        - label: LEC 8
+          type: lecture
+          title: <a href='https://youtu.be/VlUZC2KzBog'>Data Visualization</a>
+          slides: https://drive.google.com/file/d/18B28p9S9T5G_D-WdWbBCLY2ekxC9tbkz/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
+
+    - date: "2026-07-14"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 9
+          type: lecture
+          title: <a href='https://youtu.be/6v1LKp4nlV0'>EDA</a>
+          slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
+
+    - date: "2026-07-15"
+      in_class: false
+      events:
+        - label: LEC 10
+          type: lecture
+          title: <a href='https://youtu.be/mncL8HRv_kk'>Communicating Data Science</a>
+          slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
+        - label: QUIZ
+          type: quiz
+          title: <span class='cal-due'>Reading Quiz 3 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+    - date: "2026-07-16"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 11
+          type: lecture
+          title: <a href='https://youtu.be/y4uPJTaPmNc'>Inferential Analysis</a>
+          slides: https://drive.google.com/file/d/1-4JrHgoHnctlixbLYhrunn0QNl_74Kjk/view?usp=sharing
+          #demo:
+        - label: PROJECT
+          type: project
+          title: <span class='cal-due'>Report Part 1 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+    - date: "2026-07-17"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <span class='cal-due'>A2 p-hacking DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+- week: 4
+  title: "Week 4 - ML Fundamentals and Applications, Specialized Data Types and Industry Advice<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-4'>R4</a>.<br>
+    </small>"
+  days:
+    - date: "2026-07-20"
+      in_class: false
+      events:
+        - label: LEC 12
+          type: lecture
+          title: <a href='https://youtu.be/j7qRLB71XuU'>ML (part 1)</a>
+          slides: https://drive.google.com/file/d/1hYqGawEtPUmcPB_tsIWsXdTSp7Ds8U3M/view?usp=sharing
+
+    - date: "2026-07-21"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 13
+          type: lecture
+          title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
+          slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing
+
+    - date: "2026-07-22"
+      in_class: false
+      events:
+        - label: LEC 15
+          type: lecture
+          title: <a href='https://youtu.be/SHQ_-FeZDgM'>Geospatial Data Analysis</a>
+          slides: https://drive.google.com/file/d/12W1JLd5PsUFDcAhHKtnj2CTfFTtTUygb/view?usp=sharing
+          #demo:
+          #code:
+        - label: QUIZ
+          type: quiz
+          title: <span class='cal-due'>Reading Quiz 4 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+    - date: "2026-07-23"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC
+          type: lecture
+          title: <a href='https://www.youtube.com/watch?v=0odXC4cY3nM'>Guest Lecture 1</a>
+
+    - date: "2026-07-24"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <span class='cal-due'>A3 Machine Learning DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+- week: 5
+  title: "Week 5 - Guest Lectures, Industry Insights, Modern AI Applications and Future of DS<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-5'>R5</a>.<br>
+    </small>"
+  days:
+    - date: "2026-07-27"
+      in_class: false
+      events:
+        - label: LEC
+          type: lecture
+          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture 2</a>
+
+    - date: "2026-07-28"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 16
+          type: lecture
+          title: <a href='https://youtu.be/wpAhZHvwcxo'>Computer Vision</a>
+          slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing
+
+    - date: "2026-07-29"
+      in_class: false
+      events:
+        - label: LEC 17
+          type: lecture
+          title: <a href='https://youtu.be/oBqOj7_lJnw'>Algorithms</a>
+          slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
+          #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
+        - label: QUIZ
+          type: quiz
+          title: <span class='cal-due'>Reading Quiz 5 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+        - label: PROJECT
+          type: project
+          title: <span class='cal-due'>Project Video DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>
+
+    - date: "2026-07-30"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 18
+          type: lecture
+          title: <a href='https://youtu.be/JLAxQ6CqwFk'>Data Science Jobs</a>
+          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
+          #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
+        - label: PROJECT
+          type: project
+          title: <span class='cal-due'>Report Part 2 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332191'>submit here</a>

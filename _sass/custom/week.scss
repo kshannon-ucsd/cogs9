@@ -58,7 +58,7 @@
       width: 100%;
 
       @include mq(sm) {
-        width: 82%;
+        width: 100%;
       }
 
       +p {
@@ -89,6 +89,8 @@
     .label-exam { background-color: #000000; text-align: center; border-radius: 6px; width: 60px; }
     .label-demo { background-color: #F2C76E; text-align: center; border-radius: 6px; width: 60px; }
     .label-survey { background-color: #15c791; text-align: center; border-radius: 6px; width: 60px; }
+    .label-project { background-color: #15c791; text-align: center; border-radius: 6px; width: 72px; white-space: nowrap; }
+    .label-off { background-color: #000000; color: #ffffff; text-align: center; border-radius: 6px; width: 60px; }
 
     // .label-vit { background-color: #c1443c; text-align: center; border-radius: 9px; }
     // .label-live { background-color: #63c082; text-align: center; border-radius: 9px; }
@@ -102,4 +104,28 @@
 
 .text-grey-dk-100, .label-lecture {
     color: #5c5962 !important;
+}
+
+// Calendar due-date + submission styling
+.cal-due { color: #c0392b !important; font-weight: 700; }
+.cal-submit { color: #1d4ed8 !important; text-decoration: underline; }
+
+// Syllabus section header bars
+.section-header {
+  background-color: #e9f1fb;
+  border-left: 5px solid #4a78c2;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+  margin-top: 1.6rem;
+}
+
+// Syllabus grading table
+.grading-table th {
+  background-color: #dce9f7;
+}
+.grading-table tbody tr:nth-child(even) td {
+  background-color: #f5f8fc;
+}
+.grading-table td:last-child {
+  font-weight: 600;
 }

@@ -1,0 +1,311 @@
+# COGS 9 Summer Session 2 (2026). Mon Aug 3 to Sat Sep 5.
+# Transposed from su25/su26-s1: same lecture topics, recordings, and slides are reused.
+# All assignments and reading quizzes are released Week 1 Day 1; students work at their own pace by each due date.
+# NOTE: No university holidays fall on class days this session; Labor Day Sep 7 is after it ends.
+- week: 1
+  title: "Week 1 - Introduction to Data Science and Data Ethics, Data Questions and Reproducibility<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-1'>R1</a>.<br>
+    </small>"
+  days:
+    - date: "2026-08-03"
+      in_class: false
+      events:
+        - label: LEC 1
+          type: lecture
+          title: What is Data Science?
+          recording: https://youtu.be/1DkTHRX4YNE?feature=shared
+          slides: https://drive.google.com/file/d/1VVDe4nypwzaMjYxGzfYymC6dsQT8WB2b/view?usp=sharing
+        - label: HW
+          type: hw
+          title: <b>All 3 assignments released. Work at your own pace.</b>
+        - label: QUIZ
+          type: quiz
+          title: <b>All 5 reading quizzes released. Work at your own pace.</b>
+
+    - date: "2026-08-04"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 2
+          type: lecture
+          title: <a href='https://youtu.be/oI7IDd4g_ww'>Ethics</a>
+          slides: https://drive.google.com/file/d/1cXuPmihiRPluQV5biFr1vP90hp1gs8ol/view?usp=sharing
+
+    - date: "2026-08-05"
+      in_class: false
+      events:
+        - label: LEC 3
+          type: lecture
+          title: <a href='https://youtu.be/L9q2IgSfJj0'>Questions</a>
+          slides: https://drive.google.com/file/d/19Isd1KqrWUcFxPIiwYBo4vH3lta2emZl/view?usp=sharing
+
+    - date: "2026-08-06"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 4
+          type: lecture
+          title: <a href='https://youtu.be/HQenNGT8O5E'>Reproducibility</a>
+          slides: https://drive.google.com/file/d/1eHzS6W-gqAPDsBh1Z4-pgAXt1iH6aum4/view?usp=sharing
+
+    - date: "2026-08-08"
+      in_class: false
+      events:
+        - label: PROJECT
+          type: project
+          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/group-work-primer'>Group assignments must be completed</a> (11:59 pm)</b>
+
+    - date: "2026-08-09"
+      in_class: false
+      events:
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 1 due Aug 9, 11:59 pm</b>
+
+- week: 2
+  title: "Week 2 - Data Fundamentals and Collection, Wrangling and Visualization<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-2'>R2: Ethics Readings</a>.<br>
+    </small>"
+  days:
+    - date: "2026-08-10"
+      in_class: false
+      events:
+        - label: LEC 5
+          type: lecture
+          title: <a href='https://youtu.be/Bdrdes9PIec'>Data</a>
+          slides: https://drive.google.com/file/d/12TaBBC02FQqa3YGiO0mkabyRXsa6zl3V/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1E9xMrXmvfKDQsY9y-YNjZykWUqXiaRjx?usp=sharing
+          data: https://drive.google.com/file/d/1Fdvw0sS7d8lt2HCdWnBh92kOJCfTjw2p/view?usp=sharing
+
+    - date: "2026-08-11"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 6
+          type: lecture
+          title: <a href='https://youtu.be/OERnXwxcFjc'>Data Collection</a>
+          slides: https://drive.google.com/file/d/1Cn7n7oSCrf25S-YWuXN6FKJGm82zcNs-/view?usp=sharing
+
+    - date: "2026-08-12"
+      in_class: false
+      events:
+        - label: LEC 7
+          type: lecture
+          title: <a href='https://youtu.be/X59mXBp2C8c'>Data Wrangling</a>
+          slides: https://drive.google.com/file/d/1_BngJOfs9wkXzM9MuFtO5yde8VJWqgOR/view?usp=sharing
+          code:
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 2 due Aug 12, 11:59 pm</b>
+
+    - date: "2026-08-13"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC
+          type: lecture
+          title: <a href='https://youtu.be/t6uleIMCYW0'>Guest Lecture - Python Coding and EDA</a>
+          #slides: https://drive.google.com/file/d/1iOWt2L24TdWmkkDfY5IVuq8P3NUv0MYP/view?usp=sharing
+
+    - date: "2026-08-14"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <b>Assignment 1 due Aug 14, 11:59 pm</b>
+        - label: PROJECT
+          type: project
+          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/proposal'>Project Proposal</a> due Aug 14, 11:59 pm (required, one form per group)</b>
+
+- week: 3
+  title: "Week 3 - EDA and Communication, Inferential Analysis and Data Literacy<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-3'>R3</a>.<br>
+    </small>"
+  days:
+    - date: "2026-08-17"
+      in_class: false
+      events:
+        - label: LEC 8
+          type: lecture
+          title: <a href='https://youtu.be/VlUZC2KzBog'>Data Visualization</a>
+          slides: https://drive.google.com/file/d/18B28p9S9T5G_D-WdWbBCLY2ekxC9tbkz/view?usp=sharing
+          demo: https://colab.research.google.com/drive/1fy8KM4pV6xsnN5oiHVilhXMB4J6awBgp?usp=sharing
+
+    - date: "2026-08-18"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 9
+          type: lecture
+          title: <a href='https://youtu.be/6v1LKp4nlV0'>EDA</a>
+          slides: https://drive.google.com/file/d/1qVqGqpeufteO9W2knFQ0aGLDzj5E6k0R/view?usp=sharing
+
+    - date: "2026-08-19"
+      in_class: false
+      events:
+        - label: LEC 10
+          type: lecture
+          title: <a href='https://youtu.be/mncL8HRv_kk'>Communicating Data Science</a>
+          slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 3 due Aug 19, 11:59 pm</b>
+
+    - date: "2026-08-20"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 11
+          type: lecture
+          title: <a href='https://youtu.be/y4uPJTaPmNc'>Inferential Analysis</a>
+          slides: https://drive.google.com/file/d/1-4JrHgoHnctlixbLYhrunn0QNl_74Kjk/view?usp=sharing
+          #demo:
+        - label: PROJECT
+          type: project
+          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-one'>Project Report Part 1</a> due Aug 20, 11:59 pm (Gradescope)</b>
+
+    - date: "2026-08-21"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <b>Assignment 2 due Aug 21, 11:59 pm</b>
+
+- week: 4
+  title: "Week 4 - ML Fundamentals and Applications, Specialized Data Types and Industry Advice<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-4'>R4</a>.<br>
+    </small>"
+  days:
+    - date: "2026-08-24"
+      in_class: false
+      events:
+        - label: LEC 12
+          type: lecture
+          title: <a href='https://youtu.be/j7qRLB71XuU'>ML (part 1)</a>
+          slides: https://drive.google.com/file/d/1hYqGawEtPUmcPB_tsIWsXdTSp7Ds8U3M/view?usp=sharing
+
+    - date: "2026-08-25"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 13
+          type: lecture
+          title: <a href='https://youtu.be/ZlZFDS8FPDg'>ML (part 2)</a>
+          slides: https://drive.google.com/file/d/1izVBVZMBr2YXe1BXmHr9H98EhvynVVVu/view?usp=sharing
+
+    - date: "2026-08-26"
+      in_class: false
+      events:
+        - label: LEC 15
+          type: lecture
+          title: <a href='https://youtu.be/SHQ_-FeZDgM'>Geospatial Data Analysis</a>
+          slides: https://drive.google.com/file/d/12W1JLd5PsUFDcAhHKtnj2CTfFTtTUygb/view?usp=sharing
+          #demo:
+          #code:
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 4 due Aug 26, 11:59 pm</b>
+
+    - date: "2026-08-27"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC
+          type: lecture
+          title: <a href='https://www.youtube.com/watch?v=0odXC4cY3nM'>Guest Lecture 1</a>
+
+    - date: "2026-08-28"
+      in_class: false
+      events:
+        - label: HW
+          type: hw
+          title: <b>Assignment 3 due Aug 28, 11:59 pm</b>
+
+- week: 5
+  title: "Week 5 - Guest Lectures, Industry Insights, Modern AI Applications and Future of DS<br>
+    <small>
+      - 📘 Read <a href='https://kshannon-ucsd.github.io/cogs9/readings/reading-5'>R5</a>.<br>
+    </small>"
+  days:
+    - date: "2026-08-31"
+      in_class: false
+      events:
+        - label: LEC
+          type: lecture
+          title: <a href='https://youtu.be/DtdlfdBKY-g'>Guest Lecture 2</a>
+
+    - date: "2026-09-01"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (9:00-10:00 PM)"
+        - label: LEC 16
+          type: lecture
+          title: <a href='https://youtu.be/wpAhZHvwcxo'>Computer Vision</a>
+          slides: https://drive.google.com/file/d/1kvbyi7IMMwVJxyIGOqMk3DkDVEsuFr8l/view?usp=sharing
+
+    - date: "2026-09-02"
+      in_class: false
+      events:
+        - label: LEC 17
+          type: lecture
+          title: <a href='https://youtu.be/oBqOj7_lJnw'>Algorithms</a>
+          slides: https://drive.google.com/file/d/12MbsQ8eYC6_4RkmJ_hYv5u_aiDSXCFOr/view?usp=sharing
+          #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
+        - label: QUIZ
+          type: quiz
+          title: <b>Reading Quiz 5 due Sep 2, 11:59 pm</b>
+        - label: PROJECT
+          type: project
+          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-two-video'>Project Video</a> due Sep 2, 11:59 pm (approx 10 min, Gradescope)</b>
+
+    - date: "2026-09-03"
+      in_class: false
+      events:
+        - label: DISC
+          type: disc
+          title: "Project Studio Time (2:30-3:30 PM)"
+        - label: LEC 18
+          type: lecture
+          title: <a href='https://youtu.be/JLAxQ6CqwFk'>Data Science Jobs</a>
+          slides: https://drive.google.com/file/d/1YWrcP9Jh5MpVQEwss1Z_W7X8kK8fzFOU/view?usp=sharing
+          #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
+        - label: PROJECT
+          type: project
+          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-two'>Project Report Part 2</a> due Sep 3, 11:59 pm (~10-15 page PDF, Gradescope)</b>

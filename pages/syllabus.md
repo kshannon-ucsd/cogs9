@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 📖 Syllabus
+has_children: true
 nav_order: 2
 description: Course structure and policies.
 ---
@@ -11,18 +12,25 @@ description: Course structure and policies.
 ## Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
-{:toc}
+- [Course Materials](#materials)
+- [Course Objectives](#objectives)
+- [Grading & Attendance](#grading)
+- [Course Assignments & Topics](#assignments)
+- [Policies & Resources](#policies)
 
 ---
 
 ## Course Materials
+{: .section-header #materials }
+
 - There is **no** textbook
 - All course materials are provided through **this website**
-- Reading quizzes and the exam are taken through Gradescope
+- Reading quizzes are taken through Gradescope
 - Assignments and the final are submitted through Gradescope
 
 ## Course Objectives
+{: .section-header #objectives }
+
 - Comprehend core data science concepts and examine their applications
 - Discuss data privacy and ethical concerns with real-world examples
 - Identify data science questions and the appropriate analytic approach to answering those questions
@@ -31,6 +39,8 @@ description: Course structure and policies.
 - Describe potential pitfalls of data analyses, how to identify them, and how to avoid them
 
 ## Grading & Attendance
+{: .section-header #grading }
+
 ### Grading
 
 |                                               | % of Total Grade |   200 Total Points |
@@ -40,6 +50,7 @@ description: Course structure and policies.
 | Final Project pt. 1                           |               10 |               20   |
 | Final Project pt. 2                           |               20 |               40   |
 | Final Project video                           |               20 |               40   |
+{: .grading-table }
 
 - **Final exam date**: No final exam, only a final group project.
 - Your letter grade will be determined using the [standard grading scale](https://pages.stolaf.edu/dietz/typical-grading-scale/). Grades are **not** rounded up.
@@ -57,19 +68,26 @@ The regrade policy is here to protect students from serious issues in grading, n
 - We will get back to you within 48 hours with our final decision.
 
 ### Lecture Attendance
-Our goal is to make lectures and office hours worth your while to attend, e.g. we do in-class exercises. However, lecture attendance is not required. All lectures will be recorded. These will be made available to you (UCSD podcast).
+Lectures are **pre-recorded** and posted on the course website (and via UCSD podcast), so you can watch on your own schedule. Office hours and the Project Studio are live on Zoom. We'd love to see you there to work through questions together.
 
-### Section Attendance
-Section attendance is not mandatory, however, groups will be created within sections (usually week 3). Readings as well as lecture material will be reviewed in the section and it is to your benefit to go and ask questions.
+### Project Studio (Discussion Sections)
+Discussion sections run as a live **Project Studio** on Zoom. This is dedicated working time for your group project. You'll form teams in Week 1, get staff feedback and help, and check in on your progress each week. Each week there are three studio sessions (two in the afternoon and one in the evening); drop into whichever fits your schedule. See the home page for the schedule and Zoom links. Attendance isn't mandatory, but the Studio is the best place to get help on the project and assignments, so it's very much to your benefit to come.
 
 ### Late Policy
-All **quizzes** and **projects** must be turned in on time. Assignments may be turned in late, but only for 1/2 (i.e. 50%) credit.
+- **Reading quizzes:** must be submitted on time; **no late submissions accepted.**
+- **Assignments:** a **12-hour grace period** after the deadline (no penalty). After that, late work is **not accepted**.
+- **Final project (all parts):** must be submitted on time. Late work is not accepted except for documented emergencies outside your control. Email the course staff *before* the deadline.
+
+### Joining the Class Late
+Summer sessions move fast. If you add the course late and want full credit for early work, you must: (1) email Kyle and your TA that you joined late, **before the end of Week 2**, so we don't count that work as late; (2) read this syllabus and catch up on the recorded lectures; and (3) submit any missed Week 1 assignments/quizzes by **11:59pm Friday of Week 2**. Work from later weeks is not eligible for this catch-up.
 
 ## Course Assignments & Topics
+{: .section-header #assignments }
+
 This class is a survey course intended to get you all excited about becoming data scientists! Data are everywhere and they’re being used in tried-and-true, new, and creative ways. This course will introduce you to the broad topics in data science, discuss what it means to be a data scientist, and get you on your way to thinking like a data scientist. To see what topics will be introduced in this course, see the side nav menu and click on topics.
 
 ### Assignments
-Assignments will focus on applying the concepts covered in lectures and readings. See the assignments tab for individual instructions and the home page course calander for due dates.
+Assignments will focus on applying the concepts covered in lectures and readings. Each assignment is worth 20 points (60 points total, 30% of your grade). See the assignments tab for individual instructions and the home page course calendar for due dates.
 
 ### Final Project
 The final project is a two-part report and video on how you would handle a complicated data science project. It’s a culmination of what you learned from the assignments and lectures.
@@ -80,18 +98,18 @@ See the final project tab for further instructions.
 
 
 ### Exam
-There is no comprehensive exam in COGS9, there is however a substantial group project due around week 10. 
+There is no exam in COGS 9. In its place, there is a substantial final group project due at the end of the session (Week 5). 
 
 ### Readings & Quizzes
 Quizzes cover the reading material assigned, e.g. Quiz 1 only covers material from reading 1 (R1).
 
 - Five multiple choice (10 questions) quizzes
-- Available for 48 hours
+- Released all at once at the start of the term; complete at your own pace by each due date
 - One attempt
 - Open notes, but you must work alone.
 - Taken and submitted through Gradescope
 
-Your lowest quiz score will be dropped when calculating your final grade. Late reading quizzes will be accepted up to 48 hours, however, they will receive ½ credit.
+Your lowest quiz score will be dropped when calculating your final grade. Late reading quizzes are not accepted.
 
 ### Planned Readings
 Readings will cover many of the broad topics found within Data Science, both from an academic and industry perspective.
@@ -106,51 +124,12 @@ Readings will cover many of the broad topics found within Data Science, both fro
 - R5: Diakopoulos N, Accountability in Algorithmic Decision Making
 - R5: Angwin J, Larson J, Mattu S & Kirchner L, Machine Bias
 
+## Policies and Resources
+{: .section-header #policies }
 
-## Other Good Stuff
+Check out these pages for more:
 
-### Teamwork Expectations
-Your team will be working on the final together. We expect all students to, more or less, be equal contributors to the final project. No one person should be doing a project, they are meant to be collaborative and give you experience working with people you probably do not know. One successful approach is to first agree on a communication tool/protocol and a schedule. Next, discuss each person’s strengths and divide up responsibilities. Develop a schedule for completing tasks, who is responsible, and a backup person in case an emergency occurs. Finally, check in regularly to ensure progress is being made and leave some time to check and proofread each other's work. Especially because some students in your group may be remote for part of the class.
-
-**Dealing with non-cooperative team members** -- If an issue occurs first try to work the issue out within your group. Save all documentation, emails, and chats as a record in case you need to contact the course staff. We will step in and try to communicate with the student(s) to resolve this. If no resolution can be made, or the problem resurfaces, we reserve the right to move the student to a new group or grade that student separately from the group, or any other action to resolve the issue.
-
-**Group work is never easy** -- Teamwork, while difficult (especially during potentially remote interaction), is one of the most important skills you should learn and practice during college. To succeed, communication is critical. You need to be in contact with your group regularly. This will help you keep on top of deliverables and make adjustments if problems should arise. We are always here to help and make use of our experience working on real engineering/science projects.
-
-### Class/Web Conduct
-In all interactions in this class, you are expected to be respectful. This includes following the UC San Diego [principles of the community](https://ucsd.edu/about/principles.html).
-
-This class will be a welcoming, inclusive, and harassment-free experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion (or lack thereof), political beliefs/leanings, or technology choices.
-
-At all times, you should be considerate and respectful. Always refrain from demeaning, discriminatory, or harassing behavior and speech. Last of all, take care of each other.
-
-If you have a concern, please speak with Kyle or your TAs. If you are uncomfortable doing so, that’s ok! The [OPHD](https://blink.ucsd.edu/HR/policies/sexual/OPHD.html) (Office for the Prevention of Sexual Harassment and Discrimination) and [CARE](https://care.ucsd.edu/) (confidential advocacy and education office for sexual violence and gender-based violence) are wonderful resources on campus.
-
-
-### Academic Integrity
-Don't cheat.
-
-You are encouraged to (and at times will have to) work together and help one another. However, you are personally responsible for the work you submit (quizzes/exams). For assignments, it is also your responsibility to ensure you understand everything your group has submitted and to make sure the correct file has been uploaded, that the upload is uncorrupted and that it renders correctly. Projects may include ideas and code from other sources—but these other sources must be documented with clear attribution. Please review academic integrity policies [here](http://academicintegrity.ucsd.edu).
-
-We anticipate you all doing well in this course; however, if you are feeling lost or overwhelmed, that’s ok! Should that occur, we recommend: (i.) asking questions in/after class, (ii.) attending office hours, and/or (iii.) reaching out to course staff.
-
-Cheating and plagiarism have been and will be strongly penalized. If, for whatever reason, this website, or Gradescope is down, or something else prohibits you from being able to turn in an assignment on time, immediately contact course staff via email (attach your assignment/quiz/exam answers) or else it will be graded as late.
-
-### Disability​ ​Access
-Students requesting accommodations due to a disability must provide a current Authorization for Accommodation (AFA) letter. These letters are issued by the Office for Students with Disabilities (OSD), which is located in University Center 202 behind Center Hall. To arrange accommodations please contact Kyle [kshannon@ucsd.edu](kshannon@ucsd.edu) privately, I will loop in the appropriate course staff to act as a liaison.
-
-Contacting the OSD can help you further:
-858.534.4382 (phone)
-[osd@ucsd.edu](osd@ucsd.edu) (email)
-[http://disabilities.ucsd.edu](http://disabilities.ucsd.edu)
-
-### Questions & Feedback
-**How to Get Your Question(s) Answered and/or Provide Feedback**
-It’s great that we have many ways to communicate, but it can get tricky to figure out who to contact or where your question belongs, or when to expect a response. These guidelines are to help you get your question answered as quickly as possible and to ensure that we’re able to get to everyone’s questions.
-
-That said, to ensure that we’re respecting their time, TAs and IAs have been instructed they’re only obligated to answer questions between normal working hours (M-F 9am-5pm). However, I know that’s not when you may be doing your work. So, please feel free to reach out whenever is best for you while knowing that, you may not get a response until the next day. As such, do your best not to wait until the last minute to ask a question. If there is an emergency and you need to contact staff immediately, email Kyle and put "EMERGENCY-COGS9" in the subject line. I will get back to you ASAP.
-
-If you have…
-- **questions about course content** - these are awesome! We want everyone to see them and have their questions answered, please post questions, or ask during class/office hours.
-- **questions about course logistics** - first, check the syllabus. If the answer is not there, ask in Section, ask a classmate, or ask during class/office hours.
-- **something super cool to share related to class** - feel free to email Kyle [kshannon@ucsd.edu](kshannon@ucsd.edu)) or come to office hours. Be sure to include COGS9 in the email subject line and your full name in your message.
-- **something you want to talk about in-depth** - meet in person/digitally during office hours or schedule a time to meet 1:1 by email. Be sure to include COGS9 in the email subject line. Or it may be missed. [kshannon@ucsd.edu](kshannon@ucsd.edu). 
+- [Academic Integrity & AI]({{ '/syllabus/academic-integrity' | relative_url }}): academic honesty and using AI tools.
+- [Conduct & Community]({{ '/syllabus/conduct' | relative_url }}): respect and campus resources.
+- [Accessibility]({{ '/syllabus/accessibility' | relative_url }}): accommodations and the OSD.
+- [Getting Help]({{ '/syllabus/getting-help' | relative_url }}): where to take your questions.

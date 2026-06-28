@@ -1,20 +1,20 @@
 ---
 layout: default
-title: Final Project Part 2 - Video
+title: Project Video
 has_children: false
 parent: 🗂️ Final Project
-nav_order: 5
+nav_order: 6
 permalink: /final-group-project/part-two-video
 ---
 
-# Final Project Part 2 Video Submission
+# Project Video
 
 ## Instructions
 
-Your team will create a **7-10 minute video presentation** explaining your data science project. This video serves as the culmination of your work and should professionally showcase your analysis, findings, and collaborative efforts.
+Your team will create an **approximately 10-minute video presentation** explaining your data science project. This video serves as the culmination of your work and should professionally showcase your analysis, findings, and collaborative efforts.
 
 ### Video Requirements:
-- **Length**: 7-10 minutes (videos significantly shorter or longer may lose points)
+- **Length**: approximately 10 minutes (videos significantly shorter or longer may lose points)
 - **Participation**: Each team member must speak for at least 1 minute
 - **Content Coverage**: Your video must address all major components of your project:
   - Research question and hypothesis

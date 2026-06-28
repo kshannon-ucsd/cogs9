@@ -8,12 +8,27 @@ permalink: /final-group-project/
 
 # Final Group Project
 
-For your Final Project, I want you to explore the various approaches to Data Science you will be learning this quarter. Specifically, you are required to outline how you would integrate a variety of Data Scientific methods and theories in a project addressing a novel question that can be answered using data. Imagine you knew all the ins-and-outs of Data Science, data mining, analysis, programming, and statistics, and write your final outlining your question, hypothesis, overall approach, analysis, and conclusion.
+In your group, you will **plan** (not run) a data science project. Pick a question that data could answer, then outline how you would approach it. You do not actually perform the analysis.
 
-Your question could be purely scientific (e.g., "How do different cultures perceive different colors?"), just interesting (e.g., "What are commonly misheard song lyrics?"), or statistical (e.g., "How big do crowds need to be for reliable estimates of different kinds of questions?").
+Your **question** can be scientific (e.g. *"How do different cultures perceive color?"*), fun (e.g. *"What are commonly misheard song lyrics?"*), or statistical (e.g. *"How big does a crowd need to be for a reliable estimate?"*).
 
-Your Final Project will have the following sections: Question, Hypothesis, Background Information, Data, Ethical Considerations, Analysis Proposal, Discussion, Group Participation
+**Your report covers:** Question, Hypothesis, Background, Data, Ethical Considerations, Analysis Proposal, Discussion, and Group Participation.
 
-Remember to proofread your essays and that you are not using overly flowery and/or vague language. Use as few words as possible, but no less, to describe your approach. Concision is key, you wouldn’t over engineer a system. Correct? Why would you over engineer your prose? Think Hemmingway, not Faulkner. A small portion of your grade will be dependent on your ability to write clearly, and logically, and without errors that should be caught during a proofreading. As well as your ability to follow all the instructions laid out in this document.
+**Write well:** be clear, concise, and logical (think Hemingway, not Faulkner). Proofread your work; a small part of your grade is writing quality and following instructions.
 
-You will turn in one PDF as a group into Gradescope by the due date for part 1, part 2 and the video. There are no late submissions accepted, unless there is an issue outside of your control. If so, email your course instructors and all your teammates. Before the due date.
+**Deliverables (all submitted per group):**
+- **[Proposal]({{ '/final-group-project/proposal' | relative_url }})**: Google Form, required but not graded
+- **[Report Part 1]({{ '/final-group-project/part-one' | relative_url }})** and **[Report Part 2]({{ '/final-group-project/part-two' | relative_url }})**: PDF on Gradescope
+- **[Video]({{ '/final-group-project/part-two-video' | relative_url }})**: unlisted YouTube link, submitted on Gradescope
+
+No late submissions unless something outside your control happens. If it does, email the instructors and your teammates before the deadline.
+
+## Being a good teammate
+
+Group work lives or dies on communication. A few things that help:
+
+- Pick a **team leader** to coordinate and keep one voice in the document.
+- Agree on **one communication channel** (Discord, WhatsApp, etc.) and actually check it.
+- **Divide up tasks**, and give each task a backup person.
+- **Communicate early and often**; never go silent, especially if you hit a problem.
+- Draft a few days early so you can **proofread each other's** work.

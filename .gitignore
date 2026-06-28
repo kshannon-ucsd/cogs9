@@ -7,3 +7,6 @@ _site/
 vendor/
 .DS_Store
 dev-docs/
+
+# local running notes / todo — not tracked, not published
+notes/

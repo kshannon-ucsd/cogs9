@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Final Project Part 1
+title: Project Report Part 1
 has_children: false
 parent: 🗂️ Final Project
-nav_order: 3
+nav_order: 4
 permalink: /final-group-project/part-one
 ---
 
-<h1>Final Part 1</h1>
+<h1>Project Report Part 1</h1>
 
 - Project part 1 Google Doc <a href="https://docs.google.com/document/d/1w35JUgmvKnc1hzfg309eRrfCosUR2Gi-J4HWthtrx8U/edit?usp=sharing" target="_blank" rel="noopener">view &#x2197;</a>
 
 
 <h2>Instructions</h2>
-Wait until the discussion section is held, to be placed in a group. Your TA will randomly assign you to a group. As groups will still be somewhat in flux during the first 2 weeks of class (late adds/drops) make sure there is some flexibility in your planning. Reach out to your TA or IA early if there are any issues with group members dropping. Sometimes a group member will not tell their group they dropped the class and just go into silent mode. If you are unsure, ask your TA and they can verify the student's status.
+Groups are formed in Week 1: sign yourself up on the group sign-up sheet (by time zone), finalize your group by Saturday of Week 1, and email your TA as a group with every member replying to confirm. See the Project Studio page for details. Groups may still be in flux during the first week (late adds/drops), so keep some flexibility in your planning. Reach out to your TA early if there are any issues with group members dropping. Sometimes a group member will not tell their group they dropped the class and just go into silent mode. If you are unsure, ask your TA and they can verify the student's status.
 
 Click the link above to open the Google Doc for part one. You can not edit this document, you must create a duplicate of it in your own Google Drive. Your group will work out of this document. When ready to submit, save/export the document as a PDF, and turn it in as one submission (per group) in Gradescope. You may resubmit the document as many times as you like before the deadline.
 
