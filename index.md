@@ -36,6 +36,7 @@ This is a remote asynchronous class. Therefore, lectures have been **pre-recorde
 **Joining the class late?** Summer moves fast. Read the [Joining Late]({{ '/joining-late' | relative_url }}) page right away for the few steps to get set up (Piazza, Gradescope, a project group) and stay eligible for full credit.
 
 ### Office Hours
+{: .home-h }
 
 Live help on Zoom. Bring questions about lectures, assignments, or the project.
 
@@ -44,6 +45,7 @@ Live help on Zoom. Bring questions about lectures, assignments, or the project.
 {% endfor %}
 
 ### Project Studio
+{: .home-h }
 
 Project Studio is live working time for your group project on Zoom. There are three sessions every week; drop into whichever fits your schedule (you do not need to attend all three). Staff are there to answer questions and help your team make progress.
 
@@ -56,6 +58,11 @@ Project Studio is live working time for your group project on Zoom. There are th
 See the [Project Studio]({{ '/final-group-project/group-work-primer' | relative_url }}) page for the weekly project plan and group sign-up.
 
 <!-- **{{ course_vars.announcement.text }}** -->
+
+### Course Calendar
+{: .home-h }
+
+Lectures, readings, and due dates, laid out week by week.
 
 {% for week in calendar %}
   {% include week.html week=week %}
