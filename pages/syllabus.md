@@ -2,6 +2,7 @@
 layout: default
 title: 📖 Syllabus
 has_children: true
+has_toc: false
 nav_order: 2
 description: Course structure and policies.
 ---
@@ -80,6 +81,8 @@ Discussion sections run as a live **Project Studio** on Zoom. This is dedicated 
 
 ### Joining the Class Late
 Summer sessions move fast. If you add the course late and want full credit for early work, you must: (1) email Kyle and your TA that you joined late, **before the end of Week 2**, so we don't count that work as late; (2) read this syllabus and catch up on the recorded lectures; and (3) submit any missed Week 1 assignments/quizzes by **11:59pm Friday of Week 2**. Work from later weeks is not eligible for this catch-up.
+
+See the [Joining Late]({{ '/joining-late' | relative_url }}) page for a step-by-step checklist to get set up fast.
 
 ## Course Assignments & Topics
 {: .section-header #assignments }

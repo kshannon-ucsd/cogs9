@@ -61,14 +61,14 @@
       events:
         - label: PROJECT
           type: project
-          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/group-work-primer'>Group assignments must be completed</a> (11:59 pm)</b>
+          title: <span class='cal-due'>Groups must be finalized DUE @ 11:59pm</span> <a class='cal-submit' href='https://docs.google.com/spreadsheets/d/1mPOM9M8D4A-gajRI4acaubvKKn60JWY4xTXnq0A1J14/edit?usp=sharing'>sign up here</a>
 
     - date: "2026-08-09"
       in_class: false
       events:
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 1 due Aug 9, 11:59 pm</b>
+          title: <span class='cal-due'>Reading Quiz 1 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
 - week: 2
   title: "Week 2 - Data Fundamentals and Collection, Wrangling and Visualization<br>
@@ -110,7 +110,7 @@
           code:
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 2 due Aug 12, 11:59 pm</b>
+          title: <span class='cal-due'>Reading Quiz 2 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
     - date: "2026-08-13"
       in_class: false
@@ -128,10 +128,10 @@
       events:
         - label: HW
           type: hw
-          title: <b>Assignment 1 due Aug 14, 11:59 pm</b>
+          title: <span class='cal-due'>A1 Data Visualization DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
         - label: PROJECT
           type: project
-          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/proposal'>Project Proposal</a> due Aug 14, 11:59 pm (required, one form per group)</b>
+          title: <span class='cal-due'>Project Proposal DUE @ 11:59pm</span> <a class='cal-submit' href='https://forms.gle/eDpE4M1nsEc1xve18'>submit here</a>
 
 - week: 3
   title: "Week 3 - EDA and Communication, Inferential Analysis and Data Literacy<br>
@@ -171,7 +171,7 @@
           slides: https://drive.google.com/file/d/1tkJ02dL7qbaJAk-Ky-DL1djp09Xy7Mhs/view?usp=sharing
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 3 due Aug 19, 11:59 pm</b>
+          title: <span class='cal-due'>Reading Quiz 3 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
     - date: "2026-08-20"
       in_class: false
@@ -186,14 +186,14 @@
           #demo:
         - label: PROJECT
           type: project
-          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-one'>Project Report Part 1</a> due Aug 20, 11:59 pm (Gradescope)</b>
+          title: <span class='cal-due'>Report Part 1 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
     - date: "2026-08-21"
       in_class: false
       events:
         - label: HW
           type: hw
-          title: <b>Assignment 2 due Aug 21, 11:59 pm</b>
+          title: <span class='cal-due'>A2 p-hacking DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
 - week: 4
   title: "Week 4 - ML Fundamentals and Applications, Specialized Data Types and Industry Advice<br>
@@ -234,7 +234,7 @@
           #code:
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 4 due Aug 26, 11:59 pm</b>
+          title: <span class='cal-due'>Reading Quiz 4 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
     - date: "2026-08-27"
       in_class: false
@@ -251,7 +251,7 @@
       events:
         - label: HW
           type: hw
-          title: <b>Assignment 3 due Aug 28, 11:59 pm</b>
+          title: <span class='cal-due'>A3 Machine Learning DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
 - week: 5
   title: "Week 5 - Guest Lectures, Industry Insights, Modern AI Applications and Future of DS<br>
@@ -290,10 +290,10 @@
           #demo: https://drive.google.com/file/d/1jYVufl252P5xBK3UBQ_sw2-y3rEW7mqB/view?usp=sharing
         - label: QUIZ
           type: quiz
-          title: <b>Reading Quiz 5 due Sep 2, 11:59 pm</b>
+          title: <span class='cal-due'>Reading Quiz 5 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
         - label: PROJECT
           type: project
-          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-two-video'>Project Video</a> due Sep 2, 11:59 pm (approx 10 min, Gradescope)</b>
+          title: <span class='cal-due'>Project Video DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>
 
     - date: "2026-09-03"
       in_class: false
@@ -308,4 +308,4 @@
           #demo: https://drive.google.com/file/d/1JvolP55NS5yG4_okgr5HtKqUOOGhdBDW/view?usp=sharing
         - label: PROJECT
           type: project
-          title: <b><a href='https://kshannon-ucsd.github.io/cogs9/final-group-project/part-two'>Project Report Part 2</a> due Sep 3, 11:59 pm (~10-15 page PDF, Gradescope)</b>
+          title: <span class='cal-due'>Report Part 2 DUE @ 11:59pm</span> <a class='cal-submit' href='https://www.gradescope.com/courses/1332250'>submit here</a>

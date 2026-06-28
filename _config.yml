@@ -83,6 +83,9 @@ exclude:
 # Aux link for the upper right navigation
 aux_links:
   # "Template Repository": "https://www.github.com/kshannon/ucsd-dsc40a"
+  # Session 1 links are active below. For Session 2, swap to:
+  #   "🙋 Piazza": "https://piazza.com/class/mqy2catbtov3yi/"
+  #   "💯 Gradescope": "https://www.gradescope.com/courses/1332250"
   "🙋 Piazza": "https://piazza.com/ucsd/summer2026/cogs9_s126_a00/home"
   "💯 Gradescope": "https://www.gradescope.com/courses/1332191"
   "🎙️ Podcast": "https://podcast.ucsd.edu/"
@@ -90,7 +93,8 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
-# Change this to choose where to pick data from
+# Change this to choose where to pick data from (su26-s1 or su26-s2)
+# When flipping to su26-s2, also update the Piazza + Gradescope aux_links above.
 data_folder: su26-s1
 
 # Config JTD UI elements here

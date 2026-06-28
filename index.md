@@ -14,12 +14,8 @@ nav_order: 1
 
 # Introduction to Data Science - Summer 2026
 
-{: .mb-2 }
-Understanding data and how it shapes the world around us
-{: .fs-6 .fw-300 }
-
-{: .fs-6 .fw-300 }
-<span title="https://jarv.is/" class="wave">👋</span> Welcome to Cogs 9
+<span title="https://jarv.is/" class="wave">👋</span> Welcome to Cogs 9 where we understand data and how it shapes our world.
+{: .fs-6 .fw-300 .mb-2 }
 
 {{ course_vars.quarter }}
 {: .md-badge-purple }
@@ -36,8 +32,15 @@ Understanding data and how it shapes the world around us
 This is a remote asynchronous class. Therefore, lectures have been **pre-recorded**. Also, all quizzes and HW assignments are open and you can work on them at your own pace, just be mindful of the due dates for each. There is no final exam in this class, just a final group project.
 
 
-{: .important }
-{% for oh in course_vars.office_hours %}- **{{ oh.name }}** office hours ({{ oh.day }} {{ oh.time }}): {{ oh.location }}{% if oh.zoom_link %}, [zoom link]({{ oh.zoom_link }}){% endif %}
+{: .highlight }
+**Joining the class late?** Summer moves fast. Read the [Joining Late]({{ '/joining-late' | relative_url }}) page right away for the few steps to get set up (Piazza, Gradescope, a project group) and stay eligible for full credit.
+
+### Office Hours
+
+Live help on Zoom. Bring questions about lectures, assignments, or the project.
+
+{% for oh in course_vars.office_hours %}- **{{ oh.name }}** (instructor): {{ oh.day }} {{ oh.time }}, [Zoom link]({{ oh.zoom_link }})
+{% endfor %}{% for d in course_vars.discussion_sections %}- **{{ d.ta }}** (TA): during the Project Studio sessions below
 {% endfor %}
 
 ### Project Studio
