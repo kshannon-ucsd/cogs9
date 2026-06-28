@@ -138,3 +138,79 @@
   border-bottom: 2px solid #d7deea;
   font-weight: 600;
 }
+
+// Getting Started checklist cards
+.gs-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.75rem 0;
+}
+.gs-card {
+  position: relative;
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  padding: 1.45rem 3.4rem 1.45rem 1.45rem;
+  margin-bottom: 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #e6eaf1;
+  border-radius: 14px;
+  box-shadow: 0 2px 6px rgba(20, 40, 80, 0.06);
+}
+.main-content .gs-list { padding-left: 0; }
+.main-content .gs-card::before { content: none; }
+.gs-num {
+  flex: 0 0 2.75rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4a78c2, #2f5597);
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+.gs-body { flex: 1; }
+.gs-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0.15rem 0 0.4rem 0;
+  color: #1f2d3d;
+}
+.gs-card p {
+  margin: 0;
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: #41474f;
+}
+.gs-tick {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.gs-tick circle { fill: #eef6ff; stroke: #bcd2ef; stroke-width: 1.5; }
+.gs-tick path {
+  fill: none;
+  stroke: #4a78c2;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+// Home page Getting Started call-to-action button
+.gs-cta {
+  display: inline-block;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #2bae66;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.gs-cta:hover { background-color: #249a59; }

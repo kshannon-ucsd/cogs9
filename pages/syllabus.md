@@ -72,7 +72,7 @@ The regrade policy is here to protect students from serious issues in grading, n
 Lectures are **pre-recorded** and posted on the course website (and via UCSD podcast), so you can watch on your own schedule. Office hours and the Project Studio are live on Zoom. We'd love to see you there to work through questions together.
 
 ### Project Studio (Discussion Sections)
-Discussion sections run as a live **Project Studio** on Zoom. This is dedicated working time for your group project. You'll form teams in Week 1, get staff feedback and help, and check in on your progress each week. Each week there are three studio sessions (two in the afternoon and one in the evening); drop into whichever fits your schedule. See the home page for the schedule and Zoom links. Attendance isn't mandatory, but the Studio is the best place to get help on the project and assignments, so it's very much to your benefit to come.
+Discussion sections run as a live **Project Studio** on Zoom. This is dedicated working time for your group project. You'll form teams in Week 1, and studios run Weeks 2 through 5 with five sessions each week. Drop into whichever fits your schedule. See the home page for the schedule and Zoom links. **Your group must attend at least one studio per week. Check in with your team name when you join, and staff will mark your group present. For each week your group does not attend, you lose up to 2% off your final grade.**
 
 ### Late Policy
 - **Reading quizzes:** must be submitted on time; **no late submissions accepted.**

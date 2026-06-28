@@ -28,6 +28,8 @@ nav_order: 1
 
 {% include staffer.html staff=staff nobio='true' %}
 
+<a class="gs-cta" href="{{ '/getting-started' | relative_url }}">Getting Started Guide Here</a>
+
 {: .important }
 This is a remote asynchronous class. Therefore, lectures have been **pre-recorded**. Also, all quizzes and HW assignments are open and you can work on them at your own pace, just be mindful of the due dates for each. There is no final exam in this class, just a final group project.
 
@@ -47,13 +49,17 @@ Live help on Zoom. Bring questions about lectures, assignments, or the project.
 ### Project Studio
 {: .home-h }
 
-Project Studio is live working time for your group project on Zoom. There are three sessions every week; drop into whichever fits your schedule (you do not need to attend all three). Staff are there to answer questions and help your team make progress.
+Project Studio is live working time for your group project on Zoom, starting in Week 2. There are five sessions every week, listed below. Drop into whichever fits your schedule. You do not need to attend all five, and staff are there to answer questions and help your team make progress.
 
-| Session | When | Zoom |
+**Your group must attend at least one studio each week.** Just check in with your team name when you join, and staff will mark your group present. For each week your group does not attend a studio, you lose up to 2% off your final grade.
+
+| Session | When (PDT) | Zoom |
 |:--|:--|:--|
+| Monday (afternoon) | Mon 5:00-6:00pm | TBD |
 | Tuesday (afternoon) | Tue 2:30-3:30pm | TBD |
-| Thursday (afternoon) | Thu 2:30-3:30pm | TBD |
 | Tuesday (evening) | Tue 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
+| Thursday (afternoon) | Thu 2:30-3:30pm | TBD |
+| Friday (morning) | Fri 8:00-9:00am | TBD |
 
 See the [Project Studio]({{ '/final-group-project/group-work-primer' | relative_url }}) page for the weekly project plan and group sign-up.
 

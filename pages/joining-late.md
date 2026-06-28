@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 🚀 Joining Late
-nav_order: 3
+title: ⏰ Joining Late
+nav_order: 1.7
 permalink: /joining-late
 description: What to do if you add COGS 9 after the session starts.
 ---
