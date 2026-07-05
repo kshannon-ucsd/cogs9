@@ -13,7 +13,7 @@ description: What to do if you add COGS 9 after the session starts.
 Summer sessions move fast. If you added COGS 9 after it started, work through this checklist **right away** so you do not fall behind. None of it takes long.
 
 {: .important }
-Want full credit for Week 1 work? Let the course staff know on [Piazza]({{ course_vars.piazza_link }}) **before the end of Week 2**, so we do not count your early work as late. See the [late policy]({{ '/syllabus#grading' | relative_url }}) for details.
+Want full credit for Week 1 work? Let the course staff know on [Piazza]({{ course_vars.piazza_link }}) **before the end of Week 2**, so we do not count your early work as late. See the [late policy]({{ '/pages/syllabus.html#grading' | relative_url }}) for details.
 
 ## Your catch-up checklist
 

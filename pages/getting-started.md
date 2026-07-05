@@ -34,7 +34,7 @@ Welcome! Work through this checklist in your first few days to get set up and re
 <div class="gs-num">3</div>
 <div class="gs-body">
 <div class="gs-title">Read the syllabus</div>
-<p>Skim the whole thing, then read two parts closely: <a href="{{ '/syllabus#grading' | relative_url }}">how you are graded</a> and the <a href="{{ '/syllabus#late-policy' | relative_url }}">late policy</a>. Quizzes get no late credit and assignments have only a short grace period, so the dates matter.</p>
+<p>Skim the whole thing, then read two parts closely: <a href="{{ '/pages/syllabus.html#grading' | relative_url }}">how you are graded</a> and the <a href="{{ '/pages/syllabus.html#late-policy' | relative_url }}">late policy</a>. Quizzes get no late credit and assignments have only a short grace period, so the dates matter.</p>
 </div>
 <svg class="gs-tick" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5 5.5-6"/></svg>
 </li>
