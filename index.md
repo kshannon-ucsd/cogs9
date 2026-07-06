@@ -55,9 +55,9 @@ Project Studio is live working time for your group project on Zoom, starting in 
 
 | Session | When (PDT) | Zoom |
 |:--|:--|:--|
-| Monday (afternoon) | Mon 5:00-6:00pm | TBD |
 | Tuesday (afternoon) | Tue 2:30-3:30pm | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
 | Tuesday (evening) | Tue 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
+| Wednesday (evening) | Wed 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
 | Thursday (afternoon) | Thu 2:30-3:30pm | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
 | Friday (morning) | Fri 8:00-9:00am | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
 

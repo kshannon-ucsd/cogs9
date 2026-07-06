@@ -8,13 +8,13 @@
   askabout: Coffee, Likely to be found on a tennis court 🎾
   food: Regent's Pizza, Charminar, Sochi Sushi, Turmeric Thai, Callie
 
-# TA: Ian to fill in his own details (email, photo, bio).
-- name: Ian Zane
-  email:
+# TA for Session 2
+- name: Akshay Nagarajan
+  email: anagaraj@ucsd.edu
   role: TA
   website:
-  photo:
-  description:
-  hometown:
-  askabout:
-  food:
+  photo: /assets/staff/akshay.jpg
+  description: MS. Robotics, 5th year Cognitive Science grad at UC San Diego.
+  hometown: Mumbai, India
+  askabout: Snake handling, Ocean fishing, Jazz and Blues, and Asian cuisines! Also CogSci's softball team, The Earth Pigs!
+  food: Kebabs (Mal Al Sham), $16 Indian buffet (Masala house), Gelato (An's Dry Cleaning)
