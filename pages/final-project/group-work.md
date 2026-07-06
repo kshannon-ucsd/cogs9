@@ -9,7 +9,7 @@ permalink: /final-group-project/group-work-primer
 
 # Project Studio
 
-Project Studio is live working time for your group project. The three weekly session times and Zoom links are on the [home page]({{ '/' | relative_url }}); drop into whichever fits your schedule. Staff are there to help.
+Project Studio is live working time for your group project. The five weekly session times and Zoom links are on the [home page]({{ '/' | relative_url }}); drop into whichever fits your schedule. Staff are there to help.
 
 ## Forming your group
 
