@@ -10,3 +10,19 @@ dev-docs/
 
 # local running notes / todo — not tracked, not published
 notes/
+# Grade processing: keep the tooling, samples, and empty session folders;
+# ignore real inputs, generated exports, per-session configs, and the pixi env.
+process_grades/*
+!process_grades/grade_processor.py
+!process_grades/pixi.toml
+!process_grades/config.example.yaml
+!process_grades/README.md
+!process_grades/*.sample.csv
+!process_grades/data/
+process_grades/data/*
+!process_grades/data/summer_1_26/
+!process_grades/data/summer_2_26/
+process_grades/data/summer_1_26/*
+process_grades/data/summer_2_26/*
+!process_grades/data/summer_1_26/.gitkeep
+!process_grades/data/summer_2_26/.gitkeep

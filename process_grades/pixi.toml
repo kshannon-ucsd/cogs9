@@ -1,0 +1,21 @@
+[project]
+name = "cogs9-grades"
+version = "0.1.0"
+description = "COGS 9 grade processing: Gradescope + Canvas -> finalized roster + eGrades"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "osx-64", "linux-64"]
+
+[dependencies]
+python = ">=3.11"
+pyyaml = "*"
+openpyxl = "*"          # only needed if the Gradescope export is .xlsx
+
+[tasks]
+# Preview a session (prints the breakdown + warnings, writes nothing):
+s1-dry = "python grade_processor.py --config config.summer_1_26.yaml --dry-run"
+s2-dry = "python grade_processor.py --config config.summer_2_26.yaml --dry-run"
+# Generate the two CSVs into that session's data folder:
+s1-run = "python grade_processor.py --config config.summer_1_26.yaml"
+s2-run = "python grade_processor.py --config config.summer_2_26.yaml"
+# Dry-run against the checked-in sample files:
+demo = "python grade_processor.py --config config.example.yaml --dry-run"

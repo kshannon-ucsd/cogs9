@@ -1,0 +1,51 @@
+# COGS 9 grade processor - configuration
+# Copy this file to  config.yaml  and edit it for your real run:
+#     cp config.example.yaml config.yaml
+# Then:
+#     pixi run dry-run   # prints the full breakdown, writes nothing
+#     pixi run run       # writes the two output CSVs
+
+# ---- files (2 inputs, 2 outputs) ----
+files:
+  gradescope: gradescope.sample.csv      # Gradescope export (.csv or .xlsx)
+  canvas: canvas.sample.csv              # university / Canvas roster CSV
+  # finalized_out:                       # optional; defaults to <canvas>_finalized.csv
+  egrades_out: egrades.csv               # eGrades upload file (CSV)
+
+# ---- grading scheme: the syllabus 200-pt breakdown ----
+# Max points are read from each assignment's "- Max Points" column in the export.
+categories:
+  assignments:                           # 3 x 20 = 60 pts
+    columns: ["Assignment 1", "Assignment 2", "Assignment 3"]
+  quizzes:                               # best 4 of 5 x 10 = 40 pts
+    columns: ["Reading Quiz 1", "Reading Quiz 2", "Reading Quiz 3", "Reading Quiz 4", "Reading Quiz 5"]
+    drop_lowest: 1
+  project:                               # 20 + 40 + 40 = 100 pts
+    columns: ["Final Group Project: Part 1", "Final Group Project: Part 2", "Final Project Video"]
+
+# ---- curve: flat percentage points added to every student's final % ----
+curve_percent: 0         # e.g. 3  ->  everyone's final % goes up by 3 points
+
+# ---- free points: raw points added to a student's TOTAL (out of 200) ----
+free_points:
+  # A12345678: 5         # give this student 5 points on their overall total
+
+# ---- point reductions for late / over-time-limit work ----
+# Subtract RAW points from ONE student's ONE assignment. Add a note on each line.
+reductions:
+  # - { assignment: "Assignment 2",   sid: A12345678, points: 4 }   # 1 day late
+  # - { assignment: "Reading Quiz 3", sid: A87654321, points: 2 }    # over time limit
+
+# ---- letter cutoffs: percent floors, truncated (never rounded up) ----
+grade_scale:
+  "A+": 97
+  "A": 93
+  "A-": 90
+  "B+": 87
+  "B": 83
+  "B-": 80
+  "C+": 77
+  "C": 73
+  "C-": 70
+  "D": 60
+  "F": 0
