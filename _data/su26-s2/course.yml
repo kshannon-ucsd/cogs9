@@ -10,8 +10,8 @@ gradescope_entry_code: # students auto-enrolled, no entry code needed
 
 office_hours:
   - name: Kyle Shannon
-    day: Monday
-    time: 4:00pm - 5:00pm (PDT)
+    day: TUE/THU
+    time: 10:00pm - 10:30pm (PDT)
     location: Zoom (remote)
     zoom_link: https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09
     zoom_pw: 725814
@@ -23,8 +23,8 @@ announcement:
 # Discussion = live Project Studio (group work and staff questions) on Zoom.
 discussion_sections:
   - section: A01 # registrar DI code 262077
-    day: TUE/THU
-    time: 2:30-3:30
+    day: MON/FRI
+    time: 9:30am-10:30am
     location: Zoom (Project Studio)
     ta: Akshay Nagarajan
 
