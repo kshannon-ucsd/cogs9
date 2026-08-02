@@ -49,17 +49,14 @@ Live help on Zoom. Bring questions about lectures, assignments, or the project.
 ### Project Studio
 {: .home-h }
 
-Project Studio is live working time for your group project on Zoom, starting in Week 2. There are five sessions every week, listed below. Drop into whichever fits your schedule. You do not need to attend all five, and staff are there to answer questions and help your team make progress.
+Project Studio is live working time for your group project on Zoom, starting in Week 2. The sessions are listed below. Drop into whichever fits your schedule. You do not need to attend all of them, and staff are there to answer questions and help your team make progress.
 
 **Your group must attend at least one studio each week.** Just check in with your team name when you join, and staff will mark your group present. For each week your group does not attend a studio, you lose up to 2% off your final grade.
 
 | Session | When (PDT) | Zoom |
 |:--|:--|:--|
-| Tuesday (afternoon) | Tue 2:30-3:30pm | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
-| Tuesday (evening) | Tue 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
-| Wednesday (evening) | Wed 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
-| Thursday (afternoon) | Thu 2:30-3:30pm | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
-| Friday (morning) | Fri 8:00-9:00am | [Zoom link](https://ucsd.zoom.us/j/3497925056?pwd=BYldMAJhbdzT4LV8k3OHIP5seWoYk4.1) |
+| Monday (Akshay) | Mon 9:30-10:30am | [Zoom link](https://ucsd.zoom.us/j/91628192178) |
+| Friday (Akshay) | Fri 9:30-10:30am | [Zoom link](https://ucsd.zoom.us/j/91628192178) |
 
 See the [Project Studio]({{ '/final-group-project/group-work-primer' | relative_url }}) page for the weekly project plan and group sign-up.
 
