@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.13">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Hack Your Way To Scientific Glory (recreation) – Hack Your Way To Scientific Glory</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-66ab7fd5e73b7f0a764e0d49b3e29ab1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-13d8dfd228dfade12d3a2e6c8458ab71.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Hack Your Way To Scientific Glory (recreation) – Hack Your Way To Scientific Glory">
+<meta property="og:description" content="Recreation of FiveThirtyEight’s “Hack Your Way To Scientific Glory” with Observable JS">
+<meta property="og:site_name" content="Hack Your Way To Scientific Glory">
+<meta property="og:locale" content="en_US">
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hack Your Way To Scientific Glory <span class="fs-6 text-uppercase">(recreation)</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="grid interactive">
+<div class="g-col-12 g-col-md-9">
+<p>You’re a social scientist with a hunch: <strong>The U.S. economy is affected by whether Republicans or Democrats are in office.</strong> Try to show that a connection exists, using real data going back to 1948. For your results to be publishable in an academic journal, you’ll need to prove that they are “statistically significant” by achieving a low enough p-value.</p>
+</div>
+<div class="g-col-12 g-col-md-3 small">
+<p>Recreation of FiveThirtyEight’s “Hack Your Way To Scientific Glory” (<a href="https://web.archive.org/web/20250130080601/https://projects.fivethirtyeight.com/p-hacking/">archived here</a>), but with Observable JS.</p>
+<p><a href="https://github.com/andrewheiss/hack-your-way"><i class="fa-brands fa-github" aria-label="github"></i> Code and data</a></p>
+</div>
+</div>
+<div class="grid interactive">
+<div class="g-col-12 g-col-md-3">
+<section id="choose-a-political-party" class="level3 party">
+<h3 data-anchor-id="choose-a-political-party"><span class="number">1</span> Choose a political party</h3>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="37" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb1-37"><a href="index.html#cb1-37" aria-hidden="true" tabindex="-1"></a>viewof party <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(</span>
+<span id="cb1-38"><a href="index.html#cb1-38" aria-hidden="true" tabindex="-1"></a>  <span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb1-39"><a href="index.html#cb1-39" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Democrats"</span><span class="op">,</span> <span class="st">"dem"</span>]<span class="op">,</span></span>
+<span id="cb1-40"><a href="index.html#cb1-40" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Republicans"</span><span class="op">,</span> <span class="st">"gop"</span>]</span>
+<span id="cb1-41"><a href="index.html#cb1-41" aria-hidden="true" tabindex="-1"></a>  ])<span class="op">,</span></span>
+<span id="cb1-42"><a href="index.html#cb1-42" aria-hidden="true" tabindex="-1"></a>  <span class="co">// {value: "dem", label: "Party"}</span></span>
+<span id="cb1-43"><a href="index.html#cb1-43" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> <span class="st">"dem"</span>}</span>
+<span id="cb1-44"><a href="index.html#cb1-44" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</section>
+<section id="define-terms" class="level3">
+<h3 data-anchor-id="define-terms"><span class="number">2</span> Define terms</h3>
+<p>Which politicians do you want to include?</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="56" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 55;"><span id="cb2-56"><a href="index.html#cb2-56" aria-hidden="true" tabindex="-1"></a>viewof polTerms <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">checkbox</span>(</span>
+<span id="cb2-57"><a href="index.html#cb2-57" aria-hidden="true" tabindex="-1"></a>  <span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb2-58"><a href="index.html#cb2-58" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"President"</span><span class="op">,</span> <span class="st">"prez"</span>]<span class="op">,</span></span>
+<span id="cb2-59"><a href="index.html#cb2-59" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Governors"</span><span class="op">,</span> <span class="st">"gov"</span>]<span class="op">,</span></span>
+<span id="cb2-60"><a href="index.html#cb2-60" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Senators"</span><span class="op">,</span> <span class="st">"sen"</span>]<span class="op">,</span></span>
+<span id="cb2-61"><a href="index.html#cb2-61" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Representatives"</span><span class="op">,</span> <span class="st">"rep"</span>]</span>
+<span id="cb2-62"><a href="index.html#cb2-62" aria-hidden="true" tabindex="-1"></a>  ])<span class="op">,</span></span>
+<span id="cb2-63"><a href="index.html#cb2-63" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> [<span class="st">"prez"</span><span class="op">,</span> <span class="st">"gov"</span>]}</span>
+<span id="cb2-64"><a href="index.html#cb2-64" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<hr>
+<p>How do you want to measure economic performance?</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="73" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 72;"><span id="cb3-73"><a href="index.html#cb3-73" aria-hidden="true" tabindex="-1"></a>viewof econTerms <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">checkbox</span>(</span>
+<span id="cb3-74"><a href="index.html#cb3-74" aria-hidden="true" tabindex="-1"></a>  <span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb3-75"><a href="index.html#cb3-75" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Unemployment"</span><span class="op">,</span> <span class="st">"unemp"</span>]<span class="op">,</span></span>
+<span id="cb3-76"><a href="index.html#cb3-76" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Inflation"</span><span class="op">,</span> <span class="st">"inflation"</span>]<span class="op">,</span></span>
+<span id="cb3-77"><a href="index.html#cb3-77" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"GDP"</span><span class="op">,</span> <span class="st">"gdp"</span>]<span class="op">,</span></span>
+<span id="cb3-78"><a href="index.html#cb3-78" aria-hidden="true" tabindex="-1"></a>    [<span class="st">"Stock prices"</span><span class="op">,</span> <span class="st">"stocks"</span>]</span>
+<span id="cb3-79"><a href="index.html#cb3-79" aria-hidden="true" tabindex="-1"></a>  ])<span class="op">,</span></span>
+<span id="cb3-80"><a href="index.html#cb3-80" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">value</span><span class="op">:</span> [<span class="st">"gdp"</span><span class="op">,</span> <span class="st">"inflation"</span><span class="op">,</span> <span class="st">"stocks"</span>]}</span>
+<span id="cb3-81"><a href="index.html#cb3-81" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<hr>
+<p>Other options</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="90" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 89;"><span id="cb4-90"><a href="index.html#cb4-90" aria-hidden="true" tabindex="-1"></a>viewof weighted <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">toggle</span>(</span>
+<span id="cb4-91"><a href="index.html#cb4-91" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">label</span><span class="op">:</span> <span class="st">"Factor in power"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="kw">false</span>}</span>
+<span id="cb4-92"><a href="index.html#cb4-92" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="option-note">
+<p>Weight more powerful positions more heavily</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="102" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 101;"><span id="cb5-102"><a href="index.html#cb5-102" aria-hidden="true" tabindex="-1"></a>viewof excludeRecessions <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">toggle</span>(</span>
+<span id="cb5-103"><a href="index.html#cb5-103" aria-hidden="true" tabindex="-1"></a>  {<span class="dt">label</span><span class="op">:</span> <span class="st">"Exclude recessions"</span><span class="op">,</span> <span class="dt">value</span><span class="op">:</span> <span class="kw">true</span>}</span>
+<span id="cb5-104"><a href="index.html#cb5-104" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-5" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="option-note">
+<p>Don’t include economic recessions</p>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-6">
+<div id="load-data" class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="120" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 119;"><span id="cb6-120"><a href="index.html#cb6-120" aria-hidden="true" tabindex="-1"></a>full_data <span class="op">=</span> {</span>
+<span id="cb6-121"><a href="index.html#cb6-121" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> raw_data <span class="op">=</span> <span class="cf">await</span> <span class="fu">FileAttachment</span>(<span class="st">"data/538_p_hacking.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({ <span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span> } )<span class="op">;</span></span>
+<span id="cb6-122"><a href="index.html#cb6-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-123"><a href="index.html#cb6-123" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> raw_data<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> { </span>
+<span id="cb6-124"><a href="index.html#cb6-124" aria-hidden="true" tabindex="-1"></a>    d<span class="op">.</span><span class="at">gdp</span> <span class="op">=</span> d<span class="op">.</span><span class="at">gdp</span> <span class="op">===</span> <span class="st">"NA"</span> <span class="op">?</span> <span class="kw">null</span> <span class="op">:</span> d<span class="op">.</span><span class="at">gdp</span><span class="op">;</span></span>
+<span id="cb6-125"><a href="index.html#cb6-125" aria-hidden="true" tabindex="-1"></a>    d<span class="op">.</span><span class="at">unemp</span> <span class="op">=</span> d<span class="op">.</span><span class="at">unemp</span> <span class="op">===</span> <span class="st">"NA"</span> <span class="op">?</span> <span class="kw">null</span> <span class="op">:</span> d<span class="op">.</span><span class="at">unemp</span><span class="op">;</span></span>
+<span id="cb6-126"><a href="index.html#cb6-126" aria-hidden="true" tabindex="-1"></a>    d<span class="op">.</span><span class="at">inflation</span> <span class="op">=</span> d<span class="op">.</span><span class="at">inflation</span> <span class="op">===</span> <span class="st">"NA"</span> <span class="op">?</span> <span class="kw">null</span> <span class="op">:</span> d<span class="op">.</span><span class="at">inflation</span><span class="op">;</span></span>
+<span id="cb6-127"><a href="index.html#cb6-127" aria-hidden="true" tabindex="-1"></a>    d<span class="op">.</span><span class="at">stocks</span> <span class="op">=</span> d<span class="op">.</span><span class="at">stocks</span> <span class="op">===</span> <span class="st">"NA"</span> <span class="op">?</span> <span class="kw">null</span> <span class="op">:</span> d<span class="op">.</span><span class="at">stocks</span><span class="op">;</span></span>
+<span id="cb6-128"><a href="index.html#cb6-128" aria-hidden="true" tabindex="-1"></a>    d<span class="op">.</span><span class="at">recession</span> <span class="op">=</span> d<span class="op">.</span><span class="at">recession</span> <span class="op">===</span> <span class="st">"TRUE"</span><span class="op">;</span></span>
+<span id="cb6-129"><a href="index.html#cb6-129" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> d<span class="op">;</span> </span>
+<span id="cb6-130"><a href="index.html#cb6-130" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb6-131"><a href="index.html#cb6-131" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb6-132"><a href="index.html#cb6-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-133"><a href="index.html#cb6-133" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">data_to_use</span>(data<span class="op">,</span> party<span class="op">,</span> pol_terms<span class="op">,</span> econ_terms<span class="op">,</span> exclude_recessions<span class="op">,</span> weighted) {</span>
+<span id="cb6-134"><a href="index.html#cb6-134" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> filtered_data <span class="op">=</span> data<span class="op">;</span></span>
+<span id="cb6-135"><a href="index.html#cb6-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-136"><a href="index.html#cb6-136" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (exclude_recessions) {</span>
+<span id="cb6-137"><a href="index.html#cb6-137" aria-hidden="true" tabindex="-1"></a>    filtered_data <span class="op">=</span> filtered_data<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> <span class="op">!</span>d<span class="op">.</span><span class="at">recession</span>)<span class="op">;</span></span>
+<span id="cb6-138"><a href="index.html#cb6-138" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-139"><a href="index.html#cb6-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-140"><a href="index.html#cb6-140" aria-hidden="true" tabindex="-1"></a>  filtered_data <span class="op">=</span> filtered_data<span class="op">.</span><span class="fu">filter</span>(d <span class="kw">=&gt;</span> econ_terms<span class="op">.</span><span class="fu">every</span>(term <span class="kw">=&gt;</span> d[term] <span class="op">!==</span> <span class="kw">null</span>))<span class="op">;</span></span>
+<span id="cb6-141"><a href="index.html#cb6-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-142"><a href="index.html#cb6-142" aria-hidden="true" tabindex="-1"></a>  filtered_data <span class="op">=</span> filtered_data<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> {</span>
+<span id="cb6-143"><a href="index.html#cb6-143" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> pol_score <span class="op">=</span> pol_terms<span class="op">.</span><span class="fu">reduce</span>((sum<span class="op">,</span> term) <span class="kw">=&gt;</span> {</span>
+<span id="cb6-144"><a href="index.html#cb6-144" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> value <span class="op">=</span> d[<span class="vs">`</span><span class="sc">${</span>term<span class="sc">}</span><span class="vs">_</span><span class="sc">${</span>party<span class="sc">}</span><span class="vs">`</span>]<span class="op">;</span></span>
+<span id="cb6-145"><a href="index.html#cb6-145" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> weight <span class="op">=</span> weighted</span>
+<span id="cb6-146"><a href="index.html#cb6-146" aria-hidden="true" tabindex="-1"></a>        <span class="op">?</span> (term <span class="op">===</span> <span class="st">"prez"</span> <span class="op">?</span> <span class="dv">100</span></span>
+<span id="cb6-147"><a href="index.html#cb6-147" aria-hidden="true" tabindex="-1"></a>          <span class="op">:</span> term <span class="op">===</span> <span class="st">"gov"</span> <span class="op">?</span> <span class="dv">10</span></span>
+<span id="cb6-148"><a href="index.html#cb6-148" aria-hidden="true" tabindex="-1"></a>          <span class="op">:</span> term <span class="op">===</span> <span class="st">"sen"</span> <span class="op">?</span> <span class="dv">5</span></span>
+<span id="cb6-149"><a href="index.html#cb6-149" aria-hidden="true" tabindex="-1"></a>          <span class="op">:</span> term <span class="op">===</span> <span class="st">"rep"</span> <span class="op">?</span> <span class="dv">1</span></span>
+<span id="cb6-150"><a href="index.html#cb6-150" aria-hidden="true" tabindex="-1"></a>          <span class="op">:</span> <span class="dv">1</span>)</span>
+<span id="cb6-151"><a href="index.html#cb6-151" aria-hidden="true" tabindex="-1"></a>        <span class="op">:</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb6-152"><a href="index.html#cb6-152" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> sum <span class="op">+</span> (value <span class="op">*</span> weight)<span class="op">;</span></span>
+<span id="cb6-153"><a href="index.html#cb6-153" aria-hidden="true" tabindex="-1"></a>    }<span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb6-154"><a href="index.html#cb6-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-155"><a href="index.html#cb6-155" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> econ_score <span class="op">=</span> econ_terms<span class="op">.</span><span class="fu">reduce</span>((sum<span class="op">,</span> term) <span class="kw">=&gt;</span> sum <span class="op">+</span> d[term]<span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb6-156"><a href="index.html#cb6-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-157"><a href="index.html#cb6-157" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> { <span class="op">...</span>d<span class="op">,</span> pol_score<span class="op">,</span> econ_score<span class="op">,</span> party }<span class="op">;</span></span>
+<span id="cb6-158"><a href="index.html#cb6-158" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb6-159"><a href="index.html#cb6-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-160"><a href="index.html#cb6-160" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> filtered_data<span class="op">;</span></span>
+<span id="cb6-161"><a href="index.html#cb6-161" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="load-data-1">
+<div id="ojs-cell-6-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div id="load-data-2">
+<div id="ojs-cell-6-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<section id="is-there-a-relationship" class="level3">
+<h3 data-anchor-id="is-there-a-relationship"><span class="number">3</span> Is there a relationship?</h3>
+<p>Given how you’ve defined your terms, does the economy do better, worse or about the same when more Democrats are in power? Each dot below represents one month of data.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="171" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 170;"><span id="cb7-171"><a href="index.html#cb7-171" aria-hidden="true" tabindex="-1"></a>filtered_data <span class="op">=</span> <span class="fu">data_to_use</span>(full_data<span class="op">,</span> party<span class="op">,</span> polTerms<span class="op">,</span> econTerms<span class="op">,</span> excludeRecessions<span class="op">,</span> weighted)</span>
+<span id="cb7-172"><a href="index.html#cb7-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-173"><a href="index.html#cb7-173" aria-hidden="true" tabindex="-1"></a>x_label <span class="op">=</span> {</span>
+<span id="cb7-174"><a href="index.html#cb7-174" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (party <span class="op">===</span> <span class="st">"dem"</span>) {</span>
+<span id="cb7-175"><a href="index.html#cb7-175" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (weighted) {</span>
+<span id="cb7-176"><a href="index.html#cb7-176" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"More Democratic power"</span><span class="op">;</span></span>
+<span id="cb7-177"><a href="index.html#cb7-177" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb7-178"><a href="index.html#cb7-178" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"More Democrats in office"</span><span class="op">;</span></span>
+<span id="cb7-179"><a href="index.html#cb7-179" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-180"><a href="index.html#cb7-180" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb7-181"><a href="index.html#cb7-181" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (weighted) {</span>
+<span id="cb7-182"><a href="index.html#cb7-182" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"More Republican power"</span><span class="op">;</span></span>
+<span id="cb7-183"><a href="index.html#cb7-183" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {</span>
+<span id="cb7-184"><a href="index.html#cb7-184" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"More Republicans in office"</span><span class="op">;</span></span>
+<span id="cb7-185"><a href="index.html#cb7-185" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-186"><a href="index.html#cb7-186" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-187"><a href="index.html#cb7-187" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb7-188"><a href="index.html#cb7-188" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-189"><a href="index.html#cb7-189" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb7-190"><a href="index.html#cb7-190" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">680</span><span class="op">,</span></span>
+<span id="cb7-191"><a href="index.html#cb7-191" aria-hidden="true" tabindex="-1"></a>  <span class="dt">height</span><span class="op">:</span> <span class="dv">680</span> <span class="op">/</span> <span class="fl">1.2</span><span class="op">,</span></span>
+<span id="cb7-192"><a href="index.html#cb7-192" aria-hidden="true" tabindex="-1"></a>  <span class="co">// width: width,</span></span>
+<span id="cb7-193"><a href="index.html#cb7-193" aria-hidden="true" tabindex="-1"></a>  <span class="co">// height: width / 1.1,</span></span>
+<span id="cb7-194"><a href="index.html#cb7-194" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marginLeft</span><span class="op">:</span> <span class="dv">80</span><span class="op">,</span></span>
+<span id="cb7-195"><a href="index.html#cb7-195" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marginRight</span><span class="op">:</span> <span class="dv">80</span><span class="op">,</span></span>
+<span id="cb7-196"><a href="index.html#cb7-196" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marginBottom</span><span class="op">:</span> <span class="dv">80</span><span class="op">,</span></span>
+<span id="cb7-197"><a href="index.html#cb7-197" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb7-198"><a href="index.html#cb7-198" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">axisX</span>({</span>
+<span id="cb7-199"><a href="index.html#cb7-199" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> x_label<span class="op">,</span></span>
+<span id="cb7-200"><a href="index.html#cb7-200" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">24</span><span class="op">,</span></span>
+<span id="cb7-201"><a href="index.html#cb7-201" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontWeight</span><span class="op">:</span> <span class="st">"bold"</span><span class="op">,</span></span>
+<span id="cb7-202"><a href="index.html#cb7-202" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontFamily</span><span class="op">:</span> <span class="st">"IBM Plex Sans Condensed"</span><span class="op">,</span></span>
+<span id="cb7-203"><a href="index.html#cb7-203" aria-hidden="true" tabindex="-1"></a>      <span class="dt">ticks</span><span class="op">:</span> []<span class="op">,</span></span>
+<span id="cb7-204"><a href="index.html#cb7-204" aria-hidden="true" tabindex="-1"></a>      <span class="dt">tickSize</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb7-205"><a href="index.html#cb7-205" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span></span>
+<span id="cb7-206"><a href="index.html#cb7-206" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-207"><a href="index.html#cb7-207" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">axisY</span>({</span>
+<span id="cb7-208"><a href="index.html#cb7-208" aria-hidden="true" tabindex="-1"></a>      <span class="dt">label</span><span class="op">:</span> <span class="st">"A better economy"</span><span class="op">,</span></span>
+<span id="cb7-209"><a href="index.html#cb7-209" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">24</span><span class="op">,</span></span>
+<span id="cb7-210"><a href="index.html#cb7-210" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontWeight</span><span class="op">:</span> <span class="st">"bold"</span><span class="op">,</span></span>
+<span id="cb7-211"><a href="index.html#cb7-211" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontFamily</span><span class="op">:</span> <span class="st">"IBM Plex Sans Condensed"</span><span class="op">,</span></span>
+<span id="cb7-212"><a href="index.html#cb7-212" aria-hidden="true" tabindex="-1"></a>      <span class="dt">ticks</span><span class="op">:</span> []<span class="op">,</span></span>
+<span id="cb7-213"><a href="index.html#cb7-213" aria-hidden="true" tabindex="-1"></a>      <span class="dt">tickSize</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb7-214"><a href="index.html#cb7-214" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelAnchor</span><span class="op">:</span> <span class="st">"center"</span><span class="op">,</span></span>
+<span id="cb7-215"><a href="index.html#cb7-215" aria-hidden="true" tabindex="-1"></a>      <span class="dt">labelRotate</span><span class="op">:</span> <span class="op">-</span><span class="dv">90</span></span>
+<span id="cb7-216"><a href="index.html#cb7-216" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-217"><a href="index.html#cb7-217" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>(filtered_data<span class="op">,</span> {</span>
+<span id="cb7-218"><a href="index.html#cb7-218" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"pol_score"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"econ_score"</span><span class="op">,</span> </span>
+<span id="cb7-219"><a href="index.html#cb7-219" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">party</span> <span class="op">===</span> <span class="st">"dem"</span> <span class="op">?</span> <span class="st">"#35A1D5"</span> <span class="op">:</span> <span class="st">"#FF5D40"</span><span class="op">,</span> </span>
+<span id="cb7-220"><a href="index.html#cb7-220" aria-hidden="true" tabindex="-1"></a>      <span class="dt">r</span><span class="op">:</span> <span class="dv">8</span><span class="op">,</span> <span class="dt">opacity</span><span class="op">:</span> <span class="fl">0.25</span></span>
+<span id="cb7-221"><a href="index.html#cb7-221" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-222"><a href="index.html#cb7-222" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">linearRegressionY</span>(filtered_data<span class="op">,</span> {</span>
+<span id="cb7-223"><a href="index.html#cb7-223" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"pol_score"</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="st">"econ_score"</span><span class="op">,</span> <span class="dt">ci</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb7-224"><a href="index.html#cb7-224" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> <span class="st">"black"</span><span class="op">,</span> <span class="dt">strokeWidth</span><span class="op">:</span> <span class="dv">3</span></span>
+<span id="cb7-225"><a href="index.html#cb7-225" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb7-226"><a href="index.html#cb7-226" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">frame</span>({</span>
+<span id="cb7-227"><a href="index.html#cb7-227" aria-hidden="true" tabindex="-1"></a>      <span class="dt">insetTop</span><span class="op">:</span> <span class="op">-</span><span class="dv">20</span><span class="op">,</span></span>
+<span id="cb7-228"><a href="index.html#cb7-228" aria-hidden="true" tabindex="-1"></a>      <span class="dt">insetBottom</span><span class="op">:</span> <span class="op">-</span><span class="dv">30</span><span class="op">,</span></span>
+<span id="cb7-229"><a href="index.html#cb7-229" aria-hidden="true" tabindex="-1"></a>      <span class="dt">insetLeft</span><span class="op">:</span> <span class="op">-</span><span class="dv">30</span><span class="op">,</span></span>
+<span id="cb7-230"><a href="index.html#cb7-230" aria-hidden="true" tabindex="-1"></a>      <span class="dt">insetRight</span><span class="op">:</span> <span class="op">-</span><span class="dv">30</span></span>
+<span id="cb7-231"><a href="index.html#cb7-231" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb7-232"><a href="index.html#cb7-232" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb7-233"><a href="index.html#cb7-233" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="g-col-12 g-col-md-3">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="243" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 242;"><span id="cb8-243"><a href="index.html#cb8-243" aria-hidden="true" tabindex="-1"></a>jStat <span class="op">=</span> <span class="pp">require</span>(<span class="st">"https://cdn.jsdelivr.net/npm/jstat@latest/dist/jstat.min.js"</span>)</span>
+<span id="cb8-244"><a href="index.html#cb8-244" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-245"><a href="index.html#cb8-245" aria-hidden="true" tabindex="-1"></a>modelResults <span class="op">=</span> {</span>
+<span id="cb8-246"><a href="index.html#cb8-246" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> x <span class="op">=</span> filtered_data<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">pol_score</span>)<span class="op">;</span></span>
+<span id="cb8-247"><a href="index.html#cb8-247" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> y <span class="op">=</span> filtered_data<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">econ_score</span>)<span class="op">;</span></span>
+<span id="cb8-248"><a href="index.html#cb8-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-249"><a href="index.html#cb8-249" aria-hidden="true" tabindex="-1"></a>  <span class="co">// jStat needs a column with a 1 for the intercept term</span></span>
+<span id="cb8-250"><a href="index.html#cb8-250" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> X <span class="op">=</span> x<span class="op">.</span><span class="fu">map</span>(x_i <span class="kw">=&gt;</span> [<span class="dv">1</span><span class="op">,</span> x_i])<span class="op">;</span></span>
+<span id="cb8-251"><a href="index.html#cb8-251" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-252"><a href="index.html#cb8-252" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> result <span class="op">=</span> jStat<span class="op">.</span><span class="at">models</span><span class="op">.</span><span class="fu">ols</span>(y<span class="op">,</span> X)<span class="op">;</span></span>
+<span id="cb8-253"><a href="index.html#cb8-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-254"><a href="index.html#cb8-254" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> result<span class="op">;</span></span>
+<span id="cb8-255"><a href="index.html#cb8-255" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb8-256"><a href="index.html#cb8-256" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-257"><a href="index.html#cb8-257" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">formatPValue</span>(p) {</span>
+<span id="cb8-258"><a href="index.html#cb8-258" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (p <span class="op">&lt;</span> <span class="fl">0.01</span>) <span class="cf">return</span> <span class="st">"&lt;&amp;nbsp;0.01"</span><span class="op">;</span></span>
+<span id="cb8-259"><a href="index.html#cb8-259" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> p<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">3</span>)<span class="op">;</span></span>
+<span id="cb8-260"><a href="index.html#cb8-260" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-8-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<section id="is-your-result-significant" class="level3">
+<h3 data-anchor-id="is-your-result-significant"><span class="number">4</span> Is your result significant?</h3>
+<p>If there were no connection between the economy and politics, what is the probability that you’d get results at least as strong as yours? That probability is your p-value, and by convention, you need a <strong>p-value of 0.05 or less</strong> to get published.</p>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="268" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 267;"><span id="cb9-268"><a href="index.html#cb9-268" aria-hidden="true" tabindex="-1"></a>Plot<span class="op">.</span><span class="fu">plot</span>({</span>
+<span id="cb9-269"><a href="index.html#cb9-269" aria-hidden="true" tabindex="-1"></a>  <span class="dt">width</span><span class="op">:</span> <span class="dv">400</span><span class="op">,</span></span>
+<span id="cb9-270"><a href="index.html#cb9-270" aria-hidden="true" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> {<span class="dt">domain</span><span class="op">:</span> [<span class="dv">1</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span> <span class="dt">grid</span><span class="op">:</span> <span class="kw">true</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="kw">null</span>}<span class="op">,</span></span>
+<span id="cb9-271"><a href="index.html#cb9-271" aria-hidden="true" tabindex="-1"></a>  <span class="dt">marks</span><span class="op">:</span> [</span>
+<span id="cb9-272"><a href="index.html#cb9-272" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">axisX</span>({</span>
+<span id="cb9-273"><a href="index.html#cb9-273" aria-hidden="true" tabindex="-1"></a>      <span class="dt">ticks</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">text</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span> <span class="dt">tickSize</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span></span>
+<span id="cb9-274"><a href="index.html#cb9-274" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Make the last 5 ticks thicker and green</span></span>
+<span id="cb9-275"><a href="index.html#cb9-275" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">5</span> <span class="op">?</span> <span class="st">"#44AB43"</span> <span class="op">:</span> <span class="st">"#666666"</span><span class="op">,</span></span>
+<span id="cb9-276"><a href="index.html#cb9-276" aria-hidden="true" tabindex="-1"></a>      <span class="dt">strokeWidth</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">5</span> <span class="op">?</span> <span class="dv">2</span> <span class="op">:</span> <span class="dv">1</span></span>
+<span id="cb9-277"><a href="index.html#cb9-277" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb9-278"><a href="index.html#cb9-278" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">axisX</span>({</span>
+<span id="cb9-279"><a href="index.html#cb9-279" aria-hidden="true" tabindex="-1"></a>      <span class="dt">ticks</span><span class="op">:</span> <span class="dv">20</span><span class="op">,</span> <span class="dt">text</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span> <span class="dt">tickSize</span><span class="op">:</span> <span class="dv">10</span><span class="op">,</span></span>
+<span id="cb9-280"><a href="index.html#cb9-280" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">2</span> <span class="op">?</span> <span class="st">"#44AB43"</span> <span class="op">:</span> <span class="st">"#666666"</span><span class="op">,</span></span>
+<span id="cb9-281"><a href="index.html#cb9-281" aria-hidden="true" tabindex="-1"></a>      <span class="dt">strokeWidth</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">2</span> <span class="op">?</span> <span class="dv">2</span> <span class="op">:</span> <span class="dv">1</span></span>
+<span id="cb9-282"><a href="index.html#cb9-282" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb9-283"><a href="index.html#cb9-283" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">axisX</span>({</span>
+<span id="cb9-284"><a href="index.html#cb9-284" aria-hidden="true" tabindex="-1"></a>      <span class="dt">ticks</span><span class="op">:</span> <span class="dv">3</span><span class="op">,</span> <span class="dt">tickSize</span><span class="op">:</span> <span class="dv">15</span><span class="op">,</span> </span>
+<span id="cb9-285"><a href="index.html#cb9-285" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fontFamily</span><span class="op">:</span> <span class="st">"IBM Plex Sans Condensed"</span><span class="op">,</span> <span class="dt">fontSize</span><span class="op">:</span> <span class="dv">16</span><span class="op">,</span></span>
+<span id="cb9-286"><a href="index.html#cb9-286" aria-hidden="true" tabindex="-1"></a>      <span class="dt">stroke</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span> <span class="op">?</span> <span class="st">"#44AB43"</span> <span class="op">:</span> <span class="st">"#666666"</span><span class="op">,</span></span>
+<span id="cb9-287"><a href="index.html#cb9-287" aria-hidden="true" tabindex="-1"></a>      <span class="dt">strokeWidth</span><span class="op">:</span> (d<span class="op">,</span> i<span class="op">,</span> n) <span class="kw">=&gt;</span> i <span class="op">&gt;=</span> n<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span> <span class="op">?</span> <span class="dv">2</span> <span class="op">:</span> <span class="dv">1</span></span>
+<span id="cb9-288"><a href="index.html#cb9-288" aria-hidden="true" tabindex="-1"></a>    })<span class="op">,</span></span>
+<span id="cb9-289"><a href="index.html#cb9-289" aria-hidden="true" tabindex="-1"></a>    Plot<span class="op">.</span><span class="fu">dot</span>([{</span>
+<span id="cb9-290"><a href="index.html#cb9-290" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>]</span>
+<span id="cb9-291"><a href="index.html#cb9-291" aria-hidden="true" tabindex="-1"></a>    }]<span class="op">,</span> {</span>
+<span id="cb9-292"><a href="index.html#cb9-292" aria-hidden="true" tabindex="-1"></a>      <span class="dt">x</span><span class="op">:</span> <span class="st">"x"</span><span class="op">,</span> <span class="dt">r</span><span class="op">:</span> <span class="dv">8</span><span class="op">,</span> <span class="dt">symbol</span><span class="op">:</span> <span class="st">"triangle"</span><span class="op">,</span> <span class="dt">rotate</span><span class="op">:</span> <span class="dv">180</span><span class="op">,</span></span>
+<span id="cb9-293"><a href="index.html#cb9-293" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fill</span><span class="op">:</span> d <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">x</span> <span class="op">&lt;</span> <span class="fl">0.05</span> <span class="op">?</span> <span class="st">"#44AB43"</span> <span class="op">:</span> <span class="st">"#333333"</span></span>
+<span id="cb9-294"><a href="index.html#cb9-294" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb9-295"><a href="index.html#cb9-295" aria-hidden="true" tabindex="-1"></a>  ]</span>
+<span id="cb9-296"><a href="index.html#cb9-296" aria-hidden="true" tabindex="-1"></a>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-9" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="304" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 303;"><span id="cb10-304"><a href="index.html#cb10-304" aria-hidden="true" tabindex="-1"></a>pvalueParty <span class="op">=</span> party <span class="op">===</span> <span class="st">"dem"</span> <span class="op">?</span> <span class="st">"Democrats"</span> <span class="op">:</span> <span class="st">"Republicans"</span></span>
+<span id="cb10-305"><a href="index.html#cb10-305" aria-hidden="true" tabindex="-1"></a>effect <span class="op">=</span> modelResults<span class="op">.</span><span class="at">coef</span>[<span class="dv">1</span>] <span class="op">&gt;</span> <span class="dv">0</span> <span class="op">?</span> <span class="st">"positive"</span> <span class="op">:</span> <span class="st">"negative"</span></span>
+<span id="cb10-306"><a href="index.html#cb10-306" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-307"><a href="index.html#cb10-307" aria-hidden="true" tabindex="-1"></a>pvalueOutput <span class="op">=</span> {</span>
+<span id="cb10-308"><a href="index.html#cb10-308" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> result<span class="op">,</span> cssClass<span class="op">,</span> text<span class="op">;</span></span>
+<span id="cb10-309"><a href="index.html#cb10-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-310"><a href="index.html#cb10-310" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>] <span class="op">&lt;</span> <span class="fl">0.05</span>) {</span>
+<span id="cb10-311"><a href="index.html#cb10-311" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> <span class="st">"Publishable"</span></span>
+<span id="cb10-312"><a href="index.html#cb10-312" aria-hidden="true" tabindex="-1"></a>    cssClass <span class="op">=</span> <span class="st">"publishable"</span></span>
+<span id="cb10-313"><a href="index.html#cb10-313" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> <span class="fu">html</span><span class="vs">`You achieved a p-value of &lt;b&gt;</span><span class="sc">${</span><span class="fu">formatPValue</span>(modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>])<span class="sc">}</span><span class="vs">&lt;/b&gt; and showed that &lt;b&gt;</span><span class="sc">${</span>pvalueParty<span class="sc">}</span><span class="vs">&lt;/b&gt; have a &lt;b&gt;</span><span class="sc">${</span>effect<span class="sc">}</span><span class="vs">&lt;/b&gt; effect on the economy.`</span></span>
+<span id="cb10-314"><a href="index.html#cb10-314" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span> (modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>] <span class="op">&gt;</span> <span class="fl">0.05</span> <span class="op">&amp;</span> modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>] <span class="op">&lt;</span> <span class="fl">0.1</span>) {</span>
+<span id="cb10-315"><a href="index.html#cb10-315" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> <span class="st">"Almost"</span></span>
+<span id="cb10-316"><a href="index.html#cb10-316" aria-hidden="true" tabindex="-1"></a>    cssClass <span class="op">=</span> <span class="st">"almost"</span></span>
+<span id="cb10-317"><a href="index.html#cb10-317" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> <span class="fu">html</span><span class="vs">`Your &lt;b&gt;</span><span class="sc">${</span><span class="fu">formatPValue</span>(modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>])<span class="sc">}</span><span class="vs">&lt;/b&gt; p-value is close to the 0.05 threshold. Try tweaking your variables to see if you can push it over the line!`</span></span>
+<span id="cb10-318"><a href="index.html#cb10-318" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb10-319"><a href="index.html#cb10-319" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> <span class="st">"Unpublishable"</span></span>
+<span id="cb10-320"><a href="index.html#cb10-320" aria-hidden="true" tabindex="-1"></a>    cssClass <span class="op">=</span> <span class="st">"unpublishable"</span></span>
+<span id="cb10-321"><a href="index.html#cb10-321" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> <span class="fu">html</span><span class="vs">`With a p-value of &lt;b&gt;</span><span class="sc">${</span><span class="fu">formatPValue</span>(modelResults<span class="op">.</span><span class="at">t</span><span class="op">.</span><span class="at">p</span>[<span class="dv">1</span>])<span class="sc">}</span><span class="vs">&lt;/b&gt;, your findings are not statistically significant. Try defining your terms differently.`</span></span>
+<span id="cb10-322"><a href="index.html#cb10-322" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb10-323"><a href="index.html#cb10-323" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-324"><a href="index.html#cb10-324" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> {result<span class="op">,</span> cssClass<span class="op">,</span> text}<span class="op">;</span></span>
+<span id="cb10-325"><a href="index.html#cb10-325" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-10-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-10-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-10-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="results">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="331" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 330;"><span id="cb11-331"><a href="index.html#cb11-331" aria-hidden="true" tabindex="-1"></a><span class="fu">html</span><span class="vs">`&lt;div class="pvalue-result"&gt;</span></span>
+<span id="cb11-332"><a href="index.html#cb11-332" aria-hidden="true" tabindex="-1"></a><span class="vs">  Result: &lt;span class="</span><span class="sc">${</span>pvalueOutput<span class="op">.</span><span class="at">cssClass</span><span class="sc">}</span><span class="vs">"&gt;</span><span class="sc">${</span>pvalueOutput<span class="op">.</span><span class="at">result</span><span class="sc">}</span><span class="vs">&lt;/span&gt;</span></span>
+<span id="cb11-333"><a href="index.html#cb11-333" aria-hidden="true" tabindex="-1"></a><span class="vs">  </span><span class="sc">${</span>pvalueOutput<span class="op">.</span><span class="at">text</span><span class="sc">}</span></span>
+<span id="cb11-334"><a href="index.html#cb11-334" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;/div&gt;`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-11" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+<p><span><span id="ojs-element-id-1"></span></span></p>
+</div>
+<hr>
+<div class="additional-details small">
+<p>If you’re interested in reading real (and more rigorous) studies on the connection between politics and the economy, see the work of <a href="http://www.amazon.com/Unequal-Democracy-Political-Economy-Gilded/dp/0691146233">Larry Bartels</a> and <a href="https://www.princeton.edu/~mwatson/papers/Presidents_Blinder_Watson_Nov2013.pdf">Alan Blinder and Mark Watson</a>.</p>
+<p>Data from <a href="https://web.archive.org/web/20250103180837/https://theunitedstates.io/">The @unitedstates Project</a>, <a href="http://www.nga.org/cms/FormerGovBios">National Governors Association</a>, <a href="http://data.bls.gov/timeseries/LNS14000000">Bureau of Labor Statistics</a>, <a href="https://research.stlouisfed.org/fred2/series/CPIAUCSL">Federal Reserve</a> <a href="https://research.stlouisfed.org/fred2/series/GDP">Bank of St.&nbsp;Louis</a> and <a href="http://finance.yahoo.com/q?s=%5EGSPC">Yahoo Finance</a>.</p>
+</div>
+</section>
+</div>
+</div>
+
+
+<div class="ojs-auto-generated hidden">
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6WyAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNvdXJjZSI6Imh0bC5odG1sYDxzcGFuPiR7cHZhbHVlT3V0cHV0LnRleHR9PC9zcGFuPmAiLCAiY2VsbE5hbWUiOiJvanMtZWxlbWVudC1pZC0xIn1dfQ==
+</script>
+</div>
+
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ilxudmlld29mIHBhcnR5ID0gSW5wdXRzLnJhZGlvKFxuICBuZXcgTWFwKFtcbiAgICBbXCJEZW1vY3JhdHNcIiwgXCJkZW1cIl0sXG4gICAgW1wiUmVwdWJsaWNhbnNcIiwgXCJnb3BcIl1cbiAgXSksXG4gIC8vIHt2YWx1ZTogXCJkZW1cIiwgbGFiZWw6IFwiUGFydHlcIn1cbiAge3ZhbHVlOiBcImRlbVwifVxuKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIHBvbFRlcm1zID0gSW5wdXRzLmNoZWNrYm94KFxuICBuZXcgTWFwKFtcbiAgICBbXCJQcmVzaWRlbnRcIiwgXCJwcmV6XCJdLFxuICAgIFtcIkdvdmVybm9yc1wiLCBcImdvdlwiXSxcbiAgICBbXCJTZW5hdG9yc1wiLCBcInNlblwiXSxcbiAgICBbXCJSZXByZXNlbnRhdGl2ZXNcIiwgXCJyZXBcIl1cbiAgXSksXG4gIHt2YWx1ZTogW1wicHJlelwiLCBcImdvdlwiXX1cbilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiBlY29uVGVybXMgPSBJbnB1dHMuY2hlY2tib3goXG4gIG5ldyBNYXAoW1xuICAgIFtcIlVuZW1wbG95bWVudFwiLCBcInVuZW1wXCJdLFxuICAgIFtcIkluZmxhdGlvblwiLCBcImluZmxhdGlvblwiXSxcbiAgICBbXCJHRFBcIiwgXCJnZHBcIl0sXG4gICAgW1wiU3RvY2sgcHJpY2VzXCIsIFwic3RvY2tzXCJdXG4gIF0pLFxuICB7dmFsdWU6IFtcImdkcFwiLCBcImluZmxhdGlvblwiLCBcInN0b2Nrc1wiXX1cbilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6InZpZXdvZiB3ZWlnaHRlZCA9IElucHV0cy50b2dnbGUoXG4gIHtsYWJlbDogXCJGYWN0b3IgaW4gcG93ZXJcIiwgdmFsdWU6IGZhbHNlfVxuKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC01IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGV4Y2x1ZGVSZWNlc3Npb25zID0gSW5wdXRzLnRvZ2dsZShcbiAge2xhYmVsOiBcIkV4Y2x1ZGUgcmVjZXNzaW9uc1wiLCB2YWx1ZTogdHJ1ZX1cbilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuZnVsbF9kYXRhID0ge1xuICBjb25zdCByYXdfZGF0YSA9IGF3YWl0IEZpbGVBdHRhY2htZW50KFwiZGF0YS81MzhfcF9oYWNraW5nLmNzdlwiKS5jc3YoeyB0eXBlZDogdHJ1ZSB9ICk7XG5cbiAgcmV0dXJuIHJhd19kYXRhLm1hcChkID0+IHsgXG4gICAgZC5nZHAgPSBkLmdkcCA9PT0gXCJOQVwiID8gbnVsbCA6IGQuZ2RwO1xuICAgIGQudW5lbXAgPSBkLnVuZW1wID09PSBcIk5BXCIgPyBudWxsIDogZC51bmVtcDtcbiAgICBkLmluZmxhdGlvbiA9IGQuaW5mbGF0aW9uID09PSBcIk5BXCIgPyBudWxsIDogZC5pbmZsYXRpb247XG4gICAgZC5zdG9ja3MgPSBkLnN0b2NrcyA9PT0gXCJOQVwiID8gbnVsbCA6IGQuc3RvY2tzO1xuICAgIGQucmVjZXNzaW9uID0gZC5yZWNlc3Npb24gPT09IFwiVFJVRVwiO1xuICAgIHJldHVybiBkOyBcbiAgfSk7XG59XG5cbmZ1bmN0aW9uIGRhdGFfdG9fdXNlKGRhdGEsIHBhcnR5LCBwb2xfdGVybXMsIGVjb25fdGVybXMsIGV4Y2x1ZGVfcmVjZXNzaW9ucywgd2VpZ2h0ZWQpIHtcbiAgbGV0IGZpbHRlcmVkX2RhdGEgPSBkYXRhO1xuXG4gIGlmIChleGNsdWRlX3JlY2Vzc2lvbnMpIHtcbiAgICBmaWx0ZXJlZF9kYXRhID0gZmlsdGVyZWRfZGF0YS5maWx0ZXIoZCA9PiAhZC5yZWNlc3Npb24pO1xuICB9XG5cbiAgZmlsdGVyZWRfZGF0YSA9IGZpbHRlcmVkX2RhdGEuZmlsdGVyKGQgPT4gZWNvbl90ZXJtcy5ldmVyeSh0ZXJtID0+IGRbdGVybV0gIT09IG51bGwpKTtcblxuICBmaWx0ZXJlZF9kYXRhID0gZmlsdGVyZWRfZGF0YS5tYXAoZCA9PiB7XG4gICAgY29uc3QgcG9sX3Njb3JlID0gcG9sX3Rlcm1zLnJlZHVjZSgoc3VtLCB0ZXJtKSA9PiB7XG4gICAgICBjb25zdCB2YWx1ZSA9IGRbYCR7dGVybX1fJHtwYXJ0eX1gXTtcbiAgICAgIGNvbnN0IHdlaWdodCA9IHdlaWdodGVkXG4gICAgICAgID8gKHRlcm0gPT09IFwicHJlelwiID8gMTAwXG4gICAgICAgICAgOiB0ZXJtID09PSBcImdvdlwiID8gMTBcbiAgICAgICAgICA6IHRlcm0gPT09IFwic2VuXCIgPyA1XG4gICAgICAgICAgOiB0ZXJtID09PSBcInJlcFwiID8gMVxuICAgICAgICAgIDogMSlcbiAgICAgICAgOiAxO1xuICAgICAgcmV0dXJuIHN1bSArICh2YWx1ZSAqIHdlaWdodCk7XG4gICAgfSwgMCk7XG5cbiAgICBjb25zdCBlY29uX3Njb3JlID0gZWNvbl90ZXJtcy5yZWR1Y2UoKHN1bSwgdGVybSkgPT4gc3VtICsgZFt0ZXJtXSwgMCk7XG5cbiAgICByZXR1cm4geyAuLi5kLCBwb2xfc2NvcmUsIGVjb25fc2NvcmUsIHBhcnR5IH07XG4gIH0pO1xuXG4gIHJldHVybiBmaWx0ZXJlZF9kYXRhO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC03IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5maWx0ZXJlZF9kYXRhID0gZGF0YV90b191c2UoZnVsbF9kYXRhLCBwYXJ0eSwgcG9sVGVybXMsIGVjb25UZXJtcywgZXhjbHVkZVJlY2Vzc2lvbnMsIHdlaWdodGVkKVxuXG54X2xhYmVsID0ge1xuICBpZiAocGFydHkgPT09IFwiZGVtXCIpIHtcbiAgICBpZiAod2VpZ2h0ZWQpIHtcbiAgICAgIHJldHVybiBcIk1vcmUgRGVtb2NyYXRpYyBwb3dlclwiO1xuICAgIH0gZWxzZSB7XG4gICAgICByZXR1cm4gXCJNb3JlIERlbW9jcmF0cyBpbiBvZmZpY2VcIjtcbiAgICB9XG4gIH0gZWxzZSB7XG4gICAgaWYgKHdlaWdodGVkKSB7XG4gICAgICByZXR1cm4gXCJNb3JlIFJlcHVibGljYW4gcG93ZXJcIjtcbiAgICB9IGVsc2Uge1xuICAgICAgcmV0dXJuIFwiTW9yZSBSZXB1YmxpY2FucyBpbiBvZmZpY2VcIjtcbiAgICB9XG4gIH1cbn1cblxuUGxvdC5wbG90KHtcbiAgd2lkdGg6IDY4MCxcbiAgaGVpZ2h0OiA2ODAgLyAxLjIsXG4gIC8vIHdpZHRoOiB3aWR0aCxcbiAgLy8gaGVpZ2h0OiB3aWR0aCAvIDEuMSxcbiAgbWFyZ2luTGVmdDogODAsXG4gIG1hcmdpblJpZ2h0OiA4MCxcbiAgbWFyZ2luQm90dG9tOiA4MCxcbiAgbWFya3M6IFtcbiAgICBQbG90LmF4aXNYKHtcbiAgICAgIGxhYmVsOiB4X2xhYmVsLFxuICAgICAgZm9udFNpemU6IDI0LFxuICAgICAgZm9udFdlaWdodDogXCJib2xkXCIsXG4gICAgICBmb250RmFtaWx5OiBcIklCTSBQbGV4IFNhbnMgQ29uZGVuc2VkXCIsXG4gICAgICB0aWNrczogW10sXG4gICAgICB0aWNrU2l6ZTogMCxcbiAgICAgIGxhYmVsQW5jaG9yOiBcImNlbnRlclwiXG4gICAgfSksXG4gICAgUGxvdC5heGlzWSh7XG4gICAgICBsYWJlbDogXCJBIGJldHRlciBlY29ub215XCIsXG4gICAgICBmb250U2l6ZTogMjQsXG4gICAgICBmb250V2VpZ2h0OiBcImJvbGRcIixcbiAgICAgIGZvbnRGYW1pbHk6IFwiSUJNIFBsZXggU2FucyBDb25kZW5zZWRcIixcbiAgICAgIHRpY2tzOiBbXSxcbiAgICAgIHRpY2tTaXplOiAwLFxuICAgICAgbGFiZWxBbmNob3I6IFwiY2VudGVyXCIsXG4gICAgICBsYWJlbFJvdGF0ZTogLTkwXG4gICAgfSksXG4gICAgUGxvdC5kb3QoZmlsdGVyZWRfZGF0YSwge1xuICAgICAgeDogXCJwb2xfc2NvcmVcIiwgeTogXCJlY29uX3Njb3JlXCIsIFxuICAgICAgZmlsbDogZCA9PiBkLnBhcnR5ID09PSBcImRlbVwiID8gXCIjMzVBMUQ1XCIgOiBcIiNGRjVENDBcIiwgXG4gICAgICByOiA4LCBvcGFjaXR5OiAwLjI1XG4gICAgfSksXG4gICAgUGxvdC5saW5lYXJSZWdyZXNzaW9uWShmaWx0ZXJlZF9kYXRhLCB7XG4gICAgICB4OiBcInBvbF9zY29yZVwiLCB5OiBcImVjb25fc2NvcmVcIiwgY2k6IDAsIFxuICAgICAgc3Ryb2tlOiBcImJsYWNrXCIsIHN0cm9rZVdpZHRoOiAzXG4gICAgfSksXG4gICAgUGxvdC5mcmFtZSh7XG4gICAgICBpbnNldFRvcDogLTIwLFxuICAgICAgaW5zZXRCb3R0b206IC0zMCxcbiAgICAgIGluc2V0TGVmdDogLTMwLFxuICAgICAgaW5zZXRSaWdodDogLTMwXG4gICAgfSlcbiAgXVxufSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxualN0YXQgPSByZXF1aXJlKFwiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9qc3RhdEBsYXRlc3QvZGlzdC9qc3RhdC5taW4uanNcIilcblxubW9kZWxSZXN1bHRzID0ge1xuICBjb25zdCB4ID0gZmlsdGVyZWRfZGF0YS5tYXAoZCA9PiBkLnBvbF9zY29yZSk7XG4gIGNvbnN0IHkgPSBmaWx0ZXJlZF9kYXRhLm1hcChkID0+IGQuZWNvbl9zY29yZSk7XG5cbiAgLy8galN0YXQgbmVlZHMgYSBjb2x1bW4gd2l0aCBhIDEgZm9yIHRoZSBpbnRlcmNlcHQgdGVybVxuICBjb25zdCBYID0geC5tYXAoeF9pID0+IFsxLCB4X2ldKTtcblxuICBjb25zdCByZXN1bHQgPSBqU3RhdC5tb2RlbHMub2xzKHksIFgpO1xuXG4gIHJldHVybiByZXN1bHQ7XG59XG5cbmZ1bmN0aW9uIGZvcm1hdFBWYWx1ZShwKSB7XG4gIGlmIChwIDwgMC4wMSkgcmV0dXJuIFwiPCZuYnNwOzAuMDFcIjtcbiAgcmV0dXJuIHAudG9GaXhlZCgzKTtcbn1cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuUGxvdC5wbG90KHtcbiAgd2lkdGg6IDQwMCxcbiAgeDoge2RvbWFpbjogWzEsIDBdLCBncmlkOiB0cnVlLCBsYWJlbDogbnVsbH0sXG4gIG1hcmtzOiBbXG4gICAgUGxvdC5heGlzWCh7XG4gICAgICB0aWNrczogMTAwLCB0ZXh0OiBudWxsLCB0aWNrU2l6ZTogNSxcbiAgICAgIC8vIE1ha2UgdGhlIGxhc3QgNSB0aWNrcyB0aGlja2VyIGFuZCBncmVlblxuICAgICAgc3Ryb2tlOiAoZCwgaSwgbikgPT4gaSA+PSBuLmxlbmd0aCAtIDUgPyBcIiM0NEFCNDNcIiA6IFwiIzY2NjY2NlwiLFxuICAgICAgc3Ryb2tlV2lkdGg6IChkLCBpLCBuKSA9PiBpID49IG4ubGVuZ3RoIC0gNSA/IDIgOiAxXG4gICAgfSksXG4gICAgUGxvdC5heGlzWCh7XG4gICAgICB0aWNrczogMjAsIHRleHQ6IG51bGwsIHRpY2tTaXplOiAxMCxcbiAgICAgIHN0cm9rZTogKGQsIGksIG4pID0+IGkgPj0gbi5sZW5ndGggLSAyID8gXCIjNDRBQjQzXCIgOiBcIiM2NjY2NjZcIixcbiAgICAgIHN0cm9rZVdpZHRoOiAoZCwgaSwgbikgPT4gaSA+PSBuLmxlbmd0aCAtIDIgPyAyIDogMVxuICAgIH0pLFxuICAgIFBsb3QuYXhpc1goe1xuICAgICAgdGlja3M6IDMsIHRpY2tTaXplOiAxNSwgXG4gICAgICBmb250RmFtaWx5OiBcIklCTSBQbGV4IFNhbnMgQ29uZGVuc2VkXCIsIGZvbnRTaXplOiAxNixcbiAgICAgIHN0cm9rZTogKGQsIGksIG4pID0+IGkgPj0gbi5sZW5ndGggLSAxID8gXCIjNDRBQjQzXCIgOiBcIiM2NjY2NjZcIixcbiAgICAgIHN0cm9rZVdpZHRoOiAoZCwgaSwgbikgPT4gaSA+PSBuLmxlbmd0aCAtIDEgPyAyIDogMVxuICAgIH0pLFxuICAgIFBsb3QuZG90KFt7XG4gICAgICB4OiBtb2RlbFJlc3VsdHMudC5wWzFdXG4gICAgfV0sIHtcbiAgICAgIHg6IFwieFwiLCByOiA4LCBzeW1ib2w6IFwidHJpYW5nbGVcIiwgcm90YXRlOiAxODAsXG4gICAgICBmaWxsOiBkID0+IGQueCA8IDAuMDUgPyBcIiM0NEFCNDNcIiA6IFwiIzMzMzMzM1wiXG4gICAgfSlcbiAgXVxufSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbnB2YWx1ZVBhcnR5ID0gcGFydHkgPT09IFwiZGVtXCIgPyBcIkRlbW9jcmF0c1wiIDogXCJSZXB1YmxpY2Fuc1wiXG5lZmZlY3QgPSBtb2RlbFJlc3VsdHMuY29lZlsxXSA+IDAgPyBcInBvc2l0aXZlXCIgOiBcIm5lZ2F0aXZlXCJcblxucHZhbHVlT3V0cHV0ID0ge1xuICBsZXQgcmVzdWx0LCBjc3NDbGFzcywgdGV4dDtcblxuICBpZiAobW9kZWxSZXN1bHRzLnQucFsxXSA8IDAuMDUpIHtcbiAgICByZXN1bHQgPSBcIlB1Ymxpc2hhYmxlXCJcbiAgICBjc3NDbGFzcyA9IFwicHVibGlzaGFibGVcIlxuICAgIHRleHQgPSBodG1sYFlvdSBhY2hpZXZlZCBhIHAtdmFsdWUgb2YgPGI+JHtmb3JtYXRQVmFsdWUobW9kZWxSZXN1bHRzLnQucFsxXSl9PC9iPiBhbmQgc2hvd2VkIHRoYXQgPGI+JHtwdmFsdWVQYXJ0eX08L2I+IGhhdmUgYSA8Yj4ke2VmZmVjdH08L2I+IGVmZmVjdCBvbiB0aGUgZWNvbm9teS5gXG4gIH0gZWxzZSBpZiAobW9kZWxSZXN1bHRzLnQucFsxXSA+IDAuMDUgJiBtb2RlbFJlc3VsdHMudC5wWzFdIDwgMC4xKSB7XG4gICAgcmVzdWx0ID0gXCJBbG1vc3RcIlxuICAgIGNzc0NsYXNzID0gXCJhbG1vc3RcIlxuICAgIHRleHQgPSBodG1sYFlvdXIgPGI+JHtmb3JtYXRQVmFsdWUobW9kZWxSZXN1bHRzLnQucFsxXSl9PC9iPiBwLXZhbHVlIGlzIGNsb3NlIHRvIHRoZSAwLjA1IHRocmVzaG9sZC4gVHJ5IHR3ZWFraW5nIHlvdXIgdmFyaWFibGVzIHRvIHNlZSBpZiB5b3UgY2FuIHB1c2ggaXQgb3ZlciB0aGUgbGluZSFgXG4gIH0gZWxzZSB7XG4gICAgcmVzdWx0ID0gXCJVbnB1Ymxpc2hhYmxlXCJcbiAgICBjc3NDbGFzcyA9IFwidW5wdWJsaXNoYWJsZVwiXG4gICAgdGV4dCA9IGh0bWxgV2l0aCBhIHAtdmFsdWUgb2YgPGI+JHtmb3JtYXRQVmFsdWUobW9kZWxSZXN1bHRzLnQucFsxXSl9PC9iPiwgeW91ciBmaW5kaW5ncyBhcmUgbm90IHN0YXRpc3RpY2FsbHkgc2lnbmlmaWNhbnQuIFRyeSBkZWZpbmluZyB5b3VyIHRlcm1zIGRpZmZlcmVudGx5LmBcbiAgfVxuXG4gIHJldHVybiB7cmVzdWx0LCBjc3NDbGFzcywgdGV4dH07XG59XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTExIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5odG1sYDxkaXYgY2xhc3M9XCJwdmFsdWUtcmVzdWx0XCI+XG4gIFJlc3VsdDogPHNwYW4gY2xhc3M9XCIke3B2YWx1ZU91dHB1dC5jc3NDbGFzc31cIj4ke3B2YWx1ZU91dHB1dC5yZXN1bHR9PC9zcGFuPlxuICAke3B2YWx1ZU91dHB1dC50ZXh0fVxuPC9kaXY+YFxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdwYXJ0eScpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdwb2xUZXJtcycpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdlY29uVGVybXMnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnd2VpZ2h0ZWQnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZXhjbHVkZVJlY2Vzc2lvbnMnKSJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
