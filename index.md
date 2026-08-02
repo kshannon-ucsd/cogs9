@@ -57,6 +57,8 @@ Project Studio is live working time for your group project on Zoom, starting in 
 |:--|:--|:--|
 | Monday (Akshay) | Mon 9:30-10:30am | [Zoom link](https://ucsd.zoom.us/j/91628192178) |
 | Friday (Akshay) | Fri 9:30-10:30am | [Zoom link](https://ucsd.zoom.us/j/91628192178) |
+| Tuesday (Kyle) | Tue 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
+| Thursday (Kyle) | Thu 9:00-10:00pm | [Zoom link](https://ucsd.zoom.us/j/4288626123?pwd=TWpyQW5nZkpUTWJvU0YzejQyY25Sdz09) |
 
 See the [Project Studio]({{ '/final-group-project/group-work-primer' | relative_url }}) page for the weekly project plan and group sign-up.
 
