@@ -385,6 +385,17 @@ def main():
     args = parser.parse_args()
 
     cfg = load_config(args.config)
+
+    # Safety: an output must never overwrite one of the input files.
+    fpaths = cfg.get("files", {})
+    inputs = {os.path.abspath(fpaths[k]) for k in ("gradescope", "canvas") if fpaths.get(k)}
+    fin = fpaths.get("finalized_out") or (
+        os.path.splitext(fpaths.get("canvas", ""))[0] + "_finalized.csv")
+    for label, path in (("finalized_out", fin), ("egrades_out", fpaths.get("egrades_out"))):
+        if path and os.path.abspath(path) in inputs:
+            sys.exit(f"Config error: {label} ('{path}') is one of your input files.\n"
+                     f"Give it a distinct name, e.g. egrades_out: data/<session>/egrades.csv")
+
     fieldnames, cols, canvas_rows, matched, results, warnings, delimiter = build(cfg)
 
     if args.dry_run:
