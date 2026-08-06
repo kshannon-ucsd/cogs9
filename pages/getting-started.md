@@ -50,7 +50,7 @@ Welcome! Work through this checklist in your first few days to get set up and re
 <div class="gs-num">5</div>
 <div class="gs-body">
 <div class="gs-title">Sign up for a project group</div>
-<p>The final project is done in groups of 3-4, grouped by time zone. Add your name, email, and time zone to the <a href="https://docs.google.com/spreadsheets/d/1mPOM9M8D4A-gajRI4acaubvKKn60JWY4xTXnq0A1J14/edit?usp=sharing">group sign-up sheet</a>, then email your TA. See <a href="{{ '/final-group-project/group-work-primer' | relative_url }}">how groups work</a> for the details.</p>
+<p>The final project is done in groups of 3-4, grouped by time zone. Add your name, email, and time zone to the <a href="https://docs.google.com/spreadsheets/d/1mPOM9M8D4A-gajRI4acaubvKKn60JWY4xTXnq0A1J14/edit?usp=sharing">group sign-up sheet</a>. See <a href="{{ '/final-group-project/group-work-primer' | relative_url }}">how groups work</a> for the details.</p>
 </div>
 <svg class="gs-tick" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5 5.5-6"/></svg>
 </li>
